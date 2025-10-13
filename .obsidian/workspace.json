@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,6 +204,9 @@
   },
   "active": "aec31d53985d91a3",
   "lastOpenFiles": [
+    "Party members/Vulkaan/Vulkaan Ardhall.stl",
+    "Party members/Vulkaan",
+    "Party members/7684ec48cd14411ebc5fbe51c13d44ba.zip",
     "The Brinehaven Hearth.md",
     "The Adventure begins.md",
     "Introduction.md",
