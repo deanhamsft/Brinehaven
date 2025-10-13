@@ -134,11 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "The Adventure begins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from The Adventure begins"
             }
           },
           {
@@ -162,12 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "The Adventure begins.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of The Adventure begins"
             }
           },
           {
@@ -185,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 442.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7136bffbf3f1ee87",
+  "active": "aec31d53985d91a3",
   "lastOpenFiles": [
     "The Brinehaven Hearth.md",
     "The Adventure begins.md",
