@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "b3fd3a9df8f2e08e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2413ffad8492028",
+        "type": "tabs",
+        "dimension": 45.0507614213198,
+        "children": [
+          {
+            "id": "5557616331f2b72f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d39927224fff644c",
+        "type": "tabs",
+        "dimension": 54.9492385786802,
+        "children": [
+          {
+            "id": "7136bffbf3f1ee87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Adventure begins.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Adventure begins"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6567e9b04e340d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b5595590ba488a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "905958ab299dcac8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f0f4b2612e5b6693",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Lirien",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a02ed182a9bff54a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e3fa2155e612e3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cee8b42ec8401b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7ce2e7e1a160d1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1cf4ec5ee16f3d0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a196b980e34b377c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f76e8490c0563a9e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "7136bffbf3f1ee87",
+  "lastOpenFiles": [
+    "The Brinehaven Hearth.md",
+    "The Adventure begins.md",
+    "Introduction.md",
+    "brinehaven.png",
+    "Party members/Vulkaan Ardhall.md",
+    "Party members/Iymril Cobiir.md",
+    "Party members/Thalia.md",
+    "Party members/maria2.jpg",
+    "Party members/Maria.md",
+    "Party members/Ranzan Eilsar.md",
+    "Party members/maria1.jpg",
+    "Party members/Iymril2.jpg",
+    "Party members/Iymril1.jpg",
+    "Party members/Ranzan2.jpg",
+    "Party members/Ranzan1.jpg",
+    "Party members/Thalia2.jpg",
+    "Party members/Thalia1.jpg",
+    "Party members/Vulkaan2.jpg",
+    "The gnome village.md",
+    "Party members",
+    "Carival Stanislain.md",
+    "The Hearthstone Secret.md",
+    "Ysmeine Tidecarver.md",
+    "The Wreck of the Auror's Bounty.md",
+    "The Rune Stones.md",
+    "The Docks.md",
+    "Party hears attack at the Docks.md",
+    "Calen Shorewhistle.md",
+    "Lirien Thaloryn.md",
+    "The Aurors Bounty.md",
+    "The Auror's Bounty.mp3",
+    "The Blackreef's Gold.md",
+    "The Blackreef's Gold.mp3",
+    "Seaside Monsters.md",
+    "Perception;.md",
+    "Smugglers Cove.md",
+    "Retch.md",
+    "Untitled.canvas",
+    "OneNote"
+  ]
+}
