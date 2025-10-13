@@ -6,7 +6,7 @@
       {
         "id": "b2413ffad8492028",
         "type": "tabs",
-        "dimension": 45.0507614213198,
+        "dimension": 45.05076142131979,
         "children": [
           {
             "id": "5557616331f2b72f",
@@ -27,7 +27,7 @@
       {
         "id": "d39927224fff644c",
         "type": "tabs",
-        "dimension": 54.9492385786802,
+        "dimension": 54.94923857868021,
         "children": [
           {
             "id": "7136bffbf3f1ee87",
@@ -169,13 +169,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "aec31d53985d91a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,7 +196,8 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "7136bffbf3f1ee87",
