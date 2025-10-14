@@ -19,13 +19,14 @@
 
 **A bone flute rests on a table, its runes catching the light.
  
-**The  broad-shouldered man looks up, his weathered face, eye's growing wide, he manages to break into a broad, but shocked grin. “W-W-W-Well, now! Strangers in Brinehaven—haven’t seen a crew like you in a spell. Come for the stew or the sea’s secrets?” His tone is warm but probing, his eyes sharp as he sizes up the group. A woman emerges from the kitchen, wiping her hands on her apron, she hesitates for a heartbeat then offers a motherly smile. “Don’t mind Torren’s chatter. Sit, rest your legs. You look like you’ve sailed through a squall to get here. I'll take good care of you lot dearies. Name's Mirra, Mirra Gale”.
+**The  broad-shouldered man looks up, his weathered face, eye's growing wide, he manages to break into a broad, but shocked grin. “W-W-W-Well, now! Strangers in Brinehaven—haven’t seen a crew like you in a spell. Come for the stew or the sea’s secrets?” His tone is warm but probing, his eyes sharp as he sizes up the group. A woman emerges from the kitchen, wiping her hands on her apron, she hesitates for a heartbeat then offers a motherly smile. “Don’t mind Torren’s chatter. Sit, rest your legs. You look like you’ve sailed through a squall to get here. I'll take good care of you lot dearies. Name's Mirra, Mirra Gale. (Added for a party with Tabaxians) If I can have just a moment dearies, I have some old chairs around the back room that'll fit you dear kitties better than these we have sat out”.
 
 #### Several unoccupied tables lie ahead of you.
 
-----
 [[Lirien Thaloryn]]
-Lirien will approach the party at the first opportunity
+
+> [!NOTE]
+> Lirien will approach the party at the first opportunity
 
 **Torren Gale**
 
@@ -69,20 +70,22 @@ Calen is a charmer but slippery. A DC 14 Charisma (Intimidation or Persuasion) c
 
 **Torren Gale** (Human Male, Age 52)
 
-Torren Gale, the tavern’s amicable proprietor, is a broad-shouldered man with a weathered face, salt-and-pepper beard, and a booming laugh that can cut through the din of a busy night. A former fisherman who lost his boat to a storm a decade ago, Torren turned his knack for storytelling and knack for pouring a perfect pint into a new livelihood. His warm demeanor and quick wit make him a favorite among patrons, and he’s known for defusing tensions with a well-timed jest or a free round of drinks. Torren has an encyclopedic knowledge of Brinehaven’s history, often regaling guests with tales of ancient shipwrecks, sea spirits, or the village’s founding by a band of storm-tossed explorers.Stat Block (if needed for gameplay):
+Torren Gale, the tavern’s amicable proprietor, is a broad-shouldered man with a weathered face, salt-and-pepper beard, and a booming laugh that can cut through the din of a busy night. A former fisherman who lost his boat to a storm a decade ago, Torren turned his skill for storytelling and knack for pouring a perfect pint into a new livelihood. His warm demeanor and quick wit make him a favorite among patrons, and he’s known for defusing tensions with a well-timed jest or a free round of drinks. Torren has an encyclopedic knowledge of Brinehaven’s history, often regaling guests with tales of ancient shipwrecks, sea spirits, or the village’s founding by a band of storm-tossed explorers.
+
+Stat Block (if needed for gameplay):
 
 - Commoner (with tweaks): Medium humanoid, neutral good. AC 10, HP 4 (1d8), Speed 30 ft. Str 14, Dex 10, Con 12, Int 10, Wis 12, Cha 14. Skills: History +2, Persuasion +4. Features: Local Legend (Torren has advantage on Charisma (Persuasion) checks when dealing with Brinehaven locals or sailors).
 
 **Mirra Gale** (Human Female, Age 49)
 
-Mirra, Torren’s wife, is the heart and soul of the Brinehaven Hearth. With her warm smile, braided auburn hair streaked with gray, and a knack for remembering every patron’s name, she’s a mother figure to the young sailors who frequent the tavern. Mirra oversees the kitchen, serving hearty dishes like fish stew, crab cakes, and her famous seaweed bread, all made with ingredients sourced from the village. She has a knack for sensing when a sailor is troubled, offering a kind word or a listening ear, and her quiet strength keeps the tavern running smoothly. Rumor has it Mirra once calmed a brawl by brandishing a rolling pin and a glare that could cow a kraken.
+Mirra, Torren’s wife, is the heart and soul of the Brinehaven Hearth. With her warm smile, braided auburn hair streaked with gray, and a penchant for remembering every patron’s name, she’s a mother figure to the young sailors who frequent the tavern. Mirra oversees the kitchen, serving hearty dishes like fish stew, crab cakes, and her famous seaweed bread, all made with ingredients sourced from the village. She has a way of sensing when a sailor is troubled, offering a kind word or a listening ear, and her quiet strength keeps the tavern running smoothly. Rumor has it Mirra once calmed a brawl by brandishing a rolling pin and a glare that could cow a kraken.
 
 Stat Block (if needed for gameplay):
 
 - Commoner (with tweaks): Medium humanoid, neutral good. AC 10, HP 4 (1d8), Speed 30 ft. Str 10, Dex 12, Con 12, Int 12, Wis 14, Cha 12. Skills: Insight +4, Medicine +4. Features: Nurturing Presence (Mirra can cast Calm Emotions once per long rest as an action, using Wisdom as her spellcasting ability).
 
 
-**The Half-Elf Chronicler: Lirien**, a half-elf regular, is compiling a history of Brinehaven and often seeks adventurers to verify tales of lost ruins in the forest or sunken ships. She might hire the party to explore a nearby cave said to house an ancient elven relic.
+**The Half-Elf Chronicler: Lirien**, a half-elf regular, is compiling a history of Brinehaven and often seeks adventurers to verify tales of lost ruins in the forest or sunken ships. She might hire the party to explore a nearby cave said to house an ancient elven relic. 
 [[Lirien Thaloryn]]
 
 > [!INFO]

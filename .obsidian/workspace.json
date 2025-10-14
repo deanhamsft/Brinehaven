@@ -6,20 +6,20 @@
       {
         "id": "b2413ffad8492028",
         "type": "tabs",
-        "dimension": 45.05076142131979,
+        "dimension": 47.996976568405145,
         "children": [
           {
-            "id": "5557616331f2b72f",
+            "id": "6f1e86ce0b882137",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction.md",
+                "file": "The Brinehaven Hearth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "The Brinehaven Hearth"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "d39927224fff644c",
         "type": "tabs",
-        "dimension": 54.94923857868021,
+        "dimension": 52.00302343159486,
         "children": [
           {
             "id": "7136bffbf3f1ee87",
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Adventure begins.md",
+                "file": "Lirien Thaloryn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Adventure begins"
+              "title": "Lirien Thaloryn"
             }
           }
         ]
@@ -134,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Adventure begins.md",
+                "file": "The Brinehaven Hearth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Adventure begins"
+              "title": "Outgoing links from The Brinehaven Hearth"
             }
           },
           {
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Adventure begins.md",
+                "file": "The Brinehaven Hearth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Adventure begins"
+              "title": "Outline of The Brinehaven Hearth"
             }
           },
           {
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 253.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,14 +202,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aec31d53985d91a3",
+  "active": "6f1e86ce0b882137",
   "lastOpenFiles": [
-    "Party members/Vulkaan/Vulkaan Ardhall.stl",
-    "Party members/Vulkaan",
-    "Party members/7684ec48cd14411ebc5fbe51c13d44ba.zip",
+    "Forest Cave/Forest Cave.md",
+    "Forest Cave/Cave Monsters.md",
+    "Forest Cave/Specter.png",
+    "Forest Cave/Water Weird.png",
+    "Forest Cave/Giant Spider.png",
+    "Forest Cave/Ghoul.png",
+    "Forest Cave/Stirge.png",
+    "Forest Cave/Shadow.png",
+    "Forest Cave",
+    "Lirien Thaloryn.md",
     "The Brinehaven Hearth.md",
     "The Adventure begins.md",
     "Introduction.md",
+    "Party members/Vulkaan/Vulkaan Ardhall.stl",
+    "Party members/Vulkaan",
+    "Party members/7684ec48cd14411ebc5fbe51c13d44ba.zip",
     "brinehaven.png",
     "Party members/Vulkaan Ardhall.md",
     "Party members/Iymril Cobiir.md",
@@ -219,12 +229,6 @@
     "Party members/Ranzan Eilsar.md",
     "Party members/maria1.jpg",
     "Party members/Iymril2.jpg",
-    "Party members/Iymril1.jpg",
-    "Party members/Ranzan2.jpg",
-    "Party members/Ranzan1.jpg",
-    "Party members/Thalia2.jpg",
-    "Party members/Thalia1.jpg",
-    "Party members/Vulkaan2.jpg",
     "The gnome village.md",
     "Party members",
     "Carival Stanislain.md",
@@ -235,7 +239,6 @@
     "The Docks.md",
     "Party hears attack at the Docks.md",
     "Calen Shorewhistle.md",
-    "Lirien Thaloryn.md",
     "The Aurors Bounty.md",
     "The Auror's Bounty.mp3",
     "The Blackreef's Gold.md",
@@ -243,7 +246,6 @@
     "Seaside Monsters.md",
     "Perception;.md",
     "Smugglers Cove.md",
-    "Retch.md",
     "Untitled.canvas",
     "OneNote"
   ]

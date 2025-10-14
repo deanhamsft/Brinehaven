@@ -7,7 +7,7 @@ Background
 - Race: Half-Elf
 - Age: 72 (appears mid-30s due to elven longevity)
 - Occupation: Chronicler, Amateur Archaeologist
-- History: Lirien was born in Brinehaven to a human fisherman and an elven wanderer who settled in the village 100 years ago. Raised on tales of the village’s 1,000-year history, she developed a passion for preserving its lore, learning to read ancient elven scripts from her mother. Now a respected figure among the 10% half-elf population, Lirien spends her days scouring the coast and forest for artifacts, recording stories in a leather-bound journal. Her recent interest in the Auror’s Bounty wreck stems from a fragment of elven poetry she found, hinting at a lost shrine tied to the ship’s curse. She’s aware of the hearthstone’s glow and the coastal markers’ runes, suspecting a connection to the wreck’s guardian.
+- History: Lirien was born in Brinehaven to a human fisherman and an elven wanderer who settled in the village 100 years ago. Raised on tales of the village’s 1,000-year history, she developed a passion for preserving its lore, learning to read ancient elven scripts from her mother. Now a respected figure among the half-elf population, Lirien spends her days scouring the coast and forest for artifacts, recording stories in a leather-bound journal. Her recent interest in the Auror’s Bounty wreck stems from a fragment of elven poetry she found, hinting at a lost shrine tied to the ship’s curse. She’s aware of the hearthstone’s glow and the coastal markers’ runes, suspecting a connection to the wreck’s guardian.
 
 Personality
 
@@ -46,31 +46,24 @@ Campaign Ties
 
 Interaction with the Party
 
-- Encounter: At 08:02 PM MDT, the party finds Lirien in the Hearth, her journal open as she sketches the hearthstone’s runes. The storm’s thunder punctuates her excitement about their wreck dive.
+- Encounter: The party finds Lirien in the Hearth, her journal open as she sketches the hearthstone’s runes. 
 - Dialogue Options:
     - Persuasion (DC 13 Charisma): Share the map fragment for her aid. Success gains her support and the chant; failure requires a favor (e.g., retrieving an artifact).
     - Investigation (DC 14 Intelligence): Ask about the hearthstone. Success reveals its ritual history; failure needs Torren’s input.
     - Intimidation (DC 15 Charisma): Demand her knowledge. Success yields the shrine lead; failure makes her wary.
-- Quest Offer: She hires the party (50 gp total) to explore a forest cave 1 mile north, where she believes the shrine lies, containing a ritual scroll to seal the ward.
+- Quest Offer: She hires the party (50 gp total) to explore a forest cave 14 miles north, where she believes the shrine lies, containing a ritual scroll to seal the ward.
+- [[Forest Cave]]
 - Combat: Unlikely, but if threatened, she casts Silence and flees, using Bardic Inspiration to aid an ally (e.g., a sailor).
 
-The Forest Shrine Side Quest
 
-- Location: 1 mile north of Brinehaven, hidden in a dense pine grove near a stream.
-- Description: A moss-covered stone altar with faded runes, guarded by 2 Blight (CR 1/2, Monster Manual p. 31) corrupted by the pearl’s curse.
-- Loot: A Scroll of Greater Restoration (to lift the curse) and 100 gp in elven coins.
-- Challenge: DC 15 Intelligence (Arcana) to activate the altar, dispelling a Fog Cloud trap (20-ft radius) on failure.
+> [!WARNING]
+>  Carival’s Pursuit: He learns of Lirien’s research, sending 2 Cultists (CR 1/8) to steal her journal, intersecting the party.
 
-Adventure Hooks
 
-1. Shrine Discovery: The scroll requires a ritual at the hearthstone, drawing sahuagin (1d6) to stop it.
-2. Carival’s Pursuit: He learns of Lirien’s research, sending 2 Cultists (CR 1/8) to steal her journal, intersecting the party.
-3. Sahuagin Alliance: The priestess targets Lirien, believing her knowledge threatens their pearl claim, leading to an ambush (4 sahuagin).
-4. Valthor’s Interest: Lirien deciphers a note in her journal about Valthor Krenn, hinting at a three-week trek to his fortress.
-
-DM Notes
-
-- Level Range: Lirien (CR 1) and the shrine suit a Level 3-5 party of six. Add blights or sahuagin for Level 4+, or skip combat for Level 2.
-- Pacing: Her introduction fits the storm night (08:02 PM MDT), leading to a quick shrine quest or wreck follow-up.
-- Scaling: For Level 2, reduce blights to 1. For Level 6+, include a Sahuagin Baron (CR 5) at the shrine.
-- Tie-Ins: Lirien bridges the hearthstone, markers, and wreck, offering lore and quests. Her journal ties to Carival and Valthor, expanding the arc.
+> [!NOTE]
+> DM Notes
+> 
+> - Level Range: Lirien (CR 1) and the shrine suit a Level 3-5 party of six. Add blights or sahuagin for Level 4+, or skip combat for Level 2.
+> - Pacing: Her introduction fits the storm night (08:02 PM MDT), leading to a quick shrine quest or wreck follow-up.
+> - Scaling: For Level 2, reduce blights to 1. For Level 6+, include a Sahuagin Baron (CR 5) at the shrine.
+> - Tie-Ins: Lirien bridges the hearthstone, markers, and wreck, offering lore and quests. Her journal ties to Carival and Valthor, expanding the arc.
