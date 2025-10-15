@@ -1,6 +1,10 @@
 [[The Brinehaven Hearth]]
 The Half-Elf Chronicler
 
+Description
+
+**A slender female Half-Elf Approaches the party cautiously. She Carries a leather journal as she steps up to the table wearing an expression of curiosity. She asks the party about their journey probing for stories.**
+
 Background
 
 - Full Name: Lirien Thaloryn
