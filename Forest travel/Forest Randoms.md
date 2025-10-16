@@ -1,5 +1,5 @@
 Random Encounter Table: Forests Surrounding Brinehaven
-A roll of 18 or higher on d20 triggers a random encounter, or at DM's choice
+A roll of 18 or higher on d20 triggers a random encounter, or at DM's discretion
 
 | d20 Roll | Encounter                         | Description                                                                                                                                                                                                                      | CR/Notes                                                                                               |
 | -------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
