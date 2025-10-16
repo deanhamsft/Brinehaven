@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven Shops.md",
+                "file": "Forest travel/Forest Randoms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brinehaven Shops"
+              "title": "Forest Randoms"
             }
           }
         ],
@@ -198,6 +198,8 @@
   "active": "58fefd95607c4e1a",
   "lastOpenFiles": [
     "Brinehaven Shops.md",
+    "Forest travel/Forest Randoms.md",
+    "Forest travel",
     "The Brinehaven Hearth.md",
     "Party members/Iymril/Iymril Cobiir.md",
     "Party members/Iymril",
@@ -232,7 +234,6 @@
     "NPC's of Brinehaven",
     "Forest Cave/Cave Monsters.md",
     "Forest Cave/Ghoul.png",
-    "Party members/Maria/Maria.stl",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Party members/Thalia/Thalia.md",
     "The gnome village.md",
@@ -242,7 +243,6 @@
     "The Wreck of the Auror's Bounty.md",
     "The Rune Stones.md",
     "Music/The Blackreef's Gold.md",
-    "Seaside Monsters.md",
     "Untitled.canvas"
   ]
 }

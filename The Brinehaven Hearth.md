@@ -1,6 +1,7 @@
 [[The Hearthstone Secret]]
 [[Party hears attack at the Docks]]
 [[The Adventure begins]]
+[[Brinehaven Shops]]
 [[Aerdrie Faenya]] Patron Deity of Brinehaven
 
 **The Brinehaven Hearth is a two-story structure, its exterior clad in weathered planks adorned with shells and driftwood carvings. A sign above the door, painted with a bird of paradise with outstretched wings above a stylized hearth wreathed in seaweed, swings gently in the coastal breeze. Inside, the tavern is a cozy haven: a large  fireplace built around a rune-carved stone  dominates the common room, its crackling flames casting a warm glow over sturdy wooden tables and benches worn smooth by generations of patrons. Nets, lanterns, and old harpoons hang from the rafters, while the faint scent of smoked fish and ale mingles with the salty air. A small stage in one corner hosts occasional performances by local bards or sailors with a knack for storytelling.**
@@ -109,4 +110,8 @@ Stat Block (if needed for gameplay):
 
 > [!WARNING] A history check (13) the party will notice the mention of Blackreef cove
 
+If the party goes and does some side quests, when they get back they will proceed in the evening to:
+Unless the party leaves the Tavern they will proceed eventually to:
+
 [[Party hears attack at the Docks]]
+

@@ -107,7 +107,7 @@
 - Inventory:
     - Beeswax candles (5 sp each)
     - Tallow lamps (2 gp)
-    - Scented oils (1 gp/vial) (DC 10 (constitution) saving throw, or any Tabaxians present are stoned by the catnip oil)
+    - Scented oils (1 gp/vial) (DC 10 (constitution) saving throw, or any Tabaxians present are charmed by the catnip oil)
 - Services: Sells candles, offers minor healing advice (DC 12 Wisdom (Medicine) for +2 hp), trades for honey (1 sp/lb).
 - Campaign Tie-In: Lysa’s candles flicker near the hearthstone, suggesting a ward link (DC 15 Intelligence (Arcana)). She overheard Lirien mention the wreck’s curse.
 
@@ -139,53 +139,38 @@
 - Services: Crafts custom items (12 gp, 2 days), teaches carving (DC 12 Dexterity check for a +1 bonus to tool use), sells tales (DC 13 Charisma (Persuasion) for a hearthstone legend).
 - Campaign Tie-In: Fenric’s sculptures include a bird (Aerdrie Faenya’s symbol), hinting at the ward (DC 14 Intelligence (Religion)). 
 
-Campaign Integration
+> [!WARNING]
+> Interaction Opportunities
+> - Quests:
+>     - Elda: Retrieve a lost net from Blackreef Cove (10 gp, 1 sahuagin scout).
+>     - Gorim: Fix a broken plow (10 gp, DC 13 Strength check).
+>     - Jorin: Track a missing trader (25 gp, DC 12 Wisdom (Survival)).
+>     - Mara: Gather rare herbs (10 gp, DC 13 Intelligence (Nature)).
+>     - Brant: Retrieve a lost keg from the beach (15 gp, 1 Crab, CR 1/8).
+>     - Ragna: Track a poacher (20 gp, DC 12 Wisdom (Survival)).
+>     - Lysa: Gather beeswax (10 cp/lb, DC 13 Intelligence (Nature)). Gathering beeswax takes the party close to the Donkey
+>     - Torm: Investigate the sahuagin sighting (5 gp, 1 sahuagin scout).
+>     
+> - Combat: Unlikely, but a failed quest (e.g., Elda’s net) draws 1d4 Bandits (CR 1/8) tied to smugglers.
 
-- Practical Hub: These shops support the party’s needs—nets for fishing, weapons for combat, supplies for travel (e.g., to Tinkertwist Hollow or Valthor’s fortress), and healing post-wreck dive.
-- Lore Seeds: The rune hints, trader rumors, and herbal tales tie to the Auror’s Bounty, "Rune Connection," and "Hearthstone’s Secret," offering clues without overt magic.
-- Carival and Smugglers: Elda, Gorim, and Jorin’s observations of Carival and Kael’s crew suggest a growing threat, prompting investigation.
-- Ysmeine and Lirien: Thalia and Mara’s connections to Ysmeine’s mother and elven heritage support their quests, while Lirien might visit these shops for research.
-- Levity: The proprietors’ quirks (Elda’s raspy tales, Jorin’s haggling, Mara’s proverbs) add humor, balancing the campaign’s tension.
+> [!NOTE]
+> DM Notes
+> 
+> - Level Range: Quests suit Levels 2-4 (CR 1/8-1/2, 50-200 XP). Scale with 1 Thug (CR 1/2) for Level 3+.
+> - Magic Rarity: No magical items are sold, but subtle hints (glowing shells, runes) suggest latent power, fitting the setting.
+> - Pacing: Morning visits (11:12 AM - 1:00 PM MDT) fit a shopping session, with quests extending to afternoon.
+> - Rewards: 10-25 gp per quest supports Level 2-3 progression, with lore as a bonus.
 
-Interaction Opportunities
-
-- Encounter: The party can visit any shop. Elda salvages near the docks, Thalia weaves, Gorim hammers, Jorin unloads crates, and Mara tends her garden.
-- Quests:
-    - Elda: Retrieve a lost net from Blackreef Cove (10 gp, 1 sahuagin scout).
-    - Gorim: Fix a broken plow (10 gp, DC 13 Strength check).
-    - Jorin: Track a missing trader (25 gp, DC 12 Wisdom (Survival)).
-    - Mara: Gather rare herbs (10 gp, DC 13 Intelligence (Nature)).
-- Combat: Unlikely, but a failed quest (e.g., Elda’s net) draws 1d4 Bandits (CR 1/8) tied to smugglers.
-
-DM Notes
-
-- Level Range: Quests suit Levels 2-4 (CR 1/8-1/2, 50-200 XP). Scale with 1 Thug (CR 1/2) for Level 3+.
-- Magic Rarity: No magical items are sold, but subtle hints (glowing shells, runes) suggest latent power, fitting the setting.
-- Pacing: Morning visits (11:12 AM - 1:00 PM MDT) fit a shopping session, with quests extending to afternoon.
-- Rewards: 10-25 gp per quest supports Level 2-3 progression, with lore as a bonus.
-
-Campaign Integration
-
-- Practical Hub: These shops provide essentials—food from the tavern, leather for travel, candles for light, fishing gear for sustenance, and carvings for trade—supporting journeys to Tinkertwist Hollow or Valthor’s fortress.
-- Lore Seeds: Runes, rumors, and legends tie to the Auror’s Bounty, "Rune Connection," and "Hearthstone’s Secret," offering clues without overt magic (e.g., flickering candles, rune fragments).
-- Carival and Smugglers: Brant, Ragna, and Fenric’s observations of Carival and Kael’s crew suggest a growing presence, prompting investigation.
-- Ysmeine, Lirien, and Calen: Lysa and Fenric’s half-elven ties connect to Ysmeine’s heritage and Lirien’s research, while Torm’s sahuagin sighting aids Calen’s smuggler leads.
-- Levity: The proprietors’ quirks (Brant’s contests, Torm’s grumbles, Fenric’s whimsy) add humor, balancing the campaign’s darker tones.
-
-Interaction Opportunities
-
-- Encounter: At 05:20 PM MDT, the party finds shops active despite the storm. Brant pours ale, Ragna tans hides, Lysa lights candles, Torm mends nets, and Fenric carves by lamplight.
-- Quests:
-    - Brant: Retrieve a lost keg from the beach (15 gp, 1 Crab, CR 1/8).
-    - Ragna: Track a poacher (20 gp, DC 12 Wisdom (Survival)).
-    - Lysa: Gather beeswax (10 gp, DC 13 Intelligence (Nature)).
-    - Torm: Investigate the sahuagin sighting (25 gp, 1 sahuagin scout).
-    - Fenric: Deliver a sculpture to the forest cave (15 gp, 1 blight).
-- Combat: Unlikely, but a failed quest (e.g., Torm’s sighting) draws 1d4 Bandits (CR 1/8) tied to smugglers.
-
-DM Notes
-
-- Level Range: Quests suit Levels 2-4 (CR 1/8-1/2, 50-200 XP). Scale with 1 Thug (CR 1/2) for Level 3+.
-- Magic Rarity: No magical items are sold, but lore hints (runes, carvings) suggest latent power, fitting the setting.
-- Pacing: Evening visits (05:20 PM - 07:00 PM MDT) fit a shelter-seeking session, with quests extending to the next day.
-- Rewards: 10-25 gp per quest supports Level 2-3 progression, with lore as a bonus.
+> [!NOTE]
+> Campaign Integration
+> 
+> - Practical Hub: These shops provide essentials—food from the tavern, leather for travel, candles for light, fishing gear for sustenance, and carvings for trade—supporting journeys to Tinkertwist Hollow or Valthor’s fortress.
+> - Lore Seeds: Runes, rumors, and legends tie to the Auror’s Bounty, "Rune Connection," and "Hearthstone’s Secret," offering clues without overt magic (e.g., flickering candles, rune fragments).
+> - Carival and Smugglers: Brant, Ragna, and Fenric’s observations of Carival and Kael’s crew suggest a growing presence, prompting investigation.
+> - Ysmeine, Lirien, and Calen: Lysa and Fenric’s half-elven ties connect to Ysmeine’s heritage and Lirien’s research, while Torm’s sahuagin sighting aids Calen’s smuggler leads.
+> - Levity: The proprietors’ quirks (Brant’s contests, Torm’s grumbles, Fenric’s whimsy) add humor, balancing the campaign’s darker tones.
+> - Practical Hub: These shops support the party’s needs—nets for fishing, weapons for combat, supplies for travel (e.g., to Tinkertwist Hollow or Valthor’s fortress), and healing post-wreck dive.
+> - Lore Seeds: The rune hints, trader rumors, and herbal tales tie to the Auror’s Bounty, "Rune Connection," and "Hearthstone’s Secret," offering clues without overt magic.
+> - Carival and Smugglers: Elda, Gorim, and Jorin’s observations of Carival and Kael’s crew suggest a growing threat, prompting investigation.
+> - Ysmeine and Lirien: Thalia and Mara’s connections to Ysmeine’s mother and elven heritage support their quests, while Lirien might visit these shops for research.
+> - Levity: The proprietors’ quirks (Elda’s raspy tales, Jorin’s haggling, Mara’s proverbs) add humor, balancing the campaign’s tension.
