@@ -4,6 +4,8 @@
 [[Brinehaven Shops]]
 [[Aerdrie Faenya]] Patron Deity of Brinehaven
 
+![[Pasted image 20251015200216.png]]
+
 **The Brinehaven Hearth is a two-story structure, its exterior clad in weathered planks adorned with shells and driftwood carvings. A sign above the door, painted with a bird of paradise with outstretched wings above a stylized hearth wreathed in seaweed, swings gently in the coastal breeze. Inside, the tavern is a cozy haven: a large  fireplace built around a rune-carved stone  dominates the common room, its crackling flames casting a warm glow over sturdy wooden tables and benches worn smooth by generations of patrons. Nets, lanterns, and old harpoons hang from the rafters, while the faint scent of smoked fish and ale mingles with the salty air. A small stage in one corner hosts occasional performances by local bards or sailors with a knack for storytelling.**
 
 **The tavern’s upper floor contains three large common 'flop' rooms, often occupied by sailors or rare travelers seeking respite. A narrow staircase behind the bar leads to the proprietors’ private quarters. The cellar, carved into the rocky earth, stores barrels of ale, salted fish, and a stash of aged rum traded from distant ports.**
@@ -20,7 +22,7 @@
 
 **A bone flute rests on a table, its runes catching the light.
  
-**The  broad-shouldered man looks up, his weathered face, eye's growing wide, he manages to break into a broad, but shocked grin. “W-W-W-Well, now! Strangers in Brinehaven—haven’t seen a crew like you in a spell. Come for the stew or the sea’s secrets?” His tone is warm but probing, his eyes sharp as he sizes up the group. A woman emerges from the kitchen, wiping her hands on her apron, she hesitates for a heartbeat then offers a motherly smile. “Don’t mind Torren’s chatter. Sit, rest your legs. You look like you’ve sailed through a squall to get here. I'll take good care of you lot dearies. Name's Mirra, Mirra Gale. (Added for a party with Tabaxians) If I can have just a moment dearies, I have some old chairs around the back room that'll fit you dear kitties better than these we have sat out”.
+**The  broad-shouldered man looks up, his weathered face, eye's growing wide, he manages to break into a broad, but shocked grin. “W-W-W-Well, now! St'R'angers in Br'R'ine'aven—aven’t seen a crew like you in a spell. Come for the stew or the sea’s secrets?” His tone is warm but probing, his eyes sharp as he sizes up the group. A woman emerges from the kitchen, wiping her hands on her apron, she hesitates for a heartbeat then offers a motherly smile. “Don mind To'R'en’s chatter. Set, rest your legs. Ou look like ou’ve sailed through a squall to get here. I'll take good care of ou lot dearies. Name's Mi'R'a, Mi'R'a Gale. (Added for a party with Tabaxians) Now in a minute dearies, I 'ave some old chairs round the back room that'll fit you dear kitties better than these we have sat out”.
 
 #### Several unoccupied tables lie ahead of you.
 
@@ -31,7 +33,7 @@
 
 **Torren Gale**
 
-**Torren is eager to hear the party’s story, offering a round of Fisher’s Ale (5 cp each, on the house if they share their tale).** If they mention the shipwreck or the map fragment, his eyes narrow thoughtfully. “Auror’s Bounty, you say? Old tale, that one. Folks here whisper of a galleon lost in a storm, gold spilling into the deep. But the coast’s a cruel mistress—those rocks’ll tear a ship to splinters.” He points to the corkboard, mentioning a sailor’s sketch of a wreck seen off Blackreef Cove, a jagged inlet a day’s trek north. He warns them of strange lights seen there at night, hinting at “sea spirits or worse.”
+**Torren is eager to hear the party’s story, offering a round of Fisher’s Ale (5 cp each, on the house if they share their tale).** If they mention the shipwreck or the map fragment, his eyes narrow thoughtfully. **“Au'Ror’s Bounty, ou say? Old tale, that one. Folks here whisper of a galleon lost in a storm, gold spilling into the deep. But the coast’s a cruel mistress—those rocks’ll tear a ship to splinters.”** He points to the corkboard, mentioning a sailor’s sketch of a wreck seen off Blackreef Cove, a jagged inlet a day’s trek north. He warns them of strange lights seen there at night, hinting at “sea spirits or worse.”
 
 **Roleplay Opportunity:**
 
@@ -41,14 +43,14 @@ A successful DC 12 Charisma (Persuasion) check convinces him to share a rumor: a
 **Mirra Gale**
 
 **Mirra is warmer but more cautious.**
-If they show her the map fragment, she frowns, recognizing the script as similar to runes on her mother’s old recipes. “Those marks look like the ones on our hearthstone,” she says softly, gesturing to the fireplace’s massive, rune-etched stone. She urges the party to rest and eat (fish stew, 3 sp), warning them that Blackreef Cove is dangerous, especially with recent storms. If a party member seems troubled or young, she offers a kind word, perhaps reminding them of home.
+If they show her the map fragment, she frowns, recognizing the script as similar to runes on her mother’s old recipes. **“Those marks look like the ones on our hearthstone,”** she says softly, gesturing to the fireplace’s massive, rune-etched stone. She urges the party to rest and eat (fish stew, 3 sp), warning them that Blackreef Cove is dangerous, especially with recent storms. If a party member seems troubled or young, she offers a kind word, perhaps reminding them of home.
 
 **Roleplay Opportunity:** 
 A DC 13 Wisdom (Insight) check reveals Mirra’s worry isn’t just for the party but for the village—she fears their quest might stir up old troubles. If the party gains her trust (DC 14 Charisma (Persuasion) or a heartfelt roleplay moment), she shares that her mother, a half-elf, once spoke of a “golden tide” that would bring ruin if disturbed.
 
 **Calen Shorewhistle**
 
-Calen, lounging by the hearth, upon overhearing any mention of the Auror’s Bounty and saunters over, lute in hand. “Treasure, eh? I’ve sung of that wreck—gold enough to buy an empire, they say, but guarded by shadows in the deep.” He offers to share his song for a few coppers (or free if the party buys him a drink). His lyrics mention “stones that sing where the tide meets the shore,” possibly a clue to the map’s “Brinehaven’s stones.”
+Calen, lounging by the hearth, upon overhearing any mention of the Auror’s Bounty and saunters over, lute in hand. **“Treasure, eh? I’ve sung of that wreck—gold enough to buy an empire, they say, but guarded by shadows in the deep.”** He offers to share his song for a few coppers (or free if the party buys him a drink). His lyrics mention “stones that sing where the tide meets the shore,” possibly a clue to the map’s “Brinehaven’s stones.”
 
 If pressed, he admits he heard the tale from a smuggler who claimed to have seen the wreck’s mast at a rare low tide.
 

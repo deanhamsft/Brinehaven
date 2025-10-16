@@ -1,4 +1,4 @@
-
+![[Pasted image 20251015200216.png]]
 - Pantheon: Forgotten Realms (Elven Pantheon)
 - Alignment: Chaotic Good
 - Domains: Air, Nature, Tempest

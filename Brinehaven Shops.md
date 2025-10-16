@@ -10,7 +10,6 @@
     - Seashell jewelry (70sp-5 gp)
     - Rusted trinkets (10sp-1gp, DC 14 Intelligence (Investigation) for a tarnished silver ring with a garnet worth 5 gp)
 - Services: Trades salvaged goods for fish or coin, offers rumors (DC 12 Charisma (Persuasion) for a hint about Blackreef Cove lights).
-- Campaign Tie-In: Elda’s tales mention a “hooded figure” (Carival) asking about wrecks, linking to the smugglers. A rare shell (5 gp) glows faintly near the hearthstone, hinting at magical residue.
 
 **The Netweaver’s Loom**
 
@@ -38,7 +37,7 @@
     - Fishing spears (5 gp)
     - Repair kits (3 gp)
 - Services: Repairs weapons/armor (1 sp per hit point), forges custom items (15 gp, 2 days), arm-wrestling contest (DC 13 Strength (Athletics) for a free dagger).
-- Campaign Tie-In: Gorim forged a harpoon for Torren that “hummed strangely” near the docks marker, hinting at magical interference. He’s suspicious of Kael’s crew, offering a lead to their camp.
+- Campaign Tie-In: He’s suspicious of Kael’s crew, offering a lead to their camp.
 
 **The Salted Crate**
 
@@ -95,7 +94,7 @@
     - Gloves (2 gp/pair)
     - Hide pouches (1 gp)
 - Services: Repairs leather (1 sp), crafts custom armor (15 gp, 3 days), teaches basic tanning (DC 12 Dexterity check for a +1 AC bonus on a jerkin).
-- Campaign Tie-In: Ragna found a hide with elven stitching near the forest cave, hinting at Ysmeine’s mother (DC 14 Intelligence (Investigation)). She suspects smugglers poach her game.
+- Campaign Tie-In: Ragna found a hide with elven stitching near a forest cave, hinting at Ysmeine’s mother (DC 14 Intelligence (Investigation)). She suspects smugglers poach her game.
 
 **The Candlekeep**
 
