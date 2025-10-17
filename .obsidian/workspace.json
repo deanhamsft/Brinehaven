@@ -11,14 +11,12 @@
             "id": "6f1e86ce0b882137",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "The Brinehaven Hearth.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/AreaMap.png"
               },
-              "icon": "lucide-file",
-              "title": "The Brinehaven Hearth"
+              "icon": "lucide-image",
+              "title": "AreaMap"
             }
           },
           {
@@ -210,8 +208,10 @@
   },
   "active": "6f1e86ce0b882137",
   "lastOpenFiles": [
-    "Aerdrie Faenya.md",
+    "Images/SecondMapInscriptionClose.png",
+    "Images/SecondMapInscription.png",
     "The Brinehaven Hearth.md",
+    "Aerdrie Faenya.md",
     "Images/Pasted image 20251015200216.png",
     "Brinehaven Shops.md",
     "The Salt Marsh/Saltmarsh randoms.md",
@@ -235,7 +235,6 @@
     "Images/boar.png",
     "NPC's of Brinehaven/Lirien Thaloryn.md",
     "Images/brinehaven.png",
-    "Images/AreaMap.png",
     "Introduction.md",
     "Party members/Thalia/Thalia.stl",
     "Party members/Thalia/Unnamed.stl",
@@ -255,7 +254,6 @@
     "The gnome village.md",
     "Carival Stanislain.md",
     "The Hearthstone Secret.md",
-    "NPC's of Brinehaven/Ysmeine Tidecarver.md",
     "Untitled.canvas"
   ]
 }
