@@ -22,7 +22,7 @@
 
 **A bone flute rests on a table, its runes catching the light.
  
-**The  broad-shouldered man looks up, his weathered face, eye's growing wide, he manages to break into a broad, but shocked grin. “W-W-W-Well, now! St'R'angers in Br'R'ine'aven—aven’t seen a crew like you in a spell. Come for the stew or the sea’s secrets?” His tone is warm but probing, his eyes sharp as he sizes up the group. A woman emerges from the kitchen, wiping her hands on her apron, she hesitates for a heartbeat then offers a motherly smile. “Don mind To'R'en’s chatter. Set, rest your legs. Ou look like ou’ve sailed through a squall to get here. I'll take good care of ou lot dearies. Name's Mi'R'a, Mi'R'a Gale. (Added for a party with Tabaxians) Now in a minute dearies, I 'ave some old chairs round the back room that'll fit you dear kitties better than these we have sat out”.
+**The  broad-shouldered man looks up, his weathered face, eye's growing wide, he manages to break into a broad, but shocked grin. “W-W-W-Well, now! St'R'angers in Br'R'ine'aven—aven’t seen a crew like you in a spell. Come for the stew or the sea’s secrets?” His tone is warm but probing, his eyes sharp as he sizes up the group. A woman emerges from the kitchen, wiping her hands on her apron, she hesitates for a heartbeat then offers a motherly smile. “Don mind To'R'en’s chatter. Sit, rest your legs. Ou look like ou’ve sailed through a squall to get here. I'll take good care of ou lot dearies. Name's Mi'R'a, Mi'R'a Gale. (Added for a party with Tabaxians) Now in a minute dearies, I 'ave some old chairs round the back room that'll fit you dear kitties better than these we have sat out”.
 
 #### Several unoccupied tables lie ahead of you.
 
