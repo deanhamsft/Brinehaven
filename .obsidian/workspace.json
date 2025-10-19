@@ -20,6 +20,38 @@
               "icon": "lucide-file",
               "title": "The Brinehaven Hearth"
             }
+          },
+          {
+            "id": "c19db3270382f984",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Brinehaven village.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "Brinehaven village"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8dc8c8efc79ebe4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84ed1aa091f34033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Music/The Aurors Bounty.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Aurors Bounty"
+            }
           }
         ]
       }
@@ -182,9 +214,17 @@
   },
   "active": "4f8b20bf283bc36a",
   "lastOpenFiles": [
+    "Music/The Aurors Bounty.md",
+    "The Brinehaven Hearth.md",
+    "NPC's of Brinehaven/Calen Shorewhistle.md",
+    "SoundEffects/ambient-pub-6696.mp3",
+    "The Adventure begins.md",
+    "SoundEffects/rainy-day-in-town-with-birds-singing-194011.mp3",
+    "SoundEffects/WelcomeTO.mp3",
+    "Images/Brinehaven village.jpg",
+    "Introduction.md",
     "NPC's of Brinehaven/Lirien Thaloryn.md",
     "Images/AreaMap.png",
-    "Images/Brinehaven village.jpg",
     "Images/brinehaven.png",
     "Party members/Ranzan/Ranzan Eilsar.md",
     "Erestbor-Day-Gridd[city, map, rpgmap, rpgcity, fantasymap, dndmap, rpgmaps, fantasymaps, dndmaps, dnd].jpg~RFda15643.TMP",
@@ -195,7 +235,6 @@
     "Forest travel/Forest Randoms.md",
     "Images/SecondMapInscriptionClose.png",
     "Images/SecondMapInscription.png",
-    "The Brinehaven Hearth.md",
     "Aerdrie Faenya.md",
     "Images/Pasted image 20251015200216.png",
     "Brinehaven Shops.md",
@@ -210,15 +249,8 @@
     "Forest Cave/Stirge.png",
     "Images/Pasted image 20251008193232.png",
     "Images/Pasted image 20251007184334.png",
-    "Introduction.md",
     "Party members/Thalia/Thalia.stl",
-    "Party members/Thalia/Unnamed.stl",
-    "Party members/Thalia",
-    "Party members/New folder",
     "Party hears attack at the Docks.md",
-    "The Adventure begins.md",
-    "Music/The Aurors Bounty.md",
-    "NPC's of Brinehaven/Calen Shorewhistle.md",
     "The Docks.md",
     "Forest Cave/Forest Cave.md",
     "Forest Cave/Cave Monsters.md",

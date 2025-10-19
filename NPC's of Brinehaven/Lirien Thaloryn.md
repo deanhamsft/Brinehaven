@@ -3,7 +3,11 @@ The Half-Elf Chronicler
 
 Description
 
-**A slender female Half-Elf Approaches the party cautiously. She Carries a leather journal as she steps up to the table wearing an expression of curiosity. She asks the party about their journey, probing for stories.**
+**A slender female Half-Elf Approaches the party cautiously. She Carries a leather journal as she steps up to the table wearing an expression of curiosity.**
+
+**"Pardon me, travelers— I couldn’t help but overhear… you’ve been to the docks, haven’t you? Seen those strange runes? I’m Lirien Thaloryn, the village chronicler, and I’ve spent decades piecing together Brinehaven’s past. I think you might be the ones to help me uncover a piece of it—a secret buried not far from here."(She pauses, then hushes her voice a bit).**
+
+**"There’s a cave, just a mile north in the forest, said to hold an elven shrine from the village’s founding. My research—well, my mother’s notes, really—suggests it’s tied to that glowing hearthstone and some coastal markers like the one at the docks. I’d go myself, but… let’s just say my knees aren’t what they used to be, and I’d rather trust brave souls like you."**
 
 Background
 

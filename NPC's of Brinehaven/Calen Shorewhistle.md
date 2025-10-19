@@ -45,7 +45,7 @@ Campaign Ties
 
 Interaction with the Party
 
-- Encounter: At 08:14 PM MDT, the party finds Calen in the Hearth, strumming a storm-lullaby as lightning flashes outside. He’s curious about their wreck dive, offering a sly grin.
+- Encounter: The party finds Calen in the Hearth, strumming a mindless tune. He’s curious about their reasons to adventure here, offering a sly grin.
 - Dialogue Options:
     - Persuasion (DC 13 Charisma): Promise a treasure share. Success gains his map scrap and guidance; failure requires a performance duel (DC 14 Charisma (Performance)).
     - Intimidation (DC 15 Charisma): Threaten to expose his smuggling. Success yields the priestess’s tribute details; failure makes him hostile.

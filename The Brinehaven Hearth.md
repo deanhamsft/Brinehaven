@@ -5,7 +5,9 @@
 [[Aerdrie Faenya]] Patron Deity of Brinehaven
 
 ![[Pasted image 20251015200216.png]]
-
+![[fire-sound-334130.mp3]]
+![[rainy-day-in-town-with-birds-singing-194011.mp3]]
+![[ambient-pub-6696.mp3]]
 **The Brinehaven Hearth is a two-story structure, its exterior clad in weathered planks adorned with shells and driftwood carvings. A sign above the door, painted with a bird of paradise with outstretched wings above a stylized hearth wreathed in seaweed, swings gently in the coastal breeze. Inside, the tavern is a cozy haven: a large  fireplace built around a rune-carved stone  dominates the common room, its crackling flames casting a warm glow over sturdy wooden tables and benches worn smooth by generations of patrons. Nets, lanterns, and old harpoons hang from the rafters, while the faint scent of smoked fish and ale mingles with the salty air. A small stage in one corner hosts occasional performances by local bards or sailors with a knack for storytelling.**
 
 **The tavern’s upper floor contains three large common 'flop' rooms, often occupied by sailors or rare travelers seeking respite. A narrow staircase behind the bar leads to the proprietors’ private quarters. The cellar, carved into the rocky earth, stores barrels of ale, salted fish, and a stash of aged rum traded from distant ports.**
@@ -51,7 +53,7 @@ A DC 13 Wisdom (Insight) check reveals Mirra’s worry isn’t just for the part
 **Calen Shorewhistle**
 
 Calen, lounging by the hearth, upon overhearing any mention of the Auror’s Bounty and saunters over, lute in hand. **“Treasure, eh? I’ve sung of that wreck—gold enough to buy an empire, they say, but guarded by shadows in the deep.”** He offers to share his song for a few coppers (or free if the party buys him a drink). His lyrics mention “stones that sing where the tide meets the shore,” possibly a clue to the map’s “Brinehaven’s stones.”
-
+![[The Auror's Bounty.mp3]]
 If pressed, he admits he heard the tale from a smuggler who claimed to have seen the wreck’s mast at a rare low tide.
 
 [[The Aurors Bounty]]
