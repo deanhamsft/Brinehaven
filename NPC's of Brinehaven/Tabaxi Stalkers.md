@@ -1,5 +1,7 @@
 Brinehaven Commoners Smitten with Tabaxi Party Members
 
+[[Torvyn's quest]]
+
 **Torvyn "Fishhook" Marren**
 
 - Race: Human
