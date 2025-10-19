@@ -13,26 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Adventure begins.md",
-                "mode": "source",
+                "file": "Introduction.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Adventure begins"
+              "title": "Introduction"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "fc93d1cb286bb52b",
+        "type": "tabs",
+        "children": [
           {
-            "id": "029c8c0548bd8651",
+            "id": "1116b2da194eb750",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Forest travel/Forest Randoms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Forest Randoms"
+            }
+          },
+          {
+            "id": "3d9048d7197c545f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NPC's of Brinehaven/Lirien Thaloryn.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lirien Thaloryn"
+            }
+          },
+          {
+            "id": "92f0e3385f4bf0e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Music/The Aurors Bounty.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Aurors Bounty"
+            }
+          },
+          {
+            "id": "285c7c074ecbb737",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Music/The Blackreef's Gold.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Blackreef's Gold"
             }
           }
         ],
@@ -195,11 +243,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "029c8c0548bd8651",
+  "active": "3d9048d7197c545f",
   "lastOpenFiles": [
-    "The Adventure begins.md",
-    "conflict-files-obsidian-git.md",
     "Introduction.md",
+    "The Adventure begins.md",
+    "The Brinehaven Hearth.md",
+    "Images/Pasted image 20251007105111.png",
+    "Images/Pasted image 20251015200216.png",
+    "NPC's of Brinehaven/Lirien Thaloryn.md",
+    "Music/The Blackreef's Gold.md",
+    "Music/The Aurors Bounty.md",
+    "Forest travel/Forest Randoms.md",
+    "conflict-files-obsidian-git.md",
     "Images/Brinehaven village.jpg",
     "Images/AreaMap.png",
     "SoundEffects/WelcomeTO.mp3",
@@ -208,7 +263,6 @@
     "NPC's of Brinehaven/Tabaxi Stalkers.md",
     "Images/MapFragmentEngravingClose.png",
     "Images/MapFragmentEngraving.png",
-    "The Brinehaven Hearth.md",
     "Woodcock Stables.md",
     "The Salt Marsh/Saltmarsh randoms.md",
     "The Salt Marsh/North from Brinehaven.md",
@@ -221,8 +275,6 @@
     "Party members/Thalia/Thalia.stl",
     "Party members/Thalia/Thalia.md",
     "Party members/Thalia",
-    "Party members/Ranzan/Ranzan1.jpg",
-    "Party members/Ranzan/Ranzan2.jpg",
     "Party members/Ranzan/Ranzan Eilsar.md",
     "Party members/Ranzan",
     "Party members/Maria/Maria.stl",
@@ -232,17 +284,12 @@
     "Party members/Iymril",
     "NPC's of Brinehaven/Ysmeine Tidecarver.md",
     "NPC's of Brinehaven/Retch.md",
-    "NPC's of Brinehaven/Lirien Thaloryn.md",
     "NPC's of Brinehaven/Calen Shorewhistle.md",
     "NPC's of Brinehaven",
-    "Music/The Blackreef's Gold.md",
-    "Music/The Aurors Bounty.md",
-    "Forest travel/Forest Randoms.md",
     "Brinehaven Shops.md",
     "Brayzor Retrieval Quest.md",
     "Forest Cave/Forest Cave.md",
     "Forest Cave/Cave Monsters.md",
-    "Lirien Thaloryn.md",
     "Untitled.canvas"
   ]
 }

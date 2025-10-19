@@ -13,7 +13,6 @@
 **Each carries their own reasons for chasing the cryptic promise of a treasure map fragment, offered by a shadowy figure they met in a distant city. The man, described only as “cloaked, with a voice like gravel and a glint in his eye,” he spoke of a legendary shipwreck: 'The Auror’s Bounty', an imperial galleon said to have sunk 300 years ago off Brinehaven’s treacherous coast, its hold brimming with gold coins, jeweled relics, and perhaps something more arcane. The fragment he provided—leather yellowed with age, etched with a partial map and worn Elvish script—pointed them here, to this remote village far from the empire’s reach.**
 
 **As the adventurers make their way toward the Brinehaven Hearth, drawn by the promise of food, rest, and answers, the village watches with cautious curiosity. Fishermen mending nets pause to glance at the newcomers, while a half-elf child darts into an alley, whispering of “strangers with swords.” The party’s arrival is about to stir the sleepy village, and the tavern will be their first step into the mystery of** "**The Auror’s Bounty.**"
-![[WelcomeTO.mp3]]
 [[The Brinehaven Hearth]]
 
 

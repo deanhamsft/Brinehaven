@@ -6,9 +6,9 @@ Description
 **A slender female Half-Elf Approaches the party cautiously. She Carries a leather journal as she steps up to the table wearing an expression of curiosity.**
 
 **(clearing her throat, a hesitant smile)**  
-**"Excuse me, brave travelers— I couldn’t help my curiousity… you’ve been to the docks, haven’t you? you’ve been near one of those rune-carved markers, haven’t you? I’m Lirien Thaloryn, Brinehaven’s chronicler, and I’ve spent decades unraveling our past. I believe you’re the ones to help me with a discovery—a cave, 14 miles north, that might hold the key to it all."(She pauses, gauging their reaction, then leans in with urgency.)**  
+**"Excuse me, brave travelers— I couldn’t help my curiosity… you’ve been to the docks, and you’ve been near one of those rune-carved markers, haven’t you? I’m Lirien Thaloryn, Brinehaven’s chronicler, and I’ve spent decades unraveling our past. I believe you’re the ones to help me with a discovery—a cave, 14 miles north, that might hold the key to it all."(She pauses, gauging their reaction, then leans in with urgency.)**  
 
-**"It’s a trek, I know, through wild forest and over rugged hills, but my research—my mother’s notes, really—points to an elven shrine there, older than the village itself. It’s tied to that glowing hearthstone and those coastal runes you’ve seen. I’d go, but my old bones aren’t up for a journey that far, and I’d trust only stout hearts like yours to face what might lurk there."**
+**"It’s a trek, I know, through wild forest and over rugged hills, but my research—my mother’s notes, really—points to an elven shrine there, older than the village itself. It’s tied to that glowing hearthstone and those coastal runes you’ve seen. I’d go, but I lack the strength to face what might lurk there."**
 
 **Lirien:**  
 **(flipping open her journal, revealing a faded map with a circled “X” 14 miles north)**  
