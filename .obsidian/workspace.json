@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d39927224fff644c",
+        "id": "243201c7dc404b8c",
         "type": "tabs",
         "children": [
           {
-            "id": "7136bffbf3f1ee87",
+            "id": "d1edfe8d6659486e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "Images/AreaMap.png"
+              },
+              "icon": "lucide-image",
+              "title": "AreaMap"
             }
           }
         ]
@@ -176,8 +178,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aec31d53985d91a3",
+  "active": "d1edfe8d6659486e",
   "lastOpenFiles": [
+    "Images/MapFragmentEngravingClose.png",
+    "Images/MapFragmentEngraving.png",
     "The Brinehaven Hearth.md",
     "conflict-files-obsidian-git.md",
     "Woodcock Stables.md",
@@ -202,7 +206,6 @@
     "Party members/Maria/Maria.md",
     "Party members/Maria",
     "Party members/Iymril/Iymril2.jpg",
-    "Party members/Iymril/Iymril1.jpg",
     "Party members/Iymril/Iymril Cobiir.md",
     "Party members/Iymril",
     "NPC's of Brinehaven/Ysmeine Tidecarver.md",
@@ -223,7 +226,6 @@
     "The Adventure begins.md",
     "Introduction.md",
     "Party members/Vulkaan Ardhall.md",
-    "Party members/Iymril Cobiir.md",
     "Untitled.canvas"
   ]
 }
