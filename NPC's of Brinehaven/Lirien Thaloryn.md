@@ -5,9 +5,63 @@ Description
 
 **A slender female Half-Elf Approaches the party cautiously. She Carries a leather journal as she steps up to the table wearing an expression of curiosity.**
 
-**"Pardon me, travelers— I couldn’t help but overhear… you’ve been to the docks, haven’t you? Seen those strange runes? I’m Lirien Thaloryn, the village chronicler, and I’ve spent decades piecing together Brinehaven’s past. I think you might be the ones to help me uncover a piece of it—a secret buried not far from here."(She pauses, then hushes her voice a bit).**
+**(clearing her throat, a hesitant smile)**  
+**"Excuse me, brave travelers— I couldn’t help my curiousity… you’ve been to the docks, haven’t you? you’ve been near one of those rune-carved markers, haven’t you? I’m Lirien Thaloryn, Brinehaven’s chronicler, and I’ve spent decades unraveling our past. I believe you’re the ones to help me with a discovery—a cave, 14 miles north, that might hold the key to it all."(She pauses, gauging their reaction, then leans in with urgency.)**  
 
-**"There’s a cave, just a mile north in the forest, said to hold an elven shrine from the village’s founding. My research—well, my mother’s notes, really—suggests it’s tied to that glowing hearthstone and some coastal markers like the one at the docks. I’d go myself, but… let’s just say my knees aren’t what they used to be, and I’d rather trust brave souls like you."**
+**"It’s a trek, I know, through wild forest and over rugged hills, but my research—my mother’s notes, really—points to an elven shrine there, older than the village itself. It’s tied to that glowing hearthstone and those coastal runes you’ve seen. I’d go, but my old bones aren’t up for a journey that far, and I’d trust only stout hearts like yours to face what might lurk there."**
+
+**Lirien:**  
+**(flipping open her journal, revealing a faded map with a circled “X” 14 miles north)**  
+
+**"See this? The runes match those you’ve encountered, I’d stake my quill on it. That cave might hold the truth about the Auror’s Bounty—that cursed wreck everyone’s whispering about. My notes suggest the elves warded against its evil a millennium ago, and this shrine could tell us how to break the curse or shield Brinehaven from those sahuagin fiends!"
+
+**"I’m not asking for charity. I can offer 50 gold pieces from my savings—every coin I’ve scraped together—and I’ll share any lore I decipher. Imagine it: your names in Brinehaven’s history, not just its tales! And if there’s treasure… you can keep the bulk, so long as I get the story to record."(She softens, adding a personal plea.)**  
+**"It’s more than that, though. My mother believed this cave held our elven legacy—a piece of her I’ve never found. Helping me would honor her memory. Please, will you take this journey for me?"**
+
+
+> [!NOTE]
+> - If the Party Agrees (Persuasion DC 14 Success or Enthusiasm):  
+>     Lirien:  
+>     (beaming, clasping her hands)  
+>     "Oh, wonderful! You’re a blessing to this old scribe. Meet me here at dawn—7 AM tomorrow—and I’ll have the gold and a rough map ready. It’s a 14-mile trek, so bring provisions and warm cloaks; the forest can be unforgiving this time of year. Thank you!"
+> - If the Party Hesitates (Neutral or Failed Persuasion):  
+>     Lirien:  
+>     (frowning slightly, then brightening)  
+>     "I understand, it’s a long road. But those sahuagin won’t wait, and neither will the shadowy figure I’ve heard about in the north. That cave could give us an edge. How about I add a trinket—my mother’s silver brooch, worth 25 gold—to sway you? What do you think?"
+> - If the Party Refuses (Intimidation or Strong Rejection):  
+>     Lirien:  
+>     (stepping back, clutching her journal tightly)  
+>     "Oh… I see. I won’t press you, of course. But the cave’s secrets won’t stay buried, and I fear what might claim them if not you. The offer stands if you reconsider. Stay safe out there."
+> 
+> (She retreats to her table, casting a hopeful glance, leaving the door open for later persuasion.)
+
+---
+
+Roleplay Enhancements
+
+- Quirks: Lirien stammers when excited, adjusts her spectacles nervously, and doodles runes on a napkin while talking about the 14-mile trek.
+- Props: She shows the map with the circled “X,” a brittle journal page with elven script, and the brooch if needed (a delicate silver piece with a bird motif).
+- Ties to Campaign:
+    - Emphasizes the hearthstone’s glow and cave link, aligning with "Hearthstone’s Secret."
+    - Mentions the Auror’s Bounty curse, connecting to the wreck.
+    - Warns of the “shadowy figure” (Carival), tying to his manipulation.
+    - Suggests Ysmeine’s flute might aid the journey, reinforcing "Rune Connection."
+
+Quest Details
+
+- Objective: Travel 14 miles north to explore the forest cave, find the elven shrine, retrieve Ysmeine’s mother’s journal, and seal the ward (as per the Level 2 dungeon design).
+- Travel: A 14-mile trek takes 6-8 hours on foot (DC 12 Constitution save or 1 level of exhaustion), or 3-4 hours on horseback from Woodcock Stables (40 gp rental).
+- Reward: 50 gp (or 75 gp with the brooch), the journal (plot item), and 100 XP for acceptance.
+- Challenge: The Level 2 dungeon (giant spiders, ghoul, etc.) awaits, with a DC 15 Intelligence (Arcana) to activate the ward. Random encounters (1d6: 1-3 none, 4 boar, 5-6 1d4 goblins) may occur en route.
+- Follow-Up: Success earns Lirien’s gratitude and a lead to the wreck’s guardian ritual.
+
+DM Notes
+
+- Persuasion DC: Increased to 14 due to the 14-mile distance and travel risks, reflecting a moderate challenge for Level 2-3 party.
+- Pacing: The pitch fits 08:43 PM - 08:55 PM MDT, with the quest starting at 7 AM MDT on October 19, 2025, and travel concluding by afternoon.
+- Scaling: Adjust gold (40-60 gp) or add a Wolf (CR 1/4) encounter for a Level 3 party.
+- Humor: Her nervous math about the trek (“Fourteen miles… that’s, um, seven times two!”) adds levity, balancing the storm’s tension.
+
 
 Background
 
