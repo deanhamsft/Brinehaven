@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "North from Brinehaven"
             }
-          },
-          {
-            "id": "9935f04016f96f23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Forest Cave/Forest Cave.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Forest Cave"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "fc93d1cb286bb52b",
@@ -97,23 +82,9 @@
               "icon": "lucide-file",
               "title": "Lirien Thaloryn"
             }
-          },
-          {
-            "id": "285c7c074ecbb737",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Forest Cave/Cave Monsters.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cave Monsters"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -272,12 +243,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "285c7c074ecbb737",
+  "active": "92f0e3385f4bf0e2",
   "lastOpenFiles": [
+    "The Salt Marsh/North from Brinehaven.md",
+    "Forest Cave/Forest Cave.md",
+    "Forest Cave/Cave Monsters.md",
+    "Music/The Aurors Bounty.md",
     "Forest Cave/Giant Spider.png",
     "Forest Cave/Shadow.png",
     "The Salt Marsh/Saltmarsh randoms.md",
-    "Forest Cave/Forest Cave.md",
     "Forest travel/Forest Randoms.md",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Images/MapFragmentEngraving.png",
@@ -285,13 +259,11 @@
     "Brinehaven Shops.md",
     "Music/The Blackreef's Gold.md",
     "Party members/Thalia/Thalia.md",
-    "The Salt Marsh/North from Brinehaven.md",
     "The Brinehaven Hearth.md",
     "The gnome village.md",
     "NPC's of Brinehaven/Calen Shorewhistle.md",
     "The Adventure begins.md",
     "Introduction.md",
-    "Music/The Aurors Bounty.md",
     "NPC's of Brinehaven/Tabaxi Stalkers.md",
     "NPC's of Brinehaven/Lirien Thaloryn.md",
     "Images/Pasted image 20251007105111.png",
@@ -307,7 +279,6 @@
     "The Salt Marsh",
     "Party members/Vulkaan/Vulkaan2.jpg",
     "Party members/Vulkaan/Vulkaan1.jpg",
-    "Party members/Thalia/Thalia2.jpg",
     "Party members/Thalia/Thalia.stl",
     "Party members/Thalia",
     "Party members/Ranzen/Ranzan Eilsar.md",
