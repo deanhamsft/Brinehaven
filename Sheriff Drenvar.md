@@ -1,8 +1,7 @@
-Below is a revised and expanded profile for Sheriff Drenvar "Ironwave" Holt of Brinehaven, now revealed as a corrupt figure involved in a reagent smuggling ring. This twist integrates him with Jorin "Barrel" Kray, the merchant from The Salted Crate, who serves as the mediator, and an unnamed shadowy customer (implied to be Carival Stanislain or a proxy for Lord Valthor Krenn). This subplot adds intrigue and moral complexity to your Dungeons & Dragons 5th Edition campaign, tying into the Auror’s Bounty narrative, "The Rune Connection," and "The Hearthstone’s Secret." The current date and time are 04:27 PM MDT on Sunday, October 19, 2025, a crisp autumn afternoon, providing a context where the party might encounter Drenvar post-quest or during village interactions.
 
----
+Sheriff Drenvar "Ironwave" Holt (Corrupt)
 
-Sheriff Drenvar "Ironwave" Holt (Corrupt)Background
+Background
 
 - Full Name: Drenvar Holt, nicknamed "Ironwave"
 - Race: Human
@@ -35,7 +34,7 @@ Role in Brinehaven
 
 - Base: The Sheriff’s Office, a stone hut near the docks with a cell, desk, and weapon rack. The ledger is concealed in a false bottom under the desk.
 - Authority: Drenvar commands 4 guards (use Guard stats, CR 1/8), some complicit in the ring. He reports to the elders but manipulates them with false reports.
-- Current Focus: At 04:27 PM MDT, Drenvar is in his office, reviewing the ledger after a recent smuggling drop. He’s tense, aware of the party’s wreck and marker investigations, and plans to misdirect them.
+- Drenvar also has three Thugs as hired henchmen for work off the books
 
 Smuggling Ring Details
 
@@ -53,7 +52,7 @@ Campaign Integration
 
 Interaction with the Party
 
-- Encounter: At 04:27 PM MDT, the party finds Drenvar in his office, poring over papers. He looks up with a forced smile, trident at hand.
+- Encounter: The party finds Drenvar in his office, poring over papers. He looks up with a forced smile, trident at hand.
 - Dialogue Options:
     - Persuasion (DC 14 Charisma): Convince him of their aid. Success gains a false lead (e.g., “Check the south cliffs”); failure raises suspicion.
     - Intimidation (DC 16 Charisma): Threaten exposure. Success forces a bribe (50 gp); failure triggers Action Surge and guards.
@@ -68,14 +67,16 @@ Quest: False Patrol
 - Challenge: DC 14 Wisdom (Perception) spots sahuagin tracks (leads to the cove), DC 13 Dexterity (Stealth) to avoid 1 smuggler sentry (Level 1 Rogue). Success reveals the ledger’s hint; failure alerts Drenvar.
 - Reward: 25 gp, but finding the ledger (DC 15 Intelligence (Investigation)) exposes the ring.
 
-Dialogue ExampleDrenvar:  
+Dialogue Example
+Drenvar:  
 (leaning back, eyeing the party)  
 "Back again, eh? Drenvar Holt, sheriff—keeping this village in line. Heard you’ve been stirring up the docks with those wreck tales. Good. Keeps the fish-men on edge. But I need you north—three miles, quiet-like. Bandits, I reckon. 25 gold if you scout it. Don’t poke too deep, though—village safety’s my concern."(He taps the ledger subtly, masking a nervous glance.)  
-"Prove you’re worth trusting, and I might share more. What say you?"DM Notes
+"Prove you’re worth trusting, and I might share more. What say you?"
+
+DM Notes
 
 - Level Range: Drenvar (CR 1) and quests suit Levels 2-4. Scale with 1 Thug (CR 1/2) for Level 3+.
 - Pacing: The encounter fits 04:27 PM - 04:40 PM MDT, with the quest taking 2-3 hours (ending by 07:00 PM MDT).
 - Corruption Reveal: The ledger or Jorin’s slip (DC 15 Insight) exposes Drenvar, leading to a moral choice (arrest, blackmail, or ally).
 - Rewards: 25 gp and ledger intel support Level 2-3 progression, with potential for 50 gp bribery.
 
-Drenvar’s corruption adds a thrilling twist, linking Brinehaven’s law to the smuggling plot. If you’d like an office map, Jorin’s mediation details, or a confrontation scene, let me know!

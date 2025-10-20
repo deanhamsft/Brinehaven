@@ -4,87 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "243201c7dc404b8c",
+        "id": "8e86d350b0ea4a7a",
         "type": "tabs",
         "children": [
           {
-            "id": "d1edfe8d6659486e",
+            "id": "4f8b20bf283bc36a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Salt Marsh/North from Brinehaven.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "North from Brinehaven"
-            }
-          }
-        ]
-      },
-      {
-        "id": "fc93d1cb286bb52b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1116b2da194eb750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Forest travel/Forest Randoms.md",
+                "file": "Sheriff Drenvar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forest Randoms"
+              "title": "Sheriff Drenvar"
             }
           },
           {
-            "id": "3d9048d7197c545f",
+            "id": "89a3ce4bb0505589",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Music/The Aurors Bounty.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Aurors Bounty"
-            }
-          },
-          {
-            "id": "98b35042a1500d90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NPC's of Brinehaven/Calen Shorewhistle.md",
+                "file": "Current state of things.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calen Shorewhistle"
-            }
-          },
-          {
-            "id": "92f0e3385f4bf0e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NPC's of Brinehaven/Lirien Thaloryn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lirien Thaloryn"
+              "title": "Current state of things"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "56cf9116026385c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7d1c822a26ea2be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brinehaven Shops.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Brinehaven Shops"
+            }
+          },
+          {
+            "id": "7e00a6b80b0389cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Retch vector.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Retch vector"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,54 +230,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92f0e3385f4bf0e2",
+  "active": "89a3ce4bb0505589",
   "lastOpenFiles": [
-    "The Salt Marsh/North from Brinehaven.md",
-    "Forest Cave/Forest Cave.md",
-    "Forest Cave/Cave Monsters.md",
-    "Music/The Aurors Bounty.md",
-    "Forest Cave/Giant Spider.png",
-    "Forest Cave/Shadow.png",
-    "The Salt Marsh/Saltmarsh randoms.md",
-    "Forest travel/Forest Randoms.md",
-    "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Images/MapFragmentEngraving.png",
-    "Sheriff Drenvar.md",
+    "The Retch vector.md",
+    "Current state of things.md",
     "Brinehaven Shops.md",
-    "Music/The Blackreef's Gold.md",
-    "Party members/Thalia/Thalia.md",
-    "The Brinehaven Hearth.md",
-    "The gnome village.md",
-    "NPC's of Brinehaven/Calen Shorewhistle.md",
-    "The Adventure begins.md",
-    "Introduction.md",
-    "NPC's of Brinehaven/Tabaxi Stalkers.md",
-    "NPC's of Brinehaven/Lirien Thaloryn.md",
-    "Images/Pasted image 20251007105111.png",
-    "Images/Pasted image 20251015200216.png",
-    "conflict-files-obsidian-git.md",
     "Images/Brinehaven village.jpg",
-    "Images/AreaMap.png",
-    "SoundEffects/WelcomeTO.mp3",
-    "Torvyn's quest.md",
-    "SoundEffects/ambient-pub-6696.mp3",
-    "Images/MapFragmentEngravingClose.png",
-    "Woodcock Stables.md",
-    "The Salt Marsh",
-    "Party members/Vulkaan/Vulkaan2.jpg",
-    "Party members/Vulkaan/Vulkaan1.jpg",
-    "Party members/Thalia/Thalia.stl",
-    "Party members/Thalia",
+    "Sheriff Drenvar.md",
+    "Party members/Ranzen/Ranzan2.jpg",
+    "Party members/Ranzen/Ranzan1.jpg",
     "Party members/Ranzen/Ranzan Eilsar.md",
     "Party members/Ranzen",
-    "Party members/Maria/Maria.stl",
-    "Party members/Maria/Maria.md",
-    "Party members/Maria",
+    "Images/AreaMap.png",
+    "Torvyn's quest.md",
+    "NPC's of Brinehaven/Tabaxi Stalkers.md",
+    "NPC's of Brinehaven/Lirien Thaloryn.md",
+    "The Brinehaven Hearth.md",
+    "Forest Cave/Forest Cave.md",
+    "Music/The Aurors Bounty.md",
+    "NPC's of Brinehaven/Calen Shorewhistle.md",
+    "SoundEffects/ambient-pub-6696.mp3",
+    "The Adventure begins.md",
+    "SoundEffects/rainy-day-in-town-with-birds-singing-194011.mp3",
+    "SoundEffects/WelcomeTO.mp3",
+    "Introduction.md",
+    "Images/brinehaven.png",
+    "Party members/Ranzan/Ranzan Eilsar.md",
+    "Erestbor-Day-Gridd[city, map, rpgmap, rpgcity, fantasymap, dndmap, rpgmaps, fantasymaps, dndmaps, dnd].jpg~RFda15643.TMP",
+    "Erestbor-Day-Gridd[city, map, rpgmap, rpgcity, fantasymap, dndmap, rpgmaps, fantasymaps, dndmaps, dnd].jpg.~tmp",
     "Party members/Iymril/Iymril Cobiir.md",
+    "Images/MapFragmentEngravingClose.png",
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "Forest travel/Forest Randoms.md",
+    "Images/SecondMapInscriptionClose.png",
+    "Images/SecondMapInscription.png",
+    "Aerdrie Faenya.md",
+    "Images/Pasted image 20251015200216.png",
+    "The Salt Marsh/North from Brinehaven.md",
+    "The Salt Marsh",
+    "Forest travel",
     "Party members/Iymril",
-    "NPC's of Brinehaven/Ysmeine Tidecarver.md",
-    "NPC's of Brinehaven/Retch.md",
-    "NPC's of Brinehaven",
+    "Party members/Ranzan",
+    "Woodcock Stables.md",
+    "Party members/Maria/Maria.md",
+    "Brayzor Retrieval Quest.md",
+    "Forest Cave/Stirge.png",
+    "Party hears attack at the Docks.md",
+    "The Docks.md",
+    "Forest Cave/Cave Monsters.md",
     "Untitled.canvas"
   ]
 }
