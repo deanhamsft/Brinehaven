@@ -8,7 +8,7 @@ Background
 - Age: 48
 - Gender: Male
 - Occupation: Sheriff of Brinehaven
-- History: Drenvar, born to a fisherman and dockworker in Brinehaven, earned his "Ironwave" moniker during a sahuagin raid 15 years ago. After years as a guard, he became sheriff, initially a protector. However, financial strain from medical debts (his limp) and a taste for power led him to a secret deal with Jorin "Barrel" Kray, mediating a reagent smuggling ring. They traffic rare coastal herbs and minerals—valuable for alchemy or rituals—to a shadowy customer, likely Carival Stanislain or Valthor’s agent, using the smugglers’ network. Drenvar covers tracks with his authority, unaware the reagents fuel the Auror’s Bounty curse or Carival’s plans.
+- History: Drenvar, born to a fisherman and dockworker in Brinehaven, earned his "Ironwave" moniker during a sahuagin raid 15 years ago. After years as a guard, he became sheriff, initially a protector. However, financial strain from medical debts (his limp) and a taste for power led him to a secret deal with Jorin "Barrel" Kray, mediating a reagent smuggling ring. They traffic rare coastal herbs and minerals—valuable for alchemy or rituals—to a shadowy customer, using the smugglers’ network. Drenvar covers tracks with his authority, unaware the reagents fuel the Auror’s Bounty curse or other plans.
 
 Personality
 
