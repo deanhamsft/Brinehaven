@@ -58,18 +58,20 @@ Interaction with the Party
 - Quest Offer: Cavlin asks the party to retrieve a lost donkey, “Brayzor,” wandered into the forest (5 gp reward).
 - Combat: Unlikely, but if threatened, Cavlin uses Second Wind and calls stablehands (2 Commoners, CR 0) for help. His 17 HP suits a minor skirmish.
 
-Brayzor Retrieval Quest
+> [!WARNING]
+> Brayzor Retrieval Quest
+> 
+> - Location: 2.5 miles west. Must be a successful tracking check to find
+> - Description: Brayzor (use Donkey stats, CR 1/8) is stuck in mud, haried by 1 Boar (CR 1/4) and 1 Stirge (CR 1/8).
+> - Challenge: DC 12 Strength (Athletics) to free Brayzor, DC 13 Dexterity save to avoid the stirge’s blood drain (1d4+1 piercing + 1d4 exhaustion).
+> - Reward: 20 gp and Brayzor’s loyalty (carries 50 lbs extra for free).
 
-- Location: 2.5 miles west. Must be a successful tracking check to find
-- Description: Brayzor (use Donkey stats, CR 1/8) is stuck in mud, haried by 1 Boar (CR 1/4) and 1 Stirge (CR 1/8).
-- Challenge: DC 12 Strength (Athletics) to free Brayzor, DC 13 Dexterity save to avoid the stirge’s blood drain (1d4+1 piercing + 1d4 exhaustion).
-- Reward: 20 gp and Brayzor’s loyalty (carries 50 lbs extra for free).
-
-DM Notes
-
-- Level Range: Quests and encounters suit Levels 2-3 (CR 1/8-1/2, 100-200 XP). Scale with 1 Wolf (CR 1/4) for Level 4.
-- Pacing: The 1-mile trip fits a morning session (10:10 AM - 12:00 PM MDT), aligning with travel prep.
-- Humor: Cavlin’s Whinny Wall and Brayzor’s stubbornness add levity, balancing Brinehaven’s tension.
-- Rewards: 20-50 gp and rentals support Level 2-3 needs.
+> [!NOTE]
+> DM Notes
+> 
+> - Level Range: Quests and encounters suit Levels 2-3 (CR 1/8-1/2, 100-200 XP). Scale with 1 Wolf (CR 1/4) for Level 4.
+> - Pacing: The 1-mile trip fits a morning session (10:10 AM - 12:00 PM MDT), aligning with travel prep.
+> - Humor: Cavlin’s Whinny Wall and Brayzor’s stubbornness add levity, balancing Brinehaven’s tension.
+> - Rewards: 20-50 gp and rentals support Level 2-3 needs.
 
 Woodcock Stables adds a practical and humorous hub, enhancing travel and quest options. If you’d like a stable map, Cavlin’s backstory expansion, or a Brayzor scene, let me know!

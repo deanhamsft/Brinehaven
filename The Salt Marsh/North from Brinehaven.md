@@ -7,4 +7,4 @@ falls and slips trigger random encounter
 
 [[Saltmarsh randoms]]
 
-**After a solid three hours of travel the party comes within sight of the forest that grows on the more solid ground north of the marshes.**
+**After a solid hour of travel the party comes within sight of the forest that grows on the more solid ground north of the marshes.**

@@ -81,6 +81,7 @@
     - Tobacco pipes (2 gp)
 - Services: Serves food and drink, hosts storytelling nights (DC 12 Charisma (Performance) to join, 5 sp prize), offers a bed for 1 gp/night.
 - Campaign Tie-In: Brant’s tales mention a “ghost ship” (the Auror’s Bounty) and a “hooded visitor” (Carival) asking about wrecks. A cracked tankard bears a faded rune, linking to the markers (DC 15 Intelligence (Arcana)).
+- Tale: Revenge of the Mako shark.
 
 **The Tanner’s Hide**
 
@@ -106,7 +107,7 @@
 - Inventory:
     - Beeswax candles (5 sp each)
     - Tallow lamps (2 gp)
-    - Scented oils (1 gp/vial) (DC 10 (constitution) saving throw, or any Tabaxians present are charmed by the catnip oil)
+    - Scented oils (1 gp/vial) (DC 10 (wisdom) saving throw, for any Tabaxians failure means they are charmed by the catnip oil)
 - Services: Sells candles, offers minor healing advice (DC 12 Wisdom (Medicine) for +2 hp), trades for honey (1 sp/lb).
 - Campaign Tie-In: Lysa’s candles flicker near the hearthstone, suggesting a ward link (DC 15 Intelligence (Arcana)). She overheard Lirien mention the wreck’s curse.
 
@@ -143,22 +144,22 @@
 > - Quests:
 >     - Elda: Retrieve a lost net from Blackreef Cove (10 gp, 1 sahuagin scout).
 >     - Gorim: Fix a broken plow (10 gp, DC 13 Strength check).
->     - Jorin: Track a missing trader (25 gp, DC 12 Wisdom (Survival)).
+>    - Jorin: Track a missing trader (25 gp, DC 12 Wisdom (Survival)). **Leads to possibly uncovering Retchs' smuggling ring.**
 >     - Mara: Gather rare herbs (10 gp, DC 13 Intelligence (Nature)).
 >     - Brant: Retrieve a lost keg from the beach (15 gp, 1 Crab, CR 1/8).
 >     - Ragna: Track a poacher (20 gp, DC 12 Wisdom (Survival)).
->     - Lysa: Gather beeswax (10 cp/lb, DC 13 Intelligence (Nature)). Gathering beeswax takes the party close to the Donkey
+>     - Lysa: Gather beeswax (10 cp/lb, DC 13 Intelligence (Nature)). **Gathering beeswax takes the party close to the Donkey**
 >     - Torm: Investigate the sahuagin sighting (5 gp, 1 sahuagin scout).
 >     
 > - Combat: Unlikely, but a failed quest (e.g., Elda’s net) draws 1d4 Bandits (CR 1/8) tied to smugglers.
 
 > [!NOTE]
-> DM Notes
+> **DM Notes**
 > 
-> - Level Range: Quests suit Levels 2-4 (CR 1/8-1/2, 50-200 XP). Scale with 1 Thug (CR 1/2) for Level 3+.
-> - Magic Rarity: No magical items are sold, but subtle hints (glowing shells, runes) suggest latent power, fitting the setting.
-> - Pacing: Morning visits (11:12 AM - 1:00 PM MDT) fit a shopping session, with quests extending to afternoon.
-> - Rewards: 10-25 gp per quest supports Level 2-3 progression, with lore as a bonus.
+> **- Level Range: Quests suit Levels 2-4 (CR 1/8-1/2, 50-200 XP). Scale with 1 Thug (CR 1/2) for Level 3+.**
+> **- Magic Rarity: No magical items are sold, but subtle hints (glowing shells, runes) suggest latent power, fitting the setting.**
+> **- Pacing: Morning visits (11:12 AM - 1:00 PM MDT) fit a shopping session, with quests extending to afternoon.**
+> **- Rewards: 10-25 gp per quest supports Level 2-3 progression, with lore as a bonus.**
 
 > [!NOTE]
 > Campaign Integration

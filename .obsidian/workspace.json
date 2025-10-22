@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sheriff Drenvar.md",
+                "file": "The Salt Marsh/Sea Hag monsters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sheriff Drenvar"
+              "title": "Sea Hag monsters"
             }
           },
           {
-            "id": "89a3ce4bb0505589",
+            "id": "f4f4588effd66230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Current state of things (Sunday).md",
+                "file": "Woodcock Stables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Current state of things (Sunday)"
+              "title": "Woodcock Stables"
             }
           }
         ],
@@ -70,8 +70,7 @@
               "title": "The Retch vector"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,12 +229,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89a3ce4bb0505589",
+  "active": "c7d1c822a26ea2be",
   "lastOpenFiles": [
-    "Sheriff Drenvar.md",
-    "The Retch vector.md",
-    "Current state of things (Sunday).md",
+    "Woodcock Stables.md",
     "Brinehaven Shops.md",
+    "The Retch vector.md",
+    "The Salt Marsh/The Sea Hag lair.md",
+    "The Salt Marsh/Sea Hag monsters.md",
+    "Images/waterelemental.png",
+    "Images/seahag.png",
+    "Images/gianttoad.png",
+    "Seaside Monsters.md",
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "The Salt Marsh/North from Brinehaven.md",
+    "Brayzor Retrieval Quest.md",
+    "Forest travel/Forest Randoms.md",
+    "Sheriff Drenvar.md",
+    "Forest Cave/Forest Cave.md",
+    "Current state of things (Sunday).md",
     "Images/Brinehaven village.jpg",
     "Party members/Ranzen/Ranzan2.jpg",
     "Party members/Ranzen/Ranzan1.jpg",
@@ -246,7 +257,6 @@
     "NPC's of Brinehaven/Tabaxi Stalkers.md",
     "NPC's of Brinehaven/Lirien Thaloryn.md",
     "The Brinehaven Hearth.md",
-    "Forest Cave/Forest Cave.md",
     "Music/The Aurors Bounty.md",
     "NPC's of Brinehaven/Calen Shorewhistle.md",
     "SoundEffects/ambient-pub-6696.mp3",
@@ -260,24 +270,12 @@
     "Erestbor-Day-Gridd[city, map, rpgmap, rpgcity, fantasymap, dndmap, rpgmaps, fantasymaps, dndmaps, dnd].jpg.~tmp",
     "Party members/Iymril/Iymril Cobiir.md",
     "Images/MapFragmentEngravingClose.png",
-    "The Salt Marsh/Saltmarsh randoms.md",
-    "Forest travel/Forest Randoms.md",
     "Images/SecondMapInscriptionClose.png",
-    "Images/SecondMapInscription.png",
     "Aerdrie Faenya.md",
-    "Images/Pasted image 20251015200216.png",
-    "The Salt Marsh/North from Brinehaven.md",
     "The Salt Marsh",
     "Forest travel",
     "Party members/Iymril",
     "Party members/Ranzan",
-    "Woodcock Stables.md",
-    "Party members/Maria/Maria.md",
-    "Brayzor Retrieval Quest.md",
-    "Forest Cave/Stirge.png",
-    "Party hears attack at the Docks.md",
-    "The Docks.md",
-    "Forest Cave/Cave Monsters.md",
     "Untitled.canvas"
   ]
 }
