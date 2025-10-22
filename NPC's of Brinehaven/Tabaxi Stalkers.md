@@ -49,7 +49,7 @@ Brinehaven Commoners Smitten with Tabaxi Party Members
 
 Scene at the Hearth 
 
-The Brinehaven Hearth is warm but crowded, the hearthstone’s glow casting playful shadows. Torvyn approaches first, nervously offering his mackerel near the bar, while Harnic lingers by the fire, whistling off-key until Rusty nudges him toward her. Both compete awkwardly, their admiration evident in stutters and exaggerated gestures, drawing laughs from other patrons like Calen Shorewhistle.
+**The Brinehaven Hearth is warm but crowded, the hearthstone’s glow casting playful shadows. A lean young man with sun-bleached hair tied in a messy ponytail approaches, nervously offering a mackerel near the bar, while A broad-shouldered man with a scruffy beard lingers by the fire, whistling off-key until his dog nudges him toward the Tabaxi. Both compete awkwardly, their admiration evident in stutters and exaggerated gestures, drawing laughs from other patrons..**
 
 - Dialogue Exchange Example:  
     Torvyn: “Uh, miss Tabaxi, this fish is yours—freshest in the sea! Better than that lumbering oaf’s wood, eh?”  
@@ -64,15 +64,17 @@ Campaign Integration
 - Carival and Smugglers: The commoners’ rivalry could draw Kael’s attention if the Tabaxi gains favor, adding a minor threat.
 - Levity: Their clumsy courtship contrasts the campaign’s darker tones, fitting Brinehaven’s community spirit.
 
-Quest Details
+> [!WARNING]
+> Quest Details
+> 
+> - [[Torvyn's quest]]
+> - [[Poacher camp]]
+> - Reward: Gold plus the commoners’ adoration (e.g., free fish or wood), 100 XP each for completion.
 
-- Torvyn’s Net Quest: 10 gp, 1 giant crab (CR 1/8, 50 XP), 0.5 miles north of the docks.
-- Harnic’s Tree Quest: 15 gp, 1 boar (CR 1/4, 100 XP), 1 mile north toward the cave.
-- Reward: Gold plus the commoners’ adoration (e.g., free fish or wood), 100 XP each for completion.
-
-DM Notes
-
-- Level Range: Quests suit Level 2-3 (CR 1/8-1/4, 50-100 XP). Scale with 1 Wolf (CR 1/4) for Level 4.
-- Pacing: The encounter fits 08:39 PM - 09:00 PM MDT, with quests extending to the next day.
-- Humor: Encourage the Tabaxi to play along (e.g., purring or teasing), rewarding creativity with inspiration.
-- Scaling: Adjust foes or gold (5-10 gp) based on party size (4-6).
+> [!NOTE]
+> DM Notes
+> 
+> - Level Range: Quests suit Level 2-3 (CR 1/8-1/4, 50-100 XP). Scale with 1 Wolf (CR 1/4) for Level 4.
+> - Pacing: The encounter fits with quests extending to the next day.
+> - Humor: Encourage the Tabaxi to play along (e.g., purring or teasing), rewarding creativity with inspiration.
+> - Scaling: Adjust foes or gold (5-10 gp) based on party size (4-6).
