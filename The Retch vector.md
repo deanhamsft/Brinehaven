@@ -35,7 +35,7 @@ Role in Brinehaven
 
 - Base: Retch operates from his shack near the Stormwatch Point lighthouse (as previously detailed), now a hub for his secret plans. He visits Brinehaven sporadically, using Drenvar’s protection to avoid suspicion.
 - Smuggling Ring: Retch is the true customer, paying Drenvar and Jorin 100 gp per shipment of the black tarry liquid, extracted from salt marsh algae. He plans to use it in a ritual to weaken the Auror’s Bounty’s ward, intending to seize the wreck solo.
-- Current Focus: At 08:57 PM MDT, Retch is in his shack, studying the reagent vials under candlelight, unaware the party’s conflict with smugglers in the salt marshes has disrupted his supply.
+- Current Focus: Retch is in his shack, studying the reagent vials under candlelight, unaware the party’s conflict with smugglers in the salt marshes has disrupted his supply.
 
 The Black Tarry Reagent
 
