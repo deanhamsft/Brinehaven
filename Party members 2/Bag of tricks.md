@@ -3,7 +3,7 @@
 | d8  | Creature                                                              |
 | --- | --------------------------------------------------------------------- |
 | 1   | [Jackal](https://www.dndbeyond.com/monsters/16936-jackal)             |
-| 2   | Racoon                                                                |
+| 2   | [[Giant Racoon]]                                                      |
 | 3   | [Baboon](https://www.dndbeyond.com/monsters/16795-baboon)             |
 | 4   | [Axe beak](https://www.dndbeyond.com/monsters/16793-axe-beak)         |
 | 5   | [Black bear](https://www.dndbeyond.com/monsters/16806-black-bear)     |
