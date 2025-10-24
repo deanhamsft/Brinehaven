@@ -4,45 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "243201c7dc404b8c",
+        "id": "8e86d350b0ea4a7a",
         "type": "tabs",
         "children": [
           {
-            "id": "d1edfe8d6659486e",
+            "id": "1cca235da198b083",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven/Introduction.md",
-                "mode": "preview",
+                "file": "Brinehaven/The Brinehaven whisperers.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "The Brinehaven whisperers"
             }
           }
         ]
       },
       {
-        "id": "fc93d1cb286bb52b",
+        "id": "56cf9116026385c7",
         "type": "tabs",
         "children": [
           {
-            "id": "92f0e3385f4bf0e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Party members 2/Bag of tricks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bag of tricks"
-            }
-          },
-          {
-            "id": "1d46f78e43b35142",
+            "id": "c7d1c822a26ea2be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +41,7 @@
               "title": "The Brinehaven Hearth"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,53 +200,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d46f78e43b35142",
+  "active": "aec31d53985d91a3",
   "lastOpenFiles": [
-    "Music/The Auror's Bounty.mp3",
-    "Brinehaven/Introduction.md",
-    "The Salt Marsh/North from Brinehaven.md",
-    "Giant Racoon.md",
     "Party members 2/Bag of tricks.md",
     "Party members 2",
-    "The gnome village.md",
-    "conflict-files-obsidian-git.md",
-    "NPC's of Brinehaven/Sheriff Drenvar.md",
-    "Fairy Glen.md",
-    "Brinehaven/Woodcock Stables.md",
-    "Brinehaven/Torvyn's quest.md",
-    "Brinehaven/The Rune Stones.md",
-    "Brinehaven/The Hearthstone Secret.md",
-    "Brinehaven/The Docks.md",
-    "Brinehaven/The Brinehaven whisperers.md",
-    "Brinehaven/The Brinehaven Hearth.md",
-    "Brinehaven/The Adventure begins.md",
-    "Brinehaven/Party hears attack at the Docks.md",
-    "Brinehaven/Catnip.md",
-    "Brinehaven/Brinehaven Shops.md",
-    "Brinehaven/Brayzor Retrieval Quest.md",
-    "Brinehaven",
-    "The Salt Marsh/The Sea Hag lair.md",
+    "Giant Racoon.md",
+    "NPC's of Brinehaven/Ysmeine Tidecarver.md",
+    "NPC's of Brinehaven/Tabaxi Stalkers.md",
     "The Salt Marsh/Sea Hag monsters.md",
+    "Brinehaven/The Brinehaven Hearth.md",
+    "NPC's of Brinehaven/Lirien Thaloryn.md",
+    "Brinehaven/The Adventure begins.md",
+    "Brinehaven/Introduction.md",
+    "Fairy Glen.md",
+    "Brinehaven",
+    "Brinehaven/Brinehaven Shops.md",
     "The Retch vector.md",
-    "The Brinehaven whisperers.md",
+    "Brinehaven/The Brinehaven whisperers.md",
+    "Music/The Aurors Bounty.md",
+    "Brinehaven/Torvyn's quest.md",
     "Poacher camp.md",
+    "Brinehaven/Catnip.md",
+    "Brinehaven/Woodcock Stables.md",
+    "The Salt Marsh/The Sea Hag lair.md",
     "Images/waterelemental.png",
     "Images/seahag.png",
     "Images/gianttoad.png",
-    "Forest Cave/Giant Spider.png",
-    "Forest Cave/Shadow.png",
-    "Images/MapFragmentEngraving.png",
-    "Images/Pasted image 20251007105111.png",
-    "Images/Pasted image 20251015200216.png",
+    "Seaside Monsters.md",
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "The Salt Marsh/North from Brinehaven.md",
+    "Brinehaven/Brayzor Retrieval Quest.md",
+    "Forest travel/Forest Randoms.md",
+    "NPC's of Brinehaven/Sheriff Drenvar.md",
+    "Forest Cave/Forest Cave.md",
     "Images/Brinehaven village.jpg",
-    "Images/AreaMap.png",
-    "SoundEffects/WelcomeTO.mp3",
-    "SoundEffects/ambient-pub-6696.mp3",
-    "The Salt Marsh",
-    "Party members/Thalia/Thalia.stl",
-    "Party members/Thalia",
+    "Party members/Ranzen/Ranzan2.jpg",
+    "Party members/Ranzen/Ranzan1.jpg",
     "Party members/Ranzen",
-    "Party members/Maria/Maria.stl",
+    "Images/AreaMap.png",
+    "SoundEffects/ambient-pub-6696.mp3",
+    "SoundEffects/rainy-day-in-town-with-birds-singing-194011.mp3",
+    "SoundEffects/WelcomeTO.mp3",
+    "Images/brinehaven.png",
+    "Erestbor-Day-Gridd[city, map, rpgmap, rpgcity, fantasymap, dndmap, rpgmaps, fantasymaps, dndmaps, dnd].jpg~RFda15643.TMP",
+    "Erestbor-Day-Gridd[city, map, rpgmap, rpgcity, fantasymap, dndmap, rpgmaps, fantasymaps, dndmaps, dnd].jpg.~tmp",
+    "Images/MapFragmentEngravingClose.png",
+    "Images/SecondMapInscriptionClose.png",
+    "The Salt Marsh",
+    "Forest travel",
     "Untitled.canvas"
   ]
 }
