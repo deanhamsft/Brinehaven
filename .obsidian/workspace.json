@@ -4,24 +4,90 @@
     "type": "split",
     "children": [
       {
-        "id": "56cf9116026385c7",
+        "id": "243201c7dc404b8c",
         "type": "tabs",
+        "dimension": 50.22692889561271,
         "children": [
           {
-            "id": "c7d1c822a26ea2be",
+            "id": "1734d6f84a3b8f3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brinehaven/Brinehaven Shops.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Brinehaven Shops"
+            }
+          },
+          {
+            "id": "f0dc5e3445d1533f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Wreck of the Auror's Bounty.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Wreck of the Auror's Bounty"
+            }
+          },
+          {
+            "id": "74f6a0907ada0863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Where they're at Party 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Where they're at Party 2"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "fc93d1cb286bb52b",
+        "type": "tabs",
+        "dimension": 49.77307110438729,
+        "children": [
+          {
+            "id": "1d46f78e43b35142",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Brinehaven/The Brinehaven Hearth.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "The Brinehaven Hearth"
             }
+          },
+          {
+            "id": "f4ab1f80e65e6845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Forest Cave/Cave Monsters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cave Monsters"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,53 +246,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c7d1c822a26ea2be",
+  "active": "74f6a0907ada0863",
   "lastOpenFiles": [
+    "The Wreck of the Auror's Bounty.md",
+    "Where they're at Party 2.md",
+    "Forest Cave/Forest Cave.md",
+    "Forest Cave/Cave Monsters.md",
+    "Brinehaven/Brinehaven Shops.md",
+    "Brinehaven/The Brinehaven whisperers.md",
+    "NPC's of Brinehaven/Lirien Thaloryn.md",
+    "Brinehaven/Woodcock Stables.md",
+    "Forest travel/Forest Randoms.md",
+    "Aerdrie Faenya.md",
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "The Salt Marsh/North from Brinehaven.md",
+    "Brinehaven/The Brinehaven Hearth.md",
+    "Brinehaven/The Hearthstone Secret.md",
     "Brinehaven/The Adventure begins.md",
+    "stuff.md",
     "Brinehaven/Introduction.md",
+    "Party members 2/Tobin/tobin2.jpg",
+    "Party members 2/Tobin/Tobin.jpg",
     "Party members 2/Tobin/Tobin (Mardy).md",
     "Party members 2/Tobin/Bag of tricks.md",
-    "Party members 2/Mazikeen/Mazikeen (Ariel).md",
-    "Party members 2/Mazikeen/AbyssalTiefling.png",
-    "Party members 2/Naomi/Naomi.md",
-    "Party members 2/Mira/Mira (Sarah).md",
-    "Party members 2/Tevia/Tevia.md",
-    "Party members 2/Mira/Mira.jpg",
-    "Brinehaven/The Brinehaven Hearth.md",
-    "Party members 2/Tobin/Tobin.jpg",
     "Party members 2/Tobin",
-    "Party members 2/Mazikeen/Mazikeen.jpg",
-    "Party members 2/Tevia",
-    "Party members 2/Naomi",
-    "Party members 2/Mira",
-    "Party members 2/Mazikeen",
     "Party members 2/Tevia/Tevia2.jpg",
+    "Party members 2/Tevia/Tevia.md",
     "Party members 2/Tevia/Tevia.jpg",
-    "Party members 2/Tobin/tobin2.jpg",
-    "Party members 2/Mazikeen/Mazikeen2.jpg",
+    "Party members 2/Tevia",
     "Party members 2/Naomi/Naomi2.jpg",
+    "Party members 2/Naomi/Naomi.md",
     "Party members 2/Naomi/Naomi.jpg",
-    "Brinehaven/The Brinehaven whisperers.md",
-    "Party members 2",
+    "Party members 2/Naomi",
+    "Party members 2/Mira/mira2.jpg",
+    "Party members 2/Mira/Mira.jpg",
+    "Party members 2/Mira/Mira (Sarah).md",
+    "Party members 2/Mira",
+    "Party members 2/Mazikeen/Mazikeen2.jpg",
+    "Party members 2/Mazikeen/Mazikeen.jpg",
+    "Party members 2/Mazikeen/Mazikeen (Ariel).md",
+    "Party members 2/Mazikeen",
+    "Music/The Auror's Bounty.mp3",
     "Giant Racoon.md",
-    "NPC's of Brinehaven/Ysmeine Tidecarver.md",
-    "NPC's of Brinehaven/Tabaxi Stalkers.md",
-    "The Salt Marsh/Sea Hag monsters.md",
-    "NPC's of Brinehaven/Lirien Thaloryn.md",
-    "Fairy Glen.md",
+    "Party members 2/Bag of tricks.md",
+    "Party members 2",
+    "The gnome village.md",
     "Brinehaven",
-    "Brinehaven/Brinehaven Shops.md",
-    "The Retch vector.md",
-    "Music/The Aurors Bounty.md",
-    "Brinehaven/Torvyn's quest.md",
-    "Poacher camp.md",
-    "Brinehaven/Catnip.md",
-    "Brinehaven/Woodcock Stables.md",
-    "The Salt Marsh/The Sea Hag lair.md",
-    "Seaside Monsters.md",
-    "Party members/Ranzen",
+    "SoundEffects/WelcomeTO.mp3",
     "SoundEffects/ambient-pub-6696.mp3",
-    "SoundEffects/rainy-day-in-town-with-birds-singing-194011.mp3",
     "Untitled.canvas"
   ]
 }

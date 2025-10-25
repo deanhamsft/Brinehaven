@@ -1,0 +1,1 @@
+Stopped after defeating the Crystal Chamber
