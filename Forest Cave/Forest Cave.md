@@ -48,7 +48,7 @@ The cave consists of five chambers, connected by narrow, winding tunnels (5 ft w
 **Chamber 5: Shrine Sanctum**
 
 - Description: **A 30x30 ft chamber with a high ceiling, dominated by a statue of Aerdrie Faenya as a bird-woman. The air hums with faint magic, and a pedestal holds a cracked orb.**
-- Inhabitants: None, but activating the orb summons a Specter (CR 1, Monster Manual p. 279) if the ward isn’t sealed.
+- Inhabitants: None, but touching the orb summons a Specter (CR 1, Monster Manual p. 279) if the ward isn’t sealed.
 - Features: The orb (DC 15 Intelligence (Arcana)) is a Pearl of Power fragment, requiring the chant to unlock (restores 1 spell level, 1/long rest). The statue’s base has a hidden compartment (DC 14 Intelligence (Investigation)) with a Scroll of Lesser Restoration.
 - Challenge: Ritual (DC 15 Charisma (Performance) with flute or song to seal the ward) or combat (200 XP if unsealed). Success ends the specter threat.
 - Loot: Pearl of Power fragment, scroll, 25 gp in offerings.
