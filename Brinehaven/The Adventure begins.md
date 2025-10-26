@@ -15,6 +15,10 @@
 
 **The adventurers feel led to make their way toward the Brinehaven Hearth, drawn by the promise of food, rest, and answers, the village watches with cautious curiosity. Fishermen mending nets pause to glance at the newcomers, while a half-elf child darts into an alley, whispering of “strangers with swords.” The party’s arrival is about to stir the sleepy village, and the tavern will be their first step into the mystery of** "**The Auror’s Bounty.**"
 
+> [!warning]
+> If the party investigates the runestone instead of heading straight to the tavern:
+> Investigation DC10, success the party encounters [[The Brinehaven whisperers]] but set narrative at the runestone instead of the tavern
+
 [[The Brinehaven Hearth]]
 
 
