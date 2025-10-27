@@ -5,7 +5,7 @@
 
 **The Night Turns Dark, the sky outside cloaked in a thick, rolling mist that muffles the distant crash of waves against Brinehaven’s stony coast. The air is heavy with the promise of a storm, and the tavern’s windows rattle faintly in the rising wind.**
 
-**Inside the Brinehaven Hearth, the atmosphere has grown lively as the night deepens. The six adventurers, still strangers bound by the lure of the Auror’s Bounty treasure map, huddle at a corner table, their voices low as they pore over the cryptic parchment fragment and share what they’ve gleaned from the tavern’s patrons.**
+**Inside the Brinehaven Hearth, the atmosphere has grown lively as the night deepens. The adventurers, still strangers bound by the lure of the Auror’s Bounty treasure map, huddle at a corner table, their voices low as they pore over the cryptic parchment fragment and share what they’ve gleaned from the tavern’s patrons.**
 
 **Calen Shorewhistle strums a soft, mournful tune on his lute, weaving tales of lost ships, while Ysmeine Tidecarver’s flute hums a haunting counterpoint. The hearth’s fire casts flickering shadows across the room, where a dozen locals—fishermen, half-elf net-weavers, and young sailors—sip ale and swap stories. Mirra Gale moves between tables, refilling tankards with a warm smile, though her eyes occasionally dart to the windows, uneasy about the gathering storm. Torren, usually a fixture behind the bar, is absent—perhaps in the cellar fetching more ale or checking the tavern’s storm shutters.**
 
