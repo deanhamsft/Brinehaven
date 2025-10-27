@@ -63,8 +63,7 @@
               "title": "Whispering Hollow"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14c1400f208408a1",
+  "active": "c7d1c822a26ea2be",
   "lastOpenFiles": [
-    "Forest travel/Forest Randoms.md",
     "Forest travel/Whispering Hollow.md",
+    "Forest travel/Forest Randoms.md",
     "Forest travel/The Wailing Mariner of Blackreef Cove.md",
     "Brinehaven/The Adventure begins.md",
     "Brinehaven/Introduction.md",
