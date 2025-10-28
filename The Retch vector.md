@@ -7,6 +7,7 @@ Background
 - Race: Half-Elf
 - Age: 38
 - Gender: Male
+- Description: Short for a half-elf, dark and greasy. He wears a patch over his left eye, subject to chronic infections the smell gives him his nickname. 
 - Occupation: Smuggler, Aspiring Warlord
 - History: Retch, born to a human sailor and an elven trader, lost his left eye to a sahuagin raid, earning his nickname from the scar’s stench. Once a scout for Kael Draven’s smuggling ring, he grew tired of serving under others. His ambition shifted to establishing his own fiefdom, using the Auror’s Bounty’s treasure as capital. He learned of the wreck’s cursed pearl and its guardian from elven lore in his mother’s journals, believing the black tarry reagent—sourced from the salt marshes—can weaken the ward and bypass the ghost captain. Retch secretly funds the smuggling ring through Drenvar and Jorin, posing as the shadowy customer, while planning to betray Kael and claim the wreck himself.
 

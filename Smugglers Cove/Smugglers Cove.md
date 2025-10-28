@@ -7,7 +7,9 @@ Smugglers' Camp Description
 
 Location: Nestled in a narrow cove 5 miles north of Brinehaven, the camp is concealed by dense coastal pines and a rocky outcrop that shields it from sea view. The stony beach is littered with driftwood and seaweed, and a shallow cave at the cove’s rear serves as the smugglers’ storage. A rickety dock extends into the water, mooring two small boats for smuggling runs. The camp features a central fire pit, several lean-tos made of salvaged wood and canvas, and a guarded lookout post atop the outcrop. The air carries the scent of saltwater, smoke, and tar, with the distant sound of waves masking their operations.
 
-Population: 25 total (17 men, 8 women), with 12-13 present at any time (randomly determine absences, e.g., roll 1d4+9 for present members). The group is a mix of human and half-elf smugglers, hardened by years of evading coastal patrols and trading contraband, including rumored relics from the Auror’s Bounty.Leadership:
+Population: 25 total (17 men, 8 women), with 12-13 present at any time (randomly determine absences, e.g., roll 1d4+9 for present members). The group is a mix of human and half-elf smugglers, hardened by years of evading coastal patrols and trading contraband.
+
+Leadership:
 
 - Leader (Level 5): Kael "Blackwave" Draven, a cunning rogue with a scarred face and a silver tongue.
 - Lieutenant (Level 4): Veyra "Silent Blade" Tormen, a stealthy fighter who enforces Kael’s orders.

@@ -1,1 +1,0 @@
-![[MapFragmentEngraving.png]]

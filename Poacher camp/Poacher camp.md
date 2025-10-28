@@ -1,3 +1,4 @@
+[[Stalkers]]
 Poacher Camp: Grotfang Hollow
 
 Overview
@@ -80,12 +81,12 @@ Campaign Integration
 - Carival and Smugglers: Retch’s involvement clashes with Kael’s crew, hinting at a power struggle.
 - Quest Giver: Harnic “Whistle” Tormen or Drenvar (if uncorrupted) might hire the party to stop the orcs.
 
-[[Tabaxi Stalkers]]
+[[NPC's of Brinehaven/Stalkers]]
 Interaction and Quest
 
 - Quest Offer (Harnic):  
     Harnic: (whistling nervously, axe in hand)  
-    "Oi, Tabaxi beauty! Them orc brutes are slaughterin’ Silverthorns 10 miles west—ruinin’ my hills! Help me drive ‘em off, and I’ll pay 40 gold. Maybe carve you a stag whistle too?"
+    "Oi, beauty! Them orc brutes are slaughterin’ Silverthorns 10 miles west—ruinin’ my hills! Help me drive ‘em off, and I’ll pay 40 gold. Maybe carve you a stag whistle too?"
 - Reward: 40 gp, whistle (5 gp, +1 to Performance), 250 XP.
 - Moral Choice: Save the stags (village favor) or harvest antlers (80 gp, ward penalty).
 
@@ -94,5 +95,5 @@ Interaction and Quest
 > 
 > - XP Total: ~950 XP (orcs 100x2, wolf 200, orcs 100x2, chief 450, orc 50), split ~190 XP per player, ideal for Level 2-3.
 > - Scaling: For Level 2, reduce to 1 orc per area. For Level 4, add 1 Ogre (CR 2) as a scout.
-> - Time: The 2-3 hour explore fits 6:00 AM - 9:00 AM MDT, with dawn travel.
+> - Time: 2-3 hour explore.
 > - Treasure: 120 gp and items support Level 2-3 progression, with lore as a bonus.

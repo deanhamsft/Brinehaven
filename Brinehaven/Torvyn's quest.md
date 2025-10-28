@@ -1,9 +1,11 @@
-Torvyn’s Quest: 
+[[Stalkers]]
 The Lost Fishing Spot
 
 Quest Background
 
-Torvyn "Fishhook" Marren, the awkward young fisherman smitten with a female Tabaxi party member, has a personal stake in this quest. Recently, he discovered an unusually rich fishing spot 5 miles north of Brinehaven, near a secluded cove, where he caught an abundance of silverfin—a prized local fish. However, a sudden storm (the one from October 08) scattered his gear, and he’s too shy to retrieve it alone, especially after spotting “strange figures” lurking nearby. Unbeknownst to him, this cove is the smugglers' camp, and his gear lies near their hidden storage cave. The party’s discreet investigation will lead them to the camp’s location without triggering an alarm, offering a strategic advantage.Quest Details
+Torvyn "Fishhook" Marren, the awkward young fisherman smitten with a party member, has a personal stake in this quest. Recently, he discovered an unusually rich fishing spot 5 miles north of Brinehaven, near a secluded cove, where he caught an abundance of silverfin—a prized local fish. However, a sudden storm scattered his gear, and he’s reluctant to retrieve it alone, especially after spotting “strange figures” lurking nearby. Unbeknownst to him, this cove is the smugglers' camp, and his gear lies near their hidden storage cave. The party’s discreet investigation will lead them to the camp’s location without triggering an alarm, offering a strategic advantage.
+
+Quest Details
 
 - Objective: Retrieve Torvyn’s lost fishing net and tackle box from the cove, 5 miles north, without drawing attention to the area.
 - Travel: A 5-mile trek takes 2-3 hours on foot (DC 12 Constitution save or 1 level of exhaustion), or 1-2 hours on horseback from Woodcock Stables (40 gp rental). The storm’s muddy paths add difficulty (disadvantage on Dexterity (Stealth) unless cautious).
@@ -12,10 +14,9 @@ Torvyn "Fishhook" Marren, the awkward young fisherman smitten with a female Taba
     - Search: DC 13 Wisdom (Perception) to find the net (half cover) and tackle box (hidden under a rock) near the cave entrance.
     - Hazard: A slippery ledge (DC 12 Dexterity (Acrobatics) or 1d6 bludgeoning from a 10-ft fall into mud).
 - Reward: 20 gp, a silverfin fillet (restores 2d4+2 hp, 1 use), and Torvyn’s undying admiration (free fish weekly for a month). 150 XP for completion.
-- Discovery: The tackle box contains a smuggler’s tally sheet (DC 15 Intelligence (Investigation)) listing Kael’s crew and tribute to the sahuagin, revealing the camp’s location without raising suspicion.
 
 Dialogue: Torvyn’s Pitch
-Scene Setup: The Brinehaven Hearth is warm, the hearthstone’s glow casting playful shadows as rain drums outside. Torvyn lingers near the bar, nervously clutching a squished mackerel, his eyes darting to the Tabaxi party member. He gathers courage, approaching with a flush and a stammer.
+Scene Setup: The Brinehaven Hearth is warm, the hearthstone’s glow casting playful shadows as rain drums outside. Torvyn lingers near the bar, nervously clutching a silverfin, his eyes darting to the Tabaxi party member. He gathers courage, approaching with a flush and a stammer.
 
 Torvyn:  
 **(shuffling his feet, holding out the silverfin)**  
@@ -28,7 +29,7 @@ Torvyn:
 > - If the Party Agrees (Persuasion DC 12 Success or Interest):  
 >     Torvyn:  
 >     (beaming, nearly dropping the fish)  
->     "Oh, thank you! You’re a marvel! Meet me here at dawn—7 AM tomorrow—and I’ll mark the spot on a map. Five miles north, past the pines. Be sneaky, though—those figures spooked me. Here’s the fillet to start!"
+>     "Oh, thank you! You’re a marvel! I’ll mark the spot on a map. Five miles north, past the pines. Be sneaky, though—those figures spooked me. Here’s the fillet to start!"
 > - If the Party Hesitates (Neutral or Failed Persuasion):  
 >     Torvyn:  
 >     (fidgeting, then brightening)  
@@ -36,15 +37,16 @@ Torvyn:
 > - If the Party Refuses (Intimidation or Rejection):  
 >     Torvyn:  
 >     (deflating, clutching the mackerel)  
->     "Oh… alright, I won’t push. But if you change your mind, the offer’s there. I just… really need that net back. Safe travels!"
+>     "Oh… alright, I won’t push. But if you change your mind, the offer’s there. I just… really need that tackle back. Safe travels!"
 
-(He retreats to the bar, casting hopeful glances, leaving the door open for later persuasion.)Roleplay Enhancements
+**He retreats to the bar, casting hopeful glances**
 
-- Quirks: Torvyn stammers more around the Tabaxi, fidgets with his necklace, and blushes when complimented. His mackerel flops comically if mishandled.
+Roleplay Enhancements
+
+- Quirks: Torvyn stammers more around the Tabaxi, fidgets with his necklace, and blushes when complimented.
 - Props: He offers a crude map sketch (5 miles north, cove marked), the fillet (wrapped in seaweed), and the fishhook if needed.
 - Ties to Campaign:
     - The cove’s “odd folk” are smugglers, leading to Kael’s camp without alerting them.
-    - The tally sheet connects to Carival’s deal with the sahuagin priestess.
     - Torvyn’s boat ties to the wreck dive, offering future aid.
 
 Campaign Integration
