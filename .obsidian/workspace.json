@@ -13,57 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forest travel/Forest Randoms.md",
+                "file": "Current state of things (Sunday).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forest Randoms"
-            }
-          },
-          {
-            "id": "2521d1519edacde2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Forest travel/The Wailing Mariner of Blackreef Cove.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Wailing Mariner of Blackreef Cove"
-            }
-          },
-          {
-            "id": "a22cf8ac55f3bc70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brinehaven/The Adventure begins.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Adventure begins"
+              "title": "Current state of things (Sunday)"
             }
           },
           {
             "id": "14c1400f208408a1",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Dwarven Mine/Entrance Cavern.webp"
+              },
+              "icon": "lucide-image",
+              "title": "Entrance Cavern"
+            }
+          },
+          {
+            "id": "61bf3fdba1841829",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Forest travel/Whispering Hollow.md",
+                "file": "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Whispering Hollow"
+              "title": "Khazad-Durak - The Abandoned Dwarven Mine"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,13 +207,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c557d3eb64c4b05",
-  "active": "c7d1c822a26ea2be",
+  "active": "61bf3fdba1841829",
   "lastOpenFiles": [
-    "Forest travel/Whispering Hollow.md",
-    "Forest travel/Forest Randoms.md",
-    "Forest travel/The Wailing Mariner of Blackreef Cove.md",
+    "Dwarven Mine/CollapsedTunnel.webp",
+    "Dwarven Mine/Dwarven mines (78)_grid.webp",
+    "Dwarven Mine/Deep Vault.webp",
+    "Dwarven Mine/Dwarven mines (45)_grid.webp",
+    "Dwarven Mine/Entrance.webp",
+    "Dwarven Mine/Dwarven mines (86).webp",
+    "Dwarven Mine/Entrance Cavern.webp",
+    "Dwarven Mine/Dwarven mines (26).webp",
+    "Dwarven Mine/Dwarven mines (48).webp",
+    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
+    "Images/Xorn.png",
+    "Images/Black Pudding.png",
+    "Forest Cave/Cave Monsters.md",
+    "Forest travel/Sunken Shrine of Lysara.md",
+    "Dwarven Mine",
+    "Current state of things (Sunday).md",
     "Notes for stuff.md",
+    "Forest travel/Whispering Hollow.md",
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "Forest travel/Forest Randoms.md",
+    "The Wreck of the Auror's Bounty.md",
+    "Forest travel/The Wailing Mariner of Blackreef Cove.md",
     "stuff.md",
     "Brinehaven/Catnip.md",
     "NPC's of Brinehaven/Ysmeine Tidecarver.md",
@@ -239,41 +241,20 @@
     "Seaside Monsters.md",
     "SoundEffects/scary-woman-scream-ultra-realistic-379378.mp3",
     "Music/The Aurors Bounty.md",
-    "Current state of things (Sunday).md",
     "NPC's of Brinehaven/deputies.md",
     "Brinehaven/Brinehaven Shops.md",
     "NPC's of Brinehaven/Lysa Emberglow.md",
     "Brinehaven/The Adventure begins.md",
-    "The Salt Marsh/Saltmarsh randoms.md",
     "NPC's of Brinehaven/Sheriff Drenvar.md",
     "NPC's of Brinehaven/Retch.md",
-    "Forest travel/The Crimson Pact, Demonic Cult in the Woods.md",
-    "NPC's of Brinehaven/Lirien Thaloryn.md",
-    "Forest travel/The Wailing Mariner of Blackreef Cove.md",
-    "Forest travel/Whispering Hollow.md",
-    "Forest travel/Forest Randoms.md",
-    "NPC's of Brinehaven/Calen Shorewhistle.md",
-    "The Wreck of the Auror's Bounty.md",
-    "Forest Cave/Forest Cave.md",
-    "Images/Brinehaven village.jpg",
-    "Party members 2/Tobin/tobin2.jpg",
-    "Party members 2/Tobin/Tobin.jpg",
     "Party members 2/Tobin",
-    "Party members 2/Tevia/Tevia2.jpg",
-    "Party members 2/Tevia/Tevia.jpg",
     "Party members 2/Tevia",
-    "Party members 2/Naomi/Naomi2.jpg",
-    "Party members 2/Naomi/Naomi.jpg",
     "Party members 2/Naomi",
-    "Party members 2/Mira/mira2.jpg",
-    "Party members 2/Mira/Mira.jpg",
     "Party members 2/Mira",
-    "Party members 2/Mazikeen/Mazikeen2.jpg",
     "Party members 2/Mazikeen",
     "Music/The Auror's Bounty.mp3",
     "Party members 2",
     "Brinehaven",
-    "SoundEffects/WelcomeTO.mp3",
     "Untitled.canvas"
   ]
 }
