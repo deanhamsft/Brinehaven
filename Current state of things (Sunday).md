@@ -11,7 +11,8 @@ Retch is set up as the unknown customer of the reagents, because he is trying to
 
 They saved a Dryad and now have a woodland ally 
 The party now knows that there is a figure wearing an eye patch in communication with the Sheriff.
-The party stole all of the sheriff's money. Roll for discovery
+The party stole all of the sheriff's money. Roll for discovery, could actually be a couple of days before he opens his safe.
+
 The party has hints about the demonic cult.
 
 

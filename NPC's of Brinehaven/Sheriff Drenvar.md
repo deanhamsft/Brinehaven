@@ -32,7 +32,7 @@ Abilities (Level 3 Fighter)
 
 Role in Brinehaven
 
-- Base: The Sheriff’s Office, a stone hut near the docks with a cell, desk, and weapon rack. The ledger is concealed in a false bottom under the desk.
+- Base: The Sheriff’s Office, a stone hut down the lane from the tavern, with a cell, an office (desk and safe inside), main desk, and weapon rack. A ledger is concealed in a false bottom under the desk.
 - Authority: Drenvar commands 4 guards (use Guard stats, CR 1/8), some complicit in the ring. He reports to the elders but manipulates them with false reports.
 - Drenvar also has three Thugs as hired henchmen for work off the books
 
@@ -44,10 +44,8 @@ Smuggling Ring Details
 
 Campaign Integration
 
-- The Auror’s Bounty: The reagents may amplify the pearl’s curse, explaining sahuagin aggression. Exposing Drenvar could disrupt Carival’s scheme.
-- Rune Connection: Drenvar’s ledger mentions a “rune shipment,” tying to the markers and ward, suggesting smuggler interference.
 - Hearthstone’s Secret: He guards the Hearth to monitor ritual attempts, fearing exposure if the ward reveals his corruption.
-- Carival and Smugglers: Drenvar’s alliance with Jorin and Kael makes him a key link to Carival, while the tally sheet from Torvyn’s quest could incriminate him.
+- Carival and Smugglers: Drenvar’s alliance with Jorin and Retch makes him a key link to Kael, while the tally sheet from the Smugglers cove could incriminate him.
 - Sahuagin Threat: The priestess may demand reagents, complicating Drenvar’s loyalty.
 
 Interaction with the Party
@@ -57,14 +55,14 @@ Interaction with the Party
     - Persuasion (DC 14 Charisma): Convince him of their aid. Success gains a false lead (e.g., “Check the south cliffs”); failure raises suspicion.
     - Intimidation (DC 16 Charisma): Threaten exposure. Success forces a bribe (50 gp); failure triggers Action Surge and guards.
     - Insight (DC 15 Wisdom): Detect his nervousness. Success hints at the ledger; failure needs evidence.
-- Quest Offer: Drenvar asks the party to “patrol” 3 miles north for “bandits” (25 gp, DC 14 Wisdom (Perception), 1 sahuagin scout if failed), a cover to protect the smuggling route.
+- Quest Offer: Drenvar asks the party to “patrol” 3 miles south for “bandits” (25 gp, DC 14 Wisdom (Perception), 1 sahuagin scout if failed), a cover to protect the smuggling route.
 - Combat: If cornered, Drenvar uses Action Surge (2 trident attacks, 2d6+4 total), retreating if below 10 HP. His 24 HP suits a Level 2-3 fight.
 
 Quest: False Patrol
 
-- Location: 3 miles north, near the smugglers’ cove (unbeknownst to the party).
+- Location: 3 miles south.
 - Description: Scout for “bandits,” avoiding detection.
-- Challenge: DC 14 Wisdom (Perception) spots sahuagin tracks (leads to the cove), DC 13 Dexterity (Stealth) to avoid 1 smuggler sentry (Level 1 Rogue). Success reveals the ledger’s hint; failure alerts Drenvar.
+- Challenge: DC 14 Wisdom (Perception) spots sahuagin tracks (leads to a cove), DC 13 Dexterity (Stealth) to avoid 1 smuggler sentry (Level 1 Rogue). Success reveals the ledger’s hint; failure alerts Drenvar.
 - Reward: 25 gp, but finding the ledger (DC 15 Intelligence (Investigation)) exposes the ring.
 
 Dialogue Example
