@@ -17,4 +17,4 @@ The party has hints about the demonic cult.
 
 
 The session ended right after the party saved Lira, and discovered that Ysmeine's flute is linked melodically with the elven runes, including the ones hidden on the knife.
-The party must have the knife plus one other component for the ward spell at the runestones to work.
+The party must have the knife plus a belt from the abandoned Dwarven mine for the ward spell at the runestones to work.

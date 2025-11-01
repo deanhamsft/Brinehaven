@@ -4,7 +4,7 @@
 
 **Tinkertwist Hollow**
 
-**Nestled in a verdant valley surrounded by whimsical, mushroom-shaped rock formations, Tinkertwist Hollow is a chaotic sprawl of colorful, crooked gnome-sized houses (5-6 ft tall) made from wood, stone, and salvaged metal. Smoke curls from chimneys rigged with whirring gadgets, and the air hums with the clatter of tinkering. A babbling brook, dubbed the “Giggle Stream,” winds through the center, powering a series of absurd waterwheel contraptions.**
+**Nestled in a verdant valley surrounded by whimsical, mushroom-shaped rock formations, Tinkertwist Hollow is a chaotic sprawl of colorful, crooked gnome-sized houses (5-6 ft tall) made from wood, stone, and salvaged metal. Smoke curls from chimneys rigged with whirring gadgets, and the air hums with the clatter of tinkering. 
 
 **The village thrives on humor, invention, and communal feasts. Every resident is an amateur tinkerer, creating gadgets that often malfunction hilariously. The annual “Great Gnomish Gaffe Festival” (held in two weeks, October 26, 2025) celebrates their funniest failures with a parade of broken inventions.**
 

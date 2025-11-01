@@ -78,3 +78,4 @@ Campaign Integration
 > - Pacing: The encounter fits with quests extending to the next day.
 > - Humor: Encourage the Tabaxi to play along (e.g., purring or teasing), rewarding creativity with inspiration.
 > - Scaling: Adjust foes or gold (5-10 gp) based on party size (4-6).
+> - Torvyn is a weredoodle, if the party keeps him at the tavern too late, he changes and becomes the most annoying doodle-man in history.
