@@ -6,7 +6,7 @@
 
 **Nestled in a verdant valley surrounded by whimsical, mushroom-shaped rock formations, Tinkertwist Hollow is a chaotic sprawl of colorful, crooked gnome-sized houses (5-6 ft tall) made from wood, stone, and salvaged metal. Smoke curls from chimneys rigged with whirring gadgets, and the air hums with the clatter of tinkering. 
 
-**The village thrives on humor, invention, and communal feasts. Every resident is an amateur tinkerer, creating gadgets that often malfunction hilariously. The annual “Great Gnomish Gaffe Festival” (held in two weeks, October 26, 2025) celebrates their funniest failures with a parade of broken inventions.**
+**The village thrives on humor, invention, and communal feasts. Every resident is an amateur tinkerer, creating gadgets that often malfunction hilariously. The annual “Great Gnomish Gaffe Festival” (held in two weeks) celebrates their funniest failures with a parade of broken inventions.**
 
 location:
 - Distance: three days’ ride northwest of Brinehaven (approximately 90 miles, assuming 30 miles per day on horseback), through dense forests and rolling hills.
@@ -34,7 +34,10 @@ Key Inhabitants
 Village Features
 
 - The Tinkery: A chaotic workshop where gnomes build gadgets. A malfunctioning clockwork bird (DC 12 Intelligence (Investigation)) offers a riddle for a Potion of Healing.
-- The Boom store: A shop specializing in the construction and sale of various primitive firearms. Located some 200 yards from the nearest other building. Mayor Pipkin Gearwhistle is the proprietor.
+	- **_Clockwork Toy**._ This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+	- **_Fire Starter**._ The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
+	- **_Music Box**._ When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.
+- The Boom store: A shop specializing in the construction and sale of various primitive firearms. Located across the river, some 200 yards from the nearest other building. Mayor Pipkin Gearwhistle is the proprietor.
 - Giggle Stream Bridge: A wobbly rope bridge (DC 10 Dexterity (Acrobatics) or fall into 5 ft of water, 1d4 bludgeoning). Talking frogs (CR 0) demand a joke to cross safely.
 - Gaffe Festival Stage: Under construction, with a giant mechanical duck that squawks off-key (DC 13 Strength check to fix, 10 gp reward).
 
