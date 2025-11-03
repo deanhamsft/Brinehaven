@@ -32,7 +32,6 @@ The camp consists of six areas, connected by rocky trails and dense underbrush. 
 
 - Description: **A smoky pit with a fire and racks of curing hides, reeking of blood. Orcs work with crude tools.**
 - Inhabitants: 2 Orc (CR 1/2 each), skinning stags with cleavers.
-- Features: A grease-slicked floor (difficult terrain, DC 12 Dexterity (Acrobatics) or fall prone).
 - Challenge: Combat (100 XP total) or Intimidation (DC 14 Charisma to scare off). Cleaver attacks (1d6+3 slashing) are messy.
 - Loot: 20 gp, 1 stag hide (30 gp).
 

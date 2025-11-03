@@ -13,7 +13,7 @@ The Three Coastal Stone Markers
 	- Description: **A 5-foot-tall weathered stone pillar, etched with faded elven runes that pulse faintly after last night’s lightning. Seaweed clings to its base, and pebbles are scattered around it.**
 	- Activation: The performance check deciphers the runes, revealing a partial phrase: ==“The tide guards the first key.”== If successful, the marker glows, and Ysmeine’s flute hums, pointing north along the coast. Failure (by 5 or more) causes a minor shock (1d6 lightning damage, DC 12 Dexterity save for half).
 
-2. Blackreef Cove Marker
+2. Cove Marker
 
 	- Location: 2 miles north of Brinehaven, in a jagged inlet known as Blackreef Cove, surrounded by cliffs and jagged rocks.
 	- Description: **A the foot of a seaside cliff a 6-foot-tall marker half-buried in the sand, its runes weathered but legible. The cove’s waters are turbulent, with driftwood and seaweed strewn about. A faint hum emanates from the stone, audible to those within 10 feet.**
