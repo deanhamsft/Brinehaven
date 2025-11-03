@@ -9,6 +9,7 @@
     - Driftwood carvings (20-50 sp)
     - Seashell jewelry (70sp-5 gp)
     - Rusted trinkets (10sp-1gp, DC 14 Intelligence (Investigation) for a tarnished silver ring with a garnet worth 5 gp)
+    - A rusted Dwarven helm, hinting at the Dwarven mines. Elda will elaborate if asked.
 - Services: Trades salvaged goods for fish or coin, offers rumors (DC 12 Charisma (Persuasion) for a hint about Blackreef Cove lights).
 
 **The Netweaver’s Loom**
