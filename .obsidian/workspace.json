@@ -11,63 +11,17 @@
             "id": "44a568a06f86cd46",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
               "type": "markdown",
               "state": {
-                "file": "Forest travel/Forest Randoms.md",
+                "file": "Party members/Ranzen/Ranzan Eilsar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forest Randoms"
-            }
-          },
-          {
-            "id": "59e36f20202175d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brinehaven/Brinehaven Shops.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Brinehaven Shops"
-            }
-          },
-          {
-            "id": "b5dd6b7bd0638c3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Current state of things (Sunday).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Current state of things (Sunday)"
-            }
-          },
-          {
-            "id": "5f197ae9eb0b9cd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Forest travel/Forest Randoms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "New tab"
-              "title": "Forest Randoms"
+              "title": "Ranzan Eilsar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,55 +180,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "905958ab299dcac8",
-  "active": "b5dd6b7bd0638c3f",
+  "active": "44a568a06f86cd46",
   "lastOpenFiles": [
-    "Party members/Ranzen/Ranzan Eilsar.md",
-    "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Current state of things (Sunday).md",
-    "NPC's of Brinehaven/Ysmeine Tidecarver.md",
-    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
-    "Brinehaven/Brinehaven Shops.md",
-    "Poacher camp/Poacher camp.md",
-    "Images/Skinning pit.jpg",
-    "Images/Skinning pit-backup-2025-11-02T23_56_19.915Z.ink",
-    "Images/Orc Poachers.jpg",
-    "Party members/Iymril/Iymril Cobiir.md",
-    "Brinehaven/The Rune Stones.md",
-    "Forest travel/Forest Randoms.md",
-    "NPC's of Brinehaven/deputies.md",
-    "Smugglers Cove/Smugglers Cove.md",
-    "Brinehaven/The Retch vector.md",
-    "Carival Stanislain.md",
-    "Tinkertwist Hollow/The gnome village.md",
-    "Images/BrinehavenArea.jpg",
-    "Music/Whispering Winds.mp3",
+    "Images/Cthulhu_Puzzle_Box_Build_instructions.pdf",
+    "Party members/Maria/Maria.md",
     "Images/critical_hit_table_2e.pdf",
-    "Images/GnomeVillage.jpg",
     "Images/Tinkertwist Hollow.jpg",
+    "Images/Skinning pit.jpg",
+    "Images/Orc Poachers.jpg",
+    "Images/BrinehavenArea.jpg",
+    "Tinkertwist Hollow/The gnome village.md",
+    "Music/Whispering Winds.mp3",
+    "Images/Unconfirmed 922982.crdownload",
+    "Images/GnomeVillage.jpg",
     "Tinkertwist Hollow/Blunderbuss.md",
+    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "NPC's of Brinehaven/Stalkers.md",
+    "Current state of things (Sunday).md",
     "SoundEffects/WardAwake.mp3",
+    "Brinehaven/The Retch vector.md",
     "Seaside Monsters.md",
     "Notes for stuff.md",
     "Party members 2/Tobin/Giant Racoon.md",
+    "Carival Stanislain.md",
     "Aerdrie Faenya.md",
+    "Smugglers Cove/Smugglers Cove.md",
     "NPC's of Brinehaven/Deputies.md",
     "NPC's of Brinehaven/Sheriff Drenvar.md",
+    "Poacher camp/Poacher camp.md",
     "Brinehaven/Torvyn's quest.md",
     "Stalkers.md",
     "Dwarven Mine/Entrance Cavern.webp",
+    "Brinehaven/The Rune Stones.md",
     "The Wreck of the Auror's Bounty.md",
     "stuff.md",
     "Tinkertwist Hollow",
     "Smugglers Cove",
     "Poacher camp",
+    "Fairy Glen/Fairy Glen.md",
     "Fairy Glen",
     "Dwarven Mine/CollapsedTunnel.webp",
     "Dwarven Mine/Dwarven mines (78)_grid.webp",
     "Dwarven Mine/Deep Vault.webp",
     "Dwarven Mine/Dwarven mines (45)_grid.webp",
+    "Forest Cave/Cave Monsters.md",
+    "Forest travel/Sunken Shrine of Lysara.md",
     "Dwarven Mine",
+    "Forest travel/Whispering Hollow.md",
     "SoundEffects/scary-woman-scream-ultra-realistic-379378.mp3",
     "Untitled.canvas"
   ]
