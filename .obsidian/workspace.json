@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "899fb5a39a3a4023",
+        "id": "7c713c03f69032fe",
         "type": "tabs",
         "children": [
           {
-            "id": "44a568a06f86cd46",
+            "id": "26def0dc785dfd13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "audio",
               "state": {
-                "file": "Party members/Ranzen/Ranzan Eilsar.md",
-                "mode": "source",
-                "source": false
+                "file": "Music/The Blackreef's Gold.mp3"
               },
-              "icon": "lucide-file",
-              "title": "Ranzan Eilsar"
+              "icon": "lucide-file-audio",
+              "title": "The Blackreef's Gold"
             }
           }
         ]
@@ -180,8 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44a568a06f86cd46",
+  "active": "26def0dc785dfd13",
   "lastOpenFiles": [
+    "Music/The Auror's Bounty.mp3",
+    "Music/Whispering Winds.mp3",
+    "Forest travel/Forest Randoms.md",
+    "Party members/Ranzen/Ranzan Eilsar.md",
     "Images/Cthulhu_Puzzle_Box_Build_instructions.pdf",
     "Party members/Maria/Maria.md",
     "Images/critical_hit_table_2e.pdf",
@@ -190,7 +192,6 @@
     "Images/Orc Poachers.jpg",
     "Images/BrinehavenArea.jpg",
     "Tinkertwist Hollow/The gnome village.md",
-    "Music/Whispering Winds.mp3",
     "Images/Unconfirmed 922982.crdownload",
     "Images/GnomeVillage.jpg",
     "Tinkertwist Hollow/Blunderbuss.md",
@@ -224,10 +225,7 @@
     "Dwarven Mine/Deep Vault.webp",
     "Dwarven Mine/Dwarven mines (45)_grid.webp",
     "Forest Cave/Cave Monsters.md",
-    "Forest travel/Sunken Shrine of Lysara.md",
     "Dwarven Mine",
-    "Forest travel/Whispering Hollow.md",
-    "SoundEffects/scary-woman-scream-ultra-realistic-379378.mp3",
     "Untitled.canvas"
   ]
 }
