@@ -37,7 +37,7 @@ Hideout: The Northern Tower
     - Ground Floor: A study with arcane tomes (DC 14 Intelligence (Investigation) for a Spell Scroll of Invisibility) and a scrying pool (shows Brinehaven if activated, DC 15 Intelligence (Arcana)).
     - Upper Chamber: Carival’s lair, with a bed, chest (DC 15 Dexterity (Thieves’ Tools), 200 gp, Pearl of Power), and a balcony for spellcasting.
     - Defenses: 2 animated armor (CR 1) guard the tower, activated by intruders.
-- Current Status: Carival is absent, having traveled to Brinehaven to oversee the pearl’s retrieval, but he plans to return by Friday, October 10, 2025.
+- Current Status: Carival is absent, having traveled to the smugglers cove to oversee the pearl’s retrieval, but he plans to return by Friday, October 10, 2025.
 
 Campaign Ties
 
@@ -49,7 +49,7 @@ Campaign Ties
 
 Interaction with the Party
 
-- Encounter: The party may meet Carival at Blackreef Cove tonight (6 PM MDT, October 08, 2025) during the storm, where he oversees the smugglers’ dive. He’s disguised (DC 14 Wisdom (Insight) to penetrate), posing as a merchant.
+- Encounter: The party may meet Carival at Blackreef Cove during the storm, where he oversees the smugglers’ dive. He’s disguised (DC 14 Wisdom (Insight) to penetrate), posing as a merchant.
 - Dialogue Options:
     - Intimidation (DC 16 Charisma): Threaten to expose him to Valthor. Success yields the scroll and tower location; failure triggers Fireball.
     - Persuasion (DC 14 Charisma): Offer a share of the pearl’s power. Success gains his temporary alliance; failure makes him hostile.
@@ -70,6 +70,5 @@ Interaction with the Party
 > DM Notes
 > 
 > - Level Range: Carival (CR 3) suits a Level 4-6 party of six. Add smugglers or elementals for Level 5+, or reduce spells for Level 3.
-> - Pacing: The storm deadline (6 PM MDT) and Carival’s return (Friday) create urgency. The fortress trip extends the campaign arc.
 > - Scaling: For Level 3, limit him to 3rd-level spells. For Level 7+, include Valthor’s proxy (e.g., a Mage, CR 6) with Carival.
 > - Tie-Ins: His cowardice and greed drive the plot, linking the wreck, smugglers, sahuagin, and Valthor’s cult. The pearl’s curse ties to the hearthstone ward.
