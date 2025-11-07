@@ -1,11 +1,12 @@
 Location and Description
 
 - Distance and Direction: 2 miles south of Brinehaven, along a rocky coastal path through sparse pines and jagged cliffs. The journey takes 1-1.5 hours on foot (DC 12 Constitution save or 1 level of exhaustion) or 30-45 minutes on horseback from Woodcock Stables (40 gp rental).
-- Geography: A narrow, crescent-shaped cove with a pebbled beach framed by sheer cliffs. The water is unnaturally still, reflecting a pale, ghostly light, and the air carries a low, mournful whisper. Sunken ruins—part of an ancient shipwreck—peek above the water at low tide, surrounded by swirling mist. A faint elven rune glows on a cliff face, hinting at a ward.
+- Geography: **A narrow, crescent-shaped cove with a pebbled beach framed by sheer cliffs. The water is unnaturally still, reflecting a pale, ghostly light, and the air carries a low, mournful whisper. Sunken ruins—part of an ancient shipwreck—peek above the water at low tide, surrounded by swirling mist. A faint elven rune glows on a cliff face, hinting at a ward.**
 - Atmosphere: Eerie and melancholic, with the whispers intensifying at night, accompanied by cold breezes. The site feels watched, its treasure guarded by a restless spirit.
 
 Inhabitants
-
+[[Specter.png]]
+[[Water Weird.png]]
 - Haunting Spirit: Lysara the Lamenter (use Specter stats, CR 1, Monster Manual p. 279, with +10 HP and a custom ability), the ghost of an elven sailor betrayed and drowned 400 years ago. She seeks her lost locket, believing it holds her soul’s peace.
 - Minions: 2 Water Weird (CR 3, Monster Manual p. 299, scaled to CR 1 with 22 HP each), animated by Lysara’s sorrow to guard the treasure.
 - Wildlife: Glowing crabs (non-hostile, 1d4 hp if eaten) scuttle among the ruins.
@@ -29,10 +30,10 @@ The tale of Lysara the Lamenter is whispered by Brinehaven’s elders, especiall
 
 Interaction with the Party
 
-- Encounter: The party hears the tale at the Hearth from Elda, who suggests investigating Whispering Hollow. Arriving at dusk, they face Lysara’s mist, her spectral form rising from the water.
+- Encounter: When the part arrives, they face Lysara’s mist, her spectral form rising from the water.
 - Dialogue (Lysara):  
     Lysara: (voice echoing, mournful)  
-    "Intruders… my gold, my curse. Return my locket, stolen by treachery, and I’ll rest. Take it, and my wrath will drown you. Choose wisely…"
+    **"Intruders… my gold, my curse. Return my locket, stolen by treachery, and I’ll rest. Take it, and my wrath will drown you. Choose wisely…"**
 - Handling Responses:
     - Persuasion (DC 13 Charisma): Offer to find the locket. Success calms her; failure triggers water weirds.
     - Intimidation (DC 15 Charisma): Threaten her spirit. Success forces retreat; failure summons both weirds.

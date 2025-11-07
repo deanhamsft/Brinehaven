@@ -18,7 +18,7 @@ Key Features
 - Fey Archway: The entrance, a mossy arch glowing with runes (DC 15 Intelligence (Arcana) to identify as elven, linked to the hearthstone ward). Crossing without permission triggers a Confusion effect (DC 13 Wisdom save, 1 minute).
 - Crystal Stream: Drinking from it grants a Bless effect (1 hour, 1/long rest, DC 12 Wisdom (Survival) to find the sweet spot).
 - Glimmering Glade: A central clearing with pixie homes and a stone altar, where Tinselwing holds court. The altar bears a faded inscription: “The Song Awakens the Light” (hints at Ysmeine’s flute).
-- Hidden Cache: A hollow tree (DC 14 Intelligence (Investigation)) contains a Potion of Healing and 20 gp, left by a forgotten traveler.
+- Hidden Cache: A hollow tree (DC 14 Intelligence (Investigation)) contains a Puzzle box, left by a forgotten traveler.
 
 Campaign Integration
 

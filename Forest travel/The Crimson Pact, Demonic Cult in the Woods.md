@@ -1,7 +1,7 @@
 Overview
 
 - Location: 4 miles northeast of Brinehaven, in a dense, shadowy grove surrounded by twisted oaks and a circle of rune-carved stones. The air hums with an unsettling energy, and a faint red glow pulses from a central altar. The journey takes 1.5-2 hours on foot (DC 12 Constitution save or 1 level of exhaustion) or 1 hour on horseback from Woodcock Stables (40 gp rental).
-- Purpose: Formed by disillusioned Brinehaven commoners seeking power to escape their hardscrabble lives, the Crimson Pact worships a minor demon lord, Zarathrax the Bloodwhisper, promising strength and dominion. They aim to siphon energy from the hearthstone ward, believing it will amplify their rituals and grant them influence over the village—or beyond.
+- Purpose: Formed by disillusioned Brinehaven commoners seeking power to escape their hardscrabble lives, the Crimson Pact worships a minor demon lord, promising strength and dominion. They aim to siphon energy from the hearthstone ward, believing it will amplify their rituals and grant them influence over the village—or beyond.
 - Theme: A chaotic blend of desperation and ambition, with crude rituals and a growing threat to Brinehaven’s stability.
 - Level Suitability: Designed for a Level 3-4 party (CR 1/8 to 1 encounters, totaling 800-1,000 XP for 4-6 players, adjusted for 5 at ~160-200 XP each).
 
