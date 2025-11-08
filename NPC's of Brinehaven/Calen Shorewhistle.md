@@ -38,8 +38,6 @@ Role in Brinehaven
 Campaign Ties
 
 - The Auror’s Bounty: Calen’s map scrap, obtained from Retch, shows a partial wreck layout and a ritual circle matching the hearthstone’s runes. He knows the pearl’s curse attracts sahuagin but keeps this secret unless pressured.
-- Rune Connection: He’s overheard Lirien’s theories about the markers and suspects their activation could unlock the wreck, offering to guide the party (DC 13 Charisma (Persuasion) to convince him).
-- Hearthstone’s Secret: Calen noticed the hearthstone’s glow during the storm, linking it to his map. He can perform a shanty to aid the ritual (advantage on DC 15 Intelligence (Arcana) checks if sung).
 - Carival Stanislain: Calen met Carival during a smuggler deal, describing him as “a hooded snake.” He’s wary of Carival’s plans to claim the pearl, seeing a chance to double-cross him.
 - Smugglers and Sahuagin: As Kael’s informant, Calen relays tavern gossip to the camp but fears the sahuagin priestess’s growing influence. His map scrap suggests Kael seeks the pearl for Carival.
 
