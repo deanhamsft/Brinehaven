@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forest travel/The Crimson Pact, Demonic Cult in the Woods.md",
-                "mode": "source",
+                "file": "Brinehaven/The Docks.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Crimson Pact, Demonic Cult in the Woods"
+              "title": "The Docks"
             }
           },
           {
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forest Cave/Forest Cave.md",
+                "file": "Seaside Monsters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forest Cave"
+              "title": "Seaside Monsters"
+            }
+          },
+          {
+            "id": "5ec324aceac39297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Party members 2/Mazikeen/Mazikeen (Ariel).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mazikeen (Ariel)"
             }
           },
           {
@@ -41,16 +55,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven/Brinehaven Shops.md",
+                "file": "Brinehaven/The Brinehaven Hearth.md",
                 "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Brinehaven Hearth"
+            }
+          },
+          {
+            "id": "1f7d4e83eff5198d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current state of things Party 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Current state of things Party 2"
+            }
+          },
+          {
+            "id": "fa3983023cddae43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brinehaven/Brinehaven Shops.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Brinehaven Shops"
             }
+          },
+          {
+            "id": "ab4b5d36d079a318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NPC's of Brinehaven/Calen Shorewhistle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calen Shorewhistle"
+            }
+          },
+          {
+            "id": "697cc1666380e58d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NPC's of Brinehaven/Lirien Thaloryn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lirien Thaloryn"
+            }
+          },
+          {
+            "id": "bf95d23511bc5cdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current state of things Party 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Current state of things Party 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -209,54 +293,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f202df83d277537",
+  "active": "bf95d23511bc5cdd",
   "lastOpenFiles": [
-    "Party members 2/Tobin/Bag of tricks.md",
+    "Current state of things (Sunday).md",
+    "NPC's of Brinehaven/Lirien Thaloryn.md",
+    "Current state of things Party 2.md",
+    "Music/The Blackreef's Gold.md",
+    "NPC's of Brinehaven/Calen Shorewhistle.md",
+    "Music/The Aurors Bounty.md",
+    "Brinehaven/The Brinehaven Hearth.md",
+    "Brinehaven/Brinehaven Shops.md",
+    "Brinehaven/Party hears attack at the Docks.md",
+    "Brinehaven/The Docks.md",
+    "Seaside Monsters.md",
     "Party members 2/Mazikeen/Mazikeen (Ariel).md",
-    "Party members 2/Mira/Mira (Sarah).md",
-    "Party members 2/Naomi/Naomi.md",
-    "Party members 2/Tevia/Tevia.md",
+    "SoundEffects/scary-woman-scream-ultra-realistic-379378.mp3",
+    "Music/The Auror's Bounty.mp3",
+    "Forest travel/The Crimson Pact, Demonic Cult in the Woods.md",
+    "Smugglers Cove/Smugglers Cove.md",
+    "Forest travel/Forest Randoms.md",
+    "Party members 2/Tobin/Bag of tricks.md",
+    "Forest Cave/Specter.png",
+    "Party members 2/Naomi/Anka.md",
+    "Forest Cave/Forest Cave.md",
+    "Forest Cave/Shadow.png",
+    "Aerdrie Faenya.md",
+    "Party members 2/Tevia/Frunks.md",
     "Party members 2/Tobin/Tobin (Mardy).md",
-    "Party members 2/Mazikeen/Mazikeen.jpg",
     "Party members 2/Mazikeen/AbyssalTiefling.png",
+    "Party members 2/Mazikeen/Mazikeen.jpg",
+    "Party members 2/Mira/Mira (Sarah).md",
     "Fairy Glen/Fairy Glen.md",
     "Images/BoxInside2.jpg",
     "Images/BoxInside1.jpg",
     "Forest travel/Sunken Shrine of Lysara.md",
     "Forest travel/Whispering Hollow.md",
     "Carival Stanislain.md",
-    "Forest travel/The Crimson Pact, Demonic Cult in the Woods.md",
-    "Forest travel/The Wailing Mariner of Blackreef Cove.md",
     "Forest Cave/Water Weird.png",
-    "Forest Cave/Specter.png",
-    "Brinehaven/The Rune Stones.md",
-    "Brinehaven/Torvyn's quest.md",
-    "Current state of things Party 2.md",
-    "Brinehaven/Brinehaven Shops.md",
     "Music/The Blackreef's Gold.mp3",
-    "Music/The Auror's Bounty.mp3",
     "Music/Whispering Winds.mp3",
-    "Forest travel/Forest Randoms.md",
-    "Party members/Ranzen/Ranzan Eilsar.md",
     "Images/Cthulhu_Puzzle_Box_Build_instructions.pdf",
-    "Party members/Maria/Maria.md",
     "Images/critical_hit_table_2e.pdf",
     "Images/Tinkertwist Hollow.jpg",
     "Images/Skinning pit.jpg",
     "Images/Orc Poachers.jpg",
-    "Images/BrinehavenArea.jpg",
-    "Tinkertwist Hollow/The gnome village.md",
     "Images/Unconfirmed 922982.crdownload",
-    "Tinkertwist Hollow/Blunderbuss.md",
-    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
-    "NPC's of Brinehaven/Stalkers.md",
-    "Current state of things (Sunday).md",
     "SoundEffects/WardAwake.mp3",
-    "Brinehaven/The Retch vector.md",
-    "Seaside Monsters.md",
     "Tinkertwist Hollow",
     "Smugglers Cove",
-    "Poacher camp",
     "Untitled.canvas"
   ]
 }
