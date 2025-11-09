@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "da6495890aad3a7e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/FairyGlen.png"
-              },
-              "icon": "lucide-image",
-              "title": "FairyGlen"
-            }
-          },
-          {
             "id": "601636ee58172d42",
             "type": "leaf",
             "state": {
@@ -207,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da6495890aad3a7e",
+  "active": "601636ee58172d42",
   "lastOpenFiles": [
+    "Images/FairyGlen.png",
     "Fairy Glen/Fairy Glen.jpg",
     "Fairy Glen/Fairy Glen.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
@@ -250,7 +239,6 @@
     "Smugglers Cove/Smugglers Cove.md",
     "Forest travel/Forest Randoms.md",
     "Party members 2/Tobin/Bag of tricks.md",
-    "Forest Cave/Specter.png",
     "Party members 2/Naomi/Anka.md",
     "Forest Cave/Forest Cave.md",
     "Aerdrie Faenya.md",
