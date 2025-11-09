@@ -35,3 +35,8 @@ Runes on the blade:
 	no longer seeing the light
 	bring him to me 
 	to continue the fight"
+Runes on the Belt:
+	"The strongest of three
+	defender, offender and music, see;
+	we guard the coast
+	when the word is spoke"

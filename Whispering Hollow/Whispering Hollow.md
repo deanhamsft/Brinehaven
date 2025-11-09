@@ -56,3 +56,4 @@ DM Notes
 - Scaling: For Level 2, reduce to 1 weird. For Level 4, add a Wight (CR 3) as a betrayed crewmate.
 - Pacing: The tale fits 07:47 PM - 08:00 PM MDT, with the quest taking 1-2 hours (ending by 10:00 PM MDT).
 - Treasure: 70 gp and items support Level 2-3 progression, with lore as a bonus.
+[[Whispering Hollow]]
