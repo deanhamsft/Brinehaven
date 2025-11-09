@@ -25,14 +25,12 @@
             "id": "da6495890aad3a7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/FairyGlen.png"
               },
-              "icon": "lucide-file",
-              "title": "Khazad-Durak - The Abandoned Dwarven Mine"
+              "icon": "lucide-image",
+              "title": "FairyGlen"
             }
           },
           {
@@ -50,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,13 +207,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "601636ee58172d42",
+  "active": "da6495890aad3a7e",
   "lastOpenFiles": [
+    "Fairy Glen/Fairy Glen.jpg",
+    "Fairy Glen/Fairy Glen.md",
+    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
+    "The Runestones/Runes of the objects.md",
+    "Forest travel/meadow.jpg",
+    "Forest travel/Unconfirmed 6540.crdownload",
+    "Forest travel/Camps.jpg",
+    "Forest travel/Unconfirmed 199145.crdownload",
+    "Forest travel/Broken Bridge.jpg",
+    "Forest travel/Unconfirmed 233061.crdownload",
+    "Forest travel/glenn.jpg",
+    "Forest travel/Unconfirmed 792367.crdownload",
     "Current state of things (Sunday).md",
     "Whispering Hollow/Whispering Hollow.md",
-    "The Runestones/Runes of the objects.md",
     "The Runestones",
-    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Dwarven Mine/OreVein.jpg",
     "Dwarven Mine/Unconfirmed 638486.crdownload",
     "Dwarven Mine/Forge.jpg",
@@ -245,18 +253,8 @@
     "Forest Cave/Specter.png",
     "Party members 2/Naomi/Anka.md",
     "Forest Cave/Forest Cave.md",
-    "Forest Cave/Shadow.png",
     "Aerdrie Faenya.md",
     "Party members 2/Tevia/Frunks.md",
-    "Party members 2/Tobin/Tobin (Mardy).md",
-    "Party members 2/Mazikeen/AbyssalTiefling.png",
-    "Party members 2/Mazikeen/Mazikeen.jpg",
-    "Party members 2/Mira/Mira (Sarah).md",
-    "Images/BoxInside2.jpg",
-    "Music/The Blackreef's Gold.mp3",
-    "Music/Whispering Winds.mp3",
-    "Images/Cthulhu_Puzzle_Box_Build_instructions.pdf",
-    "Images/critical_hit_table_2e.pdf",
     "Untitled.canvas"
   ]
 }
