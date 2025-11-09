@@ -3,7 +3,7 @@ Fairy Glen
 Location and Description
 
 - Distance and Direction: 6 miles south-southwest of Brinehaven, a trek through rolling hills, sparse pine forests, and marshy lowlands. The journey takes 2-3 hours on foot (DC 12 Constitution save or 1 level of exhaustion) or 1-2 hours on horseback from Woodcock Stables (40 gp rental).
-- Geography: A hidden dell surrounded by ancient, gnarled trees draped in moss and glowing with bioluminescent fungi. A crystal-clear stream winds through, fed by a small waterfall that sparkles with faint iridescent light. Tiny, flower-like structures—fey homes—dot the glade, and the air hums with a subtle, playful magic. The glen is warded by a faint fey glamour, requiring a DC 14 Wisdom (Perception) check to locate the entrance (a moss-covered archway) without guidance.
+- Geography: **A hidden dell surrounded by ancient, gnarled trees draped in moss and glowing with bioluminescent fungi. A crystal-clear stream winds through, fed by a small waterfall that sparkles with faint iridescent light. Tiny, flower-like structures—fey homes—dot the glade, and the air hums with a subtle, playful magic.** The glen is warded by a faint fey glamour, requiring a DC 14 Wisdom (Perception) check to locate the entrance (a moss-covered archway) without guidance.
 - Atmosphere: Whimsical yet eerie, with laughter-like breezes and the occasional flicker of pixie lights. The rare fey presence hints at an ancient elven connection to Brinehaven’s ward, possibly tied to Aerdrie Faenya.
 
 Inhabitants
@@ -22,7 +22,6 @@ Key Features
 
 Campaign Integration
 
-- The Auror’s Bounty: The glen’s fey magic may counter the pearl’s curse, offering a ritual site if the party allies with the pixies. Tinselwing hints at a “dark tide” (the wreck) corrupting the coast.
 - Rune Connection: The archway runes match the coastal markers, suggesting a fey-elven ward network. The pixies know a chant to strengthen it (DC 15 Charisma (Performance) with aid).
 - Hearthstone’s Secret: The altar’s inscription ties to the hearthstone, implying the glen’s magic can reinforce the ward against sahuagin or Retch’s reagent.
 - Carival and Smugglers: Carival’s reagent smuggling may have angered the fey, who see it as a violation. The pixies might aid the party against him if appeased.
