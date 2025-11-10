@@ -26,17 +26,8 @@ the Sheriff thinks that Retch disappeared with his money and skipped town.
 The party cleared out the poaching camp
 the Silverthorne are sacred in town as a ward of Aerdrie Faenya.
 Ragna has taken the hides, and will bring them to the town council to be investigated.
-Runes on the Flute
-	"I come as three,
-	and blade a belt
-	and me"
-Runes on the blade:
-	"my brother delved deep
-	no longer seeing the light
-	bring him to me 
-	to continue the fight"
-Runes on the Belt:
-	"The strongest of three
-	defender, offender and music, see;
-	we guard the coast
-	when the word is spoke"
+Thalia's ring is now magical, but it only attracts undead at night on a DM roll  >15
+
+Party killed Jorin, the Sheriff, two deputies, and Calen
+
+
