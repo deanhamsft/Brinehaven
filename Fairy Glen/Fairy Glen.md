@@ -29,12 +29,12 @@ Campaign Integration
 
 Interaction with the Party
 
-- Encounter: At 6:00 AM MDT on October 23, 2025, the party arrives at dawn, the glen aglow with morning mist. Tinselwing and the pixies emerge, giggling, surrounding the most fearsome member (e.g., a scarred Tabaxi or hulking barbarian) with curious stares.
+- Encounter: The party arrives at dawn, the glen aglow with morning mist. Tinselwing and the pixies emerge, giggling, surrounding the most fearsome member (e.g., a scarred Tabaxi or hulking barbarian) with curious stares.
 - Dialogue (Tinselwing):  
-    Tinselwing: (tinkling laugh, hovering)  
-    "Oho, big one! You stomp like a troll but shine like a star! This glen is ours—old magic, elven-made. Why trespass? Speak, or we’ll turn you into a toad!"  
-    (pauses, tilting head)  
-    "But… you smell of the sea’s trouble. A crate, a curse? Tell us, and we might help. Offer a gift—shiny things please us!"
+    **Tinselwing: (tinkling laugh, hovering)**  
+    **"Oho, big one! You stomp like a troll but shine like a star! This glen is ours—old magic, elven-made. Why trespass? Speak, or we’ll turn you into a toad!"**  
+    **(pauses, tilting head)**  
+    **"But… you smell of the sea’s trouble. A crate, a curse? Tell us, and we might help. Offer a gift—shiny things please us!"**
 - Handling Responses:
     - Persuasion (DC 13 Charisma): Offer a gift (e.g., 5 gp, a trinket). Success gains Tinselwing’s aid (chant, map to cache); failure triggers a prank (Polymorph).
     - Intimidation (DC 15 Charisma): Threaten the pixies. Success scares them into compliance; failure summons the sprite swarm.

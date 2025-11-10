@@ -26,3 +26,8 @@ the Sheriff thinks that Retch disappeared with his money and skipped town.
 The party cleared out the poaching camp
 the Silverthorne are sacred in town as a ward of Aerdrie Faenya.
 Ragna has taken the hides, and will bring them to the town council to be investigated.
+Thalia's ring is now magical, but it only attracts undead at night on a DM roll  >15
+
+Party killed Jorin, the Sheriff, two deputies, and Calen
+
+
