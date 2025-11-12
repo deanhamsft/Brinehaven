@@ -2,6 +2,7 @@
 [[Seaside Monsters]]
 [[The Adventure begins]]
 [[Carival Stanislain]]
+[[Sheriff Race]]
 
 Smugglers' Camp Description
 

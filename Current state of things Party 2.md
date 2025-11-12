@@ -1,3 +1,9 @@
+[[Frunks (Tevia)]]
+[[Mazikeen (Ariel)]]
+[[Tobin (Mardy)]]
+[[Anka (Naomi)]]
+[[Mira (Sarah)]]
+
 Stopped after defeating the Crystal Chamber
 
 They've spent most time in town with Elda at Seaglass Salvage

@@ -1,3 +1,8 @@
+[[Vulkaan Ardhall]]
+[[Maria]]
+[[Ranzan Eilsar]]
+[[Thalia]]
+[[Iymril Cobiir]]
 
 ~~The party finished clearing out the cave and found the journal~~
 
@@ -19,15 +24,17 @@ The party has hints about the demonic cult.
 ~~The session ended right after the party saved Lira, and discovered that Ysmeine's flute is linked melodically with the elven runes, including the ones hidden on the knife.~~
 The party must have the knife plus a belt from the abandoned Dwarven mine for the ward spell at the runestones to work.
 
-Elda knows when the sheriff leaves town. Always in the company of Gavrin
+~~Elda knows when the sheriff leaves town. Always in the company of Gavrin~~
 
 they killed Retch
-the Sheriff thinks that Retch disappeared with his money and skipped town.
-The party cleared out the poaching camp
-the Silverthorne are sacred in town as a ward of Aerdrie Faenya.
-Ragna has taken the hides, and will bring them to the town council to be investigated.
+~~the Sheriff thinks that Retch disappeared with his money and skipped town.~~
+~~The party cleared out the poaching camp~~
+~~the Silverthorne are sacred in town as a ward of Aerdrie Faenya.~~
+~~Ragna has taken the hides, and will bring them to the town council to be investigated.~~
 Thalia's ring is now magical, but it only attracts undead at night on a DM roll  >15
 
-Party killed Jorin, the Sheriff, two deputies, and Calen
+Party killed Jorin, the Sheriff, two deputies, Calen, and Magnus. The ring is on the sheriff's dead hand.
+They found the map to the Dwarven mine in the fairy glen.
+They resolved the curse on the Whispering Cove
 
 

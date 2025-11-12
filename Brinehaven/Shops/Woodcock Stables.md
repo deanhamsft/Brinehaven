@@ -1,4 +1,4 @@
-
+[[Brinehaven Shops]]
 Location and Description
 
 - Location: Situated southeast of Brinehaven, approximately 1 mile from the village center along a winding dirt path through pine groves and open fields. The stables are near the forest edge, offering a scenic view of the coastal cliffs.

@@ -80,7 +80,7 @@ Campaign Integration
 - Carival and Smugglers: Retch’s involvement clashes with Kael’s crew, hinting at a power struggle.
 - Quest Giver: Harnic “Whistle” Tormen or Drenvar (if uncorrupted) might hire the party to stop the orcs.
 
-[[NPC's of Brinehaven/Stalkers]]
+[[Stalkers]]
 Interaction and Quest
 
 - Quest Offer (Harnic):  

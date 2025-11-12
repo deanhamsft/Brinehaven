@@ -1,3 +1,4 @@
+[[Brinehaven Shops]]
 Basic Information
 
 - Name: Lysa Emberglow
