@@ -4,14 +4,11 @@
 
 **Tinkertwist Hollow**
 
-**Nestled in a verdant valley surrounded by whimsical, mushroom-shaped rock formations, Tinkertwist Hollow is a chaotic sprawl of colorful, crooked gnome-sized houses (5-6 ft tall) made from wood, stone, and salvaged metal. Smoke curls from chimneys rigged with whirring gadgets, and the air hums with the clatter of tinkering. 
-
-**The village thrives on humor, invention, and communal feasts. Every resident is an amateur tinkerer, creating gadgets that often malfunction hilariously. The annual “Great Gnomish Gaffe Festival” (held in two weeks) celebrates their funniest failures with a parade of broken inventions.**
+**Nestled in a verdant valley, Tinkertwist Hollow is a chaotic sprawl of colorful, crooked gnome-sized houses (5-6 ft tall) made from wood, stone, and salvaged metal. Smoke curls from chimneys rigged with whirring gadgets, and the air hums with the clatter of tinkering. 
 
 location:
 - Distance: three days’ ride northwest of Brinehaven (approximately 90 miles, assuming 30 miles per day on horseback), through dense forests and rolling hills.
 - Population: Around 150 gnomes, mostly rock gnomes with a few forest gnome visitors, known for their inventiveness and love of pranks.
-
 
 Village Features
 
