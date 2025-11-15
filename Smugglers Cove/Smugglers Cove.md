@@ -11,8 +11,8 @@ Location: Nestled in a narrow cove 5 miles north of Brinehaven, the camp is conc
 Population: 25 total (17 men, 8 women), with 12-13 present at any time (randomly determine absences, e.g., roll 1d4+9 for present members). The group is a mix of human and half-elf smugglers, hardened by years of evading coastal patrols and trading contraband.
 
 Leadership:
-
-- Leader (Level 5): Kael "Blackwave" Draven, a cunning rogue with a scarred face and a silver tongue.
+[[Sheriff Race]]
+- Leader (Level 6): Kael "Blackwave" Draven, a cunning rogue with a scarred face and a silver tongue.
 - Lieutenant (Level 4): Veyra "Silent Blade" Tormen, a stealthy fighter who enforces Kael’s orders.
 
 Members:
@@ -32,10 +32,7 @@ Loot: The cave contains crates of smuggled goods (rum, silks, 150 gp worth), a l
 Smuggler NPCs
 **Leadership**
 
-1. Kael "Blackwave" Draven (Male Human, Level 5 Rogue)
-    - Description: A wiry man with a jagged scar across his left cheek, dark hair tied back, and a sly grin. Wears a black cloak adorned with seashells.
-    - Abilities: AC 16 (leather armor), HP 38 (5d8+10), Speed 30 ft. Str 12, Dex 16, Con 14, Int 13, Wis 11, Cha 15. Skills: Deception +6, Stealth +7, Perception +4. Features: Sneak Attack (3d6), Cunning Action, Uncanny Dodge. Equipment: Shortsword (1d6+3 piercing), dagger (1d4+3 piercing), Cloak of Elvenkind (advantage on Stealth in natural terrain).
-    - Personality: Charismatic but ruthless, Kael plans to use the Auror’s Bounty gold to expand his operation. He’s paranoid about betrayal.
+1. [[Sheriff Race]] : Kael
 2. Veyra "Silent Blade" Tormen (Female Half-Elf, Level 4 Fighter)
     - Description: Tall and lithe, with silver hair and piercing blue eyes. Wears studded leather and carries twin short swords.
     - Abilities: AC 15 (studded leather), HP 36 (4d10+8), Speed 30 ft. Str 14, Dex 16, Con 13, Int 10, Wis 12, Cha 11. Skills: Athletics +5, Stealth +6. Features: Fighting Style (Two-Weapon Fighting), Action Surge (1/short rest), Second Wind. Equipment: Two shortswords (1d6+3 slashing each).
@@ -43,87 +40,87 @@ Smuggler NPCs
 
 **Level 3 Members**
 
-3. Roric "Hookhand" Veyl (Male Human, Level 3 Rogue)
+3. Roric Veyl (Male Human, Level 3 Rogue)
     - Description: A burly man with a mechanical hook replacing his left hand, a relic of a past job gone wrong.
     - Abilities: AC 14 (leather), HP 24 (3d8+6), Speed 30 ft. Str 13, Dex 15, Con 14, Int 10, Wis 11, Cha 12. Skills: Acrobatics +5, Sleight of Hand +5. Features: Sneak Attack (2d6), Cunning Action. Equipment: Hook hand (1d4+2 piercing), dagger.
     - Personality: Gruff but reliable, Roric handles heavy lifting and trap-setting.
-4. Lysa "Shade" Corren (Female Half-Elf, Level 3 Ranger)
+4. Lysa Corren (Female Half-Elf, Level 3 Ranger)
     - Description: Slim with elven features, dark hair, and keen eyes. Wears a green cloak for camouflage.
     - Abilities: AC 14 (leather), HP 27 (3d10+6), Speed 30 ft. Str 12, Dex 15, Con 13, Int 11, Wis 14, Cha 10. Skills: Nature +3, Stealth +5. Features: Favored Enemy (monstrosities), Natural Explorer (coast). Equipment: Longbow (1d8+2 piercing, 150/600 ft.), shortsword.
     - Personality: Quiet and observant, Lysa scouts for threats and knows the local wildlife.
 
 **Level 2 Members**
 
-5. Toren "Saltbeard" Kray (Male Human, Level 2 Fighter)
+5. Toren Kray (Male Human, Level 2 Fighter)
     - Description: A stocky sailor with a graying beard, wearing a patched coat.
     - Abilities: AC 14 (hide armor), HP 17 (2d10+4), Speed 30 ft. Str 15, Dex 12, Con 14, Int 10, Wis 11, Cha 9. Skills: Athletics +4. Features: Fighting Style (Dueling). Equipment: Handaxe (1d6+3 slashing).
     - Personality: Boisterous, loves sea shanties.
-6. Mira "Swiftfoot" Lorn (Female Human, Level 2 Rogue)
+6. Mira Lorn (Female Human, Level 2 Rogue)
     - Description: Agile with short brown hair, always on the move.
     - Abilities: AC 13 (leather), HP 14 (2d8+2), Speed 30 ft. Str 10, Dex 15, Con 12, Int 11, Wis 10, Cha 13. Skills: Acrobatics +4, Stealth +4. Features: Sneak Attack (1d6). Equipment: Dagger.
     - Personality: Quick-witted, enjoys taunting foes.
-7. Jorin "Croweye" Vax (Male Half-Elf, Level 2 Rogue)
+7. Jorin Vax (Male Half-Elf, Level 2 Rogue)
     - Description: Lean with sharp eyes, often perched as a lookout.
     - Abilities: AC 13 (leather), HP 13 (2d8+2), Speed 30 ft. Str 11, Dex 14, Con 12, Int 12, Wis 10, Cha 13. Skills: Perception +2, Stealth +4. Features: Sneak Attack (1d6). Equipment: Shortbow (1d6+2 piercing).
     - Personality: Cautious, excels at spotting danger.
-8. Selka "Wavewhisper" Tyn (Female Human, Level 2 Sailor)
+8. Selka Tyn (Female Human, Level 2 Sailor)
     - Description: Weathered with braided hair, skilled with boats.
     - Abilities: AC 12 (padded), HP 15 (2d8+4), Speed 30 ft. Str 13, Dex 12, Con 14, Int 10, Wis 11, Cha 12. Skills: Athletics +3, Survival +2. Equipment: Club (1d4+1 bludgeoning).
     - Personality: Practical, focused on logistics.
-9. Dren "Ironjaw" Holt (Male Human, Level 2 Fighter)
+9. Dren Holt (Male Human, Level 2 Fighter)
     - Description: Broad with a scarred jaw, a brawler type.
     - Abilities: AC 14 (hide), HP 18 (2d10+4), Speed 30 ft. Str 15, Dex 11, Con 14, Int 9, Wis 10, Cha 11. Skills: Intimidation +2. Features: Second Wind. Equipment: Mace (1d6+2 bludgeoning).
     - Personality: Aggressive, loves a fight.
-10. Eryn "Mistcloak" Vey (Female Half-Elf, Level 2 Rogue)
+10. Eryn Vey (Female Half-Elf, Level 2 Rogue)
 	- Description: Elusive with a gray cloak, blends into mist.
 	- Abilities: AC 13 (leather), HP 13 (2d8+2), Speed 30 ft. Str 10, Dex 15, Con 12, Int 11, Wis 12, Cha 13. Skills: Stealth +4, Deception +3. Features: Sneak Attack (1d6). Equipment: Dagger.
 	- Personality: Mysterious, avoids direct confrontation.
 
-11. Garr "Keelbreaker" Ryn (Male Human, Level 2 Fighter)
+11. Garr Ryn (Male Human, Level 2 Fighter)
 	- Description: Tall with a sailor’s build, ex-navy.
 	- Abilities: AC 14 (hide), HP 17 (2d10+4), Speed 30 ft. Str 14, Dex 12, Con 13, Int 10, Wis 11, Cha 12. Skills: Athletics +4. Equipment: Spear (1d6+2 piercing).
 	- Personality: Disciplined, regrets his past.
 
-12. Nira "Seawind" Tael (Female Human, Level 2 Sailor)
+12. Nira Tael (Female Human, Level 2 Sailor)
 	- Description: Lithe with wind-tangled hair, a navigator.
 	- Abilities: AC 12 (padded), HP 14 (2d8+2), Speed 30 ft. Str 11, Dex 13, Con 12, Int 14, Wis 12, Cha 11. Skills: Nature +4, Perception +3. Equipment: Dagger.
 	- Personality: Calm, excels at reading the sea.
 
 **Level 1 Members**
 
-13. Hark "Ropehand" Vorn (Male Human, Level 1 Rogue)
+13. Hark Vorn (Male Human, Level 1 Rogue)
 	- Abilities: AC 12 (leather), HP 9 (1d8+1), Speed 30 ft. Str 11, Dex 14, Con 12, Int 10, Wis 11, Cha 13. Skills: Sleight of Hand +4. Equipment: Dagger.
 	- Personality: Nervous, good with knots.
 
-14. Tyla "Gullcry" Ren (Female Half-Elf, Level 1 Rogue)
+14. Tyla Ren (Female Half-Elf, Level 1 Rogue)
 	- Abilities: AC 12 (leather), HP 8 (1d8), Speed 30 ft. Str 10, Dex 14, Con 11, Int 12, Wis 10, Cha 13. Skills: Perception +2. Equipment: Shortsword.
 	- Personality: Cheerful, mimics bird calls.
 
-15. Bran "Stonefoot" Kael (Male Human, Level 1 Fighter)
+15. Bran Kael (Male Human, Level 1 Fighter)
 	- Abilities: AC 14 (hide), HP 11 (1d10+1), Speed 30 ft. Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 9. Skills: Athletics +3. Equipment: Handaxe.
 	- Personality: Steady, slow to act.
 
-16. Lira "Tidewalker" Vyn (Female Human, Level 1 Sailor)
+16. Lira Vyn (Female Human, Level 1 Sailor)
 	- Abilities: AC 11 (padded), HP 9 (1d8+1), Speed 30 ft. Str 12, Dex 12, Con 12, Int 11, Wis 10, Cha 11. Skills: Survival +2. Equipment: Club.
 	- Personality: Resilient, loves the water.
 
-17. Cory "Swiftnet" Tyn (Male Human, Level 1 Rogue)
+17. Cory Tyn (Male Human, Level 1 Rogue)
 	- Abilities: AC 12 (leather), HP 8 (1d8), Speed 30 ft. Str 10, Dex 14, Con 11, Int 11, Wis 10, Cha 12. Skills: Stealth +4. Equipment: Dagger.
 	- Personality: Quick, often impatient.
 
-18. Sera "Moonshadow" Lyr (Female Half-Elf, Level 1 Rogue)
+18. Sera Lyr (Female Half-Elf, Level 1 Rogue)
 	- Abilities: AC 12 (leather), HP 7 (1d8-1), Speed 30 ft. Str 9, Dex 15, Con 10, Int 12, Wis 11, Cha 13. Skills: Deception +3. Equipment: Dagger.
 	- Personality: Sly, enjoys intrigue.
 
-19. Jek "Wavebreaker" Holt (Male Human, Level 1 Fighter)
+19. Jek  Holt (Male Human, Level 1 Fighter)
 	- Abilities: AC 13 (padded), HP 10 (1d10), Speed 30 ft. Str 14, Dex 11, Con 12, Int 9, Wis 10, Cha 10. Skills: Athletics +4. Equipment: Mace.
 	- Personality: Brash, eager to prove himself.
 
-20. Kessa "Driftwood" Vey (Female Human, Level 1 Sailor)
+20. Kessa Vey (Female Human, Level 1 Sailor)
 	- Abilities: AC 11 (padded), HP 8 (1d8), Speed 30 ft. Str 11, Dex 12, Con 11, Int 10, Wis 13, Cha 11. Skills: Nature +3. Equipment: Dagger.
 	- Personality: Quiet, good with plants.
 
-21. Ryn "Keelrat" Torm (Male Human, Level 1 Rogue)
+21. Ryn Torm (Male Human, Level 1 Rogue)
 	- Abilities: AC 12 (leather), HP 7 (1d8-1), Speed 30 ft. Str 10, Dex 14, Con 10, Int 11, Wis 12, Cha 11. Skills: Stealth +4. Equipment: Shortsword.
 	- Personality: Sneaky, avoids responsibility.
 
@@ -135,11 +132,11 @@ Smuggler NPCs
 	- Abilities: AC 13 (padded), HP 10 (1d10), Speed 30 ft. Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 9. Skills: Athletics +3. Equipment: Handaxe.
 	- Personality: Loyal, strong but slow.
 
-24. Myla "Tidecall" Ren (Female Human, Level 1 Sailor)
+24. Myla Ren (Female Human, Level 1 Sailor)
 	- Abilities: AC 11 (padded), HP 8 (1d8), Speed 30 ft. Str 11, Dex 12, Con 11, Int 10, Wis 13, Cha 12. Skills: Survival +3. Equipment: Club.
 	- Personality: Gentle, loves singing.
 
-25. Zek "Shadowtide" Vax (Male Half-Elf, Level 1 Rogue)
+25. Zek Vax (Male Half-Elf, Level 1 Rogue)
 	- Abilities: AC 12 (leather), HP 7 (1d8-1), Speed 30 ft. Str 10, Dex 15, Con 10, Int 11, Wis 12, Cha 11. Skills: Stealth +4. Equipment: Dagger.
 	- Personality: Shy, excels at hiding.
 

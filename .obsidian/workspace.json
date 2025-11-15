@@ -18,7 +18,7 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anka (Naomi)"
+              "title": "Current state of things Party 2"
             }
           },
           {
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
+                "file": "Brinehaven/Sheriff Race.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mayor Pipkin Gearwhistle"
+              "title": "Sheriff Race"
+            }
+          },
+          {
+            "id": "6e1008cead67efed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smugglers Cove/Smugglers Cove.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Smugglers Cove"
             }
           },
           {
@@ -77,7 +91,8 @@
               "title": "Lulu Springleap"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -236,12 +251,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f056906d70a9fb03",
+  "active": "6e1008cead67efed",
   "lastOpenFiles": [
-    "The Wreck of the Auror's Bounty.md",
-    "Current state of things Party 2.md",
-    "Smugglers Cove/SmugglerCove.jpg",
+    "Brinehaven/Sheriff Race.md",
+    "Smugglers Cove/Smugglers Cove.md",
+    "Tinkertwist Hollow/The gnome village.md",
+    "Tinkertwist Hollow/Blunderbuss.md",
+    "Tinkertwist Hollow/NPC's/NPC's.md",
+    "Tinkertwist Hollow/Tinkertwist Hollow.jpg",
     "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
+    "The Wreck of the Auror's Bounty.md",
     "Tinkertwist Hollow/NPC's/Tilda Whirligig.md",
     "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
     "Tinkertwist Hollow/NPC's/Lulu Springleap.md",
@@ -255,18 +274,12 @@
     "Current state of things (Sunday).md",
     "Party members 2/Naomi/Anka (Naomi).md",
     "Party members 2/Tevia/Frunks (Tevia).md",
-    "Brinehaven/Sheriff Race.md",
     "Brinehaven/Shops/Woodcock Stables.md",
     "Brinehaven/NPC's of Brinehaven/Lysa Emberglow.md",
     "Brinehaven/NPC's of Brinehaven/Sheriff Drenvar.md",
     "Tinkertwist Hollow/NPC's/Zindle Fizzwicket.md",
     "The Runestones/Runes of the objects.md",
     "Notes for stuff.md",
-    "Tinkertwist Hollow/Blunderbuss.md",
-    "Smugglers Cove/Smugglers Cove.md",
-    "Tinkertwist Hollow/The gnome village.md",
-    "Tinkertwist Hollow/NPC's/NPC's.md",
-    "Tinkertwist Hollow/Tinkertwist Hollow.jpg",
     "Tinkertwist Hollow/NPC's",
     "Brinehaven/NPC's of Brinehaven/deputies.md",
     "Images/FairyGlen.png",
