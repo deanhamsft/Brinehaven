@@ -33,7 +33,7 @@ Smuggler NPCs
 **Leadership**
 
 1. [[Sheriff Race]] : Kael
-2. Veyra "Silent Blade" Tormen (Female Half-Elf, Level 4 Fighter)
+2. Veyra Tormen (Female Half-Elf, Level 4 Fighter)
     - Description: Tall and lithe, with silver hair and piercing blue eyes. Wears studded leather and carries twin short swords.
     - Abilities: AC 15 (studded leather), HP 36 (4d10+8), Speed 30 ft. Str 14, Dex 16, Con 13, Int 10, Wis 12, Cha 11. Skills: Athletics +5, Stealth +6. Features: Fighting Style (Two-Weapon Fighting), Action Surge (1/short rest), Second Wind. Equipment: Two shortswords (1d6+3 slashing each).
     - Personality: Stoic and loyal to Kael, Veyra is a skilled tracker who scouts the coast. She distrusts outsiders.
