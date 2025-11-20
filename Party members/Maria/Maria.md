@@ -1,10 +1,5 @@
 Player Micaela
 
-Maria found a locked cittern case at a second hand store in the city of Malkan. The case is locked and must be magically unlocked using a 3rd level Dispel Magic or Knock. 
-
-Attempting to pick the lock requires a CR 25 to unlock, failure results in 1d4 psychic damage. 
-
-The item cannot be attended to or used until 3rd level.
 
 Mac-Fuirmidh cittern
 Uncommon
