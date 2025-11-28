@@ -63,8 +63,8 @@
     - Personality: Kind but cryptic, she speaks in proverbs and avoids magic talk.
     - Abilities: +4 to Wisdom (Medicine), +3 to Intelligence (Nature) for herbs.
 - Inventory:
-    - Healing salve (5 hp, 5 gp)
-    - Antitoxin (10 gp)
+    - Healing salve (5 hp, 2 gp)
+    - Antitoxin (3 gp)
     - Herbal tea (1 gp, +1 to Constitution saves for 1 hour)
 - Services: Crafts potions (10 gp, 1 day), diagnoses ailments (DC 12 Wisdom (Medicine)), shares folklore (DC 13 Charisma (Persuasion) for a ward tale).
 - Campaign Tie-In: Mara hints the hearthstone’s glow is tied to an “elven song” (Ysmeine’s flute), and she warns of a “shadowed man” (Carival) asking about herbs for a ritual.
