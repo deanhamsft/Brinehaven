@@ -55,7 +55,7 @@ Smuggler NPCs
     - Description: A stocky sailor with a graying beard, wearing a patched coat.
     - Abilities: AC 14 (hide armor), HP 17 (2d10+4), Speed 30 ft. Str 15, Dex 12, Con 14, Int 10, Wis 11, Cha 9. Skills: Athletics +4. Features: Fighting Style (Dueling). Equipment: Handaxe (1d6+3 slashing).
     - Personality: Boisterous, loves sea shanties.
-6. Mira Lorn (Female Human, Level 2 Rogue)
+6. **Mira Lorn (Female Human, Level 2 Rogue)**
     - Description: Agile with short brown hair, always on the move.
     - Abilities: AC 13 (leather), HP 14 (2d8+2), Speed 30 ft. Str 10, Dex 15, Con 12, Int 11, Wis 10, Cha 13. Skills: Acrobatics +4, Stealth +4. Features: Sneak Attack (1d6). Equipment: Dagger.
     - Personality: Quick-witted, enjoys taunting foes.
@@ -63,7 +63,7 @@ Smuggler NPCs
     - Description: Lean with sharp eyes, often perched as a lookout.
     - Abilities: AC 13 (leather), HP 13 (2d8+2), Speed 30 ft. Str 11, Dex 14, Con 12, Int 12, Wis 10, Cha 13. Skills: Perception +2, Stealth +4. Features: Sneak Attack (1d6). Equipment: Shortbow (1d6+2 piercing).
     - Personality: Cautious, excels at spotting danger.
-8. Selka Tyn (Female Human, Level 2 Sailor)
+8. **Selka Vyn (Male Human, Level 2 Sailor)**
     - Description: Weathered with braided hair, skilled with boats.
     - Abilities: AC 12 (padded), HP 15 (2d8+4), Speed 30 ft. Str 13, Dex 12, Con 14, Int 10, Wis 11, Cha 12. Skills: Athletics +3, Survival +2. Equipment: Club (1d4+1 bludgeoning).
     - Personality: Practical, focused on logistics.
@@ -100,7 +100,7 @@ Smuggler NPCs
 	- Abilities: AC 14 (hide), HP 11 (1d10+1), Speed 30 ft. Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 9. Skills: Athletics +3. Equipment: Handaxe.
 	- Personality: Steady, slow to act.
 
-16. Lira Vyn (Female Human, Level 1 Sailor)
+16. **Lira Vyn (Female Human, Level 1 Sailor)**
 	- Abilities: AC 11 (padded), HP 9 (1d8+1), Speed 30 ft. Str 12, Dex 12, Con 12, Int 11, Wis 10, Cha 11. Skills: Survival +2. Equipment: Club.
 	- Personality: Resilient, loves the water.
 

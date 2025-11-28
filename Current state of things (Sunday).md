@@ -37,4 +37,8 @@ Party killed Jorin, the Sheriff, two deputies, Calen, and Magnus. The ring is on
 They found the map to the Dwarven mine in the fairy glen.
 They resolved the curse on the Whispering Cove
 
+smuggles cove cleared for now, 5 crates of black icor, 2 crates of clear icor.
+
+Come up with a coded parchment to disclose the reasons for the assassination attempt
+
 
