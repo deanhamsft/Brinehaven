@@ -102,11 +102,10 @@ Description:
 7. **Deep Hoard Chamber** (Deadly Boss, 1,650 XP)
 
 - Description: **Rune-sealed door (DC 16 Intelligence (Arcana) to open).** 
-- 
 - **Vast cavern with a hoard pile and ancient dwarven throne.** 
 - Monsters: Xorn (CR 5, 1,800 XP; MM p. 304, treasure guardian) + 2 Specters (CR 1, 200 XP each, dwarven miners).
 - Hazards: Treasure mimic (if touched wrong, grapple).
-- Loot: 300 gp, Dwarven rune relic Belt +2 strength when worn (boosts hearthstone ward, plot item).
+- Loot: 6000 gp in gold and gems, Dwarven rune relic Belt +2 strength when worn (boosts hearthstone ward, plot item).
 - Tactics: Xorn burrows, treasure sense; specters drain life.
 ![[Xorn.png]]
 Random Encounters (1d6 per hour, 20% chance)1-2: None 3: 1d4 Stirges 4: Cave-in (2d6 bludgeoning) 5: Dwarven ghost (non-hostile lore) 6: 1d3 Duergar scouts
@@ -136,4 +135,3 @@ Campaign Hooks
 [7]
 ```
 
-Khazad-Durak offers classic dwarven delving with tactical variety. Enjoy!
