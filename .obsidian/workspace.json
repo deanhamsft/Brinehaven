@@ -49,7 +49,8 @@
               "title": "Dwarf miner notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f056906d70a9fb03",
+  "active": "cd4c35d692c72b5b",
   "lastOpenFiles": [
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Party members/Iymril/Iymril Cobiir.md",

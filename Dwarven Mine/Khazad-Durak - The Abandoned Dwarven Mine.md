@@ -37,7 +37,7 @@ Description:
 1. **Entrance Cavern (interview room)** (Easy, 200 XP)
 
 - Description: **A 40x30 ft dusty cavern, steps lead down to a floor littered with rusted mine carts, leads to a collapsed tunnel. 
-- **Two chairs on the opposite sides of a table sit in the center, a statue of an outstretched hand sits in the center of the table. To one side of the table a statue of two disembodied hands clasped in a handshake stands.**
+- **Two chairs on the opposite sides of a table sit in the center, a statue of an outstretched hand sits in the center of the table. To one side of the table stands a statue of two disembodied hands clasped in a handshake.**
 - when a party member sits down and "shakes hands" with the outstretched hand a spectral figure of a dwarf appears, and begins asking dwarven mine employment questions:
 	1. “Ye ever swung a pick in anger, or just waved one about like a wee flower? Show me yer calluses—palms up, lad/lass!”
 	2. “How do ye feel about the dark? Real dark. The kind that swallows lantern-light and whispers yer name back wrong.”
@@ -72,11 +72,11 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 3. **Collapsed Tunnel** (Medium, 700 XP)
 
 - Description: **Climbing down the rickety ladder in the shaft, you land in a Rubble-choked passage. A shaft continues down to your right, a tunnel leads away at the other end of the passage. Rubble litters the floor and worn chest sits among the debris next to a grayish puddle. The ceiling over the passage appears unstable.**
-- Monsters: 1 Gray Ooze (CR 1/2, 100 XP) + 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
+- Monsters: 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
 - Hazards: Ceiling collapse (DC 14 Intelligence (Investigation) to spot; triggered by loud noise, 3d6 bludgeoning, DC 13 Dexterity save half).
 - Loot: Inside mimic: 50 gp, mithril ingot (25 gp).
 - Tactics: Mimic grapples; ooze engulfs; shadows drain Strength.
-![[Gray Ooze.png]]
+
 ![[Mimic.png]]
 ![[Shadow.png]]
 
@@ -94,13 +94,14 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 5. **Forge Chamber** (Medium, 600 XP)
 
-- Description: **Ruined forge with cold anvils and geothermal vents. Ore veins sparkle.**
-- Monsters: 2 Animated Armors (CR 1, 200 XP each; MM p. 19) + 1 Fire Elemental (Myrmidon) (no—Flameskull CR 4, but scaled; use 2 Helmed Horrors CR 4 total 1,800 too high—2 Duergar + 1 Hell Hound CR 3, 700 XP; MM p. 182).
+- Description: **An old cold forge, anvils and geothermal vents. Ore veins sparkle. A mold sits on a workbench to the north side. Across the room a reinforced door stands closed (strength DC28 to break it down).**
+- The mold is in the shape of a key for a door.
+- A crucible can be found on a nearby bench.
+- Light the forge, melt some of the leftover metal and pour the mold for the door key
+
 - Hazards: Vent steam (DC 13 Dexterity save or 2d6 fire).
-- Loot: 30 gp, Flame Tongue Shortsword (rare drop, DC 15 check).
-- Tactics: Hell Hound breathes fire; duergar invisibility.
-![[Animated Armor.png]]
-![[Flameskull.png]]
+- Loot: 30 gp.
+
 
 
 6. **Ore Vein** (Easy-Medium, 400 XP)
