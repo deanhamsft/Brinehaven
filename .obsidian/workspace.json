@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Party members/Ranzen/Ranzan Eilsar.md",
+                "file": "Forest travel/The Crimson Pact, Demonic Cult in the Woods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ranzan Eilsar"
+              "title": "The Crimson Pact, Demonic Cult in the Woods"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Dwarf miner notes"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,14 +208,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "905958ab299dcac8",
+  "active": "f056906d70a9fb03",
   "lastOpenFiles": [
-    "Dwarven Mine/Dwarf miner notes.md",
-    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Party members/Thalia/Thalia.md",
-    "Party members/Ranzen/Ranzan Eilsar.md",
     "Party members/Iymril/Iymril Cobiir.md",
+    "Party members/Ranzen/Ranzan Eilsar.md",
+    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
+    "Dwarven Mine/Dwarf miner notes.md",
+    "Party members/Thalia/Thalia.md",
     "Brinehaven/Shops/Brinehaven Shops.md",
     "Current state of things Party 2.md",
     "Notes for stuff.md",
