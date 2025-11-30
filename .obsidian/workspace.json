@@ -6,7 +6,6 @@
       {
         "id": "a6c9f520caa5cf7f",
         "type": "tabs",
-        "dimension": 56.278366111951584,
         "children": [
           {
             "id": "f056906d70a9fb03",
@@ -28,37 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven/Shops/Brinehaven Shops.md",
+                "file": "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brinehaven Shops"
+              "title": "Khazad-Durak - The Abandoned Dwarven Mine"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "cc2eb4afa36ce865",
-        "type": "tabs",
-        "dimension": 43.72163388804841,
-        "children": [
+          },
           {
-            "id": "9e31c3f1745295fb",
+            "id": "9158890333662c8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forest travel/Forest Randoms.md",
+                "file": "Dwarven Mine/Dwarf miner notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forest Randoms"
+              "title": "Dwarf miner notes"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,8 +209,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd4c35d692c72b5b",
+  "active": "905958ab299dcac8",
   "lastOpenFiles": [
+    "Dwarven Mine/Dwarf miner notes.md",
+    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
+    "Party members/Vulkaan/Vulkaan Ardhall.md",
+    "Party members/Thalia/Thalia.md",
+    "Party members/Ranzen/Ranzan Eilsar.md",
+    "Party members/Iymril/Iymril Cobiir.md",
+    "Brinehaven/Shops/Brinehaven Shops.md",
     "Current state of things Party 2.md",
     "Notes for stuff.md",
     "Forest travel/Forest Randoms.md",
@@ -226,12 +225,10 @@
     "Brinehaven/Sheriff Race.md",
     "Tinkertwist Hollow/NPC's/Lulu Springleap.md",
     "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
-    "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Tinkertwist Hollow/Blunderbuss.md",
     "Tinkertwist Hollow/The gnome village.md",
     "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
     "Forest Cave/Cave Monsters.md",
-    "Party members/Ranzen/Ranzan Eilsar.md",
     "Carival Stanislain.md",
     "Brinehaven/The Brinehaven Hearth.md",
     "Brinehaven/NPC's of Brinehaven/City Council.md",
@@ -243,12 +240,7 @@
     "Forest travel/glenn.jpg",
     "Forest travel/Camps.jpg",
     "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
-    "Party members 2/Naomi/Anka (Naomi).md",
-    "Party members/Thalia/Thalia.md",
-    "Party members/Maria/Maria.md",
-    "Party members/Iymril/Iymril Cobiir.md",
     "Smugglers Cove/SmugglerCove.jpg",
-    "Tinkertwist Hollow/NPC's/Tilda Whirligig.md",
     "Tinkertwist Hollow/Tinkertwist Hollow.jpg",
     "Forest Cave/Forest Cave.jpg",
     "Brinehaven/Shops",
