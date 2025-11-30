@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "905958ab299dcac8",
+  "active": "cd4c35d692c72b5b",
   "lastOpenFiles": [
     "Dwarven Mine/Dwarf miner notes.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
