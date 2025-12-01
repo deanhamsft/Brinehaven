@@ -40,5 +40,9 @@ They resolved the curse on the Whispering Cove
 smuggles cove cleared for now, 5 crates of black icor, 2 crates of clear icor.
 
 Come up with a coded parchment to disclose the reasons for the assassination attempt
+Erival is the new sheriff of Brinehaven, and has sent an assassin to kill the Tabaxians (fears the truth) He doesn't want anyone interfering with his imperial plans.
+
+Attained the blunderbus's from Tinkertwist hollow, still in that town.
+
 
 
