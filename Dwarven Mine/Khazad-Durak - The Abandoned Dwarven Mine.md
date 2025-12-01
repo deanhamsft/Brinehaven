@@ -85,7 +85,6 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 - Description: **A large multi level chamber with rusted bunks and several dwarven skeletons.**
 - Monsters: 4 Dwarven Zombies (CR 1/4, 50 XP each; reskin Zombie, MM p. 316) + 1 Wight (CR 3, 700 XP; MM p. 300, dwarven overseer).
-- Hazards: Poison gas vents (DC 13 Constitution save or poisoned for 1 min).
 - Loot: 40 gp, +1 Dagger (dwarven heirloom).
 - Tactics: Wight Life Drain; zombies swarm in cramped space.
 ![[Zombie.png]]
