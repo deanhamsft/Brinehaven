@@ -93,7 +93,7 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 5. **Forge Chamber** (Medium, 600 XP)
 
-- Description: **An old cold forge, anvils and geothermal vents. Ore veins sparkle. A mold sits on a workbench to the north side. Across the room a reinforced door stands closed (strength DC28 to break it down).**
+- Description: **An old cold forge, anvils and geothermal vents. Ore veins sparkle. A mold sits on a workbench to the north side. Across the room a large door stands closed, a reinforced hatch (strength DC28 to break it down) covers a tunnel leading down.**
 - The mold is in the shape of a key for a door.
 - A crucible can be found on a nearby bench.
 - Light the forge, melt some of the leftover metal and pour the mold for the door key
@@ -114,8 +114,7 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 
 7. **Deep Hoard Chamber** (Deadly Boss, 1,650 XP)
-
-- Description: **Rune-sealed door (DC 16 Intelligence (Arcana) to open).** 
+ 
 - **Vast cavern with a hoard pile and ancient dwarven throne.** 
 - Monsters: Xorn (CR 5, 1,800 XP; MM p. 304, treasure guardian) + 2 Specters (CR 1, 200 XP each, dwarven miners).
 - Hazards: Treasure mimic (if touched wrong, grapple).
