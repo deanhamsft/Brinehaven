@@ -6,7 +6,6 @@
       {
         "id": "a6c9f520caa5cf7f",
         "type": "tabs",
-        "dimension": 48.1089258698941,
         "children": [
           {
             "id": "f056906d70a9fb03",
@@ -48,70 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "The Brinehaven Hearth"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "cc2eb4afa36ce865",
-        "type": "tabs",
-        "dimension": 51.8910741301059,
-        "children": [
-          {
-            "id": "9e31c3f1745295fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Forest travel/Forest Randoms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Forest Randoms"
-            }
-          },
-          {
-            "id": "c716c92b7d6dc5b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Party members 2/Tobin/Tobin (Mardy).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tobin (Mardy)"
-            }
-          },
-          {
-            "id": "947f5369b56f24a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brinehaven/Shops/Brinehaven Shops.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Brinehaven Shops"
-            }
-          },
-          {
-            "id": "245a604bb5eb430a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Salt Marsh/Saltmarsh randoms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Saltmarsh randoms"
             }
           }
         ]
@@ -273,17 +208,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e31c3f1745295fb",
+  "active": "f056906d70a9fb03",
   "lastOpenFiles": [
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "Brinehaven/Shops/Brinehaven Shops.md",
+    "Party members 2/Tobin/Tobin (Mardy).md",
+    "Forest travel/Forest Randoms.md",
     "Brinehaven/NPC's of Brinehaven/deputies.md",
     "Brinehaven/Shops/The Retch vector.md",
-    "Brinehaven/Shops/Brinehaven Shops.md",
     "Current state of things Party 2.md",
-    "Party members 2/Tobin/Tobin (Mardy).md",
     "Party members 2/Tevia/Frunks (Tevia).md",
     "The Runestones/Runes of the objects.md",
-    "Forest travel/Forest Randoms.md",
-    "The Salt Marsh/Saltmarsh randoms.md",
     "Party members 2/Mira/Mira (Sarah).md",
     "Brinehaven/The Brinehaven Hearth.md",
     "Party members 2/Mazikeen/Mazikeen (Ariel).md",
