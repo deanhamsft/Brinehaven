@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imperium of Illutuvan/Thargrim Ironvein.md",
+                "file": "Imperium of Illutuvan/Master Engineer Thargrim Ironvein.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thargrim Ironvein"
+              "title": "Master Engineer Thargrim Ironvein"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -265,11 +265,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de05d973d49aaa43",
+  "active": "07c519b148f4bfb2",
   "lastOpenFiles": [
-    "Imperium of Illutuvan/Imperial Expedition.md",
-    "Imperium of Illutuvan/Thargrim Ironvein.md",
+    "Imperium of Illutuvan/Master Engineer Thargrim Ironvein.md",
     "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
+    "Imperium of Illutuvan/Imperial Expedition.md",
     "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
     "Imperium of Illutuvan/Outline of the Imperium.md",
     "Images/Ardhall Current.jpg",

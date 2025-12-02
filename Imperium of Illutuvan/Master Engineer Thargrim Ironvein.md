@@ -1,4 +1,13 @@
-Master Engineer Thargrim Ironvein
+
+Appearance & Personality
+
+- Age 148, stout as a barrel (4'8", 220 lbs), braided black beard streaked with silver and iron filings, eyes like polished obsidian.
+- Wears: Dwarven plate etched with clan runes, oil-stained apron overtop, perpetual grease smudge on forehead.
+
+> [!NOTE]
+> Dialog when meeting party (if in town near the docks)
+> Talking to a Dwarf working on the docks near: "You there! are you a river rock, or just plain daft! That beam is not near wide enough for Imperial Galleons! and the weight on the pile-driver should be double what you've offered! Get back at it!"
+
 Dwarven Clan Ironvein Survivor & Imperial Mining Liaison  
 Medium humanoid (dwarf), lawful neutral  
 Armor Class 18 (dwarven plate)  
@@ -86,4 +95,3 @@ Combat Tactics
 - Heat metal on enemy weapons; fabricate rubble into barriers.
 - Grimspark scouts/delivers caltrops.
 
-Thargrim Ironvein is a stubborn, skilled artisan-engineer who bridges dwarven legacy and imperial ambition—perfect for negotiation, alliance, or siege. Let me know for sapper stats or a mine-reclamation scene!

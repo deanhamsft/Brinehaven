@@ -1,3 +1,8 @@
+Appearance & Personality
+
+- Age 34, (6'2" Athletic build) He has light brown hair, shaved at the sides, braided to the back, the sides are shaved with the Illutuvan Bull tattooed on one side. 
+- Wears: Filigreed leather jerkin under a Half plate armor, etched with elder Futhark runes 
+
 Aide-de-Camp & Acting Governor of Brinehaven  
 Medium humanoid (human), lawful neutral  
 Armor Class 18 (half-plate)  
