@@ -8,7 +8,7 @@ The Illutuvan Imperium is a young, aggressive, highly militarized human-led empi
 
 Government: 
 
-Enlightened stratocracy. The Emperor (currently Aurelian val Illutuvan IV “the Winter Eagle”) rules as First General of the Imperium with the advice of the Consilium Bellum composed of the nine Marshal-Commanders of the Grand Legions and the heads of the great noble houses. The Senate of the Hundred Cities exists, but its powers are limited to taxation and civil law; war and foreign policy remain the Emperor’s alone.
+Enlightened stratocracy. The Emperor (currently Aurelian val Illutuvan IV “the Winter Eagle”) rules as First General of the Imperium with the advice of the Consilium Bellum composed of the nine Marshal-Commanders of the Grand Legions and the heads of the great noble houses. The Senate of the Hundred Cities exists, but its powers are limited to taxation and civil law; war and foreign policy remain the Emperor’s alone. Heavily influenced by the emperor, the Senate rarely stands against him in matters of taxation, with good reason as the emperor is well versed in the shades and shadows of economies. 
 
 **Capital:**
 Illutuvan, a colossal fortified city built on seven hills, beside the Hadtou Ocean and near the mount of the Auren river.
@@ -31,7 +31,7 @@ Geography & Borders
 
 - North & Northwest: The Orcish Horde-lands of Kragnor-Zul. Endless raids and one full-scale invasion (the Five-Year Blood Winter, 1178–1183 IR) keep the border legions sharp.
 - West: The towering Cenalus Mountains, crossed only by three fortified passes. Beyond the western slopes runs the Nesterin River, the legal boundary.
-- Southwest: The fractured Dragonborn kingdom of Ardhall, now the Domain of Thornmaar the Crimson Usurper. Thornmaar said to have made a deal with a devil and now sits the Obsidian Throne. Dragonborn mercenaries and exiles trickle into Illutuvan service, nursing grudges.
+- Southwest: The fractured Dragonborn kingdom of Ardhall, now the Domain of Thornmaar the Crimson Usurper. Thornmaar said to have made a deal with a devil and now sits the Obsidian Throne. Dragonborn mercenaries and exiles trickle into Illutuvan service, nursing grudges. ![[Ardhall Current.jpg]]
 - South: The warm, pirate-infested Bon Gulf.
 - East: The stormy Hadtou Ocean. The Imperial Navy (primarily tiefling-crewed black galleons) keeps the sea lanes open.
 
