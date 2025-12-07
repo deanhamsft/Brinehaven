@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imperium of Illutuvan/First Expeditionary Cohort.md",
+                "file": "Imperium of Illutuvan/Imperial advisors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "First Expeditionary Cohort"
+              "title": "Imperial advisors"
             }
           }
         ],
@@ -267,8 +267,9 @@
   },
   "active": "07c519b148f4bfb2",
   "lastOpenFiles": [
-    "Imperium of Illutuvan/Imperial Expedition.md",
     "Imperium of Illutuvan/First Expeditionary Cohort.md",
+    "Imperium of Illutuvan/Imperial advisors.md",
+    "Imperium of Illutuvan/Imperial Expedition.md",
     "Tinkertwist Hollow/The Cog & Cushion Inn.md",
     "Tinkertwist Hollow/Fizzlewick’s Bang-&-Whistle Fireworks Emporium.md",
     "Tinkertwist Hollow/The Gumbuzzle Sweetorium.md",
@@ -303,7 +304,6 @@
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Party members/Iymril/Iymril Cobiir.md",
     "Party members/Ranzen/Ranzan Eilsar.md",
-    "Party members/Thalia/Thalia.md",
     "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
     "Brinehaven/Shops",
     "Brinehaven/Side Quests",
