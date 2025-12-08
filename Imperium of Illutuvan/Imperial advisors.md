@@ -44,6 +44,9 @@ Equipment
 Personality  
 Cool, impeccably dressed, speaks in measured clauses. Always has a quill ready and a smile that never reaches her eyes. Sees people as numbers on a balance sheet.
 
+appearance 
+Slim and willowy, long dark hair streaked with grey. 
+
 **Commodore-Admiral (ret.) Darius Korr**
 
 **Human Fighter (Cavalier) 10**
