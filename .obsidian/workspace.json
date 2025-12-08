@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kingdom of Ardhall/Outline of the kingdom.md",
+                "file": "Kingdom of Ardhall/Thornmaar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Outline of the kingdom"
+              "title": "Thornmaar"
             }
           },
           {
@@ -295,8 +295,9 @@
   },
   "active": "07c519b148f4bfb2",
   "lastOpenFiles": [
-    "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Kingdom of Ardhall/Outline of the kingdom.md",
+    "Kingdom of Ardhall/Thornmaar.md",
+    "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Imperium of Illutuvan/Outline of the Imperium.md",
     "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
     "Kingdom of Ardhall",
@@ -321,7 +322,6 @@
     "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
     "Forest travel/Forest Randoms.md",
     "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
-    "Imperium of Illutuvan/Imperial Expedition.md",
     "Crimson Pact",
     "Images/Ardhall Current.jpg",
     "Images/Ardhall tranditional.jpg",
