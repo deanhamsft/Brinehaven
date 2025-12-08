@@ -18,11 +18,16 @@ Skills Athletics +6, History +7, Insight +6, Intimidation +8, Perception +6, Per
 Senses passive Perception 16  
 Languages Common, Elvish, Dwarvish, Illutuvani Trade Tongue  
 Challenge 7 (2,900 XP)  
-Proficiency Bonus +3TraitsImperial Bearing. Cassian has advantage on Charisma (Intimidation) and Charisma (Persuasion) checks when interacting with commoners or those unfamiliar with imperial protocol.  
+Proficiency Bonus +3
+
+Traits
+
+Imperial Bearing. Cassian has advantage on Charisma (Intimidation) and Charisma (Persuasion) checks when interacting with commoners or those unfamiliar with imperial protocol.  
 Indomitable (1/short rest). Cassian succeeds on a failed saving throw.  
 Second Wind (1/short rest). Cassian regains 1d10 + 8 hit points.  
 Action Surge (1/short rest). Cassian takes one additional action on his turn.  
-Survivor. If Cassian drops to 0 hit points but doesn't die, he regains 1 hit point.Fighting Style: Defense. +1 bonus to AC while wearing armor.  
+Survivor. If Cassian drops to 0 hit points but doesn't die, he regains 1 hit point.
+Fighting Style: Defense. +1 bonus to AC while wearing armor.  
 Fighting Style: Dueling. +2 bonus to damage rolls with one melee weapon. Superiority Dice (Battle Master, 5d8, DC 16):
 
 - Commander's Strike: Forfeit one attack to let an ally use their reaction to attack.
