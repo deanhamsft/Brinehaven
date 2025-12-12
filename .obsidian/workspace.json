@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven/NPC's of Brinehaven/deputies.md",
+                "file": "Crimson Pact/Zarathrax.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deputies"
+              "title": "Zarathrax"
             }
           },
           {
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Forest travel/Forest Randoms.md",
+                "file": "Forest travel/Dryad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forest Randoms"
+              "title": "Dryad"
             }
           },
           {
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Party members 2/Tobin/Tobin (Mardy).md",
+                "file": "Party members 2/Naomi/Anka (Naomi).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tobin (Mardy)"
+              "title": "Anka (Naomi)"
             }
           },
           {
@@ -273,17 +273,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e31c3f1745295fb",
+  "active": "cd4c35d692c72b5b",
   "lastOpenFiles": [
+    "Crimson Pact/The Crimson Pact, Demonic Cult in the Woods.md",
+    "Crimson Pact/Zarathrax.md",
     "Brinehaven/NPC's of Brinehaven/deputies.md",
+    "Current state of things Party 2.md",
+    "Forest travel/Dryad.md",
+    "Forest travel/Elowin.png",
+    "Forest travel/Forest Randoms.md",
+    "Forest travel/Grok _ X_files/third-party-image(2).html",
+    "Forest travel/Grok _ X_files/saved_resource(3).html",
+    "Forest travel/Grok _ X_files/third-party-image(3).html",
+    "Forest travel/Grok _ X_files/saved_resource.html",
+    "Forest travel/Grok _ X_files/pixel",
+    "Forest travel/Grok _ X_files/third-party-image.html",
+    "Forest travel/Grok _ X_files/saved_resource(1).html",
+    "Forest travel/Grok _ X_files/third-party-image(1).html",
+    "Forest travel/Grok _ X_files/saved_resource(2).html",
+    "Forest travel/Grok _ X.html",
+    "Forest travel/Grok _ X_files/image(2).png",
+    "Forest travel/Grok _ X_files/image(1).png",
+    "Forest travel/Grok _ X_files/image.png",
+    "Forest travel/Grok _ X_files/-x4NMqVe_normal.jpeg",
+    "The Salt Marsh/Saltmarsh randoms.md",
+    "Party members 2/Naomi/Anka (Naomi).md",
+    "Party members 2/Tobin/Tobin (Mardy).md",
     "Brinehaven/Shops/The Retch vector.md",
     "Brinehaven/Shops/Brinehaven Shops.md",
-    "Current state of things Party 2.md",
-    "Party members 2/Tobin/Tobin (Mardy).md",
     "Party members 2/Tevia/Frunks (Tevia).md",
     "The Runestones/Runes of the objects.md",
-    "Forest travel/Forest Randoms.md",
-    "The Salt Marsh/Saltmarsh randoms.md",
     "Party members 2/Mira/Mira (Sarah).md",
     "Brinehaven/The Brinehaven Hearth.md",
     "Party members 2/Mazikeen/Mazikeen (Ariel).md",
@@ -297,30 +316,11 @@
     "Tinkertwist Hollow/Blunderbuss.md",
     "Tinkertwist Hollow/The gnome village.md",
     "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
-    "Forest Cave/Cave Monsters.md",
-    "Party members/Ranzen/Ranzan Eilsar.md",
-    "Carival Stanislain.md",
-    "Brinehaven/NPC's of Brinehaven/City Council.md",
     "Forest travel/glenn.jpg",
     "Forest travel/Camps.jpg",
-    "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
     "Smugglers Cove/SmugglerCove.jpg",
     "Tinkertwist Hollow/Tinkertwist Hollow.jpg",
     "Forest Cave/Forest Cave.jpg",
-    "Brinehaven/Shops",
-    "Brinehaven/Side Quests",
-    "Tinkertwist Hollow/NPC's",
-    "Images/FairyGlen.png",
-    "Fairy Glen/Fairy Glen.jpg",
-    "Forest travel/meadow.jpg",
-    "Forest travel/Unconfirmed 6540.crdownload",
-    "Forest travel/Unconfirmed 199145.crdownload",
-    "Forest travel/Broken Bridge.jpg",
-    "Forest travel/Unconfirmed 233061.crdownload",
-    "Forest travel/Unconfirmed 792367.crdownload",
-    "The Runestones",
-    "Dwarven Mine/OreVein.jpg",
-    "Dwarven Mine/Unconfirmed 638486.crdownload",
     "Untitled.canvas"
   ]
 }
