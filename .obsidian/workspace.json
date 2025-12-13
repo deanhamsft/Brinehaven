@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kingdom of Ardhall/Thornmaar.md",
+                "file": "Whispering Hollow/Whispering Hollow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thornmaar"
+              "title": "Whispering Hollow"
             }
           },
           {
@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imperium of Illutuvan/Imperial advisors.md",
+                "file": "Smugglers Cove/Smugglers Cove.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Imperial advisors"
+              "title": "Smugglers Cove"
+            }
+          },
+          {
+            "id": "d7f59539c0fa152e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Party members 2/Tobin/Giant Racoon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Giant Racoon"
+            }
+          },
+          {
+            "id": "9bd996be34936a01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smugglers Cove/Smugglers Cove.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Smugglers Cove"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -223,11 +251,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "640bf6d592d4258c",
+  "active": "9bd996be34936a01",
   "lastOpenFiles": [
+    "Party members 2/Tobin/Giant Racoon.md",
+    "Party members 2/Tobin/Bag of tricks.md",
+    "Party members 2/Tobin/Tobin (Mardy).md",
+    "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
+    "Tinkertwist Hollow/The gnome village.md",
+    "Smugglers Cove/Smugglers Cove.md",
+    "Whispering Hollow/Whispering Hollow.md",
+    "Forest travel/Forest Randoms.md",
+    "Kingdom of Ardhall/Thornmaar.md",
+    "Imperium of Illutuvan/Imperial advisors.md",
     "Brinehaven/NPC's of Brinehaven/City Council.md",
     "Brinehaven/Council Meeting.md",
-    "Kingdom of Ardhall/Thornmaar.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Imperium of Illutuvan/First Expeditionary Cohort.md",
     "Imperium of Illutuvan/Master Engineer Thargrim Ironvein.md",
@@ -237,21 +274,12 @@
     "Imperium of Illutuvan/Outline of the Imperium.md",
     "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
     "Kingdom of Ardhall",
-    "Imperium of Illutuvan/Imperial advisors.md",
     "Carival Stanislain.md",
     "Brinehaven/The Brinehaven Hearth.md",
     "Current state of things (Sunday).md",
     "Tinkertwist Hollow/The Cog & Cushion Inn.md",
     "Crimson Pact/The Crimson Pact, Demonic Cult in the Woods.md",
     "Brinehaven/The Rune Stones.md",
-    "Brinehaven/NPC's of Brinehaven/Lysa Emberglow.md",
-    "Brinehaven/NPC's of Brinehaven/Lirien Thaloryn.md",
-    "Dwarven Mine/Dwarf miner notes.md",
-    "Brinehaven/Shops/The Retch vector.md",
-    "Tinkertwist Hollow/The gnome village.md",
-    "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
-    "Forest travel/Forest Randoms.md",
-    "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
     "Crimson Pact",
     "Images/Ardhall Current.jpg",
     "Images/Ardhall tranditional.jpg",
