@@ -34,17 +34,31 @@ Chambers and Encounters
 Entrance: **Nestled against the shores of a shallow mountain river, stairs lead through a stone arch.**
 
 Description: 
-1. **Entrance Cavern** (Easy, 200 XP)
+1. **Entrance Cavern (interview room)** (Easy, 200 XP)
 
-- Description: **A 40x30 ft dusty cavern, steps lead down to a floor littered with rusted mine carts, leads to a collapsed tunnel (blocked path)**. **Faint runes glow on the cavern wall above the collapsed stones** (DC 15 Intelligence (Arcana): hints at ward relic).
-- Monsters: 6 Stirges (CR 1/8, 50 XP each; Monster Manual p. 284) swarming from cracks.
-- Hazards: Cave-in rubble (~, DC 12 Dexterity save or prone/restrained).
-- Loot: 15 gp in a cart, miner's pick (treat as warhammer, 5 gp).
-- Tactics: Stirges drain blood; party can use carts for cover (+2 AC).
-![[Stirge.png]]
+- Description: **A 40x30 ft dusty cavern, steps lead down to a floor littered with rusted mine carts, leads to a collapsed tunnel. 
+- **Two chairs on the opposite sides of a table sit in the center, a statue of an outstretched hand sits in the center of the table. To one side of the table stands a statue of two disembodied hands clasped in a handshake.**
+- when a party member sits down and "shakes hands" with the outstretched hand a spectral figure of a dwarf appears, and begins asking dwarven mine employment questions:
+	1. “Ye ever swung a pick in anger, or just waved one about like a wee flower? Show me yer calluses—palms up, lad/lass!”
+	2. “How do ye feel about the dark? Real dark. The kind that swallows lantern-light and whispers yer name back wrong.”
+	3. “Ever heard the stone sing? And when it did, did ye stop digging like a sensible soul, or keep hammering like a fool with a death wish?”
+	4. “What’s yer opinion on mushrooms? Because ye’ll be eating a lot of them. And cave fish. And things that taste like regret.”
+	5. “Can ye tell mithril from fool’s silver by the ring of it, or do ye need to lick it first like some surface elf?”
+	6. “How many fingers have ye lost so far? None? Hmph. We’ll fix that.”
+	7. “Ye got a song in ye for when the timbers creak and the air goes bad? A good marching tune keeps the panic down.”, "sing for me ya damned halfling!"
+	8. “Ever met a duergar?", "Good. What did ye hit him with, and how hard?”
+	9. “When the mountain groans like a drunk giant, do ye run for the lift or brace the tunnel first?”
+	10. “How long can ye hold yer breath? Because sometimes the damp snuffs the lamps and ye’ve got to walk out on memory alone.”
+	11. “Ye afraid of heights? Good. Ye’ll be working in depths instead—much safer, unless the ceiling decides otherwise.”
+	12. “What’s yer clan debt? Everyone owes someone. I need to know who’ll come knocking if ye vanish into a cave-in.”
+	13. “Can ye smell poison gas before it turns yer lungs to soup, or do ye rely on the canary like a soft-handed merchant?”
+	14. “Ever killed a man over the last keg of blackpowder?", "…No? Give it time.”
+	15. “Ye swear by Moradin’s beard, Grimnir’s axe, or some other god? Doesn’t matter, long as ye swear loud when the roof falls.”
+	16. “How do ye take yer ale—warm, flat, and tasting faintly of sulfur, or are ye one of those delicate types who wants it cold?”
+	17. “Last question: If ye find a vein of gold so pure it hurts to look at, and a dragon curled atop it… what do ye do?”
+    - (The correct answer, whispered by old miners: “Walk away quiet-like and pretend ye saw nothing. Then tell me, and only me.”)
 
-
-2. **Guard Post** (Medium, 450 XP)
+The dwarf will squint at every answer, tug his beard, spit into the dust, and finally grunt either “Ye’ll do” or “Back to the surface with ye, ye glossy pebble.”
 
 - Description: **Moving the rubble leads to a chamber where a ledge runs around, above a water logged floor with barricades and old watchposts. Beneath is a dark shaft leading down. Echoes of dripping water emanate from the shaft.**
 - Monsters: 3 Duergar (CR 1, 200 XP each; Monster Manual p. 122) + 2 Giant Spiders (CR 1, 200 XP each) webbing the posts.
@@ -58,11 +72,11 @@ Description:
 3. **Collapsed Tunnel** (Medium, 700 XP)
 
 - Description: **Climbing down the rickety ladder in the shaft, you land in a Rubble-choked passage. A shaft continues down to your right, a tunnel leads away at the other end of the passage. Rubble litters the floor and worn chest sits among the debris next to a grayish puddle. The ceiling over the passage appears unstable.**
-- Monsters: 1 Gray Ooze (CR 1/2, 100 XP) + 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
+- Monsters: 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
 - Hazards: Ceiling collapse (DC 14 Intelligence (Investigation) to spot; triggered by loud noise, 3d6 bludgeoning, DC 13 Dexterity save half).
 - Loot: Inside mimic: 50 gp, mithril ingot (25 gp).
 - Tactics: Mimic grapples; ooze engulfs; shadows drain Strength.
-![[Gray Ooze.png]]
+
 ![[Mimic.png]]
 ![[Shadow.png]]
 
@@ -71,7 +85,6 @@ Description:
 
 - Description: **A large multi level chamber with rusted bunks and several dwarven skeletons.**
 - Monsters: 4 Dwarven Zombies (CR 1/4, 50 XP each; reskin Zombie, MM p. 316) + 1 Wight (CR 3, 700 XP; MM p. 300, dwarven overseer).
-- Hazards: Poison gas vents (DC 13 Constitution save or poisoned for 1 min).
 - Loot: 40 gp, +1 Dagger (dwarven heirloom).
 - Tactics: Wight Life Drain; zombies swarm in cramped space.
 ![[Zombie.png]]
@@ -80,13 +93,14 @@ Description:
 
 5. **Forge Chamber** (Medium, 600 XP)
 
-- Description: **Ruined forge with cold anvils and geothermal vents. Ore veins sparkle.**
-- Monsters: 2 Animated Armors (CR 1, 200 XP each; MM p. 19) + 1 Fire Elemental (Myrmidon) (no—Flameskull CR 4, but scaled; use 2 Helmed Horrors CR 4 total 1,800 too high—2 Duergar + 1 Hell Hound CR 3, 700 XP; MM p. 182).
+- Description: **An old cold forge, anvils and geothermal vents. Ore veins sparkle. A mold sits on a workbench to the north side. Across the room a large door stands closed, a reinforced hatch (strength DC28 to break it down) covers a tunnel leading down.**
+- The mold is in the shape of a key for a door.
+- A crucible can be found on a nearby bench.
+- Light the forge, melt some of the leftover metal and pour the mold for the door key
+
 - Hazards: Vent steam (DC 13 Dexterity save or 2d6 fire).
-- Loot: 30 gp, Flame Tongue Shortsword (rare drop, DC 15 check).
-- Tactics: Hell Hound breathes fire; duergar invisibility.
-![[Animated Armor.png]]
-![[Flameskull.png]]
+- Loot: 30 gp.
+
 
 
 6. **Ore Vein** (Easy-Medium, 400 XP)
@@ -100,15 +114,15 @@ Description:
 
 
 7. **Deep Hoard Chamber** (Deadly Boss, 1,650 XP)
-
-- Description: **Rune-sealed door (DC 16 Intelligence (Arcana) to open).** 
-- 
+ 
 - **Vast cavern with a hoard pile and ancient dwarven throne.** 
 - Monsters: Xorn (CR 5, 1,800 XP; MM p. 304, treasure guardian) + 2 Specters (CR 1, 200 XP each, dwarven miners).
 - Hazards: Treasure mimic (if touched wrong, grapple).
-- Loot: 300 gp, Dwarven rune relic Belt +2 strength when worn (boosts hearthstone ward, plot item).
+- Loot: 6000 gp in gold and gems, Dwarven rune relic Belt +2 strength when worn (boosts hearthstone ward, plot item).
 - Tactics: Xorn burrows, treasure sense; specters drain life.
 ![[Xorn.png]]
+![[Specter.png]]
+
 Random Encounters (1d6 per hour, 20% chance)1-2: None 3: 1d4 Stirges 4: Cave-in (2d6 bludgeoning) 5: Dwarven ghost (non-hostile lore) 6: 1d3 Duergar scouts
 
 Campaign Hooks
@@ -136,4 +150,3 @@ Campaign Hooks
 [7]
 ```
 
-Khazad-Durak offers classic dwarven delving with tactical variety. Enjoy!

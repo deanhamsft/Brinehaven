@@ -8,48 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f056906d70a9fb03",
+            "id": "9158890333662c8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Current state of things Party 2.md",
+                "file": "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Current state of things Party 2"
+              "title": "Captain-Legate Cassian Duval"
             }
           },
           {
-            "id": "cd4c35d692c72b5b",
+            "id": "07c519b148f4bfb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven/NPC's of Brinehaven/deputies.md",
+                "file": "Kingdom of Ardhall/Thornmaar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deputies"
+              "title": "Thornmaar"
             }
           },
           {
-            "id": "d974d81afa7dd7e0",
+            "id": "815e592cb4d2a97a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brinehaven/The Brinehaven Hearth.md",
+                "file": "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Brinehaven Hearth"
+              "title": "Captain-Legate Cassian Duval"
+            }
+          },
+          {
+            "id": "640bf6d592d4258c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Imperium of Illutuvan/Imperial advisors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Imperial advisors"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -208,54 +223,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f056906d70a9fb03",
+  "active": "640bf6d592d4258c",
   "lastOpenFiles": [
-    "The Salt Marsh/Saltmarsh randoms.md",
-    "Brinehaven/Shops/Brinehaven Shops.md",
-    "Party members 2/Tobin/Tobin (Mardy).md",
-    "Forest travel/Forest Randoms.md",
-    "Brinehaven/NPC's of Brinehaven/deputies.md",
-    "Brinehaven/Shops/The Retch vector.md",
-    "Current state of things Party 2.md",
-    "Party members 2/Tevia/Frunks (Tevia).md",
-    "The Runestones/Runes of the objects.md",
-    "Party members 2/Mira/Mira (Sarah).md",
-    "Brinehaven/The Brinehaven Hearth.md",
-    "Party members 2/Mazikeen/Mazikeen (Ariel).md",
-    "Smugglers Cove/Smugglers Cove.md",
-    "Notes for stuff.md",
-    "Current state of things (Sunday).md",
-    "Brinehaven/Sheriff Race.md",
-    "Tinkertwist Hollow/NPC's/Lulu Springleap.md",
-    "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
+    "Brinehaven/NPC's of Brinehaven/City Council.md",
+    "Brinehaven/Council Meeting.md",
+    "Kingdom of Ardhall/Thornmaar.md",
+    "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
+    "Imperium of Illutuvan/First Expeditionary Cohort.md",
+    "Imperium of Illutuvan/Master Engineer Thargrim Ironvein.md",
+    "Brinehaven/Erival Var Handl.md",
+    "Kingdom of Ardhall/Outline of the kingdom.md",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Tinkertwist Hollow/Blunderbuss.md",
+    "Imperium of Illutuvan/Outline of the Imperium.md",
+    "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
+    "Kingdom of Ardhall",
+    "Imperium of Illutuvan/Imperial advisors.md",
+    "Carival Stanislain.md",
+    "Brinehaven/The Brinehaven Hearth.md",
+    "Current state of things (Sunday).md",
+    "Tinkertwist Hollow/The Cog & Cushion Inn.md",
+    "Crimson Pact/The Crimson Pact, Demonic Cult in the Woods.md",
+    "Brinehaven/The Rune Stones.md",
+    "Brinehaven/NPC's of Brinehaven/Lysa Emberglow.md",
+    "Brinehaven/NPC's of Brinehaven/Lirien Thaloryn.md",
+    "Dwarven Mine/Dwarf miner notes.md",
+    "Brinehaven/Shops/The Retch vector.md",
     "Tinkertwist Hollow/The gnome village.md",
     "Tinkertwist Hollow/NPC's/Mayor Pipkin Gearwhistle.md",
-    "Forest Cave/Cave Monsters.md",
-    "Party members/Ranzen/Ranzan Eilsar.md",
-    "Carival Stanislain.md",
-    "Brinehaven/NPC's of Brinehaven/City Council.md",
-    "Forest travel/glenn.jpg",
-    "Forest travel/Camps.jpg",
+    "Forest travel/Forest Randoms.md",
+    "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
+    "Crimson Pact",
+    "Images/Ardhall Current.jpg",
+    "Images/Ardhall tranditional.jpg",
+    "Images/image (5).jpg",
+    "Images/image (4).jpg",
+    "Images/Illutuvan line style.jpg",
+    "Images/Illutuvan Flag.jpg",
+    "Images/Legionem Standard.jpg",
+    "Images/Ardhall.png",
+    "Images/Legend.png",
+    "Images/Imperium4.png",
     "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
-    "Smugglers Cove/SmugglerCove.jpg",
-    "Tinkertwist Hollow/Tinkertwist Hollow.jpg",
-    "Forest Cave/Forest Cave.jpg",
     "Brinehaven/Shops",
     "Brinehaven/Side Quests",
     "Tinkertwist Hollow/NPC's",
-    "Images/FairyGlen.png",
-    "Fairy Glen/Fairy Glen.jpg",
-    "Forest travel/meadow.jpg",
     "Forest travel/Unconfirmed 6540.crdownload",
     "Forest travel/Unconfirmed 199145.crdownload",
-    "Forest travel/Broken Bridge.jpg",
     "Forest travel/Unconfirmed 233061.crdownload",
     "Forest travel/Unconfirmed 792367.crdownload",
-    "The Runestones",
-    "Dwarven Mine/OreVein.jpg",
-    "Dwarven Mine/Unconfirmed 638486.crdownload",
     "Untitled.canvas"
   ]
 }
