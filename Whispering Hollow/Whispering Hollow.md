@@ -5,8 +5,8 @@ Location and Description
 - Atmosphere: Eerie and melancholic, with the whispers intensifying at night, accompanied by cold breezes. The site feels watched, its treasure guarded by a restless spirit.
 
 Inhabitants
-[[Specter.png]]
-[[Water Weird.png]]
+![[Specter.png]]
+![[Water Weird.png]]
 - Haunting Spirit: Lysara the Lamenter (use Specter stats, CR 1, Monster Manual p. 279, with +10 HP and a custom ability), the ghost of an elven sailor betrayed and drowned 400 years ago. She seeks her lost locket, believing it holds her soul’s peace.
 - Minions: 2 Water Weird (CR 3, Monster Manual p. 299, scaled to CR 1 with 22 HP each), animated by Lysara’s sorrow to guard the treasure.
 - Wildlife: Glowing crabs (non-hostile, 1d4 hp if eaten) scuttle among the ruins.
@@ -15,6 +15,10 @@ Key Features
 
 - Sunken Ruins: The remains of a small elven vessel, submerged 10-15 ft deep. A DC 12 Strength (Athletics) check (or Water Breathing) is needed to search, revealing a chest (DC 13 Dexterity (Thieves’ Tools) to unlock).
 - Rune-Cliff: A glowing elven rune (DC 15 Intelligence (Arcana)) ties to the hearthstone ward, weakening Lysara’s hold if activated with a song (e.g., Ysmeine’s flute, DC 14 Charisma (Performance)).
+	- Stones of three
+	- Stand to the sea
+	- a heart in the hearth
+	- to lead to free.
 - Whispering Mist: A magical effect (DC 13 Wisdom save or disadvantage on Perception for 1 minute) that mimics Lysara’s voice, pleading for help or cursing intruders.
 - Treasure Cache: The chest contains 50 gp, a Silver Locket (nonmagical, sentimental to Lysara, 25 gp), and a Potion of Healing.
 
