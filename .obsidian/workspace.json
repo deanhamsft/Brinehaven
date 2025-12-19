@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
+                "file": "Veilshadow/Valthor Krenn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Captain-Legate Cassian Duval"
+              "title": "Valthor Krenn"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kingdom of Ardhall/Compressed Dragonic Fire.md",
+                "file": "Veilshadow/Veilshadow ghost town.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compressed Dragonic Fire"
+              "title": "Veilshadow ghost town"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,15 +194,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c519b148f4bfb2",
+  "active": "9158890333662c8e",
   "lastOpenFiles": [
-    "Kingdom of Ardhall/Thornmaar.md",
+    "Veilshadow/Veilshadow ghost town.md",
+    "Veilshadow/The Village of Veilshadow.jpg",
+    "Veilshadow/Valthor Krenn.md",
+    "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
+    "Party members/Iymril/Iymril Cobiir.md",
+    "Carival Stanislain.md",
     "Kingdom of Ardhall/Compressed Dragonic Fire.md",
+    "Veilshadow",
+    "Kingdom of Ardhall/Thornmaar.md",
     "Notes for stuff.md",
     "Imperium of Illutuvan/Imperial advisors.md",
     "Imperium of Illutuvan/Compressed Dragonic Fire.md",
-    "Carival Stanislain.md",
-    "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
     "Brinehaven/NPC's of Brinehaven/City Council.md",
     "Brinehaven/Council Meeting.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
@@ -220,10 +224,6 @@
     "Crimson Pact/The Crimson Pact, Demonic Cult in the Woods.md",
     "Brinehaven/The Rune Stones.md",
     "Brinehaven/NPC's of Brinehaven/Lysa Emberglow.md",
-    "Brinehaven/NPC's of Brinehaven/Lirien Thaloryn.md",
-    "Dwarven Mine/Dwarf miner notes.md",
-    "Brinehaven/Shops/The Retch vector.md",
-    "Tinkertwist Hollow/The gnome village.md",
     "Crimson Pact",
     "Images/Ardhall Current.jpg",
     "Images/Ardhall tranditional.jpg",
@@ -234,7 +234,6 @@
     "Images/Legionem Standard.jpg",
     "Images/Ardhall.png",
     "Images/Legend.png",
-    "Images/Imperium4.png",
     "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
     "Brinehaven/Shops",
     "Brinehaven/Side Quests",
@@ -242,7 +241,6 @@
     "Forest travel/Unconfirmed 6540.crdownload",
     "Forest travel/Unconfirmed 199145.crdownload",
     "Forest travel/Unconfirmed 233061.crdownload",
-    "Forest travel/Unconfirmed 792367.crdownload",
     "Untitled.canvas"
   ]
 }
