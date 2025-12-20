@@ -2,7 +2,7 @@ Veilshadow: The Cursed Ghost Town
 
 Adventure Overview
 
-Background: Veilshadow was once a prosperous mining town built around a rich silver vein. 20 years ago, the miners unearthed an ancient idol of Orcus buried in the mines. A greedy priest of Pelor (the sun god) named Elias Thorne stole it, hoping to sell it for wealth. This unleashed a curse: a wave of necrotic energy killed everyone overnight, turning most into undead trapped in eternal torment. The few survivors fled, and the town has been shunned since.
+Background: Veilshadow was once a prosperous mining town built around a rich silver vein. 20 years ago, the miners unearthed an ancient idol of Orcus buried in the mines. A greedy priest of Pelor (the sun god) named Elias Thorne stole it, hoping to sell it for wealth. This unleashed a curse: a wave of necrotic energy killed almost everyone overnight, turning most into undead trapped in eternal torment. The few survivors fled, and the town has been shunned since.
 
 The curse lingers because the idol remains hidden in the town's temple. Undead rise each night, replaying their final moments. A ghost (former mayor) seeks help to end the curse, but a powerful wight (Elias Thorne, now undead) guards the idol, commanding lesser undead.
 
@@ -43,13 +43,10 @@ Encounters & Scaling
 
 Difficulty: Medium-Hard for 5 level-5 PCs (adjust by adding/removing minions).
 
-- Random Encounters (roll d20 every hour in town; 16+ triggers):
+- Random Encounters (roll d20 every hour in town; 16+ triggers) pick one from below:
   - 1d4 [[Shadow.png]] (drain strength—horror element).
   - 2 [[Specter.png]] (life drain).
   - Poltergeist activity (telekinetic thrusts, no damage but scary).
-- Fixed Encounters:
-  - Graveyard: 4 zombies + 2 ghouls (Deadly if unprepared).
-  - Temple Approach: 6 skeletons + 1 wraith (servant of the boss).
 - Boss: Elias Thorne ([[Wight.png]]) in temple, with a [[Wraith.png]] and idol's aura (undead have advantage on saves).
   - Use standard wight stats, but add: Casts animate dead once (creates 4 skeletons).
   - Roleplay: Thorne rants about "eternal wealth," offers to share power if party joins him (unlikely).
