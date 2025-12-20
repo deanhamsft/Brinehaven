@@ -10,7 +10,7 @@ The curse lingers because the idol remains hidden in the town's temple. Undead r
 
 Atmosphere Tips:
 
-- Perpetual fog reduces visibility to 60 ft. outside buildings.
+- Perpetual fog reduces visibility to 60 ft. outside buildings. The fog is more dense overlaying the graveyard.
 - Eerie sounds: distant screams, doors creaking, whispers.
 - Collapsed roofs, overgrown weeds, dusty interiors with signs of sudden death (overturned tables, dried blood).
 - At night (or if the party lingers), non-combat "haunts": ghostly reenactments (illusions) of townsfolk dying.
@@ -31,12 +31,12 @@ Veilshadow is a small town (treat as a 300x400 ft. area for mapping). Key locati
 
 6. Mayor’s House: Journal reveals mining history and priest's greed. Friendly ghost of the mayor appears: pleads for help destroying the idol.
 
-7. Graveyard: Overgrown, disturbed graves. 4 zombies and 2 ghouls rise at night.
+7. Graveyard: Overgrown, disturbed graves.
    Once the party travels into the graveyard it will trigger a teleport portal that allows Valthor Krenn to walk through seeking to stop the disturbance of the curse. Valthor uses the small ghost town as a forward operating position to disrupt Imperial efforts along the frontier with Ardhall. Valthor is loosely aligned with Thornmaar in keeping the Imperium from gaining power.
 
 8. Mines Entrance: Collapsed but accessible. Leads to optional side area: 3 [[Specter.png]] guard minor treasure (gems worth 300 gp).
 
-9. Temple of Pelor (Boss Lair): Desecrated altar, necrotic energy. Puzzle: Restore sunburst symbols (DC 15 Religion/Arcana) to weaken undead. Final encounter here.
+9. Temple of Pelor (Boss Lair): Desecrated altar, necrotic energy. Final encounter here.
    The pieces of the sunburst symbols were broken up and scattered in the graveyard by Elias under the influence of Orcus.
 
 Encounters & Scaling
@@ -55,6 +55,6 @@ Difficulty: Medium-Hard for 5 level-5 PCs (adjust by adding/removing minions).
 Total XP Budget: ~7,000-10,000 XP (adjust for milestones).Resolution & Rewards
 
 - Destroy the idol (AC 15, 50 HP, resistance to non-radiant/magical) or consecrate the temple (ritual, DC 15 Religion check with help from mayor's ghost).
-- Success: Curse lifts, ghosts find peace (mayor grants boon: inspiration or minor blessing).
+- Success: Curse lifts. Puzzle: Restore sunburst symbols to restore blessing of Pelor, ghosts find peace (mayor grants boon: inspiration or minor blessing).
 - Treasure: 1,000 gp in silver/jewels scattered, +1 weapon in blacksmith, scroll of daylight, potion of greater healing.
 - Failure/Partial: Town remains haunted; recurring nightmares or undead pursuit.
