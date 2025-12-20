@@ -25,7 +25,7 @@ Veilshadow is a small town (treat as a 300x400 ft. area for mapping). Key locati
  
 3. Blacksmith: Anvil with half-forged sword. 2 skeletons (MM) animate if disturbed. Treasure: masterwork tools, 50 gp in silver ingots.
 
-4. Inn (The Silver Mug): Common room with overturned tables. Upstairs rooms intact but dusty. Friendly ghost (former innkeeper) appears here if party rests—offers cryptic clues ("The light betrayed us").
+4. Inn (The Silver Mug): Common room with overturned tables. Upstairs rooms intact but dusty. Friendly ghost (former innkeeper) appears here if party rests—offers cryptic clues ("He shattered the light of the temple").
 
 5. General Store: Shelves with rotted goods. Trap: collapsing floor (DC 13 Dex save or 2d6 bludgeoning + prone). Treasure: potions of healing (2), 100 gp trade goods.
 
