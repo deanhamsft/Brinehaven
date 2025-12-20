@@ -6,17 +6,17 @@ Built using point buy (27 points), PHB rules (with Xanathar's spells for flavor)
 
 Core Stats
 
-|Category|Details|
-|---|---|
-|Race|Drow (PHB)|
-|Class/Level|Wizard 9 (School of Necromancy)|
-|Background|Sage (Arcane Lore)|
-|Alignment|Lawful Evil|
-|HP|52 (9d6 + 18)|
-|AC|16 (Mage Armor) or 19 w/ Shield spell|
-|Initiative|+3|
-|Speed|30 ft.|
-|Proficiency Bonus|+4|
+| Category          | Details                               |
+| ----------------- | ------------------------------------- |
+| Race              | Drow (PHB)                            |
+| Class/Level       | Wizard 9 (School of Necromancy)       |
+| Background        | Sage (Arcane Lore)                    |
+| Alignment         | Lawful Evil                           |
+| HP                | 52 (9d6 + 18)                         |
+| AC                | 16 (Mage Armor) or 19 w/ Shield spell |
+| Initiative        | +3                                    |
+| Speed             | 30 ft.                                |
+| Proficiency Bonus | +4                                    |
 
 Ability Scores & Saves
 
