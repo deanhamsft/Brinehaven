@@ -22,8 +22,8 @@ Veilshadow is a small town (treat as a 300x400 ft. area for mapping). Key locati
 1. Town Entrance/Gates: Rotted wooden sign reads "Veilshadow – Riches Await." Overgrown road leads to main street.
 
 2. Main Street: Abandoned carts, scattered tools. Random encounter possible.
- 
-3. Blacksmith: Anvil with half-forged sword. 2 skeletons (MM) animate if disturbed. Treasure: masterwork tools, 50 gp in silver ingots.
+
+3. Blacksmith: Anvil with half-forged sword. 2 [[Skeleton.png]] (MM) animate if disturbed. Treasure: masterwork tools, 50 gp in silver ingots.
 
 4. Inn (The Silver Mug): Common room with overturned tables. Upstairs rooms intact but dusty. Friendly ghost (former innkeeper) appears here if party rests—offers cryptic clues ("He shattered the light of the temple").
 
@@ -32,25 +32,28 @@ Veilshadow is a small town (treat as a 300x400 ft. area for mapping). Key locati
 6. Mayor’s House: Journal reveals mining history and priest's greed. Friendly ghost of the mayor appears: pleads for help destroying the idol.
 
 7. Graveyard: Overgrown, disturbed graves. 4 zombies and 2 ghouls rise at night.
+   Once the party travels into the graveyard it will trigger a teleport portal that allows Valthor Krenn to walk through seeking to stop the disturbance of the curse. Valthor uses the small ghost town as a forward operating position to disrupt Imperial efforts along the frontier with Ardhall. Valthor is loosely aligned with Thornmaar in keeping the Imperium from gaining power.
 
-8. Mines Entrance: Collapsed but accessible. Leads to optional side area: 3 specters guard minor treasure (gems worth 300 gp).
+8. Mines Entrance: Collapsed but accessible. Leads to optional side area: 3 [[Specter.png]] guard minor treasure (gems worth 300 gp).
 
-9. Temple of Pelor (Boss Lair): Desecrated altar, necrotic energy. Puzzle: Restore sunlight symbols (DC 15 Religion/Arcana) to weaken undead. Final encounter here.
+9. Temple of Pelor (Boss Lair): Desecrated altar, necrotic energy. Puzzle: Restore sunburst symbols (DC 15 Religion/Arcana) to weaken undead. Final encounter here.
+   The pieces of the sunburst symbols were broken up and scattered in the graveyard by Elias under the influence of Orcus.
 
 Encounters & Scaling
 
 Difficulty: Medium-Hard for 5 level-5 PCs (adjust by adding/removing minions).
 
 - Random Encounters (roll d20 every hour in town; 16+ triggers):
-    - 1d4 shadows (drain strength—horror element).
-    - 2 specters (life drain).
-    - Poltergeist activity (telekinetic thrusts, no damage but scary).
+  - 1d4 [[Shadow.png]] (drain strength—horror element).
+  - 2 [[Specter.png]] (life drain).
+  - Poltergeist activity (telekinetic thrusts, no damage but scary).
 - Fixed Encounters:
-    - Graveyard: 4 zombies + 2 ghouls (Deadly if unprepared).
-    - Temple Approach: 6 skeletons + 1 wraith (servant of the boss).
-- Boss: Elias Thorne (Wight) in temple, with 2 wraiths and idol's aura (undead have advantage on saves).
-    - Use standard wight stats, but add: Casts animate dead once (creates 4 skeletons).
-    - Roleplay: Thorne rants about "eternal wealth," offers to share power if party joins him (unlikely).
+  - Graveyard: 4 zombies + 2 ghouls (Deadly if unprepared).
+  - Temple Approach: 6 skeletons + 1 wraith (servant of the boss).
+- Boss: Elias Thorne ([[Wight.png]]) in temple, with a [[Wraith.png]] and idol's aura (undead have advantage on saves).
+  - Use standard wight stats, but add: Casts animate dead once (creates 4 skeletons).
+  - Roleplay: Thorne rants about "eternal wealth," offers to share power if party joins him (unlikely).
+- Epic boss: Valthor Krenn (Archmage) [[Valthor Krenn]]
 
 Total XP Budget: ~7,000-10,000 XP (adjust for milestones).Resolution & Rewards
 
