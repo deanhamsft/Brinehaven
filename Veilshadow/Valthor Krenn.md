@@ -40,7 +40,8 @@ Proficiencies & Languages
 - Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
 - Languages: Common, Elvish, Undercommon, Abyssal, Deep Speech
 
-Racial & Class FeaturesDrow Traits
+Racial & Class Features
+Drow Traits
 
 - Darkvision: 120 ft.
 - Sunlight Sensitivity: Disadvantage on attack rolls and Wisdom (Perception) checks in sunlight.

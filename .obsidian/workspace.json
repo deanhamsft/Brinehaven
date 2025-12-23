@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Veilshadow/Valthor Krenn.md",
+                "file": "Imperium of Illutuvan/Korrath.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valthor Krenn"
+              "title": "Korrath"
             }
           },
           {
@@ -55,15 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "minor charms.md",
+                "file": "Veilshadow/Valthor Krenn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "minor charms"
+              "title": "Valthor Krenn"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -222,10 +223,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9158890333662c8e",
+  "active": "4d29dc88f2e15eb1",
   "lastOpenFiles": [
-    "minor charms.md",
+    "Imperium of Illutuvan/Korrath.md",
+    "Party members/Ranzen/Ranzan Eilsar.md",
     "Veilshadow/Valthor Krenn.md",
+    "minor charms.md",
     "Veilshadow/Veilshadow ghost town.md",
     "Images/Skeleton.png",
     "Forest Cave/Specter.png",
@@ -259,7 +262,6 @@
     "Kingdom of Ardhall",
     "Brinehaven/The Brinehaven Hearth.md",
     "Current state of things (Sunday).md",
-    "Tinkertwist Hollow/The Cog & Cushion Inn.md",
     "Crimson Pact",
     "Images/Ardhall Current.jpg",
     "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
