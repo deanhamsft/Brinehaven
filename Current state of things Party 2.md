@@ -15,4 +15,9 @@ deciphered the runes on the Flute. Found that they need to talk to the Blacksmit
 The party has not cleared out the poaching camp
 
 party kept Retch's journal.
+Party summoned a demon at the cult site, party is marked by the demon.
+The Dryad might prove valuable here
+
+
+
 
