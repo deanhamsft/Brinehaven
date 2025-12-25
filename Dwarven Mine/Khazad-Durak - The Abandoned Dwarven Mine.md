@@ -60,7 +60,7 @@ Description:
 
 The dwarf will squint at every answer, tug his beard, spit into the dust, and finally grunt either “Ye’ll do” or “Back to the surface with ye, ye glossy pebble.”
 
-- Description: **Moving the rubble leads to a chamber where a ledge runs around, above a water logged floor with barricades and old watchposts. Beneath is a dark shaft leading down. Echoes of dripping water emanate from the shaft.**
+- Description: **Moving the rubble leads to a chamber where a stair runs around, above a water logged floor with barricades and old watchposts. Beneath is a dark shaft leading down. Echoes of dripping water emanate from the shaft.**
 - Monsters: 3 Duergar (CR 1, 200 XP each; Monster Manual p. 122) + 2 Giant Spiders (CR 1, 200 XP each) webbing the posts.
 - Hazards: Web traps (DC 13 Strength save or restrained).
 - Loot: 25 gp, Potion of Hill Giant Strength (hidden in duergar belt).
@@ -140,11 +140,11 @@ Campaign Hooks
 
 ```text
 [1] --tunnel-- [2]
- | shaft
-[3] --tunnel-- [4]
- |
-[5] --tunnel-- [6]
- |
-[7]
+			    | shaft
+[4] --tunnel-- [3]
+				|
+[6] --tunnel-- [5]
+				|
+			   [7]
 ```
 
