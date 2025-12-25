@@ -71,7 +71,7 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 3. **Collapsed Tunnel** (Medium, 700 XP)
 
-- Description: **Climbing down the rickety ladder in the shaft, you land in a Rubble-choked passage. A shaft continues down to your right, a tunnel leads away at the other end of the passage. Rubble litters the floor and worn chest sits among the debris next to a grayish puddle. The ceiling over the passage appears unstable.**
+- Description: **Climbing down the rickety ladder in the shaft, you land in a Rubble-choked passage. A shaft continues down to your right, a tunnel leads away at the other end of the passage. Rubble litters the floor and a worn chest sits among the debris next to a grayish puddle. The ceiling over the passage appears unstable.**
 - Monsters: 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
 - Hazards: Ceiling collapse (DC 14 Intelligence (Investigation) to spot; triggered by loud noise, 3d6 bludgeoning, DC 13 Dexterity save half).
 - Loot: Inside mimic: 50 gp, mithril ingot (25 gp).
