@@ -75,7 +75,7 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 - Monsters: 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
 - Hazards: Ceiling collapse (DC 14 Intelligence (Investigation) to spot; triggered by loud noise, 3d6 bludgeoning, DC 13 Dexterity save half).
 - Loot: Inside mimic: 50 gp, mithril ingot (25 gp).
-- Tactics: Mimic grapples; ooze engulfs; shadows drain Strength.
+- Tactics: Mimic grapples; shadows drain Strength.
 
 ![[Mimic.png]]
 ![[Shadow.png]]
@@ -97,8 +97,6 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 - The mold is in the shape of a key for a door.
 - A crucible can be found on a nearby bench.
 - Light the forge, melt some of the leftover metal and pour the mold for the door key
-
-- Hazards: Vent steam (DC 13 Dexterity save or 2d6 fire).
 - Loot: 30 gp.
 
 
