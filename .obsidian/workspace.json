@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Veilshadow/Valthor Krenn.md",
+                "file": "Imperium of Illutuvan/Korrath.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valthor Krenn"
+              "title": "Korrath"
             }
           },
           {
@@ -67,15 +67,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Imperium of Illutuvan/Korrath.md",
+                "file": "Current state of things Party 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Korrath"
+              "title": "Current state of things Party 2"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -234,13 +235,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9158890333662c8e",
+  "active": "4d29dc88f2e15eb1",
   "lastOpenFiles": [
-    "Images/Wild-Magic-104.jpg",
-    "Images/Unconfirmed 520180.crdownload",
-    "Images/Skeleton.png",
-    "Imperium of Illutuvan/Korrath.md",
     "Veilshadow/Valthor Krenn.md",
+    "Imperium of Illutuvan/Korrath.md",
+    "Party members/Ranzen/Ranzan Eilsar.md",
+    "minor charms.md",
     "Veilshadow/Veilshadow ghost town.md",
     "Images/Wight.png",
     "Images/Wraith.png",
@@ -275,6 +275,7 @@
     "Imperium of Illutuvan/Outline of the Imperium.md",
     "Kingdom of Ardhall",
     "Brinehaven/The Brinehaven Hearth.md",
+    "Current state of things (Sunday).md",
     "Crimson Pact",
     "Images/Ardhall Current.jpg",
     "SoundEffects/gentle-rain-for-relaxation-and-sleep-337279.mp3",
