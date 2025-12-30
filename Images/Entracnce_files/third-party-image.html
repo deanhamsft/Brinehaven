@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://artifacts.grokusercontent.com/third-party-image -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner Iframe Creator</title>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        height: 100%;
+        padding: 0px;
+      }
+      #innerIframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-width: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="innerIframe" tabindex="-1" src="./saved_resource.html"></iframe>
+    <script>
+      window.addEventListener("message", function (event) {
+        if (event.data && event.data.type === "image") {
+          const iframe = document.getElementById("innerIframe");
+          const { src, alt, objectFit } = event.data;
+          const html = applyIframeTemplate({
+            src,
+            alt,
+            origin: event.origin,
+            objectFit,
+          });
+
+          iframe.onload = () => {
+            if (iframe.contentWindow?.document?.body) {
+              iframe.contentWindow.document.body.style.margin = "0";
+            }
+          };
+          iframe.setAttribute("srcDoc", html);
+          iframe.focus();
+        } else if (event.data && event.data.type === "download_image") {
+          const { src } = event.data;
+          fetch(src)
+            .then(response => response.blob())
+            .then(blob => {
+              (window.top || window.parent).postMessage(
+                {
+                  type: "image_data",
+                  src: src,
+                  blob: blob
+                },
+                event.origin
+              );
+            })
+            .catch(error => {
+              (window.top || window.parent).postMessage(
+                {
+                  type: "image_download_error",
+                  src: src,
+                  error: error.message
+                },
+                event.origin
+              );
+            });
+        }
+      });
+
+      const applyIframeTemplate = ({ src, alt, origin, objectFit }) => `
+      <!DOCTYPE html>
+      <html lang="en" style="height:100%;">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Grok Third-Party Image</title>
+          <style>
+            .image-container {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+            }
+            .image {
+              width: 100%;
+              height: 100%;
+              object-fit: ${objectFit};
+              opacity: 0;
+              animation: fadeIn 0.3s ease-in-out forwards;
+            }
+            
+            @keyframes fadeIn {
+              from {
+                opacity: 0;
+              }
+              to {
+                opacity: 1;
+              }
+            }
+          </style>
+        </head>
+        <body style="height:100%;">
+          <div class="image-container">
+            <img
+              id="image"
+              alt="${alt}"
+              class="image"
+              src="${src}"
+            />
+          </div>
+          <script>
+            let parentWindow = window.top;
+            if (!window.top) {
+              parentWindow = window.parent;
+            }
+            
+            const topWindowOrigin = '${origin}';
+            parentWindow.postMessage({type: 'on_load' }, topWindowOrigin);
+
+            // Send keydown events to the parent window
+            document.addEventListener('keydown', function(event) {
+              parentWindow.postMessage(
+                {
+                  type: "keydown",
+                  key: event.key,
+                  code: event.code,
+                },
+                topWindowOrigin
+              );
+            });
+
+            const img = document.getElementById("image");
+            img.onerror = function () {
+              this.remove();
+              parentWindow.postMessage(
+                {
+                  type: "onerror",
+                  src: img.src,
+                },
+                topWindowOrigin
+              );
+            };
+          \<\/script>
+        </body>
+      </html>
+      `;
+    </script>
+  <script defer="" src="./vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;9df249dd92624dde93c9a147cb9cfff0&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+</body></html>
