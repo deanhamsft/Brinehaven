@@ -19,7 +19,9 @@ A sunken chamber with ankle-deep blood-red water (difficult terrain). The water 
 Puzzle: Drain the pit (DC 15 Investigation) to reveal a secret door.
 ![[BloodSoakedRoom.jpg]]
 
+Chambers 3 through 6 are the same chamber. As the party moves through a portal at one point, they find themselves in the same chamber, but the chamber behaves differently
 
+![[T V - Labyrinth (with Puzzle).jpg]]
 Chamber 3: **Guardian Beasts** (Minion Ambush)
 
 A maze-like room with pillars. 6 minotaur skeletons (MM minotaur but undead, CR 2 equivalent) and 2 ogre zombies (MM) rise from bone piles.
