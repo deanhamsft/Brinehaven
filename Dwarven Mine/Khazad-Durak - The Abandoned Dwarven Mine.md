@@ -2,7 +2,9 @@ Location: 30 miles northwest of Brinehaven, nestled in the forested foothills of
 
 Background: Khazad-Durak was a prosperous mithril mine operated by Clan Ironvein 300 years ago. The dwarves dug too deep, breaching an ancient cavern infested with a xorn and its spawn, leading to cave-ins and evacuation. Now, duergar scavengers, oozes, and undead dwarves haunt the depths, drawn by residual magic. Rumors in Brinehaven (from Torren Gale or Lirien) speak of lost dwarven relics, tying to the elven ward—perhaps the dwarves traded with Brinehaven's founders, and a rune-forged artifact strengthens the hearthstone.
 
-Level Suitability: Balanced for 5 Level 4 characters (total XP budget: 4,500-6,600; provided ~5,400 XP, medium-hard encounters). Multiple paths allow short rests; hazards add tension.Atmosphere: Dim torchlight flickers on rune-etched walls; distant echoes of picks and groans; acrid sulfur smell; unstable ceilings (DC 14 Intelligence (Investigation) to spot cave-in risks).Mine Layout (7 Chambers)The mine is a multi-level complex with tunnels (5-10 ft wide, difficult terrain from rubble). Use a grid map: Entrance at top, descending via shafts/ramps. Key: # = Wall, . = Floor, ~ = Rubble (half speed), S = Shaft (20 ft drop, DC 13 Dexterity (Acrobatics) or 2d6 bludgeoning).
+Level Suitability: Balanced for 5 Level 4 characters (total XP budget: 4,500-6,600; provided ~5,400 XP, medium-hard encounters). Multiple paths allow short rests; hazards add tension.
+
+Atmosphere: Dim torchlight flickers on rune-etched walls; distant echoes of picks and groans; acrid sulfur smell; unstable ceilings (DC 14 Intelligence (Investigation) to spot cave-in risks).Mine Layout (7 Chambers)The mine is a multi-level complex with tunnels (5-10 ft wide, difficult terrain from rubble). Use a grid map: Entrance at top, descending via shafts/ramps. Key: # = Wall, . = Floor, ~ = Rubble (half speed), S = Shaft (20 ft drop, DC 13 Dexterity (Acrobatics) or 2d6 bludgeoning).
 
 ```text
 Level 1 (Entrance):                  Level 2 (Deep Veins):

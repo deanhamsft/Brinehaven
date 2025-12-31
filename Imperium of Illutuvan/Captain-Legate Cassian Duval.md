@@ -38,7 +38,11 @@ Fighting Style: Dueling. +2 bonus to damage rolls with one melee weapon. Superio
 Actions
 Multi-attack. 
 Cassian makes three longsword attacks.  
-Longsword. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 5) slashing damage, or 11 (1d10 + 5) two-handed. Heavy Crossbow. Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 8 (1d10 + 3) piercing damage.ReactionsParry. When Cassian is hit by a melee attack, he adds 5 (+ proficiency) to AC against it, potentially causing a miss.  
+Longsword. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 5) slashing damage, or 11 (1d10 + 5) two-handed. Heavy Crossbow. Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 8 (1d10 + 3) piercing damage.
+
+Reactions
+
+Parry. When Cassian is hit by a melee attack, he adds 5 (+ proficiency) to AC against it, potentially causing a miss.  
 Precision Attack. 
 When Cassian or an ally within 30 ft. makes an attack roll, he adds a superiority die to the roll.
 
