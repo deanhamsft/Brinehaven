@@ -11,7 +11,7 @@ Location: Nestled in a narrow cove 5 miles north of Brinehaven, the camp is conc
 Population: 25 total (17 men, 8 women), with 12-13 present at any time (randomly determine absences, e.g., roll 1d4+9 for present members). The group is a mix of human and half-elf smugglers, hardened by years of evading coastal patrols and trading contraband.
 
 Leadership:
-[[Erival Var Handl]]
+
 - Leader (Level 6): Kael "Blackwave" Draven, a cunning rogue with a scarred face and a silver tongue.
 - Lieutenant (Level 4): Veyra "Silent Blade" Tormen, a stealthy fighter who enforces Kael’s orders.
 

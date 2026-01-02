@@ -14,3 +14,5 @@ saved Lira, got a long rest
 
 deciphered the runes on the Flute. Found that they need to talk to the Blacksmith and The herbalist.
 The party has not cleared out the poaching camp
+
+They've gotten to the forge chamber in the Dwarven Mine
