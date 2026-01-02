@@ -1,29 +1,29 @@
 
 Deputies of Sheriff **Drenvar Holt**
 
-1. ~~**Gavric Torl**~~
+1. **Gavric Torl**
 
-- ~~Race: Human~~
-- ~~Age: 32~~
-- ~~Gender: Male~~
-- ~~Occupation: Deputy Sheriff~~
-- ~~Appearance: **A stocky man with a square jaw and a perpetual scowl, Gavric has a crooked nose from a bar fight and a leather patch over a scarred eye. His chain shirt is worn but polished, and he carries a heavy mace with pride.**~~
-- ~~Personality:~~
-    - ~~Traits: Gruff and loyal, Gavric follows Drenvar’s orders without question, valuing strength and order.~~
-    - ~~Ideal: Duty above all—Gavric believes enforcing the law keeps Brinehaven safe, even if it means bending it.~~
-    - ~~Bond: His mace, a gift from his late brother, a guard killed by sahuagin.~~
-    - ~~Flaw: Blind loyalty—Gavric trusts Drenvar implicitly, unaware of the corruption.~~
-- ~~Abilities (Level 2 Fighter):~~
-    - ~~Stats: AC 16 (chain shirt), HP 17 (2d10+2), Speed 30 ft. Str 15, Dex 11, Con 13, Int 10, Wis 12, Cha 9.~~
-    - ~~Saving Throws: Str +4, Con +3~~
-    - ~~Skills: Athletics +4, Intimidation +1~~
-    - ~~Features: Fighting Style (Great Weapon Fighting), Second Wind~~
-    - ~~Equipment: Mace (1d6+4 bludgeoning), chain shirt, sheriff’s badge, signal whistle.~~
-- ~~Role in Brinehaven: Gavric patrols the docks and outskirts, enforcing Drenvar’s edicts. He’s complicit in overlooking smuggling but believes it’s for the village’s good.~~ 
-- ~~Campaign Tie-In: Gavric can be swayed to question Drenvar if shown evidence (e.g., Retch’s tally sheet, DC 14 Charisma (Persuasion)). He might aid against sahuagin or the Crimson Pact if his loyalty shifts.~~
-- ~~Interaction:~~
-    - ~~Line: “State yer business, stranger. Sheriff’s orders—keep the docks clear. Got proof yer not trouble, or I’ll haul ye in!”~~
-    - ~~Quest Offer: Patrol the south coast for “vandals” (15 gp, DC 13 Wisdom (Perception), 1 bandit if failed), a cover for smuggling routes.~~
+- Race: Human
+- Age: 32
+- Gender: Male
+- Occupation: Deputy Sheriff
+- Appearance: **A stocky man with a square jaw and a perpetual scowl, Gavric has a crooked nose from a bar fight and a leather patch over a scarred eye. His chain shirt is worn but polished, and he carries a heavy mace with pride.**
+- Personality:
+    - Traits: Gruff and loyal, Gavric follows Drenvar’s orders without question, valuing strength and order.
+    - Ideal: Duty above all—Gavric believes enforcing the law keeps Brinehaven safe, even if it means bending it.
+    - Bond: His mace, a gift from his late brother, a guard killed by sahuagin.
+    - Flaw: Blind loyalty—Gavric trusts Drenvar implicitly, unaware of the corruption.
+- Abilities (Level 2 Fighter):
+    - Stats: AC 16 (chain shirt), HP 17 (2d10+2), Speed 30 ft. Str 15, Dex 11, Con 13, Int 10, Wis 12, Cha 9.
+    - Saving Throws: Str +4, Con +3
+    - Skills: Athletics +4, Intimidation +1
+    - Features: Fighting Style (Great Weapon Fighting), Second Wind
+    - Equipment: Mace (1d6+4 bludgeoning), chain shirt, sheriff’s badge, signal whistle.
+- Role in Brinehaven: Gavric patrols the docks and outskirts, enforcing Drenvar’s edicts. He’s complicit in overlooking smuggling but believes it’s for the village’s good. 
+- Campaign Tie-In: Gavric can be swayed to question Drenvar if shown evidence (e.g., Retch’s tally sheet, DC 14 Charisma (Persuasion)). He might aid against sahuagin or the Crimson Pact if his loyalty shifts.
+- Interaction:
+    - Line: “State yer business, stranger. Sheriff’s orders—keep the docks clear. Got proof yer not trouble, or I’ll haul ye in!”
+    - Quest Offer: Patrol the south coast for “vandals” (15 gp, DC 13 Wisdom (Perception), 1 bandit if failed), a cover for smuggling routes.
 
 2. **Tyrus Veyn**
 
@@ -49,29 +49,29 @@ Deputies of Sheriff **Drenvar Holt**
     - Line: “Hold there… I’ve seen you poking around. Speak low—Sheriff’s got eyes everywhere. Got something worth my ear, or are you just noise?”
     - Quest Offer: Investigate a “strange light” near the forest cave (20 gp, DC 14 Wisdom (Perception), 1 stirge if failed), a distraction from smuggling.
 
-1. ~~Garrick "Ironfist" Thorne~~
+1. Garrick "Ironfist" Thorne
 
-- ~~Race: Human~~
-- ~~Age: 29~~
-- ~~Gender: Male~~
-- ~~Occupation: Deputy Sheriff~~
-- ~~Appearance: A broad-shouldered brute with a shaved head, a bushy red beard braided with iron rings, and knuckles scarred from brawls. His leather armor is reinforced with metal plates, and he cracks his knuckles habitually.~~
-- ~~Personality:~~
-    - ~~Traits: Aggressive and boastful, Garrick loves a fight and enforces the law with fists first.~~
-    - ~~Ideal: Strength rules—Garrick sees Drenvar's corruption as "necessary muscle" for village control.~~
-    - ~~Bond: A iron gauntlet trophy from his first arrest, symbolizing his rise.~~
-    - ~~Flaw: Hot-tempered—he lashes out if questioned about "side deals."~~
-- ~~Abilities (Level 2 Barbarian):~~
-    - ~~Stats: AC 14 (unarmored defense), HP 20 (2d12+4), Speed 30 ft. Str 16, Dex 12, Con 14, Int 9, Wis 10, Cha 11.~~
-    - ~~Saving Throws: Str +5, Con +4~~
-    - ~~Skills: Athletics +5, Intimidation +1~~
-    - ~~Features: Rage (2/long rest, +2 damage, resistance to bludgeoning/piercing/slashing), Unarmored Defense~~
-    - ~~Equipment: Greataxe (1d12+3 slashing), leather bracers, sheriff’s badge, iron gauntlet.~~
-- ~~Role in Brinehaven: Garrick handles rowdy arrests and muscle work, turning a blind eye to smuggling crates at the docks. Fully complicit, he pockets 10 gp per shipment.~~ 
-- ~~Campaign Tie-In: Garrick escorts reagent wagons to Retch's shack, providing a lead if captured (DC 15 Charisma (Intimidation)). He could be redeemed by exposing Drenvar's full betrayal.~~
-- ~~Interaction:~~
-    - ~~Line: “What’re you gawkin’ at? Sheriff says move along—or I’ll make ya! Got beef? Step up!”~~
-    - ~~Quest Offer: "Clear out some poachers" (20 gp, leads to Grotfang Hollow orcs).~~
+- Race: Human
+- Age: 29
+- Gender: Male
+- Occupation: Deputy Sheriff
+- Appearance: A broad-shouldered brute with a shaved head, a bushy red beard braided with iron rings, and knuckles scarred from brawls. His leather armor is reinforced with metal plates, and he cracks his knuckles habitually.
+- Personality:
+    - Traits: Aggressive and boastful, Garrick loves a fight and enforces the law with fists first.
+    - Ideal: Strength rules—Garrick sees Drenvar's corruption as "necessary muscle" for village control.
+    - Bond: A iron gauntlet trophy from his first arrest, symbolizing his rise.
+    - Flaw: Hot-tempered—he lashes out if questioned about "side deals."
+- Abilities (Level 2 Barbarian):
+    - Stats: AC 14 (unarmored defense), HP 20 (2d12+4), Speed 30 ft. Str 16, Dex 12, Con 14, Int 9, Wis 10, Cha 11.
+    - Saving Throws: Str +5, Con +4
+    - Skills: Athletics +5, Intimidation +1
+    - Features: Rage (2/long rest, +2 damage, resistance to bludgeoning/piercing/slashing), Unarmored Defense
+    - Equipment: Greataxe (1d12+3 slashing), leather bracers, sheriff’s badge, iron gauntlet.
+- Role in Brinehaven: Garrick handles rowdy arrests and muscle work, turning a blind eye to smuggling crates at the docks. Fully complicit, he pockets 10 gp per shipment. 
+- Campaign Tie-In: Garrick escorts reagent wagons to Retch's shack, providing a lead if captured (DC 15 Charisma (Intimidation)). He could be redeemed by exposing Drenvar's full betrayal.
+- Interaction:
+    - Line: “What’re you gawkin’ at? Sheriff says move along—or I’ll make ya! Got beef? Step up!”
+    - Quest Offer: "Clear out some poachers" (20 gp, leads to Grotfang Hollow orcs).
 
 1. **Dwalin "Saltbeard" Kray**
 

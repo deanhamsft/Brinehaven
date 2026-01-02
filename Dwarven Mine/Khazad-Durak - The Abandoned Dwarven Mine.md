@@ -62,7 +62,7 @@ Description:
 
 The dwarf will squint at every answer, tug his beard, spit into the dust, and finally grunt either “Ye’ll do” or “Back to the surface with ye, ye glossy pebble.”
 
-- Description: **Moving the rubble leads to a chamber where a ledge runs around, above a water logged floor with barricades and old watchposts. Beneath is a dark shaft leading down. Echoes of dripping water emanate from the shaft.**
+- Description: **Moving the rubble leads to a chamber where a stair runs around, above a water logged floor with barricades and old watchposts. Beneath is a dark shaft leading down. Echoes of dripping water emanate from the shaft.**
 - Monsters: 3 Duergar (CR 1, 200 XP each; Monster Manual p. 122) + 2 Giant Spiders (CR 1, 200 XP each) webbing the posts.
 - Hazards: Web traps (DC 13 Strength save or restrained).
 - Loot: 25 gp, Potion of Hill Giant Strength (hidden in duergar belt).
@@ -73,11 +73,11 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 3. **Collapsed Tunnel** (Medium, 700 XP)
 
-- Description: **Climbing down the rickety ladder in the shaft, you land in a Rubble-choked passage. A shaft continues down to your right, a tunnel leads away at the other end of the passage. Rubble litters the floor and worn chest sits among the debris next to a grayish puddle. The ceiling over the passage appears unstable.**
+- Description: **Climbing down the rickety ladder in the shaft, you land in a Rubble-choked passage. A shaft continues down to your right, a tunnel leads away at the other end of the passage. Rubble litters the floor and a worn chest sits among the debris next to a grayish puddle. The ceiling over the passage appears unstable.**
 - Monsters: 1 Mimic CR 2, 450 XP; Monster Manual p. 220 disguised as a chest + 2 Shadows (CR 1/2, 100 XP each) from dwarven victims.
 - Hazards: Ceiling collapse (DC 14 Intelligence (Investigation) to spot; triggered by loud noise, 3d6 bludgeoning, DC 13 Dexterity save half).
 - Loot: Inside mimic: 50 gp, mithril ingot (25 gp).
-- Tactics: Mimic grapples; ooze engulfs; shadows drain Strength.
+- Tactics: Mimic grapples; shadows drain Strength.
 
 ![[Mimic.png]]
 ![[Shadow.png]]
@@ -99,8 +99,6 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 - The mold is in the shape of a key for a door.
 - A crucible can be found on a nearby bench.
 - Light the forge, melt some of the leftover metal and pour the mold for the door key
-
-- Hazards: Vent steam (DC 13 Dexterity save or 2d6 fire).
 - Loot: 30 gp.
 
 
@@ -144,11 +142,11 @@ Campaign Hooks
 
 ```text
 [1] --tunnel-- [2]
- | shaft
-[3] --tunnel-- [4]
- |
-[5] --tunnel-- [6]
- |
-[7]
+			    | shaft
+[4] --tunnel-- [3]
+				|
+[6] --tunnel-- [5]
+				|
+			   [7]
 ```
 
