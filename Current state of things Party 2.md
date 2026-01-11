@@ -16,3 +16,5 @@ deciphered the runes on the Flute. Found that they need to talk to the Blacksmit
 The party has not cleared out the poaching camp
 
 They've gotten to the forge chamber in the Dwarven Mine
+
+did the chamber, now have the belt
