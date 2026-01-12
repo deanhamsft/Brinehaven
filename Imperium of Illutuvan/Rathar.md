@@ -23,9 +23,7 @@ Combat Stats
 
 - Hit Points: 58 (6d10 + 18)  
     (First level: 10 + 3; subsequent: average 6 + 3 × 5 = 45)
-    
-    dnd2024.wikidot.com
-    
+
 - Armor Class: 19 (chain mail + shield + Defense Fighting Style)
 - Initiative: -1
 - Speed: 30 ft. (Fly 30 ft. with Draconic Flight)
