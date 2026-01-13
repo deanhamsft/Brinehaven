@@ -6,7 +6,7 @@ Hook: An old man commoner sees the party from afar and approaches with a tale of
 
 
 Chamber 1: **Entrance Hall** (Guarded Threshold)
-A grand arched entrance with collapsed statues of bull-headed warriors. 4 gargoyles (MM, CR 2 each; total adjusted XP ~2,400—hard) perch as guardians, animating if intruders pass without offering blood (DC 15 Insight to notice clues on murals).
+A arched entrance chamber with collapsed statues of bull-headed warriors. 4 gargoyles (MM, CR 2 each; total adjusted XP ~2,400—hard) perch as guardians, animating if intruders pass without offering blood (DC 15 Insight to notice clues on murals).
 Treasure: 500 gp in ancient coins scattered among rubble.
 
 ![[Entrance.webp]]

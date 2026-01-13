@@ -107,7 +107,6 @@ The dwarf will squint at every answer, tug his beard, spit into the dust, and fi
 
 - Description: **Glowing mithril vein with dripping water.**
 - Monsters: 1 Black Pudding (CR 4, 1,100 XP too high—Gelatinous Cube CR 2, 450 XP; MM p. 243).
-- Hazards: Engulf (DC 13 Strength save).
 - Loot: Mithril vein (mine for 100 gp worth, 1 hour, DC 13 Strength check).
 - Tactics: Cube paralyzes with pseudopod.
 ![[Black Pudding.png]]

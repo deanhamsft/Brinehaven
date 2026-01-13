@@ -11,7 +11,7 @@ Government:
 Enlightened stratocracy. The Emperor (currently Aurelian val Illutuvan IV “the Winter Eagle”) rules as First General of the Imperium with the advice of the Consilium Bellum composed of the nine Marshal-Commanders of the Grand Legions and the heads of the great noble houses. The Senate of the Hundred Cities exists, but its powers are limited to taxation and civil law; war and foreign policy remain the Emperor’s alone. Heavily influenced by the emperor, the Senate rarely stands against him in matters of taxation, with good reason as the emperor is well versed in the shades and shadows of economies. 
 
 **Capital:**
-Illutuvan, a colossal fortified city built on seven hills, beside the Hadtou Ocean and near the mount of the Auren river.
+Illutuvan, a colossal fortified city built on seven hills, beside the Hadtou Ocean and near the mouth of the Auren river.
 
 Official languages: 
 Common (Illutuvan dialect), Elvish (Western Sylvan), Infernal (legal and mercantile use among tiefling houses).

@@ -1,5 +1,5 @@
 Thornmaar the Crimson Usurper
-Ancient Red Dragonborn Tyrant-King of Ardhall  
+Red Dragonborn Tyrant-King of Ardhall  
 Huge humanoid (dragonborn), lawful evil  
 Armor Class 22 (natural crimson scales + obsidian plate)  
 Hit Points 402 (23d12 + 230)  
