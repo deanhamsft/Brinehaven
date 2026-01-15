@@ -25,14 +25,12 @@
             "id": "1e77d08cff83ab72",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "The Crimson Pass/Speech of Thornmaar the Usurper.md",
-                "mode": "source",
-                "source": false
+                "file": "Heist/2171472-DiamondHeist8.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Speech of Thornmaar the Usurper"
+              "icon": "lucide-file-text",
+              "title": "2171472-DiamondHeist8"
             }
           },
           {
@@ -211,7 +209,12 @@
   },
   "active": "1e77d08cff83ab72",
   "lastOpenFiles": [
+    "Heist/DotNetZip-8kn1cugf.tmp",
+    "Heist/DotNetZip-z1o2nn57.tmp",
+    "Heist/DotNetZip-qpd2emj3.tmp",
+    "Heist/ddSave.ddstorybundle",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
+    "Images/Illutuvan Flag.svg",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
     "Kingdom of Ardhall/Outline of the kingdom.md",
@@ -238,10 +241,6 @@
     "Dwarven Mine/DotNetZip-ivs233yj.tmp",
     "Dwarven Mine/DotNetZip-1xb1yt8e.tmp",
     "Dwarven Mine/Entrance Cavern.jpg",
-    "Dwarven Mine/DwarvenMine.ddstory",
-    "Dwarven Mine/DotNetZip-np8jny6k.tmp",
-    "Dwarven Mine/Entrance.jpg",
-    "Lost Labyrinth/DotNetZip-opj235kf.tmp",
     "Carival Stanislain.md",
     "Current state of things Party 2.md",
     "Veilshadow/Valthor Krenn.md",
@@ -256,7 +255,6 @@
     "Kingdom of Ardhall/Thornmaar.md",
     "Notes for stuff.md",
     "Imperium of Illutuvan/Imperial advisors.md",
-    "Imperium of Illutuvan/Compressed Dragonic Fire.md",
     "Untitled.canvas"
   ]
 }
