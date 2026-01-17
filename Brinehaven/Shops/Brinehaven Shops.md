@@ -108,6 +108,7 @@
 - Inventory:
     - Beeswax candles (5 sp each)
     - Tallow lamps (2 gp)
+    - Explosive candle, on a throw it gives off steady light in a 30x30 radius. 1hr (5gp)
     - Scented oils (1 gp/vial) (DC 10 (wisdom) saving throw, for any Tabaxians failure means they are charmed by the catnip oil) [[Catnip]]
 - Services: Sells candles, offers minor healing advice (DC 12 Wisdom (Medicine) for +2 hp), trades for honey (1 sp/lb).
 - Campaign Tie-In: Lysa’s candles flicker near the hearthstone, suggesting a ward link (DC 15 Intelligence (Arcana)). She overheard Lirien mention the wreck’s curse.

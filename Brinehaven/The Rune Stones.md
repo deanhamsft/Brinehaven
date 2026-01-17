@@ -44,7 +44,7 @@ Trigger: Activating all three markers successfully triggers an encounter. A shim
 - Negotiation: DC 15 Charisma (Persuasion) reduces the price; failure (by 5 or more) turns it hostile for 1 minute.
 
 Outcome: If the price is met, the spirit imparts a vision: the wreck lies 100 yards southeast of Blackreef Cove, guarded by a shadowy figure wielding a trident. It also hints the map fragment and flute are keys to bypass the guardian.
-
+![[Brinehaven/Brinehaven/WaterElemental.png]]
 ---
 
 > [!NOTE]
