@@ -37,18 +37,16 @@
             "id": "0f2b5fa37edc1316",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Party members/Vulkaan/Vulkaan Ardhall.md",
-                "mode": "source",
-                "source": false
+                "file": "Heist/2171472-BrochurePDF.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Vulkaan Ardhall"
+              "icon": "lucide-file-text",
+              "title": "2171472-BrochurePDF"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,40 +205,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e77d08cff83ab72",
+  "active": "905958ab299dcac8",
   "lastOpenFiles": [
+    "Heist/DotNetZip-7kcpbpwa.tmp",
+    "Heist/Floor3.jpg",
+    "Heist/Floor2.jpg",
+    "Heist/Floor1.jpg",
+    "Heist/image (9).jpg",
+    "Heist/image (10).jpg",
+    "Heist/image (11).jpg",
+    "Heist/image (8).jpg",
+    "Heist/2171472-F2Virtual.png",
+    "Heist/2171472-F1Virtual.png",
+    "Heist/2171472-F3Virtual.png",
+    "Party members/Vulkaan/Vulkaan Ardhall.md",
+    "Heist/2171472-DiamondHeist8.pdf",
     "Heist/DotNetZip-8kn1cugf.tmp",
     "Heist/DotNetZip-z1o2nn57.tmp",
     "Heist/DotNetZip-qpd2emj3.tmp",
     "Heist/ddSave.ddstorybundle",
-    "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Images/Illutuvan Flag.svg",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
     "Kingdom of Ardhall/Outline of the kingdom.md",
     "The Crimson Pass",
     "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
-    "Imperium of Illutuvan/CrimsonPass.jpg",
-    "Imperium of Illutuvan/DragonbornOfTiamat.png",
-    "Imperium of Illutuvan/Screenshot 2025-12-27 194135.png",
     "Imperium of Illutuvan/Imperial Expedition.md",
     "Imperium of Illutuvan/Saraphine.md",
     "Imperium of Illutuvan/Rathar.md",
-    "Lost Labyrinth/MinotaurSkeleton.png",
     "Lost Labyrinth/Lost Labyrinth.md",
-    "Lost Labyrinth/Priest.png",
-    "Lost Labyrinth/Berserker.png",
-    "Lost Labyrinth/phaseSpider.png",
     "Imperium of Illutuvan/Korrath.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Dwarven Mine/DotNetZip-de1qj092.tmp",
-    "Images/Wild-Magic-104.jpg",
     "Lost Labyrinth/DotNetZip-pf4s8sfp.tmp",
     "Dwarven Mine/DotNetZip-hn28brfg.tmp",
     "Dwarven Mine/DotNetZip-zt39t9sr.tmp",
-    "Dwarven Mine/DotNetZip-ivs233yj.tmp",
-    "Dwarven Mine/DotNetZip-1xb1yt8e.tmp",
-    "Dwarven Mine/Entrance Cavern.jpg",
     "Carival Stanislain.md",
     "Current state of things Party 2.md",
     "Veilshadow/Valthor Krenn.md",
