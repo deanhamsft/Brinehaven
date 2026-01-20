@@ -37,16 +37,28 @@
             "id": "0f2b5fa37edc1316",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Heist/2171472-F3Virtual.png"
+              },
+              "icon": "lucide-image",
+              "title": "2171472-F3Virtual"
+            }
+          },
+          {
+            "id": "a7be1e637c3a7b50",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Heist/2171472-BrochurePDF.pdf"
+                "file": "Heist/2171472-DiamondHeist8.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "2171472-BrochurePDF"
+              "title": "2171472-DiamondHeist8"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -205,8 +217,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "905958ab299dcac8",
+  "active": "a7be1e637c3a7b50",
   "lastOpenFiles": [
+    "Heist/2171472-F3Virtual.png",
+    "Heist/2171472-F2Virtual.png",
+    "Heist/2171472-DiamondHeist8.pdf",
+    "Heist/2171472-F1Virtual.png",
+    "Heist/Floor1.dam",
+    "Heist/2171472-BrochurePDF.pdf",
     "Heist/DotNetZip-7kcpbpwa.tmp",
     "Heist/Floor3.jpg",
     "Heist/Floor2.jpg",
@@ -215,11 +233,7 @@
     "Heist/image (10).jpg",
     "Heist/image (11).jpg",
     "Heist/image (8).jpg",
-    "Heist/2171472-F2Virtual.png",
-    "Heist/2171472-F1Virtual.png",
-    "Heist/2171472-F3Virtual.png",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Heist/2171472-DiamondHeist8.pdf",
     "Heist/DotNetZip-8kn1cugf.tmp",
     "Heist/DotNetZip-z1o2nn57.tmp",
     "Heist/DotNetZip-qpd2emj3.tmp",
@@ -236,9 +250,6 @@
     "Imperium of Illutuvan/Korrath.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Dwarven Mine/DotNetZip-de1qj092.tmp",
-    "Lost Labyrinth/DotNetZip-pf4s8sfp.tmp",
-    "Dwarven Mine/DotNetZip-hn28brfg.tmp",
-    "Dwarven Mine/DotNetZip-zt39t9sr.tmp",
     "Carival Stanislain.md",
     "Current state of things Party 2.md",
     "Veilshadow/Valthor Krenn.md",
