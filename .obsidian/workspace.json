@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e00bf9fa29ed170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Imperium of Illutuvan/The Winter Eagle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Winter Eagle"
-            }
-          },
-          {
             "id": "1e77d08cff83ab72",
             "type": "leaf",
             "state": {
@@ -39,12 +25,14 @@
             "id": "a7be1e637c3a7b50",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Heist/2171472-DiamondHeist8.pdf"
+                "file": "Lost Labyrinth/Lost Labyrinth.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2171472-DiamondHeist8"
+              "icon": "lucide-file",
+              "title": "Lost Labyrinth"
             }
           }
         ],
@@ -207,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e77d08cff83ab72",
+  "active": "a7be1e637c3a7b50",
   "lastOpenFiles": [
+    "Heist/2171472-DiamondHeist8.pdf",
+    "Alchemist Hideout/Dungeon encounter.md",
     "Alchemist Hideout/AlchemistLair_01.json",
     "Alchemist Hideout/AlchemistLair_01.jpg",
     "Alchemist Hideout/AlchemistLair_00.json",
@@ -217,10 +207,8 @@
     "Alchemist Hideout/AlchemistLair.jpg",
     "Alchemist Hideout/AlchemistLair.dam",
     "Alchemist Hideout/Carivals Dungeon.md",
-    "Alchemist Hideout/Dungeon encounter.md",
     "Carival Stanislain.md",
     "Alchemist Hideout",
-    "Heist/2171472-DiamondHeist8.pdf",
     "Heist/ClayGolem.png",
     "Heist/Floor1_autosave.dam",
     "Heist/2171472-F3Virtual.png",
@@ -233,7 +221,6 @@
     "Heist/Floor2.jpg",
     "Heist/Floor1.jpg",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
-    "Heist/DotNetZip-8kn1cugf.tmp",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
     "Kingdom of Ardhall/Outline of the kingdom.md",
