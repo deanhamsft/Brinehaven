@@ -25,24 +25,14 @@
             "id": "1e77d08cff83ab72",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Heist/2171472-DiamondHeist8.pdf"
+                "file": "Alchemist Hideout/Dungeon encounter.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2171472-DiamondHeist8"
-            }
-          },
-          {
-            "id": "0f2b5fa37edc1316",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Heist/2171472-F3Virtual.png"
-              },
-              "icon": "lucide-image",
-              "title": "2171472-F3Virtual"
+              "icon": "lucide-file",
+              "title": "Dungeon encounter"
             }
           },
           {
@@ -58,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,11 +207,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7be1e637c3a7b50",
+  "active": "1e77d08cff83ab72",
   "lastOpenFiles": [
+    "Alchemist Hideout/Carivals Dungeon.md",
+    "Alchemist Hideout/Dungeon encounter.md",
+    "Carival Stanislain.md",
+    "Alchemist Hideout",
+    "Heist/2171472-DiamondHeist8.pdf",
+    "Heist/ClayGolem.png",
+    "Heist/Floor1_autosave.dam",
     "Heist/2171472-F3Virtual.png",
     "Heist/2171472-F2Virtual.png",
-    "Heist/2171472-DiamondHeist8.pdf",
     "Heist/2171472-F1Virtual.png",
     "Heist/Floor1.dam",
     "Heist/2171472-BrochurePDF.pdf",
@@ -232,7 +228,6 @@
     "Heist/image (9).jpg",
     "Heist/image (10).jpg",
     "Heist/image (11).jpg",
-    "Heist/image (8).jpg",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "Heist/DotNetZip-8kn1cugf.tmp",
     "Heist/DotNetZip-z1o2nn57.tmp",
@@ -241,7 +236,6 @@
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
     "Kingdom of Ardhall/Outline of the kingdom.md",
-    "The Crimson Pass",
     "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
     "Imperium of Illutuvan/Imperial Expedition.md",
     "Imperium of Illutuvan/Saraphine.md",
@@ -249,8 +243,6 @@
     "Lost Labyrinth/Lost Labyrinth.md",
     "Imperium of Illutuvan/Korrath.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
-    "Dwarven Mine/DotNetZip-de1qj092.tmp",
-    "Carival Stanislain.md",
     "Current state of things Party 2.md",
     "Veilshadow/Valthor Krenn.md",
     "Party members/Ranzen/Ranzan Eilsar.md",
@@ -263,7 +255,6 @@
     "Party members/Maria/Maria.md",
     "Kingdom of Ardhall/Thornmaar.md",
     "Notes for stuff.md",
-    "Imperium of Illutuvan/Imperial advisors.md",
     "Untitled.canvas"
   ]
 }
