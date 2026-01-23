@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Lost Labyrinth"
             }
+          },
+          {
+            "id": "cf2aa97a8c57ccde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Imperium of Illutuvan/Capitol City Illutuvan/Shops.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shops"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,8 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7be1e637c3a7b50",
+  "active": "905958ab299dcac8",
   "lastOpenFiles": [
+    "Imperium of Illutuvan/Capitol City Illutuvan/IllutuvanCity.jpg",
+    "Imperium of Illutuvan/Capitol City Illutuvan/Shops.md",
+    "Imperium of Illutuvan/Capitol City Illutuvan",
     "Heist/2171472-DiamondHeist8.pdf",
     "Alchemist Hideout/Dungeon encounter.md",
     "Alchemist Hideout/AlchemistLair_01.json",
@@ -216,7 +233,6 @@
     "Heist/2171472-F1Virtual.png",
     "Heist/Floor1.dam",
     "Heist/2171472-BrochurePDF.pdf",
-    "Heist/DotNetZip-7kcpbpwa.tmp",
     "Heist/Floor3.jpg",
     "Heist/Floor2.jpg",
     "Heist/Floor1.jpg",
@@ -241,7 +257,6 @@
     "Kingdom of Ardhall/Compressed Dragonic Fire.md",
     "Party members/Thalia/Thalia.md",
     "Party members/Maria/Maria.md",
-    "Kingdom of Ardhall/Thornmaar.md",
     "Untitled.canvas"
   ]
 }
