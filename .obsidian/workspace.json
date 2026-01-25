@@ -33,7 +33,8 @@
               "title": "Carivals Dungeon"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,13 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf2aa97a8c57ccde",
+  "active": "16cde2b70321db60",
   "lastOpenFiles": [
+    "Alchemist Hideout/AlchemistLair_00.jpg",
+    "Alchemist Hideout/Carivals Dungeon.md",
     "Alchemist Hideout/DotNetZip-mf1gcv5r.tmp",
     "Alchemist Hideout/AlchemistHideout.ddstorybundle",
     "Alchemist Hideout/DotNetZip-pjps3v7a.tmp",
-    "Alchemist Hideout/Carivals Dungeon.md",
-    "Alchemist Hideout/AlchemistLair_00.jpg",
     "Alchemist Hideout/AlchemistLair_01.jpg",
     "Alchemist Hideout/AlchemistLair.jpg",
     "Alchemist Hideout/Dungeon encounter.md",
@@ -212,8 +213,7 @@
     "Alchemist Hideout/AlchemistLair_00.json",
     "Alchemist Hideout/AlchemistLair.json",
     "Alchemist Hideout/AlchemistLair.dam",
-    "Carival Stanislain.md",
-    "Alchemist Hideout",
+    "Alchemist Hideout/Carival Stanislain.md",
     "Heist/ClayGolem.png",
     "Heist/2171472-F3Virtual.png",
     "Heist/2171472-F2Virtual.png",
