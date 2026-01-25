@@ -2,8 +2,6 @@ Shadowy Archmage
 
 Valthor Krenn is a cunning, eternal schemer designed as a level 9 Drow Wizard (School of Necromancy)—perfect as a recurring villain, shadowy patron, or boss encounter for a party of 5th-level adventurers (like in Veilshadow). His necromantic mastery twists undead into swirling shadow minions, blending horror and illusionary dread. He could be the hidden puppet master behind the ghost town's curse, having manipulated Elias Thorne into unearthing the Orcus idol to fuel his experiments.
 
-Built using point buy (27 points), PHB rules (with Xanathar's spells for flavor), and optimized for Intelligence dominance. He's deadly in prolonged fights (summoning hordes via Undead Thralls), but vulnerable up close—ideal for clever parties.
-
 Core Stats
 
 | Category          | Details                               |
