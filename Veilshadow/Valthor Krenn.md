@@ -11,7 +11,7 @@ Core Stats
 | Race              | Drow (PHB)                            |
 | Class/Level       | Wizard 9 (School of Necromancy)       |
 | Background        | Sage (Arcane Lore)                    |
-| Alignment         | Lawful Evil                           |
+| Alignment         | Chaotic Evil                          |
 | HP                | 52 (9d6 + 18)                         |
 | AC                | 16 (Mage Armor) or 19 w/ Shield spell |
 | Initiative        | +3                                    |
