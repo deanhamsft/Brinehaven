@@ -13,28 +13,13 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Alchemist Hideout/AlchemistLair_00.jpg"
+                "file": "Alchemist Hideout/AlchemistLair_01.jpg"
               },
               "icon": "lucide-image",
-              "title": "AlchemistLair_00"
-            }
-          },
-          {
-            "id": "1f25a3f6c2c8002a",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Alchemist Hideout/Carivals Dungeon.md",
-                "bFile": "Alchemist Hideout/Carivals Dungeon.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Carivals Dungeon"
+              "title": "AlchemistLair_01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,18 +178,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f25a3f6c2c8002a",
+  "active": "905958ab299dcac8",
   "lastOpenFiles": [
-    "Veilshadow/Valthor Krenn.md",
+    "Alchemist Hideout/AlchemistLair_01.jpg",
+    "Alchemist Hideout/AlchemistLair.jpg",
     "Alchemist Hideout/AlchemistLair_00.jpg",
-    "Brinehaven/Carival Stanislain.md",
     "Alchemist Hideout/Valthors Dungeon.md",
+    "Alchemist Hideout/Dungeon encounter.md",
+    "Veilshadow/Valthor Krenn.md",
+    "Brinehaven/Carival Stanislain.md",
     "Alchemist Hideout/DotNetZip-mf1gcv5r.tmp",
     "Alchemist Hideout/AlchemistHideout.ddstorybundle",
     "Alchemist Hideout/DotNetZip-pjps3v7a.tmp",
-    "Alchemist Hideout/AlchemistLair_01.jpg",
-    "Alchemist Hideout/AlchemistLair.jpg",
-    "Alchemist Hideout/Dungeon encounter.md",
     "Lost Labyrinth/Lost Labyrinth.md",
     "Heist/2171472-BrochurePDF.pdf",
     "Imperium of Illutuvan/Capitol City Illutuvan/Shops.md",
