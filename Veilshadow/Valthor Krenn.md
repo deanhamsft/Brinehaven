@@ -2,8 +2,6 @@ Shadowy Archmage
 
 Valthor Krenn is a cunning, eternal schemer designed as a level 9 Drow Wizard (School of Necromancy)—perfect as a recurring villain, shadowy patron, or boss encounter for a party of 5th-level adventurers (like in Veilshadow). His necromantic mastery twists undead into swirling shadow minions, blending horror and illusionary dread. He could be the hidden puppet master behind the ghost town's curse, having manipulated Elias Thorne into unearthing the Orcus idol to fuel his experiments.
 
-Built using point buy (27 points), PHB rules (with Xanathar's spells for flavor), and optimized for Intelligence dominance. He's deadly in prolonged fights (summoning hordes via Undead Thralls), but vulnerable up close—ideal for clever parties.
-
 Core Stats
 
 | Category          | Details                               |
@@ -11,7 +9,7 @@ Core Stats
 | Race              | Drow (PHB)                            |
 | Class/Level       | Wizard 9 (School of Necromancy)       |
 | Background        | Sage (Arcane Lore)                    |
-| Alignment         | Lawful Evil                           |
+| Alignment         | Chaotic Evil                          |
 | HP                | 52 (9d6 + 18)                         |
 | AC                | 16 (Mage Armor) or 19 w/ Shield spell |
 | Initiative        | +3                                    |
@@ -94,11 +92,5 @@ Backstory
 
 Valthor Krenn clawed his way from the Underdark's labyrinthine webs, a drow savant whose thirst for shadow's primal essence shattered Lolth's dogma. He uncovered a lost grimoire detailing the "Umbral Veil"—a ritual to merge planes of shadow and death. Betrayed by his house, he fled to the surface, claiming the forsaken Veilshadow as his tower. There, he corrupted Elias Thorne with whispers, goading the priest to unearth the Orcus idol. Now, Valthor harvests the town's undead echoes, forging an army to eclipse the sun. His endgame: Become the Shadow Sovereign, with mortals as eternal thralls.
 
-Roleplaying Hooks
-
-- Personality Traits: "I murmur from the darkness, my voice a silken noose. Every word is a spell waiting to bind." / "Light is a lie; only shadows endure."
-- Ideal: Dominion. "Shadows cloak the weak; I shall cloak the world."
-- Bond: "Veilshadow's idol pulses with my destiny—I will not let interlopers claim it."
-- Flaw: "My disdain for 'lesser' lights makes me underestimate the bold."
 
 Appearance: 6'4" gaunt frame, ashen skin veined with writhing black tendrils, pupil-less white eyes, waist-length silver hair laced with shadow wisps. Robes shift like living smoke, trailing illusory phantoms.
