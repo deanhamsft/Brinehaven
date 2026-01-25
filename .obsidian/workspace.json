@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alchemist Hideout/Valthors Dungeon.md",
+                "file": "Heist/Transmuter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valthors Dungeon"
+              "title": "Transmuter"
             }
           }
         ],
@@ -195,9 +195,15 @@
   },
   "active": "62ea40cab2da52b9",
   "lastOpenFiles": [
+    "Heist/2171472-DiamondHeist8.pdf",
+    "Heist/Transmuter.md",
+    "Imperium of Illutuvan/City of Caer Gylynn/Shops of Caer Gylynn.md",
+    "Imperium of Illutuvan/City of Caer Gylynn/Caer Gylynn.jpg",
+    "Imperium of Illutuvan/City of Caer Gylynn/The City of Lahull.jpg",
+    "Alchemist Hideout/Valthors Dungeon.md",
+    "Imperium of Illutuvan/City of Caer Gylynn",
     "Veilshadow/Valthor Krenn.md",
     "Alchemist Hideout/AlchemistLair_01.jpg",
-    "Alchemist Hideout/Valthors Dungeon.md",
     "Alchemist Hideout/BoneDevil.png",
     "Alchemist Hideout/AlchemistLair.jpg",
     "Alchemist Hideout/AlchemistLair_00.jpg",
@@ -211,16 +217,12 @@
     "Imperium of Illutuvan/Capitol City Illutuvan/Shops.md",
     "Imperium of Illutuvan/Capitol City Illutuvan/IllutuvanCity.jpg",
     "Imperium of Illutuvan/Capitol City Illutuvan",
-    "Heist/2171472-DiamondHeist8.pdf",
     "Alchemist Hideout/AlchemistLair_01.json",
     "Alchemist Hideout/AlchemistLair_00.json",
     "Alchemist Hideout/AlchemistLair.json",
-    "Alchemist Hideout/AlchemistLair.dam",
     "Heist/ClayGolem.png",
     "Heist/2171472-F3Virtual.png",
     "Heist/2171472-F2Virtual.png",
-    "Heist/2171472-F1Virtual.png",
-    "Heist/Floor3.jpg",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
@@ -238,8 +240,6 @@
     "Party members/Iymril/Iymril Cobiir.md",
     "Party members/Kairon Tyvess.md",
     "Kingdom of Ardhall/Compressed Dragonic Fire.md",
-    "Party members/Thalia/Thalia.md",
-    "Party members/Maria/Maria.md",
     "Untitled.canvas"
   ]
 }
