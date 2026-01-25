@@ -20,17 +20,17 @@
             }
           },
           {
-            "id": "16cde2b70321db60",
+            "id": "1f25a3f6c2c8002a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Alchemist Hideout/Carivals Dungeon.md",
-                "mode": "preview",
-                "source": true
+                "aFile": "Alchemist Hideout/Carivals Dungeon.md",
+                "bFile": "Alchemist Hideout/Carivals Dungeon.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Carivals Dungeon"
+              "icon": "diff",
+              "title": "Diff: Carivals Dungeon"
             }
           }
         ],
@@ -193,10 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16cde2b70321db60",
+  "active": "1f25a3f6c2c8002a",
   "lastOpenFiles": [
+    "Veilshadow/Valthor Krenn.md",
     "Alchemist Hideout/AlchemistLair_00.jpg",
-    "Alchemist Hideout/Carivals Dungeon.md",
+    "Brinehaven/Carival Stanislain.md",
+    "Alchemist Hideout/Valthors Dungeon.md",
     "Alchemist Hideout/DotNetZip-mf1gcv5r.tmp",
     "Alchemist Hideout/AlchemistHideout.ddstorybundle",
     "Alchemist Hideout/DotNetZip-pjps3v7a.tmp",
@@ -213,7 +215,6 @@
     "Alchemist Hideout/AlchemistLair_00.json",
     "Alchemist Hideout/AlchemistLair.json",
     "Alchemist Hideout/AlchemistLair.dam",
-    "Alchemist Hideout/Carival Stanislain.md",
     "Heist/ClayGolem.png",
     "Heist/2171472-F3Virtual.png",
     "Heist/2171472-F2Virtual.png",
@@ -231,7 +232,6 @@
     "Imperium of Illutuvan/Korrath.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Current state of things Party 2.md",
-    "Veilshadow/Valthor Krenn.md",
     "Party members/Ranzen/Ranzan Eilsar.md",
     "minor charms.md",
     "Veilshadow/Veilshadow ghost town.md",

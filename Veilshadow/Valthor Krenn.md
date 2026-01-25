@@ -94,11 +94,5 @@ Backstory
 
 Valthor Krenn clawed his way from the Underdark's labyrinthine webs, a drow savant whose thirst for shadow's primal essence shattered Lolth's dogma. He uncovered a lost grimoire detailing the "Umbral Veil"—a ritual to merge planes of shadow and death. Betrayed by his house, he fled to the surface, claiming the forsaken Veilshadow as his tower. There, he corrupted Elias Thorne with whispers, goading the priest to unearth the Orcus idol. Now, Valthor harvests the town's undead echoes, forging an army to eclipse the sun. His endgame: Become the Shadow Sovereign, with mortals as eternal thralls.
 
-Roleplaying Hooks
-
-- Personality Traits: "I murmur from the darkness, my voice a silken noose. Every word is a spell waiting to bind." / "Light is a lie; only shadows endure."
-- Ideal: Dominion. "Shadows cloak the weak; I shall cloak the world."
-- Bond: "Veilshadow's idol pulses with my destiny—I will not let interlopers claim it."
-- Flaw: "My disdain for 'lesser' lights makes me underestimate the bold."
 
 Appearance: 6'4" gaunt frame, ashen skin veined with writhing black tendrils, pupil-less white eyes, waist-length silver hair laced with shadow wisps. Robes shift like living smoke, trailing illusory phantoms.
