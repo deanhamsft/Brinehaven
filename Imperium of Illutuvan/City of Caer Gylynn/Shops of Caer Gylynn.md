@@ -134,3 +134,41 @@
     
 
 These wares are balanced for low-to-mid level play—perfect hooks for quests (e.g., "fetch rare components" or "test this before I sell it"). Tweak as needed for your campaign! Want full stat blocks, shopkeeper NPCs, or more shops? Just say the word.
+
+
+Glimwink's Gizmological Garb EmporiumTucked into a vibrant hillside burrow (or attachable to the wandering tinker's vine-powered cart from your encounter table), this gnomish tailor shop buzzes with whirring spindles, popping steam vents, and racks of clothing that shift colors mid-browse. Gears click in the walls, and illusory fireworks occasionally fizzle from the ceiling. Perfect for outfitting a party of 6th-level adventurers with quirky, mechanical-magical apparel—uncommon and rare rarities balanced for their power level (DMG pricing guidelines).
+
+Shopkeeper: Glimwink Tinkersprocket  
+Rock Gnome Artificer (Commoner stats, Spellcasting: Cantrips + 1st-level spells like mending, prestidigitation)  
+A pint-sized whirlwind with wild pink hair, oversized brass goggles, and a tool-stuffed vest. He chatters at 200 words per minute: "Thread-bearings! Cog-cloaks! Garb that garbles goblins! What'll it be, tall folk?"
+
+- Personality: Eccentric inventor; haggles with DC 13 Persuasion (offers 10-20% off for flattery or a "test subject" favor, like fetching rare clockwork parts).
+- Quirks: All items have a 5% chance (roll d20=1) of a "prototype glitch" (e.g., cloak billows uncontrollably for 1 min). Fixes for free next visit.
+- Hooks: Buys monster bits for upgrades (e.g., owlbear feathers for flighty scarves). Side quest: Retrieve a stolen prototype from nearby bandits for a free rare item.
+
+Inventory (10 items in stock; restock d6+2 weekly)  
+Prices include haggling potential. All attune if noted; wondrous items unless specified.
+
+|Item|Rarity|Price (gp)|Effect|
+|---|---|---|---|
+|Glamerweave Waistcoat<br><br>dnd5e.wikidot.com|Uncommon (req. attunement)|300|Bonus action: Change to any outfit style (as disguise self cosmetic only) + add 1d4 to Charisma (Persuasion/Performance) checks 3/day. Patterns dance like fireworks.|
+|Clockwork Cloak<br><br>dnd5e.wikidot.com|Common|100|Bonus action: Billow dramatically (lasts 1 min); advantage on Charisma (Intimidation/Performance) checks while billowing. Gears whir audibly.|
+|Self-Mending Overalls<br><br>dnd5e.wikidot.com|Common|50|Rips/tears mend in 1 hour. Pockets self-organize tools (advantage on thieves' tools/Artisan's Tools checks).|
+|Spring-Loaded Breeches<br><br>anyflip.com|Uncommon|400|Triple jump distance/height. On landing from >10 ft, DC 13 Dex save or prone + 1d6 bludgeoning. Coils boing loudly.|
+|Goggles of Far-Sight<br><br>anyflip.com|Uncommon (req. attunement)|250|Advantage on Wisdom (Perception) checks for objects >100 ft away. Zoom lenses pop out; -2 to close-range checks.|
+|Farbar's Zappy Gloves<br><br>anyflip.com|Uncommon|350|Unarmed strikes deal +1d6 lightning (wet: +2d6, but DC 12 Con save or shocked 1d6). Thumb-sparks light pipes.|
+|Fluffy Hat of Excessive Warmth<br><br>anyflip.com|Uncommon (req. attunement)|150|Resistance to cold damage. In >comfortable temp, DC 12 Con save or 1d6 fire/turn (overheats). Fur sprouts uncontrollably.|
+|Vest of Gizmo Pockets (Homebrew, inspired by Robe of Useful Items)<br><br>roll20.net|Uncommon|450|8 patches: Detach for 1/day items (rope, lantern, 50gp, caltrops, etc.—roll or DMG random). Refills on long rest.|
+|Displacement Doublet<br><br>dnd5e.info|Rare (req. attunement)|2,000|Attacks against you have disadvantage until you take damage (resets on short rest). Vest shimmers like oil.|
+|Boots of Levitation<br><br>dnd5e.info|Rare (req. attunement)|2,500|Bonus action: Levitate 20 ft up/down (60 ft/min). Steam-pistons hiss.|
+
+DM Tips:
+
+- Treasure Adjustment: Total value ~6,000 gp; award as downtime shopping post-encounters (e.g., after troll bridge).
+- Scaling: For deadlier parties, add "Overcharged" variants (+50% effect, 10% backfire chance).
+- Roleplay Fun: Glimwink insists on fittings—roll DC 12 Con or gain "Itchy Threads" (disadv. on Concentration 1 hour).
+- Expansion: Roll d10 for "Today's Special" from table above at half price!
+
+Drop this into your wilderness travels for stylish, steampunk flair!
+
+dndspeak.com +1

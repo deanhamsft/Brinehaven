@@ -33,20 +33,20 @@ they killed Retch
 ~~Ragna has taken the hides, and will bring them to the town council to be investigated.~~
 Thalia's ring is now magical, but it only attracts undead at night on a DM roll  >15
 
-Party killed Jorin, the Sheriff, two deputies, Calen, and Magnus. The ring is on the sheriff's dead hand.
-They found the map to the Dwarven mine in the fairy glen.
-They resolved the curse on the Whispering Cove
+~~Party killed Jorin, the Sheriff, two deputies, Calen, and Magnus. The ring is on the sheriff's dead hand.~~
+~~They found the map to the Dwarven mine in the fairy glen.~~
+~~They resolved the curse on the Whispering Cove~~
 
-smuggles cove cleared for now, 5 crates of black icor, 2 crates of clear icor.
+~~smuggles cove cleared for now, 5 crates of black icor, 2 crates of clear icor.~~
 
-Come up with a coded parchment to disclose the reasons for the assassination attempt
-Erival is the new sheriff of Brinehaven, and has sent an assassin to kill the Tabaxians (fears the truth) He doesn't want anyone interfering with his imperial plans.
+~~Come up with a coded parchment to disclose the reasons for the assassination attempt~~
+~~Erival is the new sheriff of Brinehaven, and has sent an assassin to kill the Tabaxians (fears the truth) He doesn't want anyone interfering with his imperial plans.~~
 
 ~~Attained the blunderbus's from Tinkertwist hollow, still in that town.~~
 
-Crawled the Dwarven mine, killed the Xorn and got the Dwarven belt
+~~Crawled the Dwarven mine, killed the Xorn and got the Dwarven belt~~
 
-Thalia has tamed a small mimic
+~~Thalia has tamed a small mimic~~
 
 
 
