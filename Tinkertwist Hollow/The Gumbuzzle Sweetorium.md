@@ -7,7 +7,7 @@ Smack in the middle of Tinkertwist Hollow, right where the Giggle Stream bends i
 - The front door is a slab of fudge with a liquorice-pull handle; it makes a satisfying squelch when opened.
 
 Proprietor  
-Zephyr Gumbuzzle – male rock gnome, age 87, wild white hair that smells like cotton candy, perpetually sticky fingers, and a waistcoat made of wrapped caramels.Interior  
+Zephyr Gumbuzzle – male rock gnome, age 87, wild white hair that smells like cotton candy, perpetually sticky fingers, and a waistcoat made of wrapped caramels. Interior  
 The shop is one huge open space with three levels connected by spiral slides made of fruit-roll leather and ladders of pretzel sticks.Ground floor – “The Sugar Floor”
 
 - Glass (rock-candy) jars line every wall, filled with:
@@ -38,3 +38,4 @@ Specials of the Week (changes every visit)
 
 - “Boom-Berry Bombs” – pop-rocks that make a tiny fireworks display in your mouth.
 - “Shrinking Mints” – taste one and shrink 1 size category for 1 minute (gnomes love watching humans suddenly fit their furniture).
+- Prototype Enbiggening chip. - taste one and grow one size bigger. Save a con 14 throw or take 2d4 damage due to the spiciness. 
