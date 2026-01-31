@@ -18,3 +18,15 @@ The party has not cleared out the poaching camp
 They've gotten to the forge chamber in the Dwarven Mine
 
 did the chamber, now have the belt
+
+
+They did the runes
+They got the pearl
+
+Vibe leveled to 4
+
+They are on the second to last level of the labyrinth
+they met the cultists and persuaded them to give up the minitaurs weakness
+
+
+

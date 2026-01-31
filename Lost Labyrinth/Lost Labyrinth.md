@@ -1,6 +1,3 @@
-The Lost Labyrinth of the Scarlet Minotaur
-
-A deadly dungeon crawl for a party of 5 level 5 characters (total XP budget per adventuring day ~3,500 XP per player, or 17,500 total). This labyrinth is an ancient, cursed maze built to contain the Scarlet Minotaur, a bloodthirsty beast whose fur and horns are stained crimson from centuries of slaughter. The dungeon consists of 7 interconnected chambers linked by twisting corridors (10-20 ft. wide, with occasional dead ends or loops for navigation challenges—DC 15 Survival checks to avoid getting lost, as per minotaur lore).The labyrinth is dimly lit by flickering scarlet torches (magical, never extinguishing). Walls are carved with bull motifs and faded murals depicting ancient sacrifices. The Scarlet Minotaur (custom boss, see below) roams the corridors randomly (1-in-6 chance per hour of exploration) or is drawn to loud noises/combat, charging into fights if possible.
 
 Hook: An old man commoner sees the party from afar and approaches with a tale of his youngest daughter being dragged captive into the labyrinth. 
 
@@ -9,7 +6,7 @@ Chamber 1: **Entrance Hall** (Guarded Threshold)
 A arched entrance chamber with collapsed statues of bull-headed warriors. 4 gargoyles (MM, CR 2 each; total adjusted XP ~2,400—hard) perch as guardians, animating if intruders pass without offering blood (DC 15 Insight to notice clues on murals).
 Treasure: 500 gp in ancient coins scattered among rubble.
 
-![[Entrance.jpg]]
+![[LabEntrance.jpg]]
 
 
 Chamber 2: **Flooded Sacrificial Pit** (Environmental Hazard)
