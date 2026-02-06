@@ -1,4 +1,4 @@
-
+00000000000000000000000000000000000000000000000000000
 Hook: An old man commoner sees the party from afar and approaches with a tale of his youngest daughter being dragged captive into the labyrinth. 
 
 
@@ -53,5 +53,5 @@ Scarlet Minotaur Stats (CR 8 custom, inspired by standard minotaur CR 3 + buffs)
 - Scarlet Rage: Advantage on saves vs. charmed/frightened; on bloodied (below 75 HP), +2d6 fire damage on attacks (blood ignites).
 
 Solo boss adjusted XP 3,900 (deadly), but add 2 hell hounds (CR 3) as pets for ~7,000 total (very deadly—epic finale).
-![[Labyrinth.jpg]]
+
 Treasure: Hoard with 3,000 gp, +2 greataxe, cloak of protection, and the Minotaur's horns (craft into horn of blasting).
