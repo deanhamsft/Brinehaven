@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1bd4c617f470606e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "ec4a7cb5ffae2db0",
             "type": "leaf",
             "state": {
@@ -238,8 +228,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1bd4c617f470606e",
+  "active": "aec31d53985d91a3",
   "lastOpenFiles": [
+    "Brinehaven/displays.py",
     "Imperium of Illutuvan/Imperial Expedition.md",
     "Imperium of Illutuvan/Outline of the Imperium.md",
     "Lost Labyrinth/Lost Labyrinth.md",
@@ -285,7 +276,6 @@
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Current state of things Party 2.md",
     "Party members/Ranzen/Ranzan Eilsar.md",
-    "minor charms.md",
     "Untitled.canvas"
   ]
 }
