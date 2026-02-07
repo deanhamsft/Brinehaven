@@ -68,8 +68,23 @@
               "icon": "lucide-file",
               "title": "Bimble Fizzbang"
             }
+          },
+          {
+            "id": "7e86f4ce5cce0ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -228,8 +243,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aec31d53985d91a3",
+  "active": "7e86f4ce5cce0ac0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Party members 2/tshirt2.jpg",
+    "Party members 2/party2.png",
+    "Party members 2/Tobin/tobin.png",
     "Brinehaven/displays.py",
     "Imperium of Illutuvan/Imperial Expedition.md",
     "Imperium of Illutuvan/Outline of the Imperium.md",
@@ -251,9 +270,6 @@
     "Alchemist Hideout/Valthors Dungeon.md",
     "Imperium of Illutuvan/City of Caer Gylynn",
     "Veilshadow/Valthor Krenn.md",
-    "Alchemist Hideout/BoneDevil.png",
-    "Alchemist Hideout/AlchemistLair.jpg",
-    "Alchemist Hideout/AlchemistLair_00.jpg",
     "Alchemist Hideout/Dungeon encounter.md",
     "Brinehaven/Carival Stanislain.md",
     "Alchemist Hideout/DotNetZip-mf1gcv5r.tmp",
@@ -264,7 +280,6 @@
     "Imperium of Illutuvan/Capitol City Illutuvan",
     "Alchemist Hideout/AlchemistLair_01.json",
     "Alchemist Hideout/AlchemistLair_00.json",
-    "Alchemist Hideout/AlchemistLair.json",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
