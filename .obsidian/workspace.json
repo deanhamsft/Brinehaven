@@ -243,8 +243,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e86f4ce5cce0ac0",
+  "active": "aec31d53985d91a3",
   "lastOpenFiles": [
+    "FogOfWar/FogOfWar_sprites.py",
+    "FogOfWar",
     "conflict-files-obsidian-git.md",
     "Party members 2/tshirt2.jpg",
     "Party members 2/party2.png",
@@ -279,7 +281,6 @@
     "Imperium of Illutuvan/Capitol City Illutuvan/Shops.md",
     "Imperium of Illutuvan/Capitol City Illutuvan",
     "Alchemist Hideout/AlchemistLair_01.json",
-    "Alchemist Hideout/AlchemistLair_00.json",
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
@@ -290,7 +291,6 @@
     "Imperium of Illutuvan/Korrath.md",
     "Dwarven Mine/Khazad-Durak - The Abandoned Dwarven Mine.md",
     "Current state of things Party 2.md",
-    "Party members/Ranzen/Ranzan Eilsar.md",
     "Untitled.canvas"
   ]
 }

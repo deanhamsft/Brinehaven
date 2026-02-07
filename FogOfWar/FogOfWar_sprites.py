@@ -1,55 +1,17 @@
+from __future__ import annotations
 import multiprocessing
-import sys
-
-# Must be first thing - protects against fork + GUI libraries
-if sys.platform in ('darwin', 'linux'):
-    multiprocessing.set_start_method('spawn', force=True)
-
 import pygame
+import sys
 import os
 import tkinter as tk
 from tkinter import filedialog
 import argparse
-from screeninfo import get_monitors
-
-# Helper function to create a hidden root on a specific display
-def create_positioned_root_for_dialog(display_index):
-    """
-    Creates a tiny, topmost, almost-invisible Tk root positioned roughly centered
-    on the target display index (from pygame.set_mode(display=...)).
-    Returns the root so you can use it as parent= in filedialog.
-    """
-    root = tk.Tk()
-    root.overrideredirect(True)           # no title bar
-    root.attributes('-alpha', 0.01)       # nearly transparent
-    root.attributes('-topmost', True)     # force above everything briefly
-
-    try:
-        monitors = get_monitors()
-        if 0 <= display_index < len(monitors):
-            mon = monitors[display_index]
-            # Center a small window on this monitor's bounds
-            x = mon.x + (mon.width // 2) - 5
-            y = mon.y + (mon.height // 2) - 5
-            root.geometry(f"10x10+{x}+{y}")
-            print(f"Positioning dialog helper on monitor {display_index}: "
-                  f"at ({x}, {y}) on monitor bounds ({mon.x}, {mon.y}, {mon.width}, {mon.height})")
-        else:
-            root.geometry("10x10+100+100")  # fallback to primary-ish
-    except Exception as e:
-        print(f"Monitor detection failed: {e} → using fallback position")
-        root.geometry("10x10+100+100")
-
-    root.update_idletasks()   # apply geometry immediately
-    root.focus_force()        # push focus to this tiny window
-    root.lift()               # bring to front
-    return root
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="DnD Fog of War - Multi-display support")
-    parser.add_argument('--c', type=int, default=0,
+    parser.add_argument('--control', type=int, default=0,
                         help="Display index for control window (default: 0)")
-    parser.add_argument('--a', type=int, default=1,
+    parser.add_argument('--audience', type=int, default=1,
                         help="Display index for audience window (default: 1)")
     parser.add_argument('--list-displays', action='store_true',
                         help="List available displays and their resolutions, then exit")
@@ -69,7 +31,8 @@ def list_displays():
 
 
 def control_window(initial_image_path, shared_revealed, shared_running, shared_image_path,
-                   display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset):
+                   display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset,
+                   shared_markers, shared_current_marker_color, shared_current_marker_size):
     os.environ['SDL_VIDEO_CENTERED'] = '0'
     pygame.init()
     screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN, display=display_index)
@@ -89,12 +52,31 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     reveal_radius = 60
     brush_color = (255, 255, 100, 120)
     
+    marker_colors = [
+        (255, 0, 0, 255),    # Red
+        (0, 255, 0, 255),    # Green
+        (0, 0, 255, 255),    # Blue
+        (255, 255, 0, 255),  # Yellow
+        (255, 0, 255, 255),  # Magenta
+    ]
+    
+    marker_sizes = [  # Base screen-space radius when zoom=1.0
+        12,   # Small
+        24,   # Medium
+        40,   # Large
+    ]
+    
     font = pygame.font.SysFont(None, 36)
-    help_text = font.render("Hold LEFT to reveal | Shift+LEFT drag to pan | Wheel=zoom | F=new image | R=reset fog | ESC=quit", True, (255, 255, 100))
+    help_text = font.render(
+        "LEFT=reveal | Shift+LEFT=pan | Wheel=zoom | F=new image | R=reset fog | "
+        "1-5=color | Q/W/E=size | RIGHT=place marker | ESC=quit",
+        True, (255, 255, 100)
+    )
     status_msg = None
     status_timer = 0
     
     prev_len = 0
+    prev_marker_len = 0
     local_fog_reset = shared_fog_reset.value
     current_drag_mode = None
     prev_pos = None
@@ -111,9 +93,9 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 if event.key == pygame.K_ESCAPE:
                     shared_running.value = False
                 if event.key == pygame.K_f:
-                    root = create_positioned_root_for_dialog(display_index)  # display_index is the control one
+                    root = tk.Tk()
+                    root.withdraw()
                     new_path = filedialog.askopenfilename(
-                        parent=root,
                         title="Select New Map Image",
                         filetypes=[("Image files", "*.png *.jpg *.jpeg *.bmp *.gif"), ("All files", "*.*")]
                     )
@@ -124,12 +106,44 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                         status_timer = 180
                 if event.key == pygame.K_r:
                     shared_revealed[:] = []
+                    shared_markers[:] = []
                     shared_fog_reset.value += 1
+                if event.key == pygame.K_m:  # ← NEW: reset markers only
+                    shared_markers[:] = []
+                    status_msg = font.render("Markers cleared", True, (220, 180, 60))
+                    status_timer = 120
+                # Marker color 1-5
+                if pygame.K_1 <= event.key <= pygame.K_5:
+                    idx = event.key - pygame.K_1
+                    shared_current_marker_color.value = idx
+                    status_msg = font.render(f"Marker color: {['Red','Green','Blue','Yellow','Magenta'][idx]}", True, (100, 255, 100))
+                    status_timer = 120
+                # Marker size Q=small, W=medium, E=large
+                if event.key in (pygame.K_q, pygame.K_w, pygame.K_e):
+                    if event.key == pygame.K_q: idx = 0
+                    elif event.key == pygame.K_w: idx = 1
+                    else: idx = 2
+                    shared_current_marker_size.value = idx
+                    status_msg = font.render(f"Marker size: {['Small','Medium','Large'][idx]}", True, (100, 255, 100))
+                    status_timer = 120
             if event.type == pygame.MOUSEBUTTONDOWN:
-                if event.button == 1:  # left mouse
+                if event.button == 1:
                     shift_pressed = keys[pygame.K_LSHIFT] or keys[pygame.K_RSHIFT]
                     current_drag_mode = 'pan' if shift_pressed else 'reveal'
                     prev_pos = event.pos
+                if event.button == 3:  # Right-click → place marker
+                    pos = pygame.mouse.get_pos()
+                    draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
+                    draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
+                    map_x = (pos[0] - draw_x) / current_zoom
+                    map_y = (pos[1] - draw_y) / current_zoom
+                    nx = map_x / orig_w
+                    ny = map_y / orig_h
+                    # Use selected size, scale relative to zoom at placement time
+                    base_r = marker_sizes[shared_current_marker_size.value]
+                    nr = base_r / current_zoom / max(orig_w, orig_h)  # normalized
+                    color_idx = shared_current_marker_color.value
+                    shared_markers.append((nx, ny, nr, color_idx))
             if event.type == pygame.MOUSEBUTTONUP:
                 if event.button == 1:
                     current_drag_mode = None
@@ -145,7 +159,6 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                                    32767 / (orig_h * base_zoom) if orig_h * base_zoom else 1)
                 shared_zoom_multiplier.value = new_mult
         
-        # Check for new image load
         if shared_image_path and shared_image_path[0] != current_path:
             try:
                 current_path = shared_image_path[0]
@@ -155,24 +168,24 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 fog_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
                 fog_orig.fill((20, 20, 60, 180))
                 shared_revealed[:] = []
+                shared_markers[:] = []
                 shared_zoom_multiplier.value = 1.0
                 shared_camera_nx.value = 0.5
                 shared_camera_ny.value = 0.5
                 shared_fog_reset.value += 1
                 prev_len = 0
+                prev_marker_len = 0
                 local_fog_reset = shared_fog_reset.value
             except Exception as e:
                 print("Failed to load new image:", e)
         
         current_zoom = base_zoom * shared_zoom_multiplier.value
         
-        # Handle fog reset
         if shared_fog_reset.value > local_fog_reset:
             fog_orig.fill((20, 20, 60, 180))
             local_fog_reset = shared_fog_reset.value
             prev_len = 0
         
-        # Sync reveals to fog layer
         current_len = len(shared_revealed)
         if current_len > prev_len:
             for i in range(prev_len, current_len):
@@ -183,7 +196,6 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 pygame.draw.circle(fog_orig, (0, 0, 0, 0), (int(x), int(y)), int(r))
             prev_len = current_len
         
-        # Handle mouse dragging (reveal or pan)
         mouse_pressed = pygame.mouse.get_pressed()[0]
         if mouse_pressed and current_drag_mode:
             pos = pygame.mouse.get_pos()
@@ -207,12 +219,10 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     ny = map_y / orig_h
                     nr = map_r / max(orig_w, orig_h)
                     shared_revealed.append((nx, ny, nr))
-                    # Immediate feedback on control
                     pygame.draw.circle(fog_orig, (0, 0, 0, 0), (int(map_x), int(map_y)), int(map_r))
                     pygame.draw.circle(screen, brush_color, pos, reveal_radius + 4, 3)
             prev_pos = pos
         
-        # Calculate draw position & size
         scaled_w = int(orig_w * current_zoom)
         scaled_h = int(orig_h * current_zoom)
         draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
@@ -229,7 +239,14 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
         screen.blit(bg_scaled, (draw_x, draw_y))
         screen.blit(fog_scaled, (draw_x, draw_y))
         
-        # Brush preview when not dragging
+        # Draw all markers
+        for nx, ny, nr, color_idx in shared_markers:
+            x = int(nx * orig_w * current_zoom)
+            y = int(ny * orig_h * current_zoom)
+            r = int(nr * max(orig_w, orig_h) * current_zoom)
+            pos = (draw_x + x, draw_y + y)
+            pygame.draw.circle(screen, marker_colors[color_idx], pos, r)
+        
         if not mouse_pressed:
             mx, my = pygame.mouse.get_pos()
             pygame.draw.circle(screen, (255, 255, 180, 80), (mx, my), reveal_radius, 2)
@@ -246,7 +263,8 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
 
 
 def audience_window(initial_image_path, shared_revealed, shared_running, shared_image_path,
-                    display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset):
+                    display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset,
+                    shared_markers, shared_current_marker_color, shared_current_marker_size):
     os.environ['SDL_VIDEO_CENTERED'] = '0'
     pygame.init()
     screen = pygame.display.set_mode((0, 0), pygame.NOFRAME, display=display_index)
@@ -262,6 +280,16 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
     mask_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
     mask_orig.fill((0, 0, 0, 255))
     
+    marker_colors = [
+        (255, 0, 0, 255),
+        (0, 255, 0, 255),
+        (0, 0, 255, 255),
+        (255, 255, 0, 255),
+        (255, 0, 255, 255),
+    ]
+    
+    marker_sizes = [12, 24, 40]  # Same as control
+    
     prev_len = 0
     local_fog_reset = shared_fog_reset.value
     clock = pygame.time.Clock()
@@ -272,7 +300,6 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
                (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
                 shared_running.value = False
         
-        # New image check
         if shared_image_path and shared_image_path[0] != current_path:
             try:
                 current_path = shared_image_path[0]
@@ -288,13 +315,11 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
         
         current_zoom = base_zoom * shared_zoom_multiplier.value
         
-        # Fog reset
         if shared_fog_reset.value > local_fog_reset:
             mask_orig.fill((0, 0, 0, 255))
             local_fog_reset = shared_fog_reset.value
             prev_len = 0
         
-        # Apply reveals
         current_len = len(shared_revealed)
         if current_len > prev_len:
             for i in range(prev_len, current_len):
@@ -320,6 +345,15 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
         screen.fill((0, 0, 0))
         screen.blit(bg_scaled, (draw_x, draw_y))
         screen.blit(mask_scaled, (draw_x, draw_y))
+        
+        # Draw markers
+        for nx, ny, nr, color_idx in shared_markers:
+            x = int(nx * orig_w * current_zoom)
+            y = int(ny * orig_h * current_zoom)
+            r = int(nr * max(orig_w, orig_h) * current_zoom)
+            pos = (draw_x + x, draw_y + y)
+            pygame.draw.circle(screen, marker_colors[color_idx], pos, r)
+        
         pygame.display.flip()
         clock.tick(60)
     
@@ -335,14 +369,10 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
     
-    # Initial selection (in __main__)
-    root = create_positioned_root_for_dialog(args.c)   # or args.control
     image_path = filedialog.askopenfilename(
-        parent=root,   # ← important
         title="Select Map Image for DnD Fog of War",
         filetypes=[("Image files", "*.png *.jpg *.jpeg *.bmp *.gif"), ("All files", "*.*")]
     )
-    root.destroy()   # clean up
     
     if not image_path:
         print("No image selected. Exiting.")
@@ -350,39 +380,26 @@ if __name__ == "__main__":
     
     print(f"Selected image: {image_path}")
     
-    # ────────────────────────────────────────────────────────────────
-    # Determine display indices (defaults to 0 and 1 if no args given)
-    # ────────────────────────────────────────────────────────────────
     pygame.init()
     num_displays = pygame.display.get_num_displays()
     pygame.quit()
     
-    control_display = args.c
-    audience_display = args.a
+    control_display = args.control
+    audience_display = args.audience
     
     if control_display < 0 or control_display >= num_displays:
-        print(f"Warning: Control display {control_display} invalid "
-              f"(only {num_displays} displays). Falling back to 0.")
+        print(f"Warning: Control display {control_display} invalid. Using 0.")
         control_display = 0
     
     if audience_display < 0 or audience_display >= num_displays:
-        print(f"Warning: Audience display {audience_display} invalid "
-              f"(only {num_displays} displays). Falling back to 1 or 0.")
+        print(f"Warning: Audience display {audience_display} invalid. Using 1 or 0.")
         audience_display = 1 if num_displays > 1 else 0
     
     if control_display == audience_display:
-        print(f"Note: Control & audience both on display {control_display} "
-              "(windows will overlap unless moved).")
+        print(f"Note: Control & audience on same display {control_display} (overlap possible).")
     
-    print(f"Launching:")
-    print(f"  • Control  window → display {control_display}")
-    print(f"  • Audience window → display {audience_display}")
-    if num_displays > 2:
-        print(f"  (found {num_displays} displays — use --control N --audience M to choose others)")
+    print(f"Launching:\n  • Control → display {control_display}\n  • Audience → display {audience_display}")
     
-    # ────────────────────────────────────────────────────────────────
-    # Shared multiprocessing state
-    # ────────────────────────────────────────────────────────────────
     manager = multiprocessing.Manager()
     shared_revealed        = manager.list()
     shared_running         = manager.Value('b', True)
@@ -391,21 +408,23 @@ if __name__ == "__main__":
     shared_camera_nx       = manager.Value('f', 0.5)
     shared_camera_ny       = manager.Value('f', 0.5)
     shared_fog_reset       = manager.Value('i', 0)
+    shared_markers         = manager.list()                     # (nx, ny, nr, color_idx)
+    shared_current_marker_color = manager.Value('i', 0)         # 0-4
+    shared_current_marker_size  = manager.Value('i', 1)         # 0=small, 1=medium, 2=large
     
-    # ────────────────────────────────────────────────────────────────
-    # Launch windows in separate processes
-    # ────────────────────────────────────────────────────────────────
     control_proc = multiprocessing.Process(
         target=control_window,
         args=(image_path, shared_revealed, shared_running, shared_image_path,
               control_display, shared_zoom_multiplier, shared_camera_nx,
-              shared_camera_ny, shared_fog_reset)
+              shared_camera_ny, shared_fog_reset, shared_markers,
+              shared_current_marker_color, shared_current_marker_size)
     )
     audience_proc = multiprocessing.Process(
         target=audience_window,
         args=(image_path, shared_revealed, shared_running, shared_image_path,
               audience_display, shared_zoom_multiplier, shared_camera_nx,
-              shared_camera_ny, shared_fog_reset)
+              shared_camera_ny, shared_fog_reset, shared_markers,
+              shared_current_marker_color, shared_current_marker_size)
     )
     
     audience_proc.start()
