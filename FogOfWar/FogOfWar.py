@@ -1,0 +1,115 @@
+# FogOfWar.py
+from __future__ import annotations
+import multiprocessing
+import sys
+import os
+import tkinter as tk
+from tkinter import filedialog
+import argparse
+import pygame  # still needed for get_num_displays
+
+from app_core import control_window, audience_window, draw_circular_text  # ← import the functions
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="DnD Fog of War - Multi-display support")
+    parser.add_argument('--control', type=int, default=0,
+                        help="Display index for control window (default: 0)")
+    parser.add_argument('--audience', type=int, default=1,
+                        help="Display index for audience window (default: 1)")
+    parser.add_argument('--list-displays', action='store_true',
+                        help="List available displays and their resolutions, then exit")
+    return parser.parse_args()
+
+def list_displays():
+    pygame.init()
+    num = pygame.display.get_num_displays()
+    print(f"Detected {num} display(s):")
+    sizes = pygame.display.get_desktop_sizes()
+    for i in range(num):
+        w, h = sizes[i] if i < len(sizes) else ("unknown", "unknown")
+        print(f"  Display {i}: {w} × {h}")
+    pygame.quit()
+    sys.exit(0)
+
+def main():
+    args = parse_arguments()
+    
+    if args.list_displays:
+        list_displays()
+    
+    root = tk.Tk()
+    root.withdraw()
+    
+    image_path = filedialog.askopenfilename(
+        title="Select Map Image for DnD Fog of War",
+        filetypes=[("Image files", "*.png *.jpg *.jpeg *.bmp *.gif"), ("All files", "*.*")]
+    )
+    
+    if not image_path:
+        print("No image selected. Exiting.")
+        sys.exit(0)
+    
+    print(f"Selected image: {image_path}")
+    
+    pygame.init()
+    num_displays = pygame.display.get_num_displays()
+    pygame.quit()
+    
+    control_display = args.control
+    audience_display = args.audience
+    
+    if control_display < 0 or control_display >= num_displays:
+        print(f"Warning: Control display {control_display} invalid. Using 0.")
+        control_display = 0
+    
+    if audience_display < 0 or audience_display >= num_displays:
+        print(f"Warning: Audience display {audience_display} invalid. Using 1 or 0.")
+        audience_display = 1 if num_displays > 1 else 0
+    
+    if control_display == audience_display:
+        print(f"Note: Control & audience on same display {control_display} (overlap possible).")
+    
+    print(f"Launching:\n  • Control → display {control_display}\n  • Audience → display {audience_display}")
+    
+    manager = multiprocessing.Manager()
+    shared_revealed        = manager.list()
+    shared_running         = manager.Value('b', True)
+    shared_image_path      = manager.list([image_path])
+    shared_zoom_multiplier = manager.Value('f', 1.0)
+    shared_camera_nx       = manager.Value('f', 0.5)
+    shared_camera_ny       = manager.Value('f', 0.5)
+    shared_fog_reset       = manager.Value('i', 0)
+    shared_markers         = manager.list()
+    shared_current_condition_idx = manager.Value('i', 0)
+    shared_current_marker_size  = manager.Value('i', 1)
+    
+    control_proc = multiprocessing.Process(
+        target=control_window,
+        args=(image_path, shared_revealed, shared_running, shared_image_path,
+              control_display, shared_zoom_multiplier, shared_camera_nx,
+              shared_camera_ny, shared_fog_reset, shared_markers,
+              shared_current_condition_idx, shared_current_marker_size)
+    )
+    audience_proc = multiprocessing.Process(
+        target=audience_window,
+        args=(image_path, shared_revealed, shared_running, shared_image_path,
+              audience_display, shared_zoom_multiplier, shared_camera_nx,
+              shared_camera_ny, shared_fog_reset, shared_markers,
+              shared_current_condition_idx, shared_current_marker_size)
+    )
+    
+    audience_proc.start()
+    control_proc.start()
+    
+    control_proc.join()
+    shared_running.value = False
+    audience_proc.join()
+
+
+if __name__ == "__main__":
+    multiprocessing.freeze_support()
+    
+    if getattr(sys, 'frozen', False):
+        os.chdir(sys._MEIPASS)
+    
+    main()
