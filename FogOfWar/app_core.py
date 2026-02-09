@@ -169,22 +169,64 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     status_timer = 120
 
             if event.type == pygame.MOUSEBUTTONDOWN:
-                if event.button == 1:
+                keys = pygame.key.get_pressed()   # get current modifier keys
+
+                if event.button == 1:  # left click
                     shift_pressed = keys[pygame.K_LSHIFT] or keys[pygame.K_RSHIFT]
                     current_drag_mode = 'pan' if shift_pressed else 'reveal'
                     prev_pos = event.pos
-                if event.button == 3:  # Right-click → place marker
-                    pos = pygame.mouse.get_pos()
-                    draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
-                    draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
-                    map_x = (pos[0] - draw_x) / current_zoom
-                    map_y = (pos[1] - draw_y) / current_zoom
-                    nx = map_x / orig_w
-                    ny = map_y / orig_h
-                    base_r = marker_sizes[shared_current_marker_size.value]
-                    nr = base_r / current_zoom / max(orig_w, orig_h)
-                    condition_idx = shared_current_condition_idx.value
-                    shared_markers.append((nx, ny, nr, condition_idx))
+
+                elif event.button == 3:  # right click
+                    pos = event.pos  # (x, y) in screen space
+
+                    # Check if Shift is held → remove mode
+                    if keys[pygame.K_LSHIFT] or keys[pygame.K_RSHIFT]:
+                        if not shared_markers:
+                            status_msg = font.render("No markers to remove", True, (180, 180, 180))
+                            status_timer = 90
+                        else:
+                            # Convert click position to map coordinates
+                            draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
+                            draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
+                            click_map_x = (pos[0] - draw_x) / current_zoom
+                            click_map_y = (pos[1] - draw_y) / current_zoom
+
+                            closest_idx = None
+                            closest_dist = float('inf')
+                            removal_threshold = 60  # pixels on screen at zoom=1 → adjust as needed
+
+                            for i, (nx, ny, nr, _) in enumerate(shared_markers):
+                                marker_x = nx * orig_w
+                                marker_y = ny * orig_h
+                                dist = math.hypot(click_map_x - marker_x, click_map_y - marker_y)
+                                screen_dist = dist * current_zoom  # approximate screen distance
+
+                                if screen_dist < closest_dist:
+                                    closest_dist = screen_dist
+                                    closest_idx = i
+
+                            if closest_idx is not None and closest_dist <= removal_threshold:
+                                removed_condition = conditions[shared_markers[closest_idx][3]]
+                                del shared_markers[closest_idx]
+                                status_msg = font.render(f"Removed {removed_condition}", True, (220, 100, 100))
+                                status_timer = 120
+                            else:
+                                status_msg = font.render("No marker near click", True, (180, 180, 180))
+                                status_timer = 90
+
+                    else:
+                        # Normal right-click → place new marker (existing code)
+                        draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
+                        draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
+                        map_x = (pos[0] - draw_x) / current_zoom
+                        map_y = (pos[1] - draw_y) / current_zoom
+                        nx = map_x / orig_w
+                        ny = map_y / orig_h
+                        base_r = marker_sizes[shared_current_marker_size.value]
+                        nr = base_r / current_zoom / max(orig_w, orig_h)
+                        color_idx = shared_current_condition_idx.value
+                        shared_markers.append((nx, ny, nr, color_idx))
+
             if event.type == pygame.MOUSEBUTTONUP:
                 if event.button == 1:
                     current_drag_mode = None
@@ -199,7 +241,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                                    32767 / (orig_w * base_zoom) if orig_w * base_zoom else 1,
                                    32767 / (orig_h * base_zoom) if orig_h * base_zoom else 1)
                 shared_zoom_multiplier.value = new_mult
-        
+            
         if shared_image_path and shared_image_path[0] != current_path:
             try:
                 current_path = shared_image_path[0]
@@ -403,14 +445,27 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             prev_len = 0
         
         current_len = len(shared_revealed)
+        
+        # Defensive: never go backwards, clamp to actual length
+        if shared_fog_reset.value > local_fog_reset:
+            mask_orig.fill((0, 0, 0, 255))
+            local_fog_reset = shared_fog_reset.value
+            prev_len = 0  # force full reset
+        
+        # Only process new reveals if length actually increased
         if current_len > prev_len:
-            for i in range(prev_len, current_len):
-                nx, ny, nr = shared_revealed[i]
-                x = int(nx * orig_w)
-                y = int(ny * orig_h)
-                r = int(nr * max(orig_w, orig_h))
-                pygame.draw.circle(mask_orig, (0, 0, 0, 0), (x, y), r)
-            prev_len = current_len
+            # But clamp in case list was cleared concurrently
+            for i in range(prev_len, min(current_len, len(shared_revealed))):
+                try:
+                    nx, ny, nr = shared_revealed[i]
+                    x = int(nx * orig_w)
+                    y = int(ny * orig_h)
+                    r = int(nr * max(orig_w, orig_h))
+                    pygame.draw.circle(mask_orig, (0, 0, 0, 0), (x, y), r)
+                except IndexError:
+                    # List shrank during loop — stop processing
+                    break
+            prev_len = current_len  # only update if we reached the end safely
         
         scaled_w = int(orig_w * current_zoom)
         scaled_h = int(orig_h * current_zoom)
