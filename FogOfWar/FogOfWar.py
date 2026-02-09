@@ -6,9 +6,10 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 import argparse
-import pygame  # still needed for get_num_displays
+import pygame
 
-from app_core import control_window, audience_window, draw_circular_text  # ← import the functions
+# Import the window functions and helpers from the separated module
+from app_core import control_window, audience_window
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="DnD Fog of War - Multi-display support")
@@ -20,6 +21,7 @@ def parse_arguments():
                         help="List available displays and their resolutions, then exit")
     return parser.parse_args()
 
+
 def list_displays():
     pygame.init()
     num = pygame.display.get_num_displays()
@@ -30,6 +32,7 @@ def list_displays():
         print(f"  Display {i}: {w} × {h}")
     pygame.quit()
     sys.exit(0)
+
 
 def main():
     args = parse_arguments()
@@ -79,23 +82,27 @@ def main():
     shared_camera_nx       = manager.Value('f', 0.5)
     shared_camera_ny       = manager.Value('f', 0.5)
     shared_fog_reset       = manager.Value('i', 0)
-    shared_markers         = manager.list()
-    shared_current_condition_idx = manager.Value('i', 0)
-    shared_current_marker_size  = manager.Value('i', 1)
-    
+    shared_markers         = manager.list()                     # (nx, ny, nr, condition_idx)
+    shared_current_condition_idx = manager.Value('i', 0)       # 0-14
+    shared_current_marker_size  = manager.Value('i', 1)         # 0=small, 1=medium, 2=large
+    shared_mouse_map_nx = manager.Value('f', -1.0)   # -1 = invalid/hidden
+    shared_mouse_map_ny = manager.Value('f', -1.0)
+
     control_proc = multiprocessing.Process(
         target=control_window,
         args=(image_path, shared_revealed, shared_running, shared_image_path,
               control_display, shared_zoom_multiplier, shared_camera_nx,
               shared_camera_ny, shared_fog_reset, shared_markers,
-              shared_current_condition_idx, shared_current_marker_size)
+              shared_current_condition_idx, shared_current_marker_size,
+              shared_mouse_map_nx, shared_mouse_map_ny)
     )
     audience_proc = multiprocessing.Process(
         target=audience_window,
         args=(image_path, shared_revealed, shared_running, shared_image_path,
               audience_display, shared_zoom_multiplier, shared_camera_nx,
               shared_camera_ny, shared_fog_reset, shared_markers,
-              shared_current_condition_idx, shared_current_marker_size)
+              shared_current_condition_idx, shared_current_marker_size,
+              shared_mouse_map_nx, shared_mouse_map_ny)
     )
     
     audience_proc.start()
@@ -107,8 +114,10 @@ def main():
 
 
 if __name__ == "__main__":
+    # Critical for multiprocessing in frozen/PyInstaller executables on Windows
     multiprocessing.freeze_support()
     
+    # Helps locate resources in one-file PyInstaller bundles
     if getattr(sys, 'frozen', False):
         os.chdir(sys._MEIPASS)
     
