@@ -453,19 +453,17 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             prev_len = 0  # force full reset
         
         # Only process new reveals if length actually increased
+        current_len = len(shared_revealed)
         if current_len > prev_len:
-            # But clamp in case list was cleared concurrently
-            for i in range(prev_len, min(current_len, len(shared_revealed))):
-                try:
-                    nx, ny, nr = shared_revealed[i]
-                    x = int(nx * orig_w)
-                    y = int(ny * orig_h)
-                    r = int(nr * max(orig_w, orig_h))
-                    pygame.draw.circle(mask_orig, (0, 0, 0, 0), (x, y), r)
-                except IndexError:
-                    # List shrank during loop — stop processing
+            for i in range(prev_len, current_len):
+                if i >= len(shared_revealed):  # safety against concurrent clear
                     break
-            prev_len = current_len  # only update if we reached the end safely
+                nx, ny, nr = shared_revealed[i]
+                x = int(nx * orig_w)
+                y = int(ny * orig_h)
+                r = int(nr * max(orig_w, orig_h))
+                pygame.draw.circle(mask_orig, (0, 0, 0, 0), (x, y), r)
+            prev_len = current_len
         
         scaled_w = int(orig_w * current_zoom)
         scaled_h = int(orig_h * current_zoom)
