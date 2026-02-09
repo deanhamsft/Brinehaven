@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Kingdom of Ardhall/Compressed Dragonic Fire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Compressed Dragonic Fire"
             }
           }
         ],
@@ -243,8 +243,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aec31d53985d91a3",
+  "active": "7e86f4ce5cce0ac0",
   "lastOpenFiles": [
+    "Kingdom of Ardhall/Outline of the kingdom.md",
+    "conflict-files-obsidian-git.md",
     "FogOfWar/app_core.py",
     "FogOfWar/dist/Fog of War/_internal/base_library.zip",
     "FogOfWar/dist/Fog of War/_internal/pyreadline3-3.5.4.dist-info/WHEEL",
@@ -256,7 +258,6 @@
     "FogOfWar/dist/Fog of War/_internal/pyreadline3-3.5.4.dist-info",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/ttk/vistaTheme.tcl",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/ttk/xpTheme.tcl",
-    "FogOfWar/dist/Fog of War/_internal/_tk_data/ttk/winTheme.tcl",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/tai-ku.gif",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/pwrdLogo75.gif",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/pwrdLogo200.gif",
@@ -278,7 +279,6 @@
     "Party members/Vulkaan/Vulkaan Ardhall.md",
     "The Crimson Pass/Speech of Thornmaar the Usurper.md",
     "Imperium of Illutuvan/The Winter Eagle.md",
-    "Kingdom of Ardhall/Outline of the kingdom.md",
     "Imperium of Illutuvan/Captain-Legate Cassian Duval.md",
     "Imperium of Illutuvan/Saraphine.md",
     "Imperium of Illutuvan/Rathar.md",
