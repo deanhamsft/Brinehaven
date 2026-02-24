@@ -83,10 +83,14 @@ def main():
     shared_camera_ny       = manager.Value('f', 0.5)
     shared_fog_reset       = manager.Value('i', 0)
     shared_markers         = manager.list()                     # (nx, ny, nr, condition_idx)
-    shared_current_condition_idx = manager.Value('i', 0)       # 0-14
+    shared_current_condition_idx = manager.Value('i', 0)
     shared_current_marker_size  = manager.Value('i', 1)         # 0=small, 1=medium, 2=large
-    shared_mouse_map_nx = manager.Value('f', -1.0)   # -1 = invalid/hidden
+    shared_current_shape_type   = manager.Value('i', -1)        # -1 = no shape, 0=Circle, 1=Square, 2=Cone, 3=Line/Rect
+    shared_mouse_map_nx = manager.Value('f', -1.0)
     shared_mouse_map_ny = manager.Value('f', -1.0)
+    shared_shapes = manager.list()  # List of dicts: {'type': int, 'nx': float, 'ny': float, 'size': int, 'condition_idx': int}
+    shared_current_rotation = manager.Value('f', 0.0)  # For cone/line direction in degrees
+    shared_current_shape_size = manager.Value('f', 0.08)   # normalized size ~8% of map diagonal as default
 
     control_proc = multiprocessing.Process(
         target=control_window,
@@ -94,7 +98,8 @@ def main():
               control_display, shared_zoom_multiplier, shared_camera_nx,
               shared_camera_ny, shared_fog_reset, shared_markers,
               shared_current_condition_idx, shared_current_marker_size,
-              shared_mouse_map_nx, shared_mouse_map_ny)
+              shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
+              shared_shapes, shared_current_rotation, shared_current_shape_size)
     )
     audience_proc = multiprocessing.Process(
         target=audience_window,
@@ -102,7 +107,8 @@ def main():
               audience_display, shared_zoom_multiplier, shared_camera_nx,
               shared_camera_ny, shared_fog_reset, shared_markers,
               shared_current_condition_idx, shared_current_marker_size,
-              shared_mouse_map_nx, shared_mouse_map_ny)
+              shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type, 
+              shared_shapes, shared_current_rotation, shared_current_shape_size)
     )
     
     audience_proc.start()
