@@ -645,7 +645,7 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             
         if shared_full_reveal.value:
             mask_orig.fill((0, 0, 0, 0))   # completely transparent → no fog
-            shared_full_reveal.value = False
+            shared_full_reveal.value = True
             prev_len = 0
 
         current_len = len(shared_revealed)
