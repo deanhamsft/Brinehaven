@@ -167,10 +167,6 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                         shared_current_rotation.value = (shared_current_rotation.value + 15) % 360
                         status_msg = font.render(f"Rotation: {int(shared_current_rotation.value)}°", True, (180, 220, 255))
                         status_timer = 90
-                    elif event.key == pygame.K_r and (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
-                        shared_current_rotation.value = 0.0
-                        status_msg = font.render("Rotation reset to 0°", True, (220, 180, 100))
-                        status_timer = 90
                 
                 # Deselect shape
                 if event.key == pygame.K_SPACE:
