@@ -33,7 +33,8 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                    display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset,
                    shared_markers, shared_current_condition_idx, shared_current_marker_size,
                    shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
-                   shared_shapes, shared_current_rotation, shared_current_shape_size):
+                   shared_shapes, shared_current_rotation, shared_current_shape_size,
+                   shared_full_reveal):
     os.environ['SDL_VIDEO_CENTERED'] = '0'
     pygame.init()
     screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN, display=display_index)
@@ -148,6 +149,11 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     shared_shapes[:] = []
                     shared_fog_reset.value += 1
                     status_msg = font.render("Everything reset", True, (220, 100, 100))
+                    status_timer = 120
+                if event.key == pygame.K_o and (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
+                    shared_full_reveal.value = True
+                    shared_revealed[:] = []               # optional: also clear incremental reveals
+                    status_msg = font.render("Full reveal sent to audience", True, (100, 255, 100))
                     status_timer = 120
                 if event.key == pygame.K_m:
                     if shared_markers:
@@ -651,7 +657,8 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
                     display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset,
                     shared_markers, shared_current_condition_idx, shared_current_marker_size,
                     shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
-                    shared_shapes, shared_current_rotation, shared_current_shape_size):
+                    shared_shapes, shared_current_rotation, shared_current_shape_size,
+                   shared_full_reveal):
     os.environ['SDL_VIDEO_CENTERED'] = '0'
     pygame.init()
     screen = pygame.display.set_mode((0, 0), pygame.NOFRAME, display=display_index)
@@ -710,7 +717,11 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             mask_orig.fill((0, 0, 0, 255))
             local_fog_reset = shared_fog_reset.value
             prev_len = 0
-        
+        if shared_full_reveal.value:
+            mask_orig.fill((0, 0, 0, 0))   # completely transparent → no fog
+            shared_full_reveal.value = False
+            prev_len = 0
+
         current_len = len(shared_revealed)
         if current_len > prev_len:
             for i in range(prev_len, current_len):

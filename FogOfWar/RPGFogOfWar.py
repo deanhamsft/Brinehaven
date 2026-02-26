@@ -122,7 +122,7 @@ def main(load_from_saved=False):
 
             # Force fog/mask reset to apply any cleared reveals
             shared_fog_reset.value += 1
-
+            shared_full_reveal = manager.Value('b', False) # reset full reveal trigger after load
             load_from_saved = True
             print(f"Loaded state from {image_path}")
             
@@ -137,7 +137,8 @@ def main(load_from_saved=False):
               shared_camera_ny, shared_fog_reset, shared_markers,
               shared_current_condition_idx, shared_current_marker_size,
               shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
-              shared_shapes, shared_current_rotation, shared_current_shape_size)
+              shared_shapes, shared_current_rotation, shared_current_shape_size,
+              shared_full_reveal)
     )
     audience_proc = multiprocessing.Process(
         target=audience_window,
@@ -146,7 +147,8 @@ def main(load_from_saved=False):
               shared_camera_ny, shared_fog_reset, shared_markers,
               shared_current_condition_idx, shared_current_marker_size,
               shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type, 
-              shared_shapes, shared_current_rotation, shared_current_shape_size)
+              shared_shapes, shared_current_rotation, shared_current_shape_size,
+              shared_full_reveal)
     )
     
     audience_proc.start()
