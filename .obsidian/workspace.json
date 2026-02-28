@@ -4,87 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "03a1c1e92247147b",
+        "id": "fd6225fe794a6daf",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4a7cb5ffae2db0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Lost Labyrinth/Minotaur.png"
-              },
-              "icon": "lucide-image",
-              "title": "Minotaur"
-            }
-          },
-          {
-            "id": "549ab4d39d92479d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Lost Labyrinth/Minotaur.png"
-              },
-              "icon": "lucide-image",
-              "title": "Minotaur"
-            }
-          },
-          {
-            "id": "d522087c32fee7ab",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Party members 2/Mira/Mira.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Mira"
-            }
-          },
-          {
-            "id": "f46374b3488959ba",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Party members 2/Mira/mira2.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "mira2"
-            }
-          },
-          {
-            "id": "ac2f92afbdc76e2d",
+            "id": "14f23900da314cef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tinkertwist Hollow/NPC's/Bimble Fizzbang.md",
+                "file": "Brinehaven/NPC's of Brinehaven/Calen Shorewhistle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bimble Fizzbang"
-            }
-          },
-          {
-            "id": "7e86f4ce5cce0ac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Calen Shorewhistle"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aec31d53985d91a3",
+  "active": "14f23900da314cef",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "FogOfWar/build/Fog of War/PYZ-00.pyz",
     "displays.py",
     "FogOfWar/dist/Fog of War/_internal/zlib1.dll",
@@ -255,7 +193,6 @@
     "FogOfWar/dist/Fog of War/_internal/ucrtbase.dll",
     "FogOfWar/dist/Fog of War/_internal/tk86t.dll",
     "FogOfWar/dist/Fog of War/_internal/tcl86t.dll",
-    "FogOfWar/dist/Fog of War/_internal/tcl8/8.4/platform/shell-1.1.4.tm",
     "FogOfWar/dist/Fog of War/_internal/pyreadline3-3.5.4.dist-info/LICENSE.md",
     "FogOfWar/dist/Fog of War/_internal/pygame/pygame_icon.bmp",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/tai-ku.gif",
@@ -267,7 +204,6 @@
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/logoMed.gif",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/logoLarge.gif",
     "FogOfWar/dist/Fog of War/_internal/_tk_data/images/logo64.gif",
-    "conflict-files-obsidian-git.md",
     "Imperium of Illutuvan/Imperial Expedition.md",
     "Imperium of Illutuvan/Outline of the Imperium.md",
     "Lost Labyrinth/Lost Labyrinth.md",

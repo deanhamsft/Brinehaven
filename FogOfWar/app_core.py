@@ -43,6 +43,13 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     
     print(f"current image path: {initial_image_path}")
     current_path = initial_image_path
+    if shared_image_path[0] != current_path:
+        current_path = shared_image_path[0]
+        shared_revealed[:] = []
+        shared_markers[:] = []
+        shared_shapes[:] = []
+        shared_fog_reset.value += 1
+        status_timer = 120
     image = pygame.image.load(current_path).convert()
     orig_w, orig_h = image.get_size()
     
@@ -68,7 +75,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
         (0, 255, 0), (165, 42, 42), (255, 165, 0), (218, 165, 32), (75, 0, 130)
     ]
     
-    marker_sizes = [12, 24, 40]
+    marker_sizes = [16, 31, 52]
     
     shapes = ["Circle", "Square", "Cone", "Line/Rect"]
     
@@ -114,8 +121,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     root = tk.Tk()
                     root.withdraw()
                     filename = filedialog.askopenfilename(
-                        title="Select Map Image or State",
-                        filetypes=[("D&D State", "*.dndstate"), ("Image Files", "*.png;*.jpg;*.jpeg;*.bmp")]
+                        title="Select Map Image or State"
                     )
                     root.destroy()
                     if filename:
@@ -141,8 +147,14 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                         else:
                             # Load image only
                             shared_image_path[:] = [filename]
+                            shared_revealed[:] = []
+                            shared_markers[:] = []
+                            shared_shapes[:] = []
+                            shared_fog_reset.value += 1
                             status_msg = font.render("New map loaded", True, (100, 255, 100))
                             status_timer = 180
+                            image = pygame.image.load(shared_image_path[0]).convert()
+                            orig_w, orig_h = image.get_size()
                 if event.key == pygame.K_r:
                     shared_revealed[:] = []
                     shared_markers[:] = []
@@ -686,7 +698,7 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
         (0, 255, 0), (165, 42, 42), (255, 165, 0), (218, 165, 32), (75, 0, 130)
     ]
     
-    marker_sizes = [12, 24, 40]
+    marker_sizes = [16, 31, 52]
     
     prev_len = 0
     local_fog_reset = shared_fog_reset.value
