@@ -44,17 +44,23 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     print(f"current image path: {initial_image_path}")
     current_path = initial_image_path
     if shared_image_path[0] != current_path:
-        current_path = shared_image_path[0]
-        shared_revealed[:] = []
-        shared_markers[:] = []
-        shared_shapes[:] = []
-        shared_fog_reset.value += 1
-        status_timer = 120
+        print(f"Shared image path differs from initial: {shared_image_path[0]} vs {current_path}")
+        try:
+            current_path = shared_image_path[0]
+            image = pygame.image.load(current_path).convert()
+            orig_w, orig_h = image.get_size()
+            base_zoom = min(screen_w / orig_w, screen_h / orig_h)
+            fog_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
+            fog_orig.fill((20, 20, 60, 180))
+            prev_len = 0
+            local_fog_reset = shared_fog_reset.value
+            print(f"Control: loaded new map {current_path} — new base_zoom = {base_zoom:.4f}")
+        except Exception as e:
+            print("Control image load failed:", e)
+
     image = pygame.image.load(current_path).convert()
     orig_w, orig_h = image.get_size()
-    
     base_zoom = min(screen_w / orig_w, screen_h / orig_h)
-    
     fog_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
     fog_orig.fill((20, 20, 60, 180))
     
@@ -105,6 +111,21 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     max_zoom_mult = 20.0
     
     while shared_running.value:
+        
+        if shared_image_path[0] != current_path:
+            try:
+                current_path = shared_image_path[0]
+                image = pygame.image.load(current_path).convert()
+                orig_w, orig_h = image.get_size()
+                base_zoom = min(screen_w / orig_w, screen_h / orig_h)
+                fog_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
+                fog_orig.fill((20, 20, 60, 180))
+                prev_len = 0
+                local_fog_reset = shared_fog_reset.value
+                print(f"Control: loaded new map {current_path} — new base_zoom = {base_zoom:.4f}")
+            except Exception as e:
+                print("Control image load failed:", e)
+
         keys = pygame.key.get_pressed()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -146,10 +167,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                                 status_msg = font.render(f"Load failed: {str(e)}", True, (220, 100, 100))
                             status_timer = 180
                         else:
-                            # Load image only
-                            shared_zoom_multiplier.value = 1.0
-                            shared_camera_nx.value = 0.5
-                            shared_camera_ny.value = 0.5
+                    # Load image only
                             shared_image_path[:] = [filename]
                             shared_revealed[:] = []
                             shared_markers[:] = []
@@ -159,7 +177,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                             status_timer = 180
                             image = pygame.image.load(shared_image_path[0]).convert()
                             orig_w, orig_h = image.get_size()
-                            base_zoom = min(screen_w / orig_w, screen_h / orig_h) 
+                            base_zoom = min(screen_w / orig_w, screen_h / orig_h)
 
                 if event.key == pygame.K_r:
                     shared_revealed[:] = []
@@ -435,7 +453,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
         if mouse_pressed and current_drag_mode:
             pos = pygame.mouse.get_pos()
             if prev_pos is not None:
-                current_zoom = min(screen_w / orig_w, screen_h / orig_h)
+                current_zoom = min(screen_w / orig_w, screen_h / orig_h) * shared_zoom_multiplier.value
                 draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
                 draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
                 
