@@ -60,6 +60,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     
     clock = pygame.time.Clock()
     reveal_radius = 60
+    base_reveal_screen_px = 60 
     brush_color = (255, 255, 100, 120)
     show_help = False
     
@@ -146,6 +147,9 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                             status_timer = 180
                         else:
                             # Load image only
+                            shared_zoom_multiplier.value = 1.0
+                            shared_camera_nx.value = 0.5
+                            shared_camera_ny.value = 0.5
                             shared_image_path[:] = [filename]
                             shared_revealed[:] = []
                             shared_markers[:] = []
@@ -155,6 +159,8 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                             status_timer = 180
                             image = pygame.image.load(shared_image_path[0]).convert()
                             orig_w, orig_h = image.get_size()
+                            base_zoom = min(screen_w / orig_w, screen_h / orig_h) 
+
                 if event.key == pygame.K_r:
                     shared_revealed[:] = []
                     shared_markers[:] = []
@@ -328,7 +334,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                             status_timer = 180
                     continue
                 
-                # Map interaction (existing code)
+                # Map interaction
                 if event.button == 1:
                     shift_pressed = keys[pygame.K_LSHIFT] or keys[pygame.K_RSHIFT]
                     current_drag_mode = 'pan' if shift_pressed else 'reveal'
@@ -405,7 +411,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     new_mult = max(min_zoom_mult, min(max_zoom_mult, new_mult))
                     shared_zoom_multiplier.value = new_mult
         
-        # Image/state reload (handled in hotkey)
+        # Image/state reload
         
         current_zoom = base_zoom * shared_zoom_multiplier.value
         
@@ -424,11 +430,12 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 pygame.draw.circle(fog_orig, (0, 0, 0, 0), (x, y), r)
             prev_len = current_len
         
-        # Dragging (existing)
+        # Dragging
         mouse_pressed = pygame.mouse.get_pressed()[0]
         if mouse_pressed and current_drag_mode:
             pos = pygame.mouse.get_pos()
             if prev_pos is not None:
+                current_zoom = min(screen_w / orig_w, screen_h / orig_h)
                 draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
                 draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
                 
@@ -440,8 +447,11 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     shared_camera_nx.value = max(0, min(1, shared_camera_nx.value))
                     shared_camera_ny.value = max(0, min(1, shared_camera_ny.value))
                 elif current_drag_mode == 'reveal':
+                    reveal_radius = base_reveal_screen_px
+
                     map_x = (pos[0] - draw_x) / current_zoom
                     map_y = (pos[1] - draw_y) / current_zoom
+
                     map_r = reveal_radius / current_zoom
                     nx = map_x / orig_w
                     ny = map_y / orig_h
@@ -450,7 +460,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     pygame.draw.circle(fog_orig, (0, 0, 0, 0), (int(map_x), int(map_y)), int(map_r))
             prev_pos = pos
         
-        # Shared mouse position (existing)
+        # Shared mouse position
         mx, my = pygame.mouse.get_pos()
         draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
         draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
@@ -715,13 +725,28 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
                 current_path = shared_image_path[0]
                 image = pygame.image.load(current_path).convert()
                 orig_w, orig_h = image.get_size()
+
+                # ─── Critical: recalculate base_zoom ────────────────
                 base_zoom = min(screen_w / orig_w, screen_h / orig_h)
+
+                # Reset mask to new dimensions
                 mask_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
                 mask_orig.fill((0, 0, 0, 255))
+
+                # Reset reveal tracking
                 prev_len = 0
                 local_fog_reset = shared_fog_reset.value
-            except:
-                pass
+
+                # Optional but recommended: reset camera to center when map changes
+                shared_camera_nx.value = 0.5
+                shared_camera_ny.value = 0.5
+                # You can also reset zoom if you prefer (uncomment if desired)
+                # shared_zoom_multiplier.value = 1.0
+
+                print(f"Audience: loaded new map {current_path} — new base_zoom = {base_zoom:.4f}")
+
+            except Exception as e:
+                print("Audience image load failed:", e)
         
         current_zoom = base_zoom * shared_zoom_multiplier.value
         
