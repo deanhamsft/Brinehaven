@@ -43,20 +43,6 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     
     print(f"current image path: {initial_image_path}")
     current_path = initial_image_path
-    if shared_image_path[0] != current_path:
-        print(f"Shared image path differs from initial: {shared_image_path[0]} vs {current_path}")
-        try:
-            current_path = shared_image_path[0]
-            image = pygame.image.load(current_path).convert()
-            orig_w, orig_h = image.get_size()
-            base_zoom = min(screen_w / orig_w, screen_h / orig_h)
-            fog_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
-            fog_orig.fill((20, 20, 60, 180))
-            prev_len = 0
-            local_fog_reset = shared_fog_reset.value
-            print(f"Control: loaded new map {current_path} — new base_zoom = {base_zoom:.4f}")
-        except Exception as e:
-            print("Control image load failed:", e)
 
     image = pygame.image.load(current_path).convert()
     orig_w, orig_h = image.get_size()
