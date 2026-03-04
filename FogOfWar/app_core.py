@@ -2,12 +2,9 @@
 from __future__ import annotations
 import pygame
 import math
-import sys
 import os
 import json
-import traceback
 import tkinter as tk
-from tkinter import filedialog
 
 def draw_circular_text(surface, text, center, radius, color, font_size, start_angle=90):
     if radius < 15 or font_size < 10:
