@@ -78,7 +78,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     menu_bg.fill((30, 30, 50, 180))
     
     # --------------------------------Save button rect (bottom left)
-    save_button_rect = pygame.Rect(20, screen_h - 40, 120, 30)  # --------------------------------position as needed
+    save_button_rect = pygame.Rect(20, screen_h - 40, 120, 30)  # position as needed
     
     display_help_key = font.render("Press H for help", True, (255, 255, 180))
     status_msg = None
@@ -143,7 +143,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                                 shared_shapes[:] = state['shapes']
                                 shared_current_rotation.value = state.get('current_rotation', 0.0)
                                 shared_current_shape_size.value = state.get('current_shape_size', 0.08)
-                                shared_fog_reset.value += 1  # --------------------------------trigger fog reset if needed
+                                shared_fog_reset.value += 1  # trigger fog reset if needed
                                 status_msg = font.render("State loaded", True, (100, 255, 100))
                             except Exception as e:
                                 status_msg = font.render(f"Load failed: {str(e)}", True, (220, 100, 100))
@@ -170,7 +170,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     status_timer = 120
                 if event.key == pygame.K_o and (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
                     shared_full_reveal.value = True
-                    shared_revealed[:] = []               # --------------------------------optional: also clear incremental reveals
+                    shared_revealed[:] = []
                     status_msg = font.render("Full reveal sent to audience", True, (100, 255, 100))
                     status_timer = 120
                 if event.key == pygame.K_m:
