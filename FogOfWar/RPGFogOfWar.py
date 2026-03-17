@@ -49,9 +49,6 @@ def main(load_from_saved=False):
         filetypes=[("Image files", "*.png *.jpg *.jpeg *.bmp *.gif"), ("All files", "*.*")]
     )
 
-
-
-
     if not image_path:
         print("No image selected. Exiting.")
         sys.exit(0)
@@ -96,6 +93,7 @@ def main(load_from_saved=False):
     shared_shapes           = manager.list()  # List of dicts: {'type': int, 'nx': float, 'ny': float, 'size': int, 'condition_idx': int}
     shared_current_rotation = manager.Value('f', 0.0)  # For cone/line direction in degrees
     shared_current_shape_size = manager.Value('f', 0.08)   # normalized size ~8% of map diagonal as default
+    shared_animated_effects = manager.list()
 
     if image_path.lower().endswith('.dndstate'):
     # Load saved state
@@ -122,6 +120,7 @@ def main(load_from_saved=False):
             # Force fog/mask reset to apply any cleared reveals
             shared_fog_reset.value += 1
             shared_full_reveal = manager.Value('b', False) # reset full reveal trigger after load
+            shared_animated_effects = manager.list()
             load_from_saved = True
             print(f"Loaded state from {image_path}")
             
@@ -137,7 +136,7 @@ def main(load_from_saved=False):
               shared_current_condition_idx, shared_current_marker_size,
               shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
               shared_shapes, shared_current_rotation, shared_current_shape_size,
-              shared_full_reveal)
+              shared_full_reveal, shared_animated_effects)
     )
     audience_proc = multiprocessing.Process(
         target=audience_window,
@@ -147,7 +146,7 @@ def main(load_from_saved=False):
               shared_current_condition_idx, shared_current_marker_size,
               shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type, 
               shared_shapes, shared_current_rotation, shared_current_shape_size,
-              shared_full_reveal)
+              shared_full_reveal, shared_animated_effects)
     )
     
     audience_proc.start()
@@ -156,7 +155,6 @@ def main(load_from_saved=False):
     control_proc.join()
     shared_running.value = False
     audience_proc.join()
-
 
 if __name__ == "__main__":
     # Critical for multiprocessing in frozen/PyInstaller executables on Windows

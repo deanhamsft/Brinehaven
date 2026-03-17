@@ -4,7 +4,53 @@ import math
 import os
 import json
 import tkinter as tk
+from PIL import Image, ImageSequence
+import io
 
+def load_gif_frames(path):
+    try:
+        img = Image.open(path)
+        if not img.format == 'GIF' or not img.is_animated:
+            # fallback to static
+            return [pygame.image.load(path).convert_alpha()], [100]
+
+        frames = []
+        durations = []
+
+        for frame in ImageSequence.Iterator(img):
+            rgba = frame.convert("RGBA")
+            # Convert PIL → Pygame surface
+            pg_surf = pygame.image.fromstring(
+                rgba.tobytes(), rgba.size, rgba.mode
+            ).convert_alpha()
+            frames.append(pg_surf)
+            durations.append(frame.info.get('duration', 100))
+
+        return frames, durations
+    except Exception as e:
+        print(f"GIF load error: {e}")
+        return [], []
+
+def get_current_gif_frame(animated_gifs, path, current_time_ms):
+    if path not in animated_gifs:
+        return None
+    anim = animated_gifs[path]
+    if not anim['frames']:
+        return None
+        
+    elapsed = current_time_ms - anim['start_ms']
+    total = anim['total_dur']
+    if total == 0:
+        total = 100 * len(anim['frames'])
+        
+    pos = elapsed % total
+    cumulative = 0
+    for i, dur in enumerate(anim['durations']):
+        if pos < cumulative + dur:
+            return anim['frames'][i]
+        cumulative += dur
+    return anim['frames'][0]   # fallback
+    
 def draw_circular_text(surface, text, center, radius, color, font_size, start_angle=90):
     if radius < 15 or font_size < 10:
         return
@@ -30,15 +76,26 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                    shared_markers, shared_current_condition_idx, shared_current_marker_size,
                    shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
                    shared_shapes, shared_current_rotation, shared_current_shape_size,
-                   shared_full_reveal):
+                   shared_full_reveal, shared_animated_effects):
     os.environ['SDL_VIDEO_CENTERED'] = '0'
     pygame.init()
-    screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN, display=display_index)
+    screen = pygame.display.set_mode((0, 0), pygame.NOFRAME, display=display_index)
     screen_w, screen_h = screen.get_size()
     pygame.display.set_caption("Control Monitor (Reveal Fog)")
     
     print(f"current image path: {initial_image_path}")
     current_path = initial_image_path
+    animated_gifs = {}  # path → {'frames': list[Surface], 'durations': list[int], 'total_dur': int, 'start_time': int}
+
+    if current_path.lower().endswith('.gif'):
+        frames, durations = load_gif_frames(current_path)
+        if frames:
+            animated_gifs[current_path] = {
+                'frames': frames,
+                'durations': durations,
+                'total_dur': sum(durations),
+                'start_ms': pygame.time.get_ticks()
+            }
 
     image = pygame.image.load(current_path).convert()
     orig_w, orig_h = image.get_size()
@@ -98,6 +155,16 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
             try:
                 current_path = shared_image_path[0]
                 image = pygame.image.load(current_path).convert()
+                animated_gifs.clear()  # remove old animation
+                if current_path.lower().endswith('.gif'):
+                    frames, durations = load_gif_frames(current_path)
+                    if frames:
+                        animated_gifs[current_path] = {
+                            'frames': frames,
+                            'durations': durations,
+                            'total_dur': sum(durations),
+                            'start_ms': pygame.time.get_ticks()
+                        }
                 orig_w, orig_h = image.get_size()
                 base_zoom = min(screen_w / orig_w, screen_h / orig_h)
                 fog_orig = pygame.Surface((orig_w, orig_h), pygame.SRCALPHA)
@@ -479,17 +546,65 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
         draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
         draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
         
-        try:
+        current_time_ms = pygame.time.get_ticks()
+
+        # ─── Choose background: animated frame or static image ───
+        if current_path.lower().endswith('.gif') and current_path in animated_gifs:
+            frame_surf = get_current_gif_frame(animated_gifs, current_path, current_time_ms)
+            if frame_surf:
+                bg_scaled = pygame.transform.smoothscale(frame_surf, (scaled_w, scaled_h))
+            else:
+                bg_scaled = pygame.transform.smoothscale(image, (scaled_w, scaled_h))  # fallback
+        else:
             bg_scaled = pygame.transform.smoothscale(image, (scaled_w, scaled_h))
+
+        try:
             fog_scaled = pygame.transform.smoothscale(fog_orig, (scaled_w, scaled_h))
         except ValueError as e:
             print("Zoom scale error:", e)
             continue
-        
+
         screen.fill((0, 0, 0))
         screen.blit(bg_scaled, (draw_x, draw_y))
         screen.blit(fog_scaled, (draw_x, draw_y))
         
+        for effect in shared_animated_effects:
+            if not effect.get('visible', True):
+                continue
+
+            frames, durations = effect['frames'], effect['durations']
+            if not frames:
+                continue
+
+            # Simple looping animation
+            elapsed = current_time_ms - effect.get('start_ms', current_time_ms)
+            total_dur = sum(durations)
+            if total_dur == 0:
+                total_dur = 100 * len(frames)
+
+            pos_in_anim = elapsed % total_dur
+            cumulative = 0
+            frame_idx = 0
+            for i, dur in enumerate(durations):
+                if pos_in_anim < cumulative + dur:
+                    frame_idx = i
+                    break
+                cumulative += dur
+
+            frame_surf = frames[frame_idx]
+
+            # Scale to map size / zoom
+            base_w, base_h = frame_surf.get_size()
+            scaled_w = int(base_w * current_zoom * effect.get('scale', 1.0))
+            scaled_h = int(base_h * current_zoom * effect.get('scale', 1.0))
+            scaled = pygame.transform.smoothscale(frame_surf, (scaled_w, scaled_h))
+
+            # Position (centered example)
+            px = int(draw_x + effect['nx'] * orig_w * current_zoom - scaled_w // 2)
+            py = int(draw_y + effect['ny'] * orig_h * current_zoom - scaled_h // 2)
+
+            screen.blit(scaled, (px, py))
+
         # -------------------------------- Markers 
         for nx, ny, nr, condition_idx in shared_markers:
             x = int(nx * orig_w * current_zoom)
@@ -681,14 +796,33 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
                     shared_markers, shared_current_condition_idx, shared_current_marker_size,
                     shared_mouse_map_nx, shared_mouse_map_ny, shared_current_shape_type,
                     shared_shapes, shared_current_rotation, shared_current_shape_size,
-                   shared_full_reveal):
+                   shared_full_reveal, shared_animated_effects):
+    
     os.environ['SDL_VIDEO_CENTERED'] = '0'
     pygame.init()
-    screen = pygame.display.set_mode((0, 0), pygame.NOFRAME, display=display_index)
+    pygame.time.wait(500)
+    sizes = pygame.display.get_desktop_sizes()
+    if display_index < len(sizes):
+        w, h = sizes[display_index]
+    else:
+        w, h = 1920, 1080  # fallback
+    screen = pygame.display.set_mode((w, h), pygame.NOFRAME, display=display_index)
     screen_w, screen_h = screen.get_size()
     pygame.display.set_caption("Audience Monitor")
     
     current_path = initial_image_path
+    animated_gifs = {}
+
+    if current_path.lower().endswith('.gif'):
+        frames, durations = load_gif_frames(current_path)
+        if frames:
+            animated_gifs[current_path] = {
+                'frames': frames,
+                'durations': durations,
+                'total_dur': sum(durations),
+                'start_ms': pygame.time.get_ticks()
+            }
+
     image = pygame.image.load(current_path).convert()
     orig_w, orig_h = image.get_size()
     
@@ -725,6 +859,16 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             try:
                 current_path = shared_image_path[0]
                 image = pygame.image.load(current_path).convert()
+                animated_gifs.clear()  # remove old animation
+                if current_path.lower().endswith('.gif'):
+                    frames, durations = load_gif_frames(current_path)
+                    if frames:
+                        animated_gifs[current_path] = {
+                            'frames': frames,
+                            'durations': durations,
+                            'total_dur': sum(durations),
+                            'start_ms': pygame.time.get_ticks()
+                        }
                 orig_w, orig_h = image.get_size()
 
                 # -------------------------------- ─── Critical: recalculate base_zoom ────────────────
@@ -775,17 +919,65 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
         draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
         draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
         
-        try:
+        current_time_ms = pygame.time.get_ticks()
+
+        # ─── Choose background: animated frame or static image ───
+        if current_path.lower().endswith('.gif') and current_path in animated_gifs:
+            frame_surf = get_current_gif_frame(animated_gifs, current_path, current_time_ms)
+            if frame_surf:
+                bg_scaled = pygame.transform.smoothscale(frame_surf, (scaled_w, scaled_h))
+            else:
+                bg_scaled = pygame.transform.smoothscale(image, (scaled_w, scaled_h))
+        else:
             bg_scaled = pygame.transform.smoothscale(image, (scaled_w, scaled_h))
+
+        try:
             mask_scaled = pygame.transform.smoothscale(mask_orig, (scaled_w, scaled_h))
         except ValueError as e:
             print("Zoom scale error (audience):", e)
             continue
-        
+
         screen.fill((0, 0, 0))
         screen.blit(bg_scaled, (draw_x, draw_y))
         screen.blit(mask_scaled, (draw_x, draw_y))
-        
+
+        for effect in shared_animated_effects:
+            if not effect.get('visible', True):
+                continue
+
+            frames, durations = effect['frames'], effect['durations']
+            if not frames:
+                continue
+
+            # Simple looping animation
+            elapsed = current_time_ms - effect.get('start_ms', current_time_ms)
+            total_dur = sum(durations)
+            if total_dur == 0:
+                total_dur = 100 * len(frames)
+
+            pos_in_anim = elapsed % total_dur
+            cumulative = 0
+            frame_idx = 0
+            for i, dur in enumerate(durations):
+                if pos_in_anim < cumulative + dur:
+                    frame_idx = i
+                    break
+                cumulative += dur
+
+            frame_surf = frames[frame_idx]
+
+            # Scale to map size / zoom
+            base_w, base_h = frame_surf.get_size()
+            scaled_w = int(base_w * current_zoom * effect.get('scale', 1.0))
+            scaled_h = int(base_h * current_zoom * effect.get('scale', 1.0))
+            scaled = pygame.transform.smoothscale(frame_surf, (scaled_w, scaled_h))
+
+            # Position (centered example)
+            px = int(draw_x + effect['nx'] * orig_w * current_zoom - scaled_w // 2)
+            py = int(draw_y + effect['ny'] * orig_h * current_zoom - scaled_h // 2)
+
+            screen.blit(scaled, (px, py))
+
         # -------------------------------- DM mouse indicator 
         if shared_mouse_map_nx.value >= 0:
             mx = shared_mouse_map_nx.value * orig_w * current_zoom
