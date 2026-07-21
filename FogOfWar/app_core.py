@@ -154,8 +154,9 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     max_zoom_mult = 20.0
 
     # ====================== PERSISTENT BACKSTACK ======================
-    MAX_BACKSTACK = 5
-    backstack = deque(maxlen=MAX_BACKSTACK)
+    MAX_HISTORY = 5
+    backstack = deque(maxlen=MAX_HISTORY)
+    forwardstack = deque(maxlen=MAX_HISTORY)
 
     def capture_current_state():
         """Capture a complete snapshot for history / saving."""
@@ -209,7 +210,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     show_help = not show_help
                 
                 # -------------------------------- Hotkeys
-                if event.key == pygame.K_f:
+                if event.key == pygame.K_f and not (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
                     from tkinter import filedialog
                     root = tk.Tk()
                     root.withdraw()
@@ -223,14 +224,15 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                             if current_path:
                                 state = capture_current_state()
                                 backstack.append(state)
+                            forwardstack.clear()  # clear forward on new load
 
                             try:
                                 with open(filename, 'r') as f:
                                     state = json.load(f)
                                 shared_image_path[:] = [state['image_path']]
-                                shared_zoom_multiplier.value = state['zoom_multiplier']
-                                shared_camera_nx.value = state['camera_nx']
-                                shared_camera_ny.value = state['camera_ny']
+                                shared_zoom_multiplier.value = state.get('zoom_multiplier', 1.0)
+                                shared_camera_nx.value = state.get('camera_nx', 0.5)
+                                shared_camera_ny.value = state.get('camera_ny', 0.5)
                                 shared_revealed[:] = state.get('revealed', [])
                                 shared_markers[:] = state.get('markers', [])
                                 shared_shapes[:] = state.get('shapes', [])
@@ -238,11 +240,12 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                                 shared_current_shape_size.value = state.get('current_shape_size', 0.08)
 
                                 # Restore persistent backstack
-                                loaded_backstack = state.get('backstack', [])
+                                loaded = state.get('backstack', [])
                                 backstack.clear()
-                                for item in loaded_backstack[-MAX_BACKSTACK:]:
+                                for item in loaded[-MAX_HISTORY:]:
                                     if isinstance(item, dict):
                                         backstack.append(item)
+                                forwardstack.clear()
 
                                 shared_fog_reset.value += 1
                                 status_msg = font.render("State + history loaded", True, (100, 255, 100))
@@ -331,6 +334,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 # Ctrl + B → Back to previous map
                 if event.key == pygame.K_b and (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
                     if backstack:
+                        forwardstack.append(capture_current_state())
                         prev_state = backstack.pop()
                         shared_image_path[:] = [prev_state['image_path']]
                         shared_zoom_multiplier.value = prev_state['zoom_multiplier']
@@ -346,6 +350,24 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                         status_timer = 120
                     else:
                         status_msg = font.render("No previous map in history", True, (255, 200, 100))
+                        status_timer = 90
+                
+                # Forward
+                if event.key == pygame.K_f and (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
+                    if forwardstack:
+                        backstack.append(capture_current_state())
+                        next_state = forwardstack.pop()
+                        shared_image_path[:] = [next_state['image_path']]
+                        shared_zoom_multiplier.value = next_state['zoom_multiplier']
+                        shared_camera_nx.value = next_state['camera_nx']
+                        shared_camera_ny.value = next_state['camera_ny']
+                        shared_revealed[:] = next_state['revealed']
+                        shared_markers[:] = next_state['markers']
+                        shared_shapes[:] = next_state['shapes']
+                        shared_current_rotation.value = next_state.get('current_rotation', 0.0)
+                        shared_current_shape_size.value = next_state.get('current_shape_size', 0.08)
+                        shared_fog_reset.value += 1
+                        status_msg = font.render("Forward", True, (100, 255, 100))
                         status_timer = 90
 
                 # Ctrl + S → Save with backstack
@@ -475,6 +497,23 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                             status_timer = 120
                         else:
                             status_msg = font.render("No previous map in history", True, (255, 200, 100))
+                            status_timer = 90
+                                        # Forward button
+                    if forward_button_rect.collidepoint(mx, my):
+                        if forwardstack:
+                            backstack.append(capture_current_state())
+                            next_state = forwardstack.pop()
+                            shared_image_path[:] = [next_state['image_path']]
+                            shared_zoom_multiplier.value = next_state['zoom_multiplier']
+                            shared_camera_nx.value = next_state['camera_nx']
+                            shared_camera_ny.value = next_state['camera_ny']
+                            shared_revealed[:] = next_state['revealed']
+                            shared_markers[:] = next_state['markers']
+                            shared_shapes[:] = next_state['shapes']
+                            shared_current_rotation.value = next_state.get('current_rotation', 0.0)
+                            shared_current_shape_size.value = next_state.get('current_shape_size', 0.08)
+                            shared_fog_reset.value += 1
+                            status_msg = font.render("Forward", True, (100, 255, 100))
                             status_timer = 90
                     continue
                 
