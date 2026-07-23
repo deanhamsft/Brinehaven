@@ -868,13 +868,13 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
         back_txt = menu_font.render("Back", True, (255,255,255))
         screen.blit(back_txt, (back_button_rect.x + 25, back_button_rect.y + 5))
 
-        pygame.draw.rect(screen, (200, 140, 200), forward_button_rect, border_radius=6)
+        pygame.draw.rect(screen, (220, 140, 200), forward_button_rect, border_radius=6)
         forward_txt = menu_font.render("Forward", True, (255,255,255))
         screen.blit(forward_txt, (forward_button_rect.x + 10, forward_button_rect.y + 5))
 
         if backstack:
             count_txt = menu_font.render(f"({len(backstack)})", True, (200, 220, 255))
-            screen.blit(count_txt, (back_button_rect.right + 8, back_button_rect.y + 5))
+            screen.blit(count_txt, (forward_button_rect.right + 8, forward_button_rect.y + 5))
         
         # Status & help 
         screen.blit(display_help_key, (20, 20))
