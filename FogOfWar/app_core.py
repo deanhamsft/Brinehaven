@@ -140,6 +140,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     # -------------------------------- Save button rect (bottom left)
     save_button_rect = pygame.Rect(20, screen_h - 40, 120, 30)
     back_button_rect = pygame.Rect(160, screen_h - 40, 100, 30)  # Back button
+    forward_button_rect = pygame.Rect(280, screen_h - 40, 100, 30)  # Forward button
 
     display_help_key = font.render("Press H for help", True, (255, 255, 180))
     status_msg = None
