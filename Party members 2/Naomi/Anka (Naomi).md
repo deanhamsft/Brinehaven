@@ -1,1 +1,0 @@
-![[Naomi.jpg]]![[Naomi2.jpg]]

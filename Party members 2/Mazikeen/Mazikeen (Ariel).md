@@ -1,1 +1,0 @@
-![[AbyssalTiefling.png]]![[Mazikeen.jpg]]![[Mazikeen2.jpg]]

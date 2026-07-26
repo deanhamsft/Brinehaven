@@ -1,1 +1,0 @@
-![[Mira.jpg]]![[mira2.jpg]]
