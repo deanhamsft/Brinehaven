@@ -91,7 +91,7 @@ def main():
     shared_shapes = manager.list()  # List of dicts: {'type': int, 'nx': float, 'ny': float, 'size': int, 'condition_idx': int}
     shared_current_rotation = manager.Value('f', 0.0)  # For cone/line direction in degrees
     shared_current_shape_size = manager.Value('f', 0.08)   # normalized size ~8% of map diagonal as default
-    shared_full_reveal = manager.Value('b', False)  # set to True to trigger full reveal on audience side
+    shared_full_reveal = manager.Value('b', False)  # audience clears its fog once, then sets this back to False
 
     control_proc = multiprocessing.Process(
         target=control_window,

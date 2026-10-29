@@ -25,6 +25,136 @@ def draw_circular_text(surface, text, center, radius, color, font_size, start_an
         surface.blit(rotated, rect)
 
 
+def map_view(orig_w, orig_h, zoom, camera_nx, camera_ny, screen_w, screen_h):
+    """Return the camera origin plus the source rect and dest rect that are actually on screen.
+
+    Scaling that crop, instead of the whole map, keeps a zoomed-in battle map at roughly
+    screen resolution. draw_x/draw_y stay in the same space the markers already use.
+    """
+    draw_x = screen_w / 2 - (camera_nx * orig_w) * zoom
+    draw_y = screen_h / 2 - (camera_ny * orig_h) * zoom
+    if orig_w <= 0 or orig_h <= 0 or zoom <= 0:
+        return draw_x, draw_y, None, (0, 0), (0, 0)
+
+    sx0 = (0 - draw_x) / zoom
+    sy0 = (0 - draw_y) / zoom
+    sx1 = (screen_w - draw_x) / zoom
+    sy1 = (screen_h - draw_y) / zoom
+    ix0 = max(0, math.floor(sx0))
+    iy0 = max(0, math.floor(sy0))
+    ix1 = min(orig_w, math.ceil(sx1))
+    iy1 = min(orig_h, math.ceil(sy1))
+    if ix1 <= ix0 or iy1 <= iy0:
+        return draw_x, draw_y, None, (0, 0), (0, 0)
+
+    src_rect = pygame.Rect(int(ix0), int(iy0), int(ix1 - ix0), int(iy1 - iy0))
+    dest_pos = (draw_x + ix0 * zoom, draw_y + iy0 * zoom)
+    dest_size = (
+        max(1, int(math.ceil((ix1 - ix0) * zoom - 1e-9))),
+        max(1, int(math.ceil((iy1 - iy0) * zoom - 1e-9))),
+    )
+    return draw_x, draw_y, src_rect, dest_pos, dest_size
+
+
+class SurfaceScaleCache:
+    """Reuse a smoothscale result until the crop, zoom, or source pixels change."""
+
+    def __init__(self):
+        self._key = None
+        self.surface = None
+
+    def clear(self):
+        self._key = None
+        self.surface = None
+
+    def scale(self, source, src_rect, dest_size, token):
+        key = (
+            id(source), token,
+            src_rect.x, src_rect.y, src_rect.w, src_rect.h,
+            dest_size[0], dest_size[1],
+        )
+        if key != self._key:
+            self.surface = pygame.transform.smoothscale(source.subsurface(src_rect), dest_size)
+            self._key = key
+        return self.surface
+
+
+def blit_map_and_fog(image, fog, view, bg_cache, fog_cache, image_token, fog_token):
+    """Scale the visible map and fog. Returns (bg, fog, dest) or None if there is nothing to draw."""
+    _draw_x, _draw_y, src_rect, dest_pos, dest_size = view
+    if src_rect is None:
+        return None
+    bg = bg_cache.scale(image, src_rect, dest_size, image_token)
+    fg = fog_cache.scale(fog, src_rect, dest_size, fog_token)
+    return bg, fg, dest_pos
+
+
+def consume_full_reveal(mask, armed):
+    """Clear the audience fog once.
+
+    The flag has to drop after that. Leaving it armed refills the mask every frame,
+    which erases later brush strokes and makes Reset unable to bring the fog back.
+    Returns (flag, did_clear).
+    """
+    if not armed:
+        return False, False
+    mask.fill((0, 0, 0, 0))
+    return False, True
+
+
+def sync_reveal_count(prev_len, current_len):
+    """Follow a cleared stroke list so the next stroke is not skipped."""
+    if current_len < prev_len:
+        return current_len
+    return prev_len
+
+
+def draw_shape(surface, shape_type, center, base_size_pixels, rotation, color, width):
+    """Draw one spell shape. shape_type: 0 circle, 1 square, 2 cone, 3 line."""
+    if base_size_pixels < 1:
+        return
+    angle_rad = math.radians(rotation)
+    if shape_type == 0:
+        radius = int(base_size_pixels / 2)
+        if radius > 0:
+            pygame.draw.circle(surface, color, center, radius, width)
+    elif shape_type == 1:
+        side = max(1, int(base_size_pixels))
+        surf = pygame.Surface((side, side), pygame.SRCALPHA)
+        pygame.draw.rect(surf, color, (0, 0, side, side), width)
+        rotated = pygame.transform.rotate(surf, rotation)
+        surface.blit(rotated, rotated.get_rect(center=center))
+    elif shape_type == 2:
+        length = base_size_pixels * 1.4
+        apex_angle = math.radians(30)
+        left_angle = angle_rad - apex_angle
+        right_angle = angle_rad + apex_angle
+        apex = center
+        left = (apex[0] + length * math.cos(left_angle), apex[1] + length * math.sin(left_angle))
+        right = (apex[0] + length * math.cos(right_angle), apex[1] + length * math.sin(right_angle))
+        pygame.draw.polygon(surface, color, [apex, left, right], width)
+    elif shape_type == 3:
+        w = max(1, int(base_size_pixels * 1.8))
+        h = max(1, int(base_size_pixels * 0.45))
+        surf = pygame.Surface((w, h), pygame.SRCALPHA)
+        pygame.draw.rect(surf, color, (0, 0, w, h), width)
+        rotated = pygame.transform.rotate(surf, rotation)
+        surface.blit(rotated, rotated.get_rect(center=center))
+
+
+def draw_shared_shapes(surface, shapes, draw_x, draw_y, orig_w, orig_h, zoom, color=(200, 0, 0), width=3):
+    diag = max(orig_w, orig_h) * zoom
+    for sh in shapes:
+        pos = (
+            int(draw_x + sh['nx'] * orig_w * zoom),
+            int(draw_y + sh['ny'] * orig_h * zoom),
+        )
+        draw_shape(
+            surface, sh['type'], pos, sh['size'] * diag,
+            sh.get('rotation', 0.0), color, width,
+        )
+
+
 def control_window(initial_image_path, shared_revealed, shared_running, shared_image_path,
                    display_index, shared_zoom_multiplier, shared_camera_nx, shared_camera_ny, shared_fog_reset,
                    shared_markers, shared_current_condition_idx, shared_current_marker_size,
@@ -88,6 +218,10 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
     
     min_zoom_mult = 0.1
     max_zoom_mult = 20.0
+    bg_cache = SurfaceScaleCache()
+    fog_cache = SurfaceScaleCache()
+    image_token = 0
+    fog_token = 0
     
     while shared_running.value:
         keys = pygame.key.get_pressed()
@@ -116,17 +250,22 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                         status_msg = font.render("New map loaded", True, (100, 255, 100))
                         status_timer = 180
                 if event.key == pygame.K_o and (keys[pygame.K_LCTRL] or keys[pygame.K_RCTRL]):
+                    shared_revealed[:] = []
                     shared_full_reveal.value = True
-                    shared_revealed[:] = []               # optional: also clear incremental reveals
                     status_msg = font.render("Full reveal sent to audience", True, (100, 255, 100))
                     status_timer = 120
                 if event.key == pygame.K_r:
-                    shared_revealed[:] = []
-                    shared_markers[:] = []
-                    shared_shapes[:] = []
-                    shared_fog_reset.value += 1
-                    status_msg = font.render("Everything reset", True, (220, 100, 100))
-                    status_timer = 120
+                    if event.mod & pygame.KMOD_CTRL:
+                        shared_current_rotation.value = 0.0
+                        status_msg = font.render("Rotation reset", True, (180, 220, 255))
+                        status_timer = 90
+                    else:
+                        shared_revealed[:] = []
+                        shared_markers[:] = []
+                        shared_shapes[:] = []
+                        shared_fog_reset.value += 1
+                        status_msg = font.render("Everything reset", True, (220, 100, 100))
+                        status_timer = 120
                 if event.key == pygame.K_m:
                     if shared_markers:
                         shared_markers.pop()
@@ -150,23 +289,21 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     status_msg = font.render(f"Condition: {conditions[idx]}", True, (100, 255, 100))
                     status_timer = 120
                 
-                # Size hotkeys Q/W/E
-                if event.key in (pygame.K_q, pygame.K_w, pygame.K_e):
+                # Q/E rotate a selected shape. Otherwise Q/W/E pick the marker size.
+                shape_selected = shared_current_shape_type.value != -1
+                if event.key == pygame.K_q and shape_selected:
+                    shared_current_rotation.value = (shared_current_rotation.value - 15) % 360
+                    status_msg = font.render(f"Rotation: {int(shared_current_rotation.value)}°", True, (180, 220, 255))
+                    status_timer = 90
+                elif event.key == pygame.K_e and shape_selected:
+                    shared_current_rotation.value = (shared_current_rotation.value + 15) % 360
+                    status_msg = font.render(f"Rotation: {int(shared_current_rotation.value)}°", True, (180, 220, 255))
+                    status_timer = 90
+                elif event.key in (pygame.K_q, pygame.K_w, pygame.K_e):
                     idx = {pygame.K_q:0, pygame.K_w:1, pygame.K_e:2}[event.key]
                     shared_current_marker_size.value = idx
                     status_msg = font.render(f"Size: {['Small','Medium','Large'][idx]}", True, (100, 255, 100))
                     status_timer = 120
-                
-                # Shape rotation hotkeys
-                if shared_current_shape_type.value != -1:
-                    if event.key == pygame.K_q:
-                        shared_current_rotation.value = (shared_current_rotation.value - 15) % 360
-                        status_msg = font.render(f"Rotation: {int(shared_current_rotation.value)}°", True, (180, 220, 255))
-                        status_timer = 90
-                    elif event.key == pygame.K_e:
-                        shared_current_rotation.value = (shared_current_rotation.value + 15) % 360
-                        status_msg = font.render(f"Rotation: {int(shared_current_rotation.value)}°", True, (180, 220, 255))
-                        status_timer = 90
                 
                 # Deselect shape
                 if event.key == pygame.K_SPACE:
@@ -316,6 +453,10 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 shared_fog_reset.value += 1
                 prev_len = 0
                 local_fog_reset = shared_fog_reset.value
+                bg_cache.clear()
+                fog_cache.clear()
+                image_token += 1
+                fog_token += 1
                 status_msg = font.render("New map loaded", True, (100, 255, 100))
                 status_timer = 180
             except Exception as e:
@@ -327,8 +468,10 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
             fog_orig.fill((20, 20, 60, 180))
             local_fog_reset = shared_fog_reset.value
             prev_len = 0
+            fog_token += 1
         
         current_len = len(shared_revealed)
+        prev_len = sync_reveal_count(prev_len, current_len)
         if current_len > prev_len:
             for i in range(prev_len, current_len):
                 nx, ny, nr = shared_revealed[i]
@@ -337,6 +480,7 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 r = int(nr * max(orig_w, orig_h))
                 pygame.draw.circle(fog_orig, (0, 0, 0, 0), (x, y), r)
             prev_len = current_len
+            fog_token += 1
         
         # Dragging (reveal / pan)
         mouse_pressed = pygame.mouse.get_pressed()[0]
@@ -362,12 +506,18 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                     nr = map_r / max(orig_w, orig_h)
                     shared_revealed.append((nx, ny, nr))
                     pygame.draw.circle(fog_orig, (0, 0, 0, 0), (int(map_x), int(map_y)), int(map_r))
+                    fog_token += 1
             prev_pos = pos
         
+        view = map_view(
+            orig_w, orig_h, current_zoom,
+            shared_camera_nx.value, shared_camera_ny.value,
+            screen_w, screen_h,
+        )
+        draw_x, draw_y = view[0], view[1]
+
         # Shared mouse position for audience cursor mirror
         mx, my = pygame.mouse.get_pos()
-        draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
-        draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
         if draw_x <= mx < draw_x + orig_w * current_zoom and draw_y <= my < draw_y + orig_h * current_zoom:
             map_x = (mx - draw_x) / current_zoom
             map_y = (my - draw_y) / current_zoom
@@ -377,22 +527,19 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
             shared_mouse_map_nx.value = -1.0
             shared_mouse_map_ny.value = -1.0
         
-        # Rendering
-        scaled_w = int(orig_w * current_zoom)
-        scaled_h = int(orig_h * current_zoom)
-        draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
-        draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
-        
-        try:
-            bg_scaled = pygame.transform.smoothscale(image, (scaled_w, scaled_h))
-            fog_scaled = pygame.transform.smoothscale(fog_orig, (scaled_w, scaled_h))
-        except ValueError as e:
-            print("Zoom scale error:", e)
-            continue
-        
+        # Rendering. The scaled surfaces are cached until the crop, zoom, or fog pixels change.
         screen.fill((0, 0, 0))
-        screen.blit(bg_scaled, (draw_x, draw_y))
-        screen.blit(fog_scaled, (draw_x, draw_y))
+        try:
+            layers = blit_map_and_fog(image, fog_orig, view, bg_cache, fog_cache, image_token, fog_token)
+        except (ValueError, pygame.error) as e:
+            print("Zoom scale error:", e)
+            pygame.display.flip()
+            clock.tick(60)
+            continue
+        if layers is not None:
+            bg_scaled, fog_scaled, dest_pos = layers
+            screen.blit(bg_scaled, dest_pos)
+            screen.blit(fog_scaled, dest_pos)
         
         # Markers
         for nx, ny, nr, condition_idx in shared_markers:
@@ -407,91 +554,17 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
             font_size = max(10, int(r / (len(conditions[condition_idx]) * 0.4)))
             draw_circular_text(screen, conditions[condition_idx], pos, text_radius, (0,0,0), font_size)
         
-        # Placed shapes
-        for sh in shared_shapes:
-            nx, ny = sh['nx'], sh['ny']
-            size_norm = sh['size']
-            rotation = sh.get('rotation', 0.0)
-            x_screen = draw_x + nx * orig_w * current_zoom
-            y_screen = draw_y + ny * orig_h * current_zoom
-            pos = (int(x_screen), int(y_screen))
-            color = (200, 0, 0)
-            width = 3
-            
-            base_size_pixels = size_norm * max(orig_w, orig_h) * current_zoom
-            angle_rad = math.radians(rotation)
-            
-            shape_type = sh['type']
-            if shape_type == 0:  # Circle
-                radius = base_size_pixels / 2
-                pygame.draw.circle(screen, color, pos, int(radius), width)
-            elif shape_type == 1:  # Square
-                half = base_size_pixels / 2
-                surf = pygame.Surface((base_size_pixels, base_size_pixels), pygame.SRCALPHA)
-                pygame.draw.rect(surf, color, (0, 0, base_size_pixels, base_size_pixels), width)
-                rotated = pygame.transform.rotate(surf, rotation)
-                rect = rotated.get_rect(center=pos)
-                screen.blit(rotated, rect)
-            elif shape_type == 2:  # Cone
-                length = base_size_pixels * 1.4
-                apex_angle = 60
-                left_angle = angle_rad - math.radians(apex_angle / 2)
-                right_angle = angle_rad + math.radians(apex_angle / 2)
-                apex = pos
-                left = (apex[0] + length * math.cos(left_angle), apex[1] + length * math.sin(left_angle))
-                right = (apex[0] + length * math.cos(right_angle), apex[1] + length * math.sin(right_angle))
-                points = [apex, left, right]
-                pygame.draw.polygon(screen, color, points, width)
-            elif shape_type == 3:  # Line/Rect
-                w = base_size_pixels * 1.8
-                h = base_size_pixels * 0.45
-                surf = pygame.Surface((w, h), pygame.SRCALPHA)
-                pygame.draw.rect(surf, color, (0, 0, w, h), width)
-                rotated = pygame.transform.rotate(surf, rotation)
-                rect = rotated.get_rect(center=pos)
-                screen.blit(rotated, rect)
+        draw_shared_shapes(screen, shared_shapes, draw_x, draw_y, orig_w, orig_h, current_zoom)
         
         # Shape preview near mouse
         shape_idx = shared_current_shape_type.value
         if shape_idx != -1 and not mouse_pressed and not menu_area.collidepoint(pygame.mouse.get_pos()):
             mx, my = pygame.mouse.get_pos()
-            preview_color = (200, 220, 255, 140)
-            preview_width = 3
-            
-            base_preview_norm = shared_current_shape_size.value
-            preview_pixels = base_preview_norm * max(orig_w, orig_h) * current_zoom
-            
-            angle_rad = math.radians(shared_current_rotation.value)
-            center = (mx, my)
-            
-            if shapes[shape_idx] == "Circle":
-                radius = preview_pixels / 2
-                pygame.draw.circle(screen, preview_color, center, int(radius), preview_width)
-            elif shapes[shape_idx] == "Square":
-                side = preview_pixels
-                surf = pygame.Surface((side, side), pygame.SRCALPHA)
-                pygame.draw.rect(surf, preview_color, (0, 0, side, side), preview_width)
-                rotated = pygame.transform.rotate(surf, shared_current_rotation.value)
-                rect = rotated.get_rect(center=center)
-                screen.blit(rotated, rect)
-            elif shapes[shape_idx] == "Cone":
-                length = preview_pixels * 1.4
-                apex_angle = 60
-                left_angle = angle_rad - math.radians(apex_angle / 2)
-                right_angle = angle_rad + math.radians(apex_angle / 2)
-                apex = center
-                left = (mx + length * math.cos(left_angle), my + length * math.sin(left_angle))
-                right = (mx + length * math.cos(right_angle), my + length * math.sin(right_angle))
-                points = [apex, left, right]
-                pygame.draw.polygon(screen, preview_color, points, preview_width)
-            elif shapes[shape_idx] == "Line/Rect":
-                w = preview_pixels * 1.8
-                h = preview_pixels * 0.45
-                surf = pygame.Surface((w, h), pygame.SRCALPHA)
-                pygame.draw.rect(surf, preview_color, (0, 0, w, h), preview_width)
-                rotated = pygame.transform.rotate(surf, shared_current_rotation.value)
-                rect = rotated.get_rect(center=center)
-                screen.blit(rotated, rect)
+            preview_pixels = shared_current_shape_size.value * max(orig_w, orig_h) * current_zoom
+            draw_shape(
+                screen, shape_idx, (mx, my), preview_pixels,
+                shared_current_rotation.value, (200, 220, 255, 140), 3,
+            )
         
         # Brush preview (when no shape selected)
         if not mouse_pressed and shape_idx == -1:
@@ -553,14 +626,14 @@ def control_window(initial_image_path, shared_revealed, shared_running, shared_i
                 "Shift + Right click: remove nearest marker",
                 "Mouse wheel: zoom map / resize shape",
                 "Shift + wheel: rotate shape",
-                "Q / E: rotate shape 15°",
+                "Q / E: rotate selected shape 15°",
                 "Ctrl + R: reset rotation",
                 "SPACE: deselect shape",
                 "F: load new map",
                 "R: reset everything",
                 "M: remove last marker",
                 "1-9,0,A,S,D,G: select condition",
-                "Q/W/E: marker size",
+                "Q / W / E: marker size (no shape selected)",
                 "H: toggle help",
                 "ESC: quit"
             ]
@@ -612,6 +685,10 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
     prev_len = 0
     local_fog_reset = shared_fog_reset.value
     clock = pygame.time.Clock()
+    bg_cache = SurfaceScaleCache()
+    fog_cache = SurfaceScaleCache()
+    image_token = 0
+    fog_token = 0
     
     while shared_running.value:
         for event in pygame.event.get():
@@ -629,6 +706,10 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
                 mask_orig.fill((0, 0, 0, 255))
                 prev_len = 0
                 local_fog_reset = shared_fog_reset.value
+                bg_cache.clear()
+                fog_cache.clear()
+                image_token += 1
+                fog_token += 1
             except:
                 pass
         
@@ -638,13 +719,15 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             mask_orig.fill((0, 0, 0, 255))
             local_fog_reset = shared_fog_reset.value
             prev_len = 0
+            fog_token += 1
             
         if shared_full_reveal.value:
-            mask_orig.fill((0, 0, 0, 0))   # completely transparent → no fog
-            shared_full_reveal.value = True
+            shared_full_reveal.value, _cleared = consume_full_reveal(mask_orig, True)
             prev_len = 0
+            fog_token += 1
 
         current_len = len(shared_revealed)
+        prev_len = sync_reveal_count(prev_len, current_len)
         if current_len > prev_len:
             for i in range(prev_len, current_len):
                 if i >= len(shared_revealed):
@@ -655,22 +738,27 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
                 r = int(nr * max(orig_w, orig_h))
                 pygame.draw.circle(mask_orig, (0, 0, 0, 0), (x, y), r)
             prev_len = current_len
+            fog_token += 1
         
-        scaled_w = int(orig_w * current_zoom)
-        scaled_h = int(orig_h * current_zoom)
-        draw_x = screen_w / 2 - (shared_camera_nx.value * orig_w) * current_zoom
-        draw_y = screen_h / 2 - (shared_camera_ny.value * orig_h) * current_zoom
-        
-        try:
-            bg_scaled = pygame.transform.smoothscale(image, (scaled_w, scaled_h))
-            mask_scaled = pygame.transform.smoothscale(mask_orig, (scaled_w, scaled_h))
-        except ValueError as e:
-            print("Zoom scale error (audience):", e)
-            continue
+        view = map_view(
+            orig_w, orig_h, current_zoom,
+            shared_camera_nx.value, shared_camera_ny.value,
+            screen_w, screen_h,
+        )
+        draw_x, draw_y = view[0], view[1]
         
         screen.fill((0, 0, 0))
-        screen.blit(bg_scaled, (draw_x, draw_y))
-        screen.blit(mask_scaled, (draw_x, draw_y))
+        try:
+            layers = blit_map_and_fog(image, mask_orig, view, bg_cache, fog_cache, image_token, fog_token)
+        except (ValueError, pygame.error) as e:
+            print("Zoom scale error (audience):", e)
+            pygame.display.flip()
+            clock.tick(60)
+            continue
+        if layers is not None:
+            bg_scaled, mask_scaled, dest_pos = layers
+            screen.blit(bg_scaled, dest_pos)
+            screen.blit(mask_scaled, dest_pos)
         
         # DM mouse indicator
         if shared_mouse_map_nx.value >= 0:
@@ -695,49 +783,7 @@ def audience_window(initial_image_path, shared_revealed, shared_running, shared_
             font_size = max(10, int(r / (len(conditions[condition_idx]) * 0.4)))
             draw_circular_text(screen, conditions[condition_idx], pos, text_radius, (0,0,0), font_size)
         
-        # Placed shapes (mirror from control)
-        for sh in shared_shapes:
-            nx, ny = sh['nx'], sh['ny']
-            size_norm = sh['size']
-            rotation = sh.get('rotation', 0.0)
-            x_screen = draw_x + nx * orig_w * current_zoom
-            y_screen = draw_y + ny * orig_h * current_zoom
-            pos = (int(x_screen), int(y_screen))
-            color = (200, 0, 0)
-            width = 3
-            
-            base_size_pixels = size_norm * max(orig_w, orig_h) * current_zoom
-            angle_rad = math.radians(rotation)
-            
-            shape_type = sh['type']
-            if shape_type == 0:  # Circle
-                radius = base_size_pixels / 2
-                pygame.draw.circle(screen, color, pos, int(radius), width)
-            elif shape_type == 1:  # Square
-                half = base_size_pixels / 2
-                surf = pygame.Surface((base_size_pixels, base_size_pixels), pygame.SRCALPHA)
-                pygame.draw.rect(surf, color, (0, 0, base_size_pixels, base_size_pixels), width)
-                rotated = pygame.transform.rotate(surf, rotation)
-                rect = rotated.get_rect(center=pos)
-                screen.blit(rotated, rect)
-            elif shape_type == 2:  # Cone
-                length = base_size_pixels * 1.4
-                apex_angle = 60
-                left_angle = angle_rad - math.radians(apex_angle / 2)
-                right_angle = angle_rad + math.radians(apex_angle / 2)
-                apex = pos
-                left = (apex[0] + length * math.cos(left_angle), apex[1] + length * math.sin(left_angle))
-                right = (apex[0] + length * math.cos(right_angle), apex[1] + length * math.sin(right_angle))
-                points = [apex, left, right]
-                pygame.draw.polygon(screen, color, points, width)
-            elif shape_type == 3:  # Line/Rect
-                w = base_size_pixels * 1.8
-                h = base_size_pixels * 0.45
-                surf = pygame.Surface((w, h), pygame.SRCALPHA)
-                pygame.draw.rect(surf, color, (0, 0, w, h), width)
-                rotated = pygame.transform.rotate(surf, rotation)
-                rect = rotated.get_rect(center=pos)
-                screen.blit(rotated, rect)
+        draw_shared_shapes(screen, shared_shapes, draw_x, draw_y, orig_w, orig_h, current_zoom)
         
         pygame.display.flip()
         clock.tick(60)
